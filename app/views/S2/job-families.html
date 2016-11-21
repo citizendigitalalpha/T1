@@ -1,0 +1,64 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  National Careers Service - Explore
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+    {% include "includes/phase_banner_alpha.html" %}
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <h1 class="heading-xlarge">
+          <span class="heading-secondary">Explore our job families</span>
+       We suggest you take a look at these job families       
+      </h1> 
+        <p>Select the job families you wish to explore</p>
+        <form method="get" action="/S2/job-profiles">
+        <fieldset class="form-group">
+            <legend class="visuallyhidden">
+              Based on you skills and interests, we suggest you take a look at these job families       
+            </legend>
+            <label for="radio-part-1" class="block-label">
+              <input id="radio-part-1" type="checkbox" name="Administrative and clerical" value="Administrative and clerical">
+              <span class="heading-small">Administrative and clerical</span><br>
+              Many administrative and clerical jobs are about following procedures, checking things and keeping records. You'll like this kind of work if you're an organised person with good attention to detail.    
+            </label>        
+            <label for="radio-part-2" class="block-label">
+              <input id="radio-part-2" type="checkbox" name="Catering services" value="Catering services">
+              <span class="heading-small">Catering services</span><br>
+              If you've got a passion for food and drink there could be something here for you. Whether you want to sell, cook, serve food or serve drinks there's a job in this sector where you can put your interests into practice.
+            </label>
+            <label for="radio-part-3" class="block-label">
+              <input id="radio-part-3" type="checkbox" name="Financial services" value="Financial services">
+              <span class="heading-small">Financial services</span><br>
+              The UK has a large financial services which offer a variety of roles. You'll need to be good with numbers and have good organisational, business and people skills in these jobs.
+            </label>
+            <label for="radio-part-3" class="block-label">
+              <input id="radio-part-3" type="checkbox" name="Maintenance, service and repair" value="Maintenance, service and repair">
+              <span class="heading-small">Maintenance, service and repair</span><br>
+             Many jobs in this family involve fixing things and understanding how machines work. These jobs could interest you if you like working with your hands and solving problems.
+            </label>
+            <label for="radio-part-4" class="block-label">
+              <input id="radio-part-4" type="checkbox" name="Medical technology" value="Medical technology">
+              <span class="heading-small">Medical technology</span><br>
+              If you have analytical mind and science knowledge you may want to consider a job in the medical technology field. In a lot of these jobs you'll need to be a logical thinker, have good attention to detail and be able to work complex equipment.
+            </label>
+            <label for="radio-part-5" class="block-label">
+              <input id="radio-part-5" type="checkbox" name="Social services" value="Social services">
+              <span class="heading-small">Social services</span><br>
+              These jobs are all about helping people and cover a range of services from money advice to caring for the elderly. If you've got a caring personality and want to support people at difficult times in their lives, there could be something here for you.
+            </label>           
+          </fieldset>
+           <input class="button" type="submit" value="Continue"> 
+        </form>
+  
+    </div>
+  </div>
+</main>
+
+{% endblock %}
+
+

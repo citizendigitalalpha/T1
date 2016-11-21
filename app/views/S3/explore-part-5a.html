@@ -1,0 +1,103 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  National Careers Service - Explore
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+    {% include "includes/phase_banner_alpha.html" %}
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <h1 class="heading-xlarge">
+          <span class="heading-secondary">Explore part 5 of 5</span>
+       What motivates you?       
+      </h1>
+        <form method="get" action="/job-profiles">
+        <fieldset class="form-group">
+            <legend class="visuallyhidden">
+             What motivates you?
+            </legend>
+            <label for="radio-part-1" class="block-label">
+              <input id="radio-part-1" type="checkbox" name="Being part of a team" value="Being part of a team">
+              <span class="heading-small">Being part of a team</span><br>
+              You enjoy working with others
+            </label>
+            <label for="radio-part-2" class="block-label">
+              <input id="radio-part-2" type="checkbox" name="Working with clients" value="Working with clients">
+              <span class="heading-small">Working with clients</span><br>
+               Helping others is important to you
+            </label>
+            <label for="radio-part-3" class="block-label">
+              <input id="radio-part-3" type="checkbox" name="Giving presentations" value="Giving presentations">
+              <span class="heading-small">Giving presentations</span><br>
+              You enjoy communicating ideas to others
+            </label>
+            <label for="radio-part-3" class="block-label">
+              <input id="radio-part-3" type="checkbox" name="Results" value="Results">
+              <span class="heading-small">Results</span><br>
+             Meeting targets and finishing tasks is important to me
+            </label>
+            <label for="radio-part-4" class="block-label">
+              <input id="radio-part-4" type="checkbox" name="Data" value="Data">
+              <span class="heading-small">Data</span><br>
+              Making sense of trends and patterns is something you enjoy
+            </label>
+            <label for="radio-part-5" class="block-label">
+              <input id="radio-part-5" type="checkbox" name="Learning new things" value="Learning new things">
+              <span class="heading-small">Learning new things</span><br>
+              You enjoy a challenge
+            </label>
+            <label for="radio-part-6" class="block-label">
+              <input id="radio-part-6" type="checkbox" name="Deadlines" value="Deadlines">
+              <span class="heading-small">Deadlines</span><br>
+              You enjoy working under pressure
+            </label>
+            <label for="radio-part-7" class="block-label">
+              <input id="radio-part-7" type="checkbox" name="Mentoring and coaching" value="Mentoring and coaching">
+              <span class="heading-small">Mentoring and coaching</span><br>
+              You enjoy supporting others
+            </label>
+             <label for="radio-part-8" class="block-label">
+              <input id="radio-part-8" type="checkbox" name="Managing teams" value="Managing teams">
+              <span class="heading-small">Managing teams</span><br>
+              You enjoy organising people
+            </label>
+             <label for="radio-part-9" class="block-label">
+              <input id="radio-part-9" type="checkbox" name="Customer service" value="Customer service">
+              <span class="heading-small">Customer service</span><br>
+              You like working with the public
+            </label>
+            <!--<label for="radio-part-10" class="block-label">
+              <input id="radio-part-10" type="checkbox" name="Achieving set goals" value="Achieving set goals">
+              <span class="heading-small">Achieving set goals</span><br>
+              It's a great feeling to hit my targets
+            </label>-->
+            <label for="radio-part-11" class="block-label">
+              <input id="radio-part-11" type="checkbox" name="Bonuses" value="Bonuses">
+              <span class="heading-small">Bonuses</span><br>
+              You are motivated by rewards
+            </label>
+            <label for="radio-part-12" class="block-label">
+              <input id="radio-part-12" type="checkbox" name="Career progression" value="Career progression">
+              <span class="heading-small">Career progression</span><br>
+               Promotion and career development is important to you
+            </label>
+            <label for="radio-part-13" class="block-label">
+              <input id="radio-part-13" type="checkbox" name="Nothing" value="Nothing">
+              <span class="heading-small">Not sure</span><br>
+               You need a little more guidance
+            </label> 
+          </fieldset>
+           <input class="button" type="submit" value="Continue"> 
+        </form>
+  
+    </div>
+  </div>
+</main>
+
+{% endblock %}
+
+

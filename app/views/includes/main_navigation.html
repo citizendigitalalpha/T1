@@ -1,0 +1,23 @@
+<div class="main_navigation" id="newnav">
+  <ul>
+      <li><a href="#" class="active2">Prepare for a job</a></li>
+      <li><a href="#" >Life changing event</a></li>
+      <li><a href="#">Prepare 2</a></li>
+      <li><a href="#">Prepare 3</a></li>
+      <li><a href="#">Prepare 4</a></li>
+      <li class="icon">
+    <a href="javascript:void(0);" onclick="myFunction()">Menu &nbsp;&nbsp;&#9776;</a>
+  </li>
+    </ul>
+</div>
+
+<script>
+
+function myFunction() {
+    var x = document.getElementById("newnav");
+    if (x.className === "main_navigation") {
+        x.className += " responsive";
+    } else {
+        x.className = "main_navigation";
+    }
+}</script>

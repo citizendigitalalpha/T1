@@ -1,0 +1,104 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  National Careers Service - Explore
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+    {% include "includes/phase_banner_alpha.html" %}
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <h1 class="heading-xlarge">
+          <span class="heading-secondary">Explore part 2 of 5</span>
+        Choose the skills you have        
+      </h1>
+        <form method="get" action="/explore-part-3">
+        <fieldset class="form-group">
+            <legend class="visuallyhidden">
+              Choose the skills you have
+            </legend>
+            <label for="radio-part-1" class="block-label">
+              <input id="radio-part-1" type="checkbox" name="Business sense" value="Business sense">
+              <span class="heading-small">Business sense</span><br>
+              You understand business and can make good decisions about it
+            </label>
+            <label for="radio-part-2" class="block-label">
+              <input id="radio-part-2" type="checkbox" name="Communication" value="Communication">
+              <span class="heading-small">Communication</span><br>
+              You can get you point across in writing and speech
+            </label>
+            <label for="radio-part-3" class="block-label">
+              <input id="radio-part-3" type="checkbox" name="Teamwork" value="Teamwork">
+              <span class="heading-small">Teamwork</span><br>
+              You work best in groups
+            </label>
+            <label for="radio-part-3" class="block-label">
+              <input id="radio-part-3" type="checkbox" name="Negotiation and persuasion" value="Negotiation and persuasion">
+              <span class="heading-small">Negotiation and persuasion</span><br>
+              You can convince others to agree with you
+            </label>
+            <label for="radio-part-4" class="block-label">
+              <input id="radio-part-4" type="checkbox" name="Problem solving" value="Problem solving">
+              <span class="heading-small">Problem solving</span><br>
+              You can find answers by looking at details
+            </label>
+            <label for="radio-part-5" class="block-label">
+              <input id="radio-part-5" type="checkbox" name="Leadership" value="Leadership">
+              <span class="heading-small">Leadership</span><br>
+              You are comfortable organising people and ideas
+            </label>
+            <label for="radio-part-6" class="block-label">
+              <input id="radio-part-6" type="checkbox" name="Organisation" value="Organisation">
+              <span class="heading-small">Organisation</span><br>
+              You are good at making plans
+            </label>
+            <label for="radio-part-7" class="block-label">
+              <input id="radio-part-7" type="checkbox" name="Perseverance and motivation" value="Perseverance and motivation">
+              <span class="heading-small">Perseverance and motivation</span><br>
+              You are determined and can set your own deadlines
+            </label>
+            <label for="radio-part-8" class="block-label">
+              <input id="radio-part-8" type="checkbox" name="Ability to work under pressure" value="Ability to work under pressure">
+              <span class="heading-small">Ability to work under pressure</span><br>
+              You can keep calm and complete the task
+            </label>
+            <label for="radio-part-9" class="block-label">
+              <input id="radio-part-9" type="checkbox" name="Confidence" value="Confidence">
+              <span class="heading-small">Confidence</span><br>
+              You know what your strengths are and take on new challenges
+            </label>
+            <label for="radio-part-10" class="block-label">
+              <input id="radio-part-10" type="checkbox" name="Physical skills" value="Physical skills">
+              <span class="heading-small">Practical skills</span><br>
+              You enjoy working with your hands
+            </label>
+            <label for="radio-part-11" class="block-label">
+              <input id="radio-part-11" type="checkbox" name="Willingness to learn" value="Willingness to learn">
+              <span class="heading-small">Willingness to learn</span><br>
+              You are happy to learn new skills
+            </label>
+            <label for="radio-part-12" class="block-label">
+              <input id="radio-part-12" type="checkbox" name="Giving presentations" value="Giving presentations">
+              <span class="heading-small">Giving presentations</span><br>
+              You can confidently explore ideas and information
+            </label>
+            <label for="radio-part-13" class="block-label">
+              <input id="radio-part-13" type="checkbox" name="Nothing" value="Nothing">
+              <span class="heading-small">Nothing</span><br>
+              You need more help to discover your skills
+            </label>
+           
+          </fieldset>
+           <input class="button" type="submit" value="Continue"> 
+        </form>
+  
+    </div>
+  </div>
+</main>
+
+{% endblock %}
+
+
