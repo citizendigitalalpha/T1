@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
 /* line 3, c:/T1/app/assets/sass/examples.scss */
-=======
-/* line 3, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/examples.scss */
->>>>>>> Stashed changes
 .area {
   font-family: 'nta', Sans-serif;
   font-size: 16px;
@@ -16,20 +12,12 @@
 }
 
 /* area styles specific to certain ones */
-<<<<<<< Updated upstream
 /* line 16, c:/T1/app/assets/sass/examples.scss */
-=======
-/* line 16, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/examples.scss */
->>>>>>> Stashed changes
 main.area {
   min-height: 16em;
 }
 
-<<<<<<< Updated upstream
 /* line 19, c:/T1/app/assets/sass/examples.scss */
-=======
-/* line 19, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/examples.scss */
->>>>>>> Stashed changes
 .header-proposition {
   clear: none;
   min-height: 6em;

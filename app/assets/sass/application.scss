@@ -591,6 +591,7 @@ ul li a.active2 {
 	display: flex;
 	margin: auto;
 	flex-wrap: wrap;
+    padding-top: $gutter;
 }
 
 .home_card li {
@@ -727,7 +728,7 @@ input[type="search"] {
 }
 
 .message--user {
-  border-right: 5px solid $turquoise;;
+  border-right: 5px solid $turquoise;
   padding-right: 5px;
 }
 
@@ -747,4 +748,30 @@ input[type="search"] {
 
 .mb30 {
     margin-bottom:30px;
+}
+
+/**new homepage**/
+
+#global-header-bar, .welcome_block {
+    background:$turquoise;
+}
+
+.welcome_block {
+    padding-top:$gutter;
+}
+.welcome_block h1, .welcome_block h2, .welcome_block p {
+    color:$white;
+}
+
+.home_content {
+  @extend %site-width-container;
+  @extend %contain-floats;
+  padding-bottom: $gutter;
+
+  @include media(desktop) {
+    //padding-bottom: $gutter * 3;
+  }
+  // Pressing enter when focus is on the skiplink sets focus on the #content area
+  // Remove the blue outline
+  outline: none;
 }

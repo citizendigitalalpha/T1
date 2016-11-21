@@ -1,57 +1,48 @@
-{% extends "layout.html" %}
+{% extends "layout_home.html" %}
 
 {% block page_title %}
   National Careers Service
 {% endblock %}
 
 {% block content %}
-
-<main id="content" role="main">
-    {% include "includes/phase_banner_alpha.html" %}
-  <div class="grid-row">
-    <div class="column-two-thirds">
-<h1 class="heading-xlarge">National Careers Service</h1>
-
- <h2 class="heading-large">What's your story?</h2>
-        <p class="lede">Everyone has their own story, no-one person has the same career journey! We can help you to find the right path for your career, where would you like to go?</p>
-      </div>
-        <div class="column-full">
-      <ul class="list home_card grey-hover">
-		<li>
-			<a href="./explore.html">
-			<h3 class="heading-medium">Explore careers</h3>
-			<p>I'd like to explore my options</p></a>
-		</li>
-		<li>
-			<a href="./research.html">
-			<h3 class="heading-medium">Research</h3>
-			<p>I know what I want to do</p></a>
-		</li>
-		<li>
-			<a href="./inspire.html">
-			<h3 class="heading-medium">Inspire me!</h3>
-			<p>I don't know what I want to do</p></a>
-		</li>
-          <li>
-			<a href="./how-to-become.html">
-			<h3 class="heading-medium">How to become</h3>
-			<p>Look at the steps to your chosen career</p></a>
-		</li>
-		<li>
-			<a href="./contact-an-adviser.html">
-			<h3 class="heading-medium">I'm stuck!</h3>
-			<p>Can I talk to someone about my situation</p></a>
-		</li>
-		<li>
-			<a href="https://www.gov.uk/set-up-business">
-			<h3 class="heading-medium">Starting my own business</h3>
-			<p>How do I become self employed?</p></a>
-		</li>
-	</ul>
-      </div>
-
-    </div>
-  </div>
-</main>
+<div class="welcome_block">
+		<div class="home_content">
+			<div class="grid-row">
+				<div class="column-two-thirds">
+					<h1 class="heading-xlarge">National Careers Service</h1>
+					<h2 class="heading-large">What's your story?</h2>
+					<p class="lede">Everyone has their own story, no one person has the same career journey. We can help you to find the right path for your career.</p>
+					<p class="lede">Choose an option below.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<main id="content" role="main">
+		<!--{% include "includes/phase_banner_alpha.html" %}-->
+		<div class="grid-row">
+			<div class="column-one-third">
+				<a href="./explore.html">
+				<h3 class="heading-medium">Explore careers</h3>
+				<p>I'd like to explore my options</p></a>
+			</div>
+			<div class="column-one-third">
+				<a href="./research.html">
+				<h3 class="heading-medium">Research</h3>
+				<p>I know what I want to do</p></a>
+			</div>
+			<div class="column-one-third">
+				<a href="./inspire.html">
+				<h3 class="heading-medium">Inspire me</h3>
+				<p>I don't know what I want to do</p></a>
+			</div>
+		</div>
+		<div class="grid-row">
+			<div class="column-two-thirds">
+				<a href="./contact-an-adviser.html">
+				<h3 class="heading-medium">Contact an adviser</h3>
+				<p>Can I talk to someone about my situation?</p></a>
+			</div>
+		</div>
+	</main>
 
 {% endblock %}
