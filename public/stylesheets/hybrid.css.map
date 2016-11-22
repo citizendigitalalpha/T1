@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "hybrid.css",
+	"sources": [
+		"../../app/assets/sass/hybrid.scss"
+	],
+	"mappings": "",
+	"names": []
+}

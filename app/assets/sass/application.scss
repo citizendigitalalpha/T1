@@ -655,10 +655,10 @@ input[type="search"] {
 .answer {
     float:left;
     display: -webkit-flex;
-	display: flex;	
+	display: flex;
 	flex-wrap: wrap;
-    flex-direction: row;    
-    display:none;    
+    flex-direction: row;
+    display:none;
 }
 
 .visible {
@@ -672,7 +672,7 @@ input[type="search"] {
     border: 1px solid $grey-2;
 	margin: 0.25em;
     background-color: $turquoise;
-    
+
 }
 
 .webchat__inner {
@@ -684,10 +684,10 @@ input[type="search"] {
 }
 
 .webchat__header {
-    border-bottom: 1px solid $grey-2;    
+    border-bottom: 1px solid $grey-2;
 }
 
-.webchat__header h2 {   
+.webchat__header h2 {
     color: $white;
     margin-top: 0.5555555556em;
     padding-left:3%;
@@ -698,7 +698,7 @@ input[type="search"] {
   width: 100%;
   padding: 5px;
   margin-bottom: 15px;
- 
+
 }
 
 .message:last-of-type {
@@ -776,6 +776,7 @@ input[type="search"] {
   outline: none;
 }
 
+<<<<<<< HEAD
 
 .eggs a {	
 	padding: 0em 0.75em 0.75em;
@@ -847,3 +848,7 @@ input[type="search"] {
 		height: 125px;
 	}
 }
+=======
+// New STYLES for testing
+@import 'hybrid';
+>>>>>>> origin/master

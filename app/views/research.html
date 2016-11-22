@@ -1,72 +1,72 @@
-{% extends "layout.html" %}
+{% extends "layout_home.html" %}
 
 {% block page_title %}
-  National Careers Service - Research
+     National Careers Service - Search job profiles
 {% endblock %}
 
 {% block content %}
 
-<main id="content" role="main">
-		{% include "includes/phase_banner_alpha.html" %}    
-       {% include "includes/breadcrumb_home.html" %}
+<div class="welcome_block search">
+	<div class="home_content">
 		<div class="grid-row">
 			<div class="column-two-thirds">
-				<h1 class="heading-xlarge">Research</h1>
-				<p>We have profiles on over 800 different types of job, from archivist to zoologist.</p>
-                <p>Each one explains:</p>
-                <ul class="list list-bullet">
-                    <li>the skills and qualifications needed to get into that job</li>
-                    <li>what the work would be like</li>
-                    <li>the pay you could expect</li>
-                    <li>what the career prospects are</li>
-                </ul>
-                <p>Explore the job profiles to find out what a job involves and if it will suit you.</p>
-                <h2 class="heading-large">Search job profiles</h2>               
-                <form method="get" action="/paralegal2">
-                    <div class="form-group">
-                        <label for="search-main">Enter a job title</label>
-                        <input class="form-control" id="search-main" name=""
-                        placeholder="eg paralegal" type="search"> <button class=
-                        "search" type="submit">Search</button>
-                    </div>
-                </form> 
-                 <h2 class="heading-large">Explore our most popular job profiles</h2>
-                <h3 class="heading-medium"><a href="/plumber">Plumber</a></h3>
-                <p>Plumbers fit and service heating systems.</p>
-                <h3 class="heading-medium"><a href="/diver">Diver</a></h3>
-                <p>Divers work underwater at sea, or in rivers, lakes, canals
-                and reservoirs.</p>
-                <h3 class="heading-medium"><a href="/credit-controller">Credit
-                controller</a></h3>
-                <p>Credit controllers help firms get the money they're owed
-                from businesses and individuals.</p>
-                <h3 class="heading-medium"><a href=
-                "/paralegal">Paralegal</a></h3>
-                <p>Paralegals prepare legal documents, carry out research and
-                give legal advice to clients.</p>
-                <h3 class="heading-medium"><a href="/chef">Chef</a></h3>
-                <p>Chefs prepare and cook food.</p>
-                <h3 class="heading-medium"><a href=
-                "/publican">Publican</a></h3><span class="grey">Pub landlord,
-                licensee, manager of licensed premises</span>
-                <p>Publicans, or pub landlords, manage licensed premises like
-                pubs and bars.</p>
-                <h3 class="heading-medium"><a href="/bank-manager">Bank
-                manager</a></h3><span class="grey">Building society manager,
-                financial institution manager or director</span>
-                <p>Bank managers oversee the day-to-day operations of their
-                branch, supervise staff and work to attract new customers.</p>                
-                <h3 class="heading-medium"><a href="/medical-secretary">Medical
-                secretary</a></h3>
-                <p>Medical secretaries provide office support in hospitals, GP
-                surgeries and universities.</p>
-                 <h2 class="heading-large">Check our research portal</h2>
-                <h3 class="heading-medium"><a href="./paralegal-research-1.html">Paralegal research</a></h3>
-                
-              </div>
+				<h1 class="heading-small">National Careers Service</h1>
+				<h2 class="heading-xlarge">Search job profiles</h2>
+                    <p class="lede">We have profiles on over 800 different types of job, from archivist to zoologist.</p>
+                    <form method="get" action="/paralegal2">
+                         <div class="form-group">
+                              <label for="search-main">Enter a job title</label>
+                              <input class="form-control" id="search-main" name="" placeholder="eg paralegal" type="search">
+                              <button class= "search" type="submit">Search</button>
+                         </div>
+                    </form>
+			</div>
 		</div>
-	</main>
+	</div>
+</div>
+
+<main id="content" role="main">
+     <!-- {% include "includes/phase_banner_alpha.html" %} -->
+     <!-- {% include "includes/breadcrumb_home.html" %} -->
+     <div class="grid-row">
+          <div class="column-full">
+               <h2 class="heading-large">Or explore our most popular job profiles</h2>
+          </div>
+          <div class="column-one-half">
+               <h3 class="heading-medium"><a href="/plumber">Plumber</a></h3>
+               <p>Plumbers fit and service heating systems.</p>
+
+               <h3 class="heading-medium"><a href="/diver">Diver</a></h3>
+               <p>Divers work underwater at sea, or in rivers, lakes, canals
+               and reservoirs.</p>
+
+               <h3 class="heading-medium"><a href="/credit-controller">Credit controller</a></h3>
+               <p>Credit controllers help firms get the money they're owed
+               from businesses and individuals.</p>
+
+               <h3 class="heading-medium"><a href="/paralegal">Paralegal</a></h3>
+               <p>Paralegals prepare legal documents, carry out research and
+               give legal advice to clients.</p>
+          </div>
+          <div class="column-one-half">
+               <h3 class="heading-medium"><a href="/chef">Chef</a></h3>
+               <p>Chefs prepare and cook food.</p>
+
+               <h3 class="heading-medium"><a href="/publican">Publican</a></h3><span class="grey">Pub landlord,
+               licensee, manager of licensed premises</span>
+               <p>Publicans, or pub landlords, manage licensed premises like
+               pubs and bars.</p>
+
+               <h3 class="heading-medium"><a href="/bank-manager">Bank manager</a></h3>
+               <span class="grey">Building society manager, financial institution manager or director</span>
+               <p>Bank managers oversee the day-to-day operations of their
+               branch, supervise staff and work to attract new customers.</p>
+
+               <h3 class="heading-medium"><a href="/medical-secretary">Medical secretary</a></h3>
+               <p>Medical secretaries provide office support in hospitals, GP
+               surgeries and universities.</p>
+          </div>
+     </div>
+</main>
 
 {% endblock %}
-
-
