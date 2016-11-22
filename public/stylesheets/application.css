@@ -3280,4 +3280,90 @@ input[type="search"] {
   outline: none;
 }
 
+/* line 780, c:/T1/app/assets/sass/application.scss */
+.eggs a {
+  padding: 0em 0.75em 0.75em;
+  width: 175px;
+  height: 175px;
+  float: left;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  color: #0b0c0c;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border: 4px solid #28a197;
+}
+
+/* line 799, c:/T1/app/assets/sass/application.scss */
+.eggs {
+  position: relative;
+  margin-top: 30px;
+}
+
+@media (min-width: 769px) {
+  /* line 806, c:/T1/app/assets/sass/application.scss */
+  .eggs {
+    margin-top: 90px;
+  }
+}
+
+/* line 812, c:/T1/app/assets/sass/application.scss */
+.eggs a:hover {
+  color: #fff;
+  background: #28a197;
+}
+
+/* line 816, c:/T1/app/assets/sass/application.scss */
+.contact_banner {
+  margin-top: 2em;
+}
+
+/* line 819, c:/T1/app/assets/sass/application.scss */
+.contact_banner a {
+  padding: 0em 1em 1em;
+}
+
+/* line 822, c:/T1/app/assets/sass/application.scss */
+.fl {
+  float: left;
+}
+
+/* line 825, c:/T1/app/assets/sass/application.scss */
+.fr {
+  float: right;
+}
+
+/* line 828, c:/T1/app/assets/sass/application.scss */
+.fc {
+  position: relative;
+}
+
+@media (max-width: 851px) {
+  /* line 832, c:/T1/app/assets/sass/application.scss */
+  .eggs a {
+    width: 150px;
+    height: 150px;
+    padding: 0em 0.5em 0.5em;
+  }
+  /* line 837, c:/T1/app/assets/sass/application.scss */
+  .eggs h3 {
+    margin-top: 1.5em;
+  }
+}
+
+@media (max-width: 640px) {
+  /* line 842, c:/T1/app/assets/sass/application.scss */
+  .fl, .fr, fc {
+    float: none;
+  }
+  /* line 845, c:/T1/app/assets/sass/application.scss */
+  .eggs a {
+    width: 125px;
+    height: 125px;
+  }
+}
+
 /*# sourceMappingURL=application.css.map */

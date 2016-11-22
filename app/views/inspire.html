@@ -1,17 +1,26 @@
-{% extends "layout.html" %}
+{% extends "layout_home.html" %}
 
 {% block page_title %}
   National Careers Service - Inspire
 {% endblock %}
 
 {% block content %}
+<div class="welcome_block">
+		<div class="home_content">
+			<div class="grid-row">
+				<div class="column-two-thirds">
+					<h1 class="heading-xlarge">Inspire</h1>
+					<h2 class="heading-large">Don't know what to do?</h2>
+					<p class="lede">We have some top 10's and statistics for you. Go fish.</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
-<main id="content" role="main">
-		{% include "includes/phase_banner_alpha.html" %}    
-       {% include "includes/breadcrumb_home.html" %}
+<main id="content" role="main">		
 		<div class="grid-row">
 			<div class="column-two-thirds">
-				<h1 class="heading-xlarge">Inspire</h1>
+                <h2 class="heading-large">Our top 10 job profiles</h2>
 				<p><a href="./job-profiles.html">Show me some job profiles</a></p>
               </div>
 		</div>

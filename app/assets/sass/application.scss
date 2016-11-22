@@ -775,3 +775,75 @@ input[type="search"] {
   // Remove the blue outline
   outline: none;
 }
+
+
+.eggs a {	
+	padding: 0em 0.75em 0.75em;
+	width: 175px;
+	height: 175px;
+	float: left;	
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	text-align: center;
+	text-decoration: none;
+	color: $black;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    border: 4px solid $turquoise;
+}
+
+
+
+
+.eggs {	
+	position: relative;
+    margin-top: 30px;
+   
+}
+
+@media (min-width: 769px) {
+    .eggs {
+        margin-top: 90px;
+    }  
+    
+}
+
+.eggs a:hover {
+	color: $white;
+	background: $turquoise;
+}
+.contact_banner {
+	margin-top: 2em;
+}
+.contact_banner a {
+	padding: 0em 1em 1em;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.fc {
+	position: relative;
+}
+@media (max-width: 851px) {
+	.eggs a {
+		width: 150px;
+		height: 150px;
+		padding: 0em 0.5em 0.5em;
+	}
+	.eggs h3 {
+		margin-top: 1.5em;
+	}
+}
+@media (max-width: 640px) {
+	.fl, .fr, fc {
+		float: none;
+	}
+	.eggs a {
+		width: 125px;
+		height: 125px;
+	}
+}
