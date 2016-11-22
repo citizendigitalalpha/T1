@@ -304,7 +304,7 @@ $path: "/public/images/";
 	float: left;
 	margin: 0.25em;
 	padding: 1em 1em .5em;
-	border: 1px solid $grey-2;
+	// border: 1px solid $grey-2;
 	max-width: 200px;
 }
 .purple li {
@@ -609,7 +609,7 @@ ul li a.active2 {
 
 /**search box**/
 
-#search-main {
+#search-main, #autocomplete {
 	float: left;
 	width: 76%;
 	width: -webkit-calc(100% - 62px);

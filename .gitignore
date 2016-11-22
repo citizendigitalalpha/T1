@@ -5,5 +5,5 @@
 govuk_modules
 node_modules/*
 .tmuxp.*
-
+public/*
 *.css
