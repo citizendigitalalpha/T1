@@ -3370,6 +3370,12 @@ input[type="search"] {
   border-top: 10px solid #28a197;
 }
 
+/**explore*/
+/* line 853, c:/T1/app/assets/sass/application.scss */
+.explore h4 {
+  margin-top: 0.5em;
+}
+
 /**Chris SASS**/
 /* ---------------------------------------------------------------------------
 * Main styles affecting the Application
