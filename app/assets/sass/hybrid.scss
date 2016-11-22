@@ -1,22 +1,163 @@
+/* ---------------------------------------------------------------------------
+* Main styles affecting the Application
+* ---------------------------------------------------------------------------
+*/
 
-@media (min-width: 1020px) {
+//  FOR ALL
+.welcome_block {
+     &.search {
+          padding: 4em 0;
+          margin: 0 0 2em 0;
+          form {
+               .form-group {
+                    position: relative;
+                    margin-bottom: 0;
+                    input {
+                         border-radius: 5px;
+                         padding: 0.5em 1em;
+                         border: 3px solid $white;
+                         height: auto;
+                         &:focus {
+                              outline: none;
+                              border: 3px solid $focus-colour;
+                         }
+                    }
+                    button.search {
+                         position: absolute;
+                         bottom: 0;
+                         height: auto;
+                         width: 6em;
+                         border-radius: 5px;
+                         background-color: $black;
+                         background-position: 116.5% 50%;
+                         background-size: 8em;
+                    }
+               }
+          }
+     }
+}
 
+.number, .corner {
+     position: absolute;
+     display: -webkit-box;
+     display: -moz-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+
+     justify-content: space-around;
+     align-items: center;
+}
+
+.number {
+     background: $turquoise;
+     border-radius: 50%;
+     color: $white;
+     font-weight: bold;
+     top: -1.25em;
+     left: -1.25em;
+     width: 2em;
+     height: 2em;
+     font-size: 2.5rem;
+}
+
+.corner {
+     background: $white;
+     right: -10px;
+     top: -10px;
+     padding: 0;
+     // width: 1.5em;
+     // height: 1.5em;
+     border-style: solid;
+     border-width: 1.5em 0 0 1.5em;
+     border-color: transparent transparent transparent $turquoise;
 }
 
 
+ul.box-wrapper {
+     // display: inline-block;
+     width: 100%;
+     display: -webkit-box;
+     display: -moz-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+
+     -webkit-flex-flow: row wrap;
+     justify-content: space-around;
+     li {
+          display: inline-block;
+          position: relative;
+          padding: 2.5%;
+          float: left;
+          width: 41.5%;
+          margin: 2.5% 2.5% 2.5% 0;
+          &:nth-of-type(even) {
+               margin: 2.5% 0 2.5% 0;
+          }
+          h3 {
+               margin-top: 0;
+          }
+          p {
+               margin-bottom: 0;
+          }
+     }
+}
+
+.big-border-box {
+     border: 10px solid lighten($grey-3,7.5%);
+}
+
+.autocomplete-suggestions {
+     width: 100%;
+     background: $white;
+     border-radius: 5px;
+     margin-top: 5px;
+     border: 3px solid $turquoise;
+     overflow: auto;
+     max-height: 300px !important;
+     .autocomplete-suggestion {
+          padding: 1em;
+          &:hover, &:focus, &.autocomplete-selected {
+               background: lighten($grey-3,7.5%);
+               cursor: pointer;
+          }
+          strong {
+               color: $turquoise;
+               font-weight: bold;
+          }
+     }
+}
+
+
+
+// ONLY FOR DESKTOP (1020px)
+@media (min-width: 1020px) {
+
+     .welcome_block {
+          &.search {
+               .heading-xlarge {
+                    margin-top: 0.325em;
+                    margin-bottom: 0.5em;
+               }
+               form {
+                    input {
+                         font-size: 2rem;
+                    }
+               }
+          }
+     }
+
+}
+
+// MEDIUM ONLY (641px)
 @media (min-width: 641px) {
 
 }
 
+
+// SMARTPHONE ONLY (Up to 480px)
 @media screen and (max-width:480px) {
 
-}
-
-
-@media all and (min-width:859px) {
-
-}
-
-@media all and (max-width: 640px) and (min-width: 320px) {
 
 }

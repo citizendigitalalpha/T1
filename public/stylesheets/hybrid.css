@@ -1,2 +1,13 @@
+/* ---------------------------------------------------------------------------
+* Main styles affecting the Application
+* ---------------------------------------------------------------------------
+*/
+@media (min-width: 1020px) {
+  /* line 20, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  .welcome_block.search .heading-xlarge {
+    margin-top: 0.325em;
+    margin-bottom: 0.75em;
+  }
+}
 
 /*# sourceMappingURL=hybrid.css.map */
