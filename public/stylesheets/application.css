@@ -3491,7 +3491,7 @@ ul.box-wrapper li p {
   border: 10px solid #f2f3f4;
 }
 
-/* line 116, c:/T1/app/assets/sass/hybrid.scss */
+/* line 117, c:/T1/app/assets/sass/hybrid.scss */
 .autocomplete-suggestions {
   width: 100%;
   background: #fff;
@@ -3502,30 +3502,30 @@ ul.box-wrapper li p {
   max-height: 300px !important;
 }
 
-/* line 124, c:/T1/app/assets/sass/hybrid.scss */
+/* line 125, c:/T1/app/assets/sass/hybrid.scss */
 .autocomplete-suggestions .autocomplete-suggestion {
   padding: 1em;
 }
 
-/* line 126, c:/T1/app/assets/sass/hybrid.scss */
+/* line 127, c:/T1/app/assets/sass/hybrid.scss */
 .autocomplete-suggestions .autocomplete-suggestion:hover, .autocomplete-suggestions .autocomplete-suggestion:focus, .autocomplete-suggestions .autocomplete-suggestion.autocomplete-selected {
   background: #f2f3f4;
   cursor: pointer;
 }
 
-/* line 130, c:/T1/app/assets/sass/hybrid.scss */
+/* line 131, c:/T1/app/assets/sass/hybrid.scss */
 .autocomplete-suggestions .autocomplete-suggestion strong {
   color: #28a197;
   font-weight: bold;
 }
 
 @media (min-width: 1020px) {
-  /* line 144, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 145, c:/T1/app/assets/sass/hybrid.scss */
   .welcome_block.search .heading-xlarge {
     margin-top: 0.325em;
     margin-bottom: 0.5em;
   }
-  /* line 149, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 150, c:/T1/app/assets/sass/hybrid.scss */
   .welcome_block.search form input {
     font-size: 2rem;
   }
