@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-/* line 46, c:/T1/govuk_modules/govuk_frontend_toolkit/stylesheets/_shims.scss */
-=======
 /* line 46, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk_frontend_toolkit/stylesheets/_shims.scss */
->>>>>>> origin/master
 .grid-row:after, #content:after, .notice:after, .panel:after, .markdown pre > code:after, .markdown blockquote:after, fieldset:after, .form-section:after, .form-group:after, .form-block:after, .breadcrumbs ol:after {
   content: "";
   display: block;
@@ -41,115 +37,71 @@
   clear: both;
 }
 
-<<<<<<< HEAD
-/* line 46, c:/T1/govuk_modules/govuk_frontend_toolkit/stylesheets/_shims.scss */
-=======
 /* line 46, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk_frontend_toolkit/stylesheets/_shims.scss */
->>>>>>> origin/master
 .grid-row:after, #content:after, .notice:after, .panel:after, .markdown pre > code:after, .markdown blockquote:after, fieldset:after, .form-section:after, .form-group:after, .form-block:after, .breadcrumbs ol:after {
   content: "";
   display: block;
   clear: both;
 }
 
-<<<<<<< HEAD
-/* line 46, c:/T1/govuk_modules/govuk_frontend_toolkit/stylesheets/_shims.scss */
-=======
 /* line 46, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk_frontend_toolkit/stylesheets/_shims.scss */
->>>>>>> origin/master
 .grid-row:after, #content:after, .notice:after, .panel:after, .markdown pre > code:after, .markdown blockquote:after, fieldset:after, .form-section:after, .form-group:after, .form-block:after, .breadcrumbs ol:after {
   content: "";
   display: block;
   clear: both;
 }
 
-<<<<<<< HEAD
-/* line 18, c:/T1/govuk_modules/govuk_frontend_toolkit/stylesheets/_grid_layout.scss */
-=======
 /* line 18, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk_frontend_toolkit/stylesheets/_grid_layout.scss */
->>>>>>> origin/master
 #content {
   max-width: 960px;
   margin: 0 15px;
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 18, c:/T1/govuk_modules/govuk_frontend_toolkit/stylesheets/_grid_layout.scss */
-=======
   /* line 18, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk_frontend_toolkit/stylesheets/_grid_layout.scss */
->>>>>>> origin/master
   #content {
     margin: 0 30px;
   }
 }
 
 @media (min-width: 1020px) {
-<<<<<<< HEAD
-  /* line 18, c:/T1/govuk_modules/govuk_frontend_toolkit/stylesheets/_grid_layout.scss */
-=======
   /* line 18, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk_frontend_toolkit/stylesheets/_grid_layout.scss */
->>>>>>> origin/master
   #content {
     margin: 0 auto;
   }
 }
 
-<<<<<<< HEAD
-/* line 64, c:/T1/govuk_modules/govuk_frontend_toolkit/stylesheets/_grid_layout.scss */
-=======
 /* line 64, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk_frontend_toolkit/stylesheets/_grid_layout.scss */
->>>>>>> origin/master
 .grid-row {
   margin: 0 -15px;
 }
 
-<<<<<<< HEAD
-/* line 46, c:/T1/govuk_modules/govuk_frontend_toolkit/stylesheets/_shims.scss */
-=======
 /* line 46, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk_frontend_toolkit/stylesheets/_shims.scss */
->>>>>>> origin/master
 .grid-row:after, #content:after, .notice:after, .panel:after, .markdown pre > code:after, .markdown blockquote:after, fieldset:after, .form-section:after, .form-group:after, .form-block:after, .breadcrumbs ol:after {
   content: "";
   display: block;
   clear: both;
 }
 
-<<<<<<< HEAD
-/* line 46, c:/T1/govuk_modules/govuk_frontend_toolkit/stylesheets/_shims.scss */
-=======
 /* line 46, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk_frontend_toolkit/stylesheets/_shims.scss */
->>>>>>> origin/master
 .grid-row:after, #content:after, .notice:after, .panel:after, .markdown pre > code:after, .markdown blockquote:after, fieldset:after, .form-section:after, .form-group:after, .form-block:after, .breadcrumbs ol:after {
   content: "";
   display: block;
   clear: both;
 }
 
-<<<<<<< HEAD
-/* line 13, c:/T1/govuk_modules/govuk-elements-sass/elements/_helpers.scss */
-=======
 /* line 13, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_helpers.scss */
->>>>>>> origin/master
 .example-highlight-grid .grid-row {
   background: #bfc1c3;
 }
 
-<<<<<<< HEAD
-/* line 17, c:/T1/govuk_modules/govuk-elements-sass/elements/_helpers.scss */
-=======
 /* line 17, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_helpers.scss */
->>>>>>> origin/master
 .example-highlight-grid .column-highlight {
   background: #dee0e2;
   width: 100%;
 }
 
-<<<<<<< HEAD
-/* line 25, c:/T1/govuk_modules/govuk-elements-sass/elements/_helpers.scss */
-=======
 /* line 25, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_helpers.scss */
->>>>>>> origin/master
 .visually-hidden,
 .visuallyhidden {
   position: absolute;
@@ -162,11 +114,7 @@
   border: 0;
 }
 
-<<<<<<< HEAD
-/* line 6, c:/T1/govuk_modules/govuk-elements-sass/elements/_reset.scss */
-=======
 /* line 6, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_reset.scss */
->>>>>>> origin/master
 div,
 span,
 h1,
@@ -246,11 +194,7 @@ mark {
   padding: 0;
 }
 
-<<<<<<< HEAD
-/* line 85, c:/T1/govuk_modules/govuk-elements-sass/elements/_reset.scss */
-=======
 /* line 85, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_reset.scss */
->>>>>>> origin/master
 h1,
 h2,
 h3,
@@ -287,53 +231,33 @@ td {
   font-weight: normal;
 }
 
-<<<<<<< HEAD
-/* line 121, c:/T1/govuk_modules/govuk-elements-sass/elements/_reset.scss */
-=======
 /* line 121, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_reset.scss */
->>>>>>> origin/master
 abbr[title],
 acronym[title] {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
-/* line 132, c:/T1/govuk_modules/govuk-elements-sass/elements/_reset.scss */
-=======
 /* line 132, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_reset.scss */
->>>>>>> origin/master
 legend {
   box-sizing: border-box;
   max-width: 100%;
   display: table;
 }
 
-<<<<<<< HEAD
-/* line 9, c:/T1/govuk_modules/govuk-elements-sass/elements/_layout.scss */
-=======
 /* line 9, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_layout.scss */
->>>>>>> origin/master
 #content {
   padding-bottom: 30px;
   outline: none;
 }
 
 @media (min-width: 769px) {
-<<<<<<< HEAD
-  /* line 9, c:/T1/govuk_modules/govuk-elements-sass/elements/_layout.scss */
-=======
   /* line 9, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_layout.scss */
->>>>>>> origin/master
   #content {
     padding-bottom: 90px;
   }
 }
 
-<<<<<<< HEAD
-/* line 45, c:/T1/govuk_modules/govuk-elements-sass/elements/_layout.scss */
-=======
 /* line 45, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_layout.scss */
->>>>>>> origin/master
 .column-quarter,
 .column-one-quarter {
   padding: 0 15px;
@@ -343,11 +267,7 @@ legend {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 45, c:/T1/govuk_modules/govuk-elements-sass/elements/_layout.scss */
-=======
   /* line 45, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_layout.scss */
->>>>>>> origin/master
   .column-quarter,
   .column-one-quarter {
     float: left;
@@ -355,11 +275,7 @@ legend {
   }
 }
 
-<<<<<<< HEAD
-/* line 50, c:/T1/govuk_modules/govuk-elements-sass/elements/_layout.scss */
-=======
 /* line 50, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_layout.scss */
->>>>>>> origin/master
 .column-half,
 .column-one-half {
   padding: 0 15px;
@@ -369,11 +285,7 @@ legend {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 50, c:/T1/govuk_modules/govuk-elements-sass/elements/_layout.scss */
-=======
   /* line 50, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_layout.scss */
->>>>>>> origin/master
   .column-half,
   .column-one-half {
     float: left;
@@ -381,11 +293,7 @@ legend {
   }
 }
 
-<<<<<<< HEAD
-/* line 55, c:/T1/govuk_modules/govuk-elements-sass/elements/_layout.scss */
-=======
 /* line 55, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_layout.scss */
->>>>>>> origin/master
 .column-third,
 .column-one-third {
   padding: 0 15px;
@@ -395,11 +303,7 @@ legend {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 55, c:/T1/govuk_modules/govuk-elements-sass/elements/_layout.scss */
-=======
   /* line 55, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_layout.scss */
->>>>>>> origin/master
   .column-third,
   .column-one-third {
     float: left;
@@ -407,11 +311,7 @@ legend {
   }
 }
 
-<<<<<<< HEAD
-/* line 60, c:/T1/govuk_modules/govuk-elements-sass/elements/_layout.scss */
-=======
 /* line 60, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_layout.scss */
->>>>>>> origin/master
 .column-two-thirds {
   padding: 0 15px;
   -webkit-box-sizing: border-box;
@@ -420,22 +320,14 @@ legend {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 60, c:/T1/govuk_modules/govuk-elements-sass/elements/_layout.scss */
-=======
   /* line 60, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_layout.scss */
->>>>>>> origin/master
   .column-two-thirds {
     float: left;
     width: 66.6666666667%;
   }
 }
 
-<<<<<<< HEAD
-/* line 64, c:/T1/govuk_modules/govuk-elements-sass/elements/_layout.scss */
-=======
 /* line 64, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_layout.scss */
->>>>>>> origin/master
 .column-full {
   padding: 0 15px;
   -webkit-box-sizing: border-box;
@@ -444,22 +336,14 @@ legend {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 64, c:/T1/govuk_modules/govuk-elements-sass/elements/_layout.scss */
-=======
   /* line 64, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_layout.scss */
->>>>>>> origin/master
   .column-full {
     float: left;
     width: 100%;
   }
 }
 
-<<<<<<< HEAD
-/* line 7, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 7, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 main {
   font-family: "nta", Arial, sans-serif;
   font-weight: 400;
@@ -470,22 +354,14 @@ main {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 7, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
   /* line 7, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
   main {
     font-size: 19px;
     line-height: 1.3157894737;
   }
 }
 
-<<<<<<< HEAD
-/* line 13, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 13, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .font-xxlarge {
   font-family: "nta", Arial, sans-serif;
   font-weight: 400;
@@ -495,22 +371,14 @@ main {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 13, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
   /* line 13, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
   .font-xxlarge {
     font-size: 80px;
     line-height: 1;
   }
 }
 
-<<<<<<< HEAD
-/* line 17, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 17, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .font-xlarge {
   font-family: "nta", Arial, sans-serif;
   font-weight: 400;
@@ -520,22 +388,14 @@ main {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 17, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
   /* line 17, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
   .font-xlarge {
     font-size: 48px;
     line-height: 1.0416666667;
   }
 }
 
-<<<<<<< HEAD
-/* line 21, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 21, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .font-large {
   font-family: "nta", Arial, sans-serif;
   font-weight: 400;
@@ -545,22 +405,14 @@ main {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 21, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
   /* line 21, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
   .font-large {
     font-size: 36px;
     line-height: 1.1111111111;
   }
 }
 
-<<<<<<< HEAD
-/* line 25, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 25, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .font-medium {
   font-family: "nta", Arial, sans-serif;
   font-weight: 400;
@@ -570,22 +422,14 @@ main {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 25, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
   /* line 25, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
   .font-medium {
     font-size: 24px;
     line-height: 1.25;
   }
 }
 
-<<<<<<< HEAD
-/* line 29, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 29, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .font-small {
   font-family: "nta", Arial, sans-serif;
   font-weight: 400;
@@ -595,22 +439,14 @@ main {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 29, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
   /* line 29, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
   .font-small {
     font-size: 19px;
     line-height: 1.3157894737;
   }
 }
 
-<<<<<<< HEAD
-/* line 33, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 33, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .font-xsmall {
   font-family: "nta", Arial, sans-serif;
   font-weight: 400;
@@ -620,22 +456,14 @@ main {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 33, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
   /* line 33, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
   .font-xsmall {
     font-size: 16px;
     line-height: 1.25;
   }
 }
 
-<<<<<<< HEAD
-/* line 38, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 38, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .bold-xxlarge {
   font-family: "nta", Arial, sans-serif;
   font-weight: 700;
@@ -645,22 +473,14 @@ main {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 38, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
   /* line 38, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
   .bold-xxlarge {
     font-size: 80px;
     line-height: 1;
   }
 }
 
-<<<<<<< HEAD
-/* line 42, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 42, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .bold-xlarge {
   font-family: "nta", Arial, sans-serif;
   font-weight: 700;
@@ -670,22 +490,14 @@ main {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 42, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
   /* line 42, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
   .bold-xlarge {
     font-size: 48px;
     line-height: 1.0416666667;
   }
 }
 
-<<<<<<< HEAD
-/* line 46, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 46, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .bold-large {
   font-family: "nta", Arial, sans-serif;
   font-weight: 700;
@@ -695,22 +507,14 @@ main {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 46, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
   /* line 46, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
   .bold-large {
     font-size: 36px;
     line-height: 1.1111111111;
   }
 }
 
-<<<<<<< HEAD
-/* line 50, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 50, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .bold-medium {
   font-family: "nta", Arial, sans-serif;
   font-weight: 700;
@@ -720,22 +524,14 @@ main {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 50, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
   /* line 50, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
   .bold-medium {
     font-size: 24px;
     line-height: 1.25;
   }
 }
 
-<<<<<<< HEAD
-/* line 54, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 54, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .bold-small {
   font-family: "nta", Arial, sans-serif;
   font-weight: 700;
@@ -745,22 +541,14 @@ main {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 54, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
   /* line 54, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
   .bold-small {
     font-size: 19px;
     line-height: 1.3157894737;
   }
 }
 
-<<<<<<< HEAD
-/* line 58, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 58, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .bold-xsmall {
   font-family: "nta", Arial, sans-serif;
   font-weight: 700;
@@ -770,22 +558,14 @@ main {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 58, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
   /* line 58, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
   .bold-xsmall {
     font-size: 16px;
     line-height: 1.25;
   }
 }
 
-<<<<<<< HEAD
-/* line 67, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 67, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .heading-xlarge, .markdown h1 {
   font-family: "nta", Arial, sans-serif;
   font-weight: 700;
@@ -797,11 +577,7 @@ main {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 67, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
   /* line 67, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
   .heading-xlarge, .markdown h1 {
     font-size: 48px;
     line-height: 1.0416666667;
@@ -809,22 +585,14 @@ main {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 67, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
   /* line 67, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
   .heading-xlarge, .markdown h1 {
     margin-top: 0.625em;
     margin-bottom: 1.25em;
   }
 }
 
-<<<<<<< HEAD
-/* line 78, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 78, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .heading-xlarge .heading-secondary, .markdown h1 .heading-secondary {
   font-family: "nta", Arial, sans-serif;
   font-weight: 400;
@@ -839,11 +607,7 @@ main {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 78, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
   /* line 78, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
   .heading-xlarge .heading-secondary, .markdown h1 .heading-secondary {
     font-size: 27px;
     line-height: 1.1111111111;
@@ -851,22 +615,14 @@ main {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 78, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
   /* line 78, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
   .heading-xlarge .heading-secondary, .markdown h1 .heading-secondary {
     padding-top: 4px;
     padding-bottom: 6px;
   }
 }
 
-<<<<<<< HEAD
-/* line 87, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 87, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .heading-large, .markdown h2 {
   font-family: "nta", Arial, sans-serif;
   font-weight: 700;
@@ -878,11 +634,7 @@ main {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 87, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
   /* line 87, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
   .heading-large, .markdown h2 {
     font-size: 36px;
     line-height: 1.1111111111;
@@ -890,22 +642,14 @@ main {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 87, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
   /* line 87, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
   .heading-large, .markdown h2 {
     margin-top: 1.25em;
     margin-bottom: 0.5555555556em;
   }
 }
 
-<<<<<<< HEAD
-/* line 98, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 98, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .heading-large .heading-secondary, .markdown h2 .heading-secondary {
   font-family: "nta", Arial, sans-serif;
   font-weight: 400;
@@ -920,11 +664,7 @@ main {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 98, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
   /* line 98, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
   .heading-large .heading-secondary, .markdown h2 .heading-secondary {
     font-size: 24px;
     line-height: 1.25;
@@ -932,22 +672,14 @@ main {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 98, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
   /* line 98, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
   .heading-large .heading-secondary, .markdown h2 .heading-secondary {
     padding-top: 6px;
     padding-bottom: 4px;
   }
 }
 
-<<<<<<< HEAD
-/* line 107, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 107, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .heading-medium, .markdown h3 {
   font-family: "nta", Arial, sans-serif;
   font-weight: 700;
@@ -959,11 +691,7 @@ main {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 107, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
   /* line 107, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
   .heading-medium, .markdown h3 {
     font-size: 24px;
     line-height: 1.25;
@@ -971,22 +699,14 @@ main {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 107, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
   /* line 107, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
   .heading-medium, .markdown h3 {
     margin-top: 1.875em;
     margin-bottom: 0.8333333333em;
   }
 }
 
-<<<<<<< HEAD
-/* line 120, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 120, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .heading-small, .markdown h4 {
   font-family: "nta", Arial, sans-serif;
   font-weight: 700;
@@ -998,11 +718,7 @@ main {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 120, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
   /* line 120, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
   .heading-small, .markdown h4 {
     font-size: 19px;
     line-height: 1.3157894737;
@@ -1010,43 +726,27 @@ main {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 120, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
   /* line 120, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
   .heading-small, .markdown h4 {
     margin-top: 1.0526315789em;
   }
 }
 
-<<<<<<< HEAD
-/* line 133, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 133, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 p {
   margin-top: 0.3125em;
   margin-bottom: 1.25em;
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 133, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
   /* line 133, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
   p {
     margin-top: 0.2631578947em;
     margin-bottom: 1.0526315789em;
   }
 }
 
-<<<<<<< HEAD
-/* line 145, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 145, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .lede {
   font-family: "nta", Arial, sans-serif;
   font-weight: 400;
@@ -1056,77 +756,45 @@ p {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 145, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
   /* line 145, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
   .lede {
     font-size: 24px;
     line-height: 1.25;
   }
 }
 
-<<<<<<< HEAD
-/* line 151, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 151, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .text {
   max-width: 30em;
 }
 
-<<<<<<< HEAD
-/* line 155, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 155, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .text-secondary {
   color: #6f777b;
 }
 
-<<<<<<< HEAD
-/* line 160, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 160, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .link {
   color: #005ea5;
   text-decoration: underline;
 }
 
-<<<<<<< HEAD
-/* line 165, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 165, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .link:visited {
   color: #4c2c92;
 }
 
-<<<<<<< HEAD
-/* line 169, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 169, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .link:hover {
   color: #2b8cc4;
 }
 
-<<<<<<< HEAD
-/* line 173, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 173, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .link:active {
   color: #005ea5;
 }
 
-<<<<<<< HEAD
-/* line 179, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 179, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .link-back {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1145,31 +813,19 @@ p {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 179, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
   /* line 179, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
   .link-back {
     font-size: 16px;
     line-height: 1.25;
   }
 }
 
-<<<<<<< HEAD
-/* line 191, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 191, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .link-back:link, .link-back:visited, .link-back:hover, .link-back:active {
   color: #0b0c0c;
 }
 
-<<<<<<< HEAD
-/* line 202, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 202, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .link-back::before {
   content: '';
   display: block;
@@ -1184,11 +840,7 @@ p {
   margin-top: -6px;
 }
 
-<<<<<<< HEAD
-/* line 229, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 229, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .code, .markdown pre > code {
   color: #0b0c0c;
   background-color: #f8f8f8;
@@ -1212,11 +864,7 @@ p {
   padding: 4px 4px 2px;
 }
 
-<<<<<<< HEAD
-/* line 257, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 257, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 hr {
   display: block;
   background: #bfc1c3;
@@ -1227,20 +875,12 @@ hr {
   padding: 0;
 }
 
-<<<<<<< HEAD
-/* line 272, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 272, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .notice {
   position: relative;
 }
 
-<<<<<<< HEAD
-/* line 276, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 276, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .notice .icon {
   position: absolute;
   left: 0;
@@ -1248,22 +888,14 @@ hr {
   margin-top: -17px;
 }
 
-<<<<<<< HEAD
-/* line 283, c:/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
-=======
 /* line 283, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_elements-typography.scss */
->>>>>>> origin/master
 .notice strong {
   display: block;
   padding-left: 65px;
   margin-left: -15px;
 }
 
-<<<<<<< HEAD
-/* line 4, c:/T1/govuk_modules/govuk-elements-sass/elements/_buttons.scss */
-=======
 /* line 4, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_buttons.scss */
->>>>>>> origin/master
 .button {
   background-color: #00823b;
   position: relative;
@@ -1361,59 +993,35 @@ hr {
 }
 
 @media (max-width: 640px) {
-<<<<<<< HEAD
-  /* line 4, c:/T1/govuk_modules/govuk-elements-sass/elements/_buttons.scss */
-=======
   /* line 4, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_buttons.scss */
->>>>>>> origin/master
   .button {
     width: 100%;
     text-align: center;
   }
 }
 
-<<<<<<< HEAD
-/* line 16, c:/T1/govuk_modules/govuk-elements-sass/elements/_buttons.scss */
-=======
 /* line 16, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_buttons.scss */
->>>>>>> origin/master
 .button::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-<<<<<<< HEAD
-/* line 21, c:/T1/govuk_modules/govuk-elements-sass/elements/_buttons.scss */
-=======
 /* line 21, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_buttons.scss */
->>>>>>> origin/master
 .button:focus {
   outline: 3px solid #ffbf47;
 }
 
-<<<<<<< HEAD
-/* line 26, c:/T1/govuk_modules/govuk-elements-sass/elements/_buttons.scss */
-=======
 /* line 26, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_buttons.scss */
->>>>>>> origin/master
 .button[disabled="disabled"] {
   background: #00823b;
 }
 
-<<<<<<< HEAD
-/* line 30, c:/T1/govuk_modules/govuk-elements-sass/elements/_buttons.scss */
-=======
 /* line 30, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_buttons.scss */
->>>>>>> origin/master
 .button[disabled="disabled"]:focus {
   outline: none;
 }
 
-<<<<<<< HEAD
-/* line 35, c:/T1/govuk_modules/govuk-elements-sass/elements/_buttons.scss */
-=======
 /* line 35, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_buttons.scss */
->>>>>>> origin/master
 .button-start,
 .button-get-started {
   font-family: "nta", Arial, sans-serif;
@@ -1428,11 +1036,7 @@ hr {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 35, c:/T1/govuk_modules/govuk-elements-sass/elements/_buttons.scss */
-=======
   /* line 35, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_buttons.scss */
->>>>>>> origin/master
   .button-start,
   .button-get-started {
     font-size: 24px;
@@ -1441,11 +1045,7 @@ hr {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-<<<<<<< HEAD
-  /* line 35, c:/T1/govuk_modules/govuk-elements-sass/elements/_buttons.scss */
-=======
   /* line 35, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_buttons.scss */
->>>>>>> origin/master
   .button-start,
   .button-get-started {
     background-image: image-url("icon-pointer-2x.png");
@@ -1453,22 +1053,14 @@ hr {
   }
 }
 
-<<<<<<< HEAD
-/* line 28, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
 /* line 28, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
 .icon {
   display: inline-block;
   background-position: 0 0;
   background-repeat: no-repeat;
 }
 
-<<<<<<< HEAD
-/* line 36, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
 /* line 36, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
 .icon-calendar {
   width: 27px;
   height: 27px;
@@ -1476,22 +1068,14 @@ hr {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-<<<<<<< HEAD
-  /* line 36, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
   /* line 36, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
   .icon-calendar {
     background-image: image-url("icon-calendar-2x.png");
     background-size: 100%;
   }
 }
 
-<<<<<<< HEAD
-/* line 40, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
 /* line 40, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
 .icon-file-download {
   width: 30px;
   height: 39px;
@@ -1499,22 +1083,14 @@ hr {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-<<<<<<< HEAD
-  /* line 40, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
   /* line 40, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
   .icon-file-download {
     background-image: image-url("icon-file-download-2x.png");
     background-size: 100%;
   }
 }
 
-<<<<<<< HEAD
-/* line 44, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
 /* line 44, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
 .icon-important {
   width: 35px;
   height: 35px;
@@ -1522,22 +1098,14 @@ hr {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-<<<<<<< HEAD
-  /* line 44, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
   /* line 44, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
   .icon-important {
     background-image: image-url("icon-important-2x.png");
     background-size: 100%;
   }
 }
 
-<<<<<<< HEAD
-/* line 48, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
 /* line 48, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
 .icon-information {
   width: 27px;
   height: 27px;
@@ -1545,22 +1113,14 @@ hr {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-<<<<<<< HEAD
-  /* line 48, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
   /* line 48, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
   .icon-information {
     background-image: image-url("icon-information-2x.png");
     background-size: 100%;
   }
 }
 
-<<<<<<< HEAD
-/* line 52, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
 /* line 52, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
 .icon-locator {
   width: 26px;
   height: 36px;
@@ -1568,22 +1128,14 @@ hr {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-<<<<<<< HEAD
-  /* line 52, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
   /* line 52, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
   .icon-locator {
     background-image: image-url("icon-locator-2x.png");
     background-size: 100%;
   }
 }
 
-<<<<<<< HEAD
-/* line 56, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
 /* line 56, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
 .icon-pointer {
   width: 30px;
   height: 19px;
@@ -1591,22 +1143,14 @@ hr {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-<<<<<<< HEAD
-  /* line 56, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
   /* line 56, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
   .icon-pointer {
     background-image: image-url("icon-pointer-2x.png");
     background-size: 100%;
   }
 }
 
-<<<<<<< HEAD
-/* line 60, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
 /* line 60, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
 .icon-pointer-black {
   width: 23px;
   height: 23px;
@@ -1614,22 +1158,14 @@ hr {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-<<<<<<< HEAD
-  /* line 60, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
   /* line 60, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
   .icon-pointer-black {
     background-image: image-url("icon-pointer-black-2x.png");
     background-size: 100%;
   }
 }
 
-<<<<<<< HEAD
-/* line 64, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
 /* line 64, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
 .icon-search {
   width: 30px;
   height: 22px;
@@ -1637,22 +1173,14 @@ hr {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-<<<<<<< HEAD
-  /* line 64, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
   /* line 64, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
   .icon-search {
     background-image: image-url("icon-search-2x.png");
     background-size: 100%;
   }
 }
 
-<<<<<<< HEAD
-/* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
 /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
 .icon-step-1 {
   width: 23px;
   height: 23px;
@@ -1660,22 +1188,14 @@ hr {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-<<<<<<< HEAD
-  /* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
   /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
   .icon-step-1 {
     background-image: image-url("icon-steps/icon-step-1-2x.png");
     background-size: 100%;
   }
 }
 
-<<<<<<< HEAD
-/* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
 /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
 .icon-step-2 {
   width: 23px;
   height: 23px;
@@ -1683,22 +1203,14 @@ hr {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-<<<<<<< HEAD
-  /* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
   /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
   .icon-step-2 {
     background-image: image-url("icon-steps/icon-step-2-2x.png");
     background-size: 100%;
   }
 }
 
-<<<<<<< HEAD
-/* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
 /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
 .icon-step-3 {
   width: 23px;
   height: 23px;
@@ -1706,22 +1218,14 @@ hr {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-<<<<<<< HEAD
-  /* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
   /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
   .icon-step-3 {
     background-image: image-url("icon-steps/icon-step-3-2x.png");
     background-size: 100%;
   }
 }
 
-<<<<<<< HEAD
-/* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
 /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
 .icon-step-4 {
   width: 23px;
   height: 23px;
@@ -1729,22 +1233,14 @@ hr {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-<<<<<<< HEAD
-  /* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
   /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
   .icon-step-4 {
     background-image: image-url("icon-steps/icon-step-4-2x.png");
     background-size: 100%;
   }
 }
 
-<<<<<<< HEAD
-/* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
 /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
 .icon-step-5 {
   width: 23px;
   height: 23px;
@@ -1752,22 +1248,14 @@ hr {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-<<<<<<< HEAD
-  /* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
   /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
   .icon-step-5 {
     background-image: image-url("icon-steps/icon-step-5-2x.png");
     background-size: 100%;
   }
 }
 
-<<<<<<< HEAD
-/* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
 /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
 .icon-step-6 {
   width: 23px;
   height: 23px;
@@ -1775,22 +1263,14 @@ hr {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-<<<<<<< HEAD
-  /* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
   /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
   .icon-step-6 {
     background-image: image-url("icon-steps/icon-step-6-2x.png");
     background-size: 100%;
   }
 }
 
-<<<<<<< HEAD
-/* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
 /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
 .icon-step-7 {
   width: 23px;
   height: 23px;
@@ -1798,22 +1278,14 @@ hr {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-<<<<<<< HEAD
-  /* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
   /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
   .icon-step-7 {
     background-image: image-url("icon-steps/icon-step-7-2x.png");
     background-size: 100%;
   }
 }
 
-<<<<<<< HEAD
-/* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
 /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
 .icon-step-8 {
   width: 23px;
   height: 23px;
@@ -1821,22 +1293,14 @@ hr {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-<<<<<<< HEAD
-  /* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
   /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
   .icon-step-8 {
     background-image: image-url("icon-steps/icon-step-8-2x.png");
     background-size: 100%;
   }
 }
 
-<<<<<<< HEAD
-/* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
 /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
 .icon-step-9 {
   width: 23px;
   height: 23px;
@@ -1844,22 +1308,14 @@ hr {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-<<<<<<< HEAD
-  /* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
   /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
   .icon-step-9 {
     background-image: image-url("icon-steps/icon-step-9-2x.png");
     background-size: 100%;
   }
 }
 
-<<<<<<< HEAD
-/* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
 /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
 .icon-step-10 {
   width: 23px;
   height: 23px;
@@ -1867,22 +1323,14 @@ hr {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-<<<<<<< HEAD
-  /* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
   /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
   .icon-step-10 {
     background-image: image-url("icon-steps/icon-step-10-2x.png");
     background-size: 100%;
   }
 }
 
-<<<<<<< HEAD
-/* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
 /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
 .icon-step-11 {
   width: 23px;
   height: 23px;
@@ -1890,22 +1338,14 @@ hr {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-<<<<<<< HEAD
-  /* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
   /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
   .icon-step-11 {
     background-image: image-url("icon-steps/icon-step-11-2x.png");
     background-size: 100%;
   }
 }
 
-<<<<<<< HEAD
-/* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
 /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
 .icon-step-12 {
   width: 23px;
   height: 23px;
@@ -1913,22 +1353,14 @@ hr {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-<<<<<<< HEAD
-  /* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
   /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
   .icon-step-12 {
     background-image: image-url("icon-steps/icon-step-12-2x.png");
     background-size: 100%;
   }
 }
 
-<<<<<<< HEAD
-/* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
 /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
 .icon-step-13 {
   width: 23px;
   height: 23px;
@@ -1936,22 +1368,14 @@ hr {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-<<<<<<< HEAD
-  /* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
   /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
   .icon-step-13 {
     background-image: image-url("icon-steps/icon-step-13-2x.png");
     background-size: 100%;
   }
 }
 
-<<<<<<< HEAD
-/* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
 /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
 .icon-step-14 {
   width: 23px;
   height: 23px;
@@ -1959,22 +1383,14 @@ hr {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-<<<<<<< HEAD
-  /* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
   /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
   .icon-step-14 {
     background-image: image-url("icon-steps/icon-step-14-2x.png");
     background-size: 100%;
   }
 }
 
-<<<<<<< HEAD
-/* line 77, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
 /* line 77, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
 .circle {
   display: inline-block;
   -webkit-border-radius: 50%;
@@ -1988,22 +1404,14 @@ hr {
   text-align: center;
 }
 
-<<<<<<< HEAD
-/* line 93, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
 /* line 93, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
 .circle-step {
   min-width: 24px;
   min-height: 24px;
   line-height: 24px;
 }
 
-<<<<<<< HEAD
-/* line 99, c:/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
-=======
 /* line 99, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_icons.scss */
->>>>>>> origin/master
 .circle-step-large {
   font-size: 19px;
   min-width: 38px;
@@ -2011,72 +1419,44 @@ hr {
   line-height: 38px;
 }
 
-<<<<<<< HEAD
-/* line 4, c:/T1/govuk_modules/govuk-elements-sass/elements/_lists.scss */
-=======
 /* line 4, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_lists.scss */
->>>>>>> origin/master
 ul,
 ol {
   list-style-type: none;
 }
 
-<<<<<<< HEAD
-/* line 9, c:/T1/govuk_modules/govuk-elements-sass/elements/_lists.scss */
-=======
 /* line 9, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_lists.scss */
->>>>>>> origin/master
 .list, .markdown ul {
   padding: 0;
   margin-top: 5px;
   margin-bottom: 20px;
 }
 
-<<<<<<< HEAD
-/* line 15, c:/T1/govuk_modules/govuk-elements-sass/elements/_lists.scss */
-=======
 /* line 15, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_lists.scss */
->>>>>>> origin/master
 .list li, .markdown ul li {
   margin-bottom: 5px;
 }
 
-<<<<<<< HEAD
-/* line 20, c:/T1/govuk_modules/govuk-elements-sass/elements/_lists.scss */
-=======
 /* line 20, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_lists.scss */
->>>>>>> origin/master
 .list-bullet, .markdown ul {
   list-style-type: disc;
   padding-left: 20px;
 }
 
-<<<<<<< HEAD
-/* line 26, c:/T1/govuk_modules/govuk-elements-sass/elements/_lists.scss */
-=======
 /* line 26, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_lists.scss */
->>>>>>> origin/master
 .list-number {
   list-style-type: decimal;
   padding-left: 20px;
 }
 
-<<<<<<< HEAD
-/* line 4, c:/T1/govuk_modules/govuk-elements-sass/elements/_tables.scss */
-=======
 /* line 4, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_tables.scss */
->>>>>>> origin/master
 table {
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
 }
 
-<<<<<<< HEAD
-/* line 9, c:/T1/govuk_modules/govuk-elements-sass/elements/_tables.scss */
-=======
 /* line 9, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_tables.scss */
->>>>>>> origin/master
 table th,
 table td {
   font-family: "nta", Arial, sans-serif;
@@ -2091,11 +1471,7 @@ table td {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 9, c:/T1/govuk_modules/govuk-elements-sass/elements/_tables.scss */
-=======
   /* line 9, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_tables.scss */
->>>>>>> origin/master
   table th,
   table td {
     font-size: 19px;
@@ -2103,29 +1479,17 @@ table td {
   }
 }
 
-<<<<<<< HEAD
-/* line 19, c:/T1/govuk_modules/govuk-elements-sass/elements/_tables.scss */
-=======
 /* line 19, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_tables.scss */
->>>>>>> origin/master
 table th {
   font-weight: 700;
 }
 
-<<<<<<< HEAD
-/* line 22, c:/T1/govuk_modules/govuk-elements-sass/elements/_tables.scss */
-=======
 /* line 22, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_tables.scss */
->>>>>>> origin/master
 table th.numeric {
   text-align: right;
 }
 
-<<<<<<< HEAD
-/* line 29, c:/T1/govuk_modules/govuk-elements-sass/elements/_tables.scss */
-=======
 /* line 29, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_tables.scss */
->>>>>>> origin/master
 table td.numeric {
   font-family: "ntatabularnumbers", "nta", Arial, sans-serif;
   font-weight: 400;
@@ -2136,22 +1500,14 @@ table td.numeric {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 29, c:/T1/govuk_modules/govuk-elements-sass/elements/_tables.scss */
-=======
   /* line 29, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_tables.scss */
->>>>>>> origin/master
   table td.numeric {
     font-size: 16px;
     line-height: 1.25;
   }
 }
 
-<<<<<<< HEAD
-/* line 37, c:/T1/govuk_modules/govuk-elements-sass/elements/_tables.scss */
-=======
 /* line 37, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_tables.scss */
->>>>>>> origin/master
 .table-font-xsmall th {
   font-family: "nta", Arial, sans-serif;
   font-weight: 700;
@@ -2161,22 +1517,14 @@ table td.numeric {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 37, c:/T1/govuk_modules/govuk-elements-sass/elements/_tables.scss */
-=======
   /* line 37, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_tables.scss */
->>>>>>> origin/master
   .table-font-xsmall th {
     font-size: 16px;
     line-height: 1.25;
   }
 }
 
-<<<<<<< HEAD
-/* line 41, c:/T1/govuk_modules/govuk-elements-sass/elements/_tables.scss */
-=======
 /* line 41, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_tables.scss */
->>>>>>> origin/master
 .table-font-xsmall td {
   font-family: "nta", Arial, sans-serif;
   font-weight: 400;
@@ -2186,41 +1534,25 @@ table td.numeric {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 41, c:/T1/govuk_modules/govuk-elements-sass/elements/_tables.scss */
-=======
   /* line 41, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_tables.scss */
->>>>>>> origin/master
   .table-font-xsmall td {
     font-size: 16px;
     line-height: 1.25;
   }
 }
 
-<<<<<<< HEAD
-/* line 45, c:/T1/govuk_modules/govuk-elements-sass/elements/_tables.scss */
-=======
 /* line 45, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_tables.scss */
->>>>>>> origin/master
 .table-font-xsmall th,
 .table-font-xsmall td {
   padding: 0.75em 1.25em 0.5625em 0;
 }
 
-<<<<<<< HEAD
-/* line 4, c:/T1/govuk_modules/govuk-elements-sass/elements/_details.scss */
-=======
 /* line 4, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_details.scss */
->>>>>>> origin/master
 details {
   display: block;
 }
 
-<<<<<<< HEAD
-/* line 7, c:/T1/govuk_modules/govuk-elements-sass/elements/_details.scss */
-=======
 /* line 7, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_details.scss */
->>>>>>> origin/master
 details summary {
   display: inline-block;
   color: #005ea5;
@@ -2229,48 +1561,28 @@ details summary {
   margin-bottom: 0.2631578947em;
 }
 
-<<<<<<< HEAD
-/* line 14, c:/T1/govuk_modules/govuk-elements-sass/elements/_details.scss */
-=======
 /* line 14, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_details.scss */
->>>>>>> origin/master
 details summary:hover {
   color: #2b8cc4;
 }
 
-<<<<<<< HEAD
-/* line 18, c:/T1/govuk_modules/govuk-elements-sass/elements/_details.scss */
-=======
 /* line 18, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_details.scss */
->>>>>>> origin/master
 details summary:focus {
   outline: 3px solid #ffbf47;
 }
 
-<<<<<<< HEAD
-/* line 24, c:/T1/govuk_modules/govuk-elements-sass/elements/_details.scss */
-=======
 /* line 24, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_details.scss */
->>>>>>> origin/master
 details .summary {
   text-decoration: underline;
 }
 
-<<<<<<< HEAD
-/* line 29, c:/T1/govuk_modules/govuk-elements-sass/elements/_details.scss */
-=======
 /* line 29, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_details.scss */
->>>>>>> origin/master
 details .arrow {
   margin-right: .35em;
   font-style: normal;
 }
 
-<<<<<<< HEAD
-/* line 4, c:/T1/govuk_modules/govuk-elements-sass/elements/_panels.scss */
-=======
 /* line 4, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_panels.scss */
->>>>>>> origin/master
 .panel, .markdown pre > code, .markdown blockquote {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -2282,106 +1594,62 @@ details .arrow {
   margin-bottom: 0.7894736842em;
 }
 
-<<<<<<< HEAD
-/* line 14, c:/T1/govuk_modules/govuk-elements-sass/elements/_panels.scss */
-=======
 /* line 14, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_panels.scss */
->>>>>>> origin/master
 .panel :first-child, .markdown pre > code :first-child, .markdown blockquote :first-child {
   margin-top: 0;
 }
 
-<<<<<<< HEAD
-/* line 18, c:/T1/govuk_modules/govuk-elements-sass/elements/_panels.scss */
-=======
 /* line 18, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_panels.scss */
->>>>>>> origin/master
 .panel :only-child, .markdown pre > code :only-child, .markdown blockquote :only-child,
 .panel :last-child, .markdown pre > code :last-child, .markdown blockquote :last-child {
   margin-bottom: 0;
 }
 
-<<<<<<< HEAD
-/* line 24, c:/T1/govuk_modules/govuk-elements-sass/elements/_panels.scss */
-=======
 /* line 24, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_panels.scss */
->>>>>>> origin/master
 .panel-border-wide, .markdown pre > code, .markdown blockquote {
   border-left-width: 10px;
 }
 
-<<<<<<< HEAD
-/* line 29, c:/T1/govuk_modules/govuk-elements-sass/elements/_panels.scss */
-=======
 /* line 29, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_panels.scss */
->>>>>>> origin/master
 .panel-border-narrow {
   border-left-width: 5px;
 }
 
-<<<<<<< HEAD
-/* line 35, c:/T1/govuk_modules/govuk-elements-sass/elements/_panels.scss */
-=======
 /* line 35, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_panels.scss */
->>>>>>> origin/master
 .form-group .panel-border-narrow {
   float: left;
   width: 100%;
   padding-bottom: 0;
 }
 
-<<<<<<< HEAD
-/* line 46, c:/T1/govuk_modules/govuk-elements-sass/elements/_panels.scss */
-=======
 /* line 46, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_panels.scss */
->>>>>>> origin/master
 .form-group .panel-border-narrow:first-child {
   margin-top: 10px;
 }
 
-<<<<<<< HEAD
-/* line 51, c:/T1/govuk_modules/govuk-elements-sass/elements/_panels.scss */
-=======
 /* line 51, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_panels.scss */
->>>>>>> origin/master
 .form-group .panel-border-narrow:last-child {
   margin-top: 10px;
   margin-bottom: 0;
 }
 
-<<<<<<< HEAD
-/* line 57, c:/T1/govuk_modules/govuk-elements-sass/elements/_panels.scss */
-=======
 /* line 57, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_panels.scss */
->>>>>>> origin/master
 .inline .form-group .panel-border-narrow {
   margin-top: 10px;
   margin-bottom: 0;
 }
 
-<<<<<<< HEAD
-/* line 17, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
 /* line 17, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
 fieldset {
   width: 100%;
 }
 
-<<<<<<< HEAD
-/* line 30, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
 /* line 30, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
 textarea {
   display: block;
 }
 
-<<<<<<< HEAD
-/* line 39, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
 /* line 39, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
 .form-section {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -2392,21 +1660,13 @@ textarea {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 39, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
   /* line 39, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
   .form-section {
     margin-bottom: 60px;
   }
 }
 
-<<<<<<< HEAD
-/* line 54, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
 /* line 54, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
 .form-group {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -2417,50 +1677,30 @@ textarea {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 54, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
   /* line 54, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
   .form-group {
     margin-bottom: 30px;
   }
 }
 
-<<<<<<< HEAD
-/* line 69, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
 /* line 69, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
 .form-group-related {
   margin-bottom: 10px;
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 69, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
   /* line 69, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
   .form-group-related {
     margin-bottom: 20px;
   }
 }
 
-<<<<<<< HEAD
-/* line 78, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
 /* line 78, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
 .form-group-compound {
   margin-bottom: 10px;
 }
 
-<<<<<<< HEAD
-/* line 88, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
 /* line 88, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
 .form-label,
 .form-label-bold {
   display: block;
@@ -2468,11 +1708,7 @@ textarea {
   padding-bottom: 2px;
 }
 
-<<<<<<< HEAD
-/* line 95, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
 /* line 95, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
 .form-label {
   font-family: "nta", Arial, sans-serif;
   font-weight: 400;
@@ -2482,22 +1718,14 @@ textarea {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 95, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
   /* line 95, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
   .form-label {
     font-size: 19px;
     line-height: 1.3157894737;
   }
 }
 
-<<<<<<< HEAD
-/* line 99, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
 /* line 99, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
 .form-label-bold {
   font-family: "nta", Arial, sans-serif;
   font-weight: 700;
@@ -2507,22 +1735,14 @@ textarea {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 99, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
   /* line 99, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
   .form-label-bold {
     font-size: 19px;
     line-height: 1.3157894737;
   }
 }
 
-<<<<<<< HEAD
-/* line 104, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
 /* line 104, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
 .form-block {
   float: left;
   width: 100%;
@@ -2531,22 +1751,14 @@ textarea {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 104, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
   /* line 104, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
   .form-block {
     margin-top: 0;
     margin-bottom: 10px;
   }
 }
 
-<<<<<<< HEAD
-/* line 122, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
 /* line 122, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
 .form-hint {
   font-family: "nta", Arial, sans-serif;
   font-weight: 400;
@@ -2561,33 +1773,21 @@ textarea {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 122, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
   /* line 122, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
   .form-hint {
     font-size: 19px;
     line-height: 1.3157894737;
   }
 }
 
-<<<<<<< HEAD
-/* line 132, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
 /* line 132, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
 .form-label .form-hint,
 .form-label-bold .form-hint {
   margin-top: 0;
   padding-bottom: 0;
 }
 
-<<<<<<< HEAD
-/* line 143, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
 /* line 143, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
 .form-control {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -2604,11 +1804,7 @@ textarea {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 143, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
   /* line 143, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
   .form-control {
     font-size: 19px;
     line-height: 1.3157894737;
@@ -2616,181 +1812,109 @@ textarea {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 143, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
   /* line 143, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
   .form-control {
     width: 50%;
   }
 }
 
-<<<<<<< HEAD
-/* line 161, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
 /* line 161, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
 .form-radio {
   display: block;
   margin: 10px 0;
 }
 
-<<<<<<< HEAD
-/* line 165, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
 /* line 165, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
 .form-radio input {
   vertical-align: middle;
   margin: -4px 5px 0 0;
 }
 
-<<<<<<< HEAD
-/* line 172, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
 /* line 172, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
 .form-checkbox {
   display: block;
   margin: 15px 0;
 }
 
-<<<<<<< HEAD
-/* line 176, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
 /* line 176, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
 .form-checkbox input {
   vertical-align: middle;
   margin: -2px 5px 0 0;
 }
 
-<<<<<<< HEAD
-/* line 189, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
 /* line 189, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
 .form-control-3-4 {
   width: 100%;
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 189, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
   /* line 189, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
   .form-control-3-4 {
     width: 75%;
   }
 }
 
-<<<<<<< HEAD
-/* line 197, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
 /* line 197, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
 .form-control-2-3 {
   width: 100%;
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 197, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
   /* line 197, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
   .form-control-2-3 {
     width: 66.66%;
   }
 }
 
-<<<<<<< HEAD
-/* line 205, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
 /* line 205, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
 .form-control-1-2 {
   width: 100%;
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 205, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
   /* line 205, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
   .form-control-1-2 {
     width: 50%;
   }
 }
 
-<<<<<<< HEAD
-/* line 213, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
 /* line 213, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
 .form-control-1-3 {
   width: 100%;
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 213, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
   /* line 213, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
   .form-control-1-3 {
     width: 33.33%;
   }
 }
 
-<<<<<<< HEAD
-/* line 221, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
 /* line 221, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
 .form-control-1-4 {
   width: 100%;
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 221, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
   /* line 221, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
   .form-control-1-4 {
     width: 25%;
   }
 }
 
-<<<<<<< HEAD
-/* line 229, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
 /* line 229, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
 .form-control-1-8 {
   width: 100%;
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 229, c:/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
-=======
   /* line 229, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_forms.scss */
->>>>>>> origin/master
   .form-control-1-8 {
     width: 12.5%;
   }
 }
 
-<<<<<<< HEAD
-/* line 5, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-block-labels.scss */
-=======
 /* line 5, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-block-labels.scss */
->>>>>>> origin/master
 .block-label {
   display: block;
   float: none;
@@ -2804,21 +1928,13 @@ textarea {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 5, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-block-labels.scss */
-=======
   /* line 5, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-block-labels.scss */
->>>>>>> origin/master
   .block-label {
     float: left;
   }
 }
 
-<<<<<<< HEAD
-/* line 25, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-block-labels.scss */
-=======
 /* line 25, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-block-labels.scss */
->>>>>>> origin/master
 .block-label input {
   position: absolute;
   top: 15px;
@@ -2829,98 +1945,58 @@ textarea {
   height: 29px;
 }
 
-<<<<<<< HEAD
-/* line 40, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-block-labels.scss */
-=======
 /* line 40, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-block-labels.scss */
->>>>>>> origin/master
 .block-label:hover {
   border-color: #0b0c0c;
 }
 
-<<<<<<< HEAD
-/* line 44, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-block-labels.scss */
-=======
 /* line 44, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-block-labels.scss */
->>>>>>> origin/master
 .block-label:last-child, .block-label:last-of-type {
   margin-bottom: 0;
 }
 
-<<<<<<< HEAD
-/* line 51, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-block-labels.scss */
-=======
 /* line 51, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-block-labels.scss */
->>>>>>> origin/master
 .inline .block-label {
   clear: none;
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 51, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-block-labels.scss */
-=======
   /* line 51, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-block-labels.scss */
->>>>>>> origin/master
   .inline .block-label {
     margin-bottom: 0;
     margin-right: 10px;
   }
 }
 
-<<<<<<< HEAD
-/* line 66, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-block-labels.scss */
-=======
 /* line 66, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-block-labels.scss */
->>>>>>> origin/master
 .js-enabled label.selected {
   background: #fff;
   border-color: #0b0c0c;
 }
 
-<<<<<<< HEAD
-/* line 72, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-block-labels.scss */
-=======
 /* line 72, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-block-labels.scss */
->>>>>>> origin/master
 .js-enabled label.focused {
   outline: 3px solid #ffbf47;
 }
 
-<<<<<<< HEAD
-/* line 79, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-block-labels.scss */
-=======
 /* line 79, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-block-labels.scss */
->>>>>>> origin/master
 .js-enabled .focused input:focus {
   outline: none;
 }
 
-<<<<<<< HEAD
-/* line 5, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-date.scss */
-=======
 /* line 5, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-date.scss */
->>>>>>> origin/master
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-<<<<<<< HEAD
-/* line 11, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-date.scss */
-=======
 /* line 11, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-date.scss */
->>>>>>> origin/master
 input[type=number] {
   -moz-appearance: textfield;
 }
 
-<<<<<<< HEAD
-/* line 17, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-date.scss */
-=======
 /* line 17, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-date.scss */
->>>>>>> origin/master
 .form-date .form-group {
   float: left;
   width: 50px;
@@ -2929,71 +2005,43 @@ input[type=number] {
   clear: none;
 }
 
-<<<<<<< HEAD
-/* line 25, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-date.scss */
-=======
 /* line 25, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-date.scss */
->>>>>>> origin/master
 .form-date .form-group label {
   display: block;
   padding-bottom: 2px;
 }
 
-<<<<<<< HEAD
-/* line 30, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-date.scss */
-=======
 /* line 30, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-date.scss */
->>>>>>> origin/master
 .form-date .form-group input {
   width: 100%;
 }
 
-<<<<<<< HEAD
-/* line 35, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-date.scss */
-=======
 /* line 35, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-date.scss */
->>>>>>> origin/master
 .form-date .form-group-year {
   width: 70px;
 }
 
-<<<<<<< HEAD
-/* line 5, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-validation.scss */
-=======
 /* line 5, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-validation.scss */
->>>>>>> origin/master
 .error {
   margin-right: 15px;
   border-left: 4px solid #b10e1e;
   padding-left: 10px;
 }
 
-<<<<<<< HEAD
-/* line 13, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-validation.scss */
-=======
 /* line 13, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-validation.scss */
->>>>>>> origin/master
 .error > .form-control {
   border: 4px solid #b10e1e;
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 5, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-validation.scss */
-=======
   /* line 5, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-validation.scss */
->>>>>>> origin/master
   .error {
     border-left: 5px solid #b10e1e;
     padding-left: 15px;
   }
 }
 
-<<<<<<< HEAD
-/* line 28, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-validation.scss */
-=======
 /* line 28, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-validation.scss */
->>>>>>> origin/master
 .error-message {
   font-family: "nta", Arial, sans-serif;
   font-weight: 700;
@@ -3008,33 +2056,21 @@ input[type=number] {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 28, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-validation.scss */
-=======
   /* line 28, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-validation.scss */
->>>>>>> origin/master
   .error-message {
     font-size: 19px;
     line-height: 1.3157894737;
   }
 }
 
-<<<<<<< HEAD
-/* line 40, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-validation.scss */
-=======
 /* line 40, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-validation.scss */
->>>>>>> origin/master
 .form-label .error-message,
 .form-label-bold .error-message {
   padding-top: 4px;
   padding-bottom: 0;
 }
 
-<<<<<<< HEAD
-/* line 47, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-validation.scss */
-=======
 /* line 47, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-validation.scss */
->>>>>>> origin/master
 .error-summary {
   border: 4px solid #b10e1e;
   margin-top: 15px;
@@ -3043,11 +2079,7 @@ input[type=number] {
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 47, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-validation.scss */
-=======
   /* line 47, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-validation.scss */
->>>>>>> origin/master
   .error-summary {
     border: 5px solid #b10e1e;
     margin-top: 30px;
@@ -3056,69 +2088,41 @@ input[type=number] {
   }
 }
 
-<<<<<<< HEAD
-/* line 71, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-validation.scss */
-=======
 /* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-validation.scss */
->>>>>>> origin/master
 .error-summary:focus {
   outline: 3px solid #ffbf47;
 }
 
-<<<<<<< HEAD
-/* line 75, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-validation.scss */
-=======
 /* line 75, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-validation.scss */
->>>>>>> origin/master
 .error-summary .error-summary-heading {
   margin-top: 0;
 }
 
-<<<<<<< HEAD
-/* line 79, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-validation.scss */
-=======
 /* line 79, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-validation.scss */
->>>>>>> origin/master
 .error-summary p {
   margin-bottom: 10px;
 }
 
-<<<<<<< HEAD
-/* line 83, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-validation.scss */
-=======
 /* line 83, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-validation.scss */
->>>>>>> origin/master
 .error-summary .error-summary-list {
   padding-left: 0;
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 86, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-validation.scss */
-=======
   /* line 86, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-validation.scss */
->>>>>>> origin/master
   .error-summary .error-summary-list li {
     margin-bottom: 5px;
   }
 }
 
-<<<<<<< HEAD
-/* line 93, c:/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-validation.scss */
-=======
 /* line 93, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/forms/_form-validation.scss */
->>>>>>> origin/master
 .error-summary .error-summary-list a {
   color: #b10e1e;
   font-weight: bold;
   text-decoration: underline;
 }
 
-<<<<<<< HEAD
-/* line 4, c:/T1/govuk_modules/govuk-elements-sass/elements/_breadcrumbs.scss */
-=======
 /* line 4, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_breadcrumbs.scss */
->>>>>>> origin/master
 .breadcrumbs {
   padding-top: 0.75em;
   padding-bottom: 0.75em;
@@ -3169,22 +2173,14 @@ input[type=number] {
   color: #0b0c0c;
 }
 
-<<<<<<< HEAD
-/* line 4, c:/T1/govuk_modules/govuk-elements-sass/elements/_phase-banner.scss */
-=======
 /* line 4, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_phase-banner.scss */
->>>>>>> origin/master
 .phase-banner-alpha {
   padding: 10px 0 8px;
   border-bottom: 1px solid #bfc1c3;
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 4, c:/T1/govuk_modules/govuk-elements-sass/elements/_phase-banner.scss */
-=======
   /* line 4, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_phase-banner.scss */
->>>>>>> origin/master
   .phase-banner-alpha {
     padding-bottom: 10px;
   }
@@ -3242,22 +2238,14 @@ input[type=number] {
   vertical-align: baseline;
 }
 
-<<<<<<< HEAD
-/* line 8, c:/T1/govuk_modules/govuk-elements-sass/elements/_phase-banner.scss */
-=======
 /* line 8, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_phase-banner.scss */
->>>>>>> origin/master
 .phase-banner-beta {
   padding: 10px 0 8px;
   border-bottom: 1px solid #bfc1c3;
 }
 
 @media (min-width: 641px) {
-<<<<<<< HEAD
-  /* line 8, c:/T1/govuk_modules/govuk-elements-sass/elements/_phase-banner.scss */
-=======
   /* line 8, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_phase-banner.scss */
->>>>>>> origin/master
   .phase-banner-beta {
     padding-bottom: 10px;
   }
@@ -3315,11 +2303,7 @@ input[type=number] {
   vertical-align: baseline;
 }
 
-<<<<<<< HEAD
-/* line 3, c:/T1/govuk_modules/govuk-elements-sass/elements/_components.scss */
-=======
 /* line 3, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_components.scss */
->>>>>>> origin/master
 .govuk-box-highlight {
   margin: 1em 0;
   padding: 2em 0 1em;
@@ -3329,52 +2313,32 @@ input[type=number] {
 }
 
 @-moz-document regexp('.*') {
-<<<<<<< HEAD
-  /* line 10, c:/T1/govuk_modules/govuk-elements-sass/elements/_shame.scss */
-=======
   /* line 10, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/govuk_modules/govuk-elements-sass/elements/_shame.scss */
->>>>>>> origin/master
   details summary:not([tabindex]) {
     display: list-item;
     display: revert;
   }
 }
 
-<<<<<<< HEAD
-/* line 20, c:/T1/docs/assets/sass/docs.scss */
-=======
 /* line 20, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/docs/assets/sass/docs.scss */
->>>>>>> origin/master
 .markdown code {
   background: #f8f8f8;
   padding: 3px;
   font-size: 1em;
 }
 
-<<<<<<< HEAD
-/* line 26, c:/T1/docs/assets/sass/docs.scss */
-=======
 /* line 26, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/docs/assets/sass/docs.scss */
->>>>>>> origin/master
 .markdown pre > code {
   display: block;
   margin-bottom: 15px;
 }
 
-<<<<<<< HEAD
-/* line 34, c:/T1/docs/assets/sass/docs.scss */
-=======
 /* line 34, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/docs/assets/sass/docs.scss */
->>>>>>> origin/master
 .markdown img {
   max-width: 100%;
 }
 
-<<<<<<< HEAD
-/* line 48, c:/T1/docs/assets/sass/docs.scss */
-=======
 /* line 48, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/docs/assets/sass/docs.scss */
->>>>>>> origin/master
 .markdown strong {
   font-weight: 700;
 }

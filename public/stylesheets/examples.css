@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-/* line 3, c:/T1/app/assets/sass/examples.scss */
-=======
 /* line 3, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/examples.scss */
->>>>>>> origin/master
 .area {
   font-family: 'nta', Sans-serif;
   font-size: 16px;
@@ -16,20 +12,12 @@
 }
 
 /* area styles specific to certain ones */
-<<<<<<< HEAD
-/* line 16, c:/T1/app/assets/sass/examples.scss */
-=======
 /* line 16, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/examples.scss */
->>>>>>> origin/master
 main.area {
   min-height: 16em;
 }
 
-<<<<<<< HEAD
-/* line 19, c:/T1/app/assets/sass/examples.scss */
-=======
 /* line 19, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/examples.scss */
->>>>>>> origin/master
 .header-proposition {
   clear: none;
   min-height: 6em;
