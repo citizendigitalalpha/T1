@@ -609,7 +609,7 @@ ul li a.active2 {
 
 /**search box**/
 
-#search-main, #autocomplete {
+#search-main, #autocomplete_home {
 	float: left;
 	width: 76%;
 	width: -webkit-calc(100% - 62px);
@@ -776,11 +776,11 @@ input[type="search"] {
   outline: none;
 }
 
-.eggs a {	
+.eggs a {
 	padding: 0em 0.75em 0.75em;
 	width: 175px;
 	height: 175px;
-	float: left;	
+	float: left;
 	border-radius: 50%;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
@@ -792,17 +792,17 @@ input[type="search"] {
     border: 4px solid $turquoise;
 }
 
-.eggs {	
+.eggs {
 	position: relative;
     margin-top: 30px;
-   
+
 }
 
 @media (min-width: 769px) {
     .eggs {
         margin-top: 90px;
-    }  
-    
+    }
+
 }
 .eggs a:hover {
 	color: #ffffff;
