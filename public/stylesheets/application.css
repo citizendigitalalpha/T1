@@ -2963,7 +2963,7 @@ ul li a.active2 {
 
 /* line 504, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
 .pagination li.next a:before {
-  background: transparent url(/public/images//arrow-sprite.png) no-repeat -102px -11px;
+  background: transparent url(/public/images/arrow-sprite.png) no-repeat -102px -11px;
   margin: -4px -32px 0 0;
   display: block;
   float: right;
@@ -3365,6 +3365,18 @@ input[type="search"] {
   }
 }
 
+/* line 846, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+.govuk-related-items {
+  border-top: 10px solid #28a197;
+}
+
+/**explore*/
+/* line 853, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+.explore h4 {
+  margin-top: 0.5em;
+}
+
+/**Chris SASS**/
 /* ---------------------------------------------------------------------------
 * Main styles affecting the Application
 * ---------------------------------------------------------------------------
@@ -3421,7 +3433,7 @@ input[type="search"] {
 .welcome_block.paralegal .row-divider {
   display: inline-block;
   width: 100%;
-  background: url(../../assets/images/divider.svg) no-repeat 50% 50% !important;
+  background: url(/public/images/divider.svg) no-repeat 50% 50% !important;
   background-size: cover;
   margin: 0;
   height: 1.688rem;
@@ -3469,7 +3481,7 @@ input[type="search"] {
 }
 
 /* line 97, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
-ul.box-wrapper {
+ul.box-wrapper, ul.top-ten {
   width: 100%;
   display: -webkit-box;
   display: -moz-box;
@@ -3481,60 +3493,60 @@ ul.box-wrapper {
 }
 
 /* line 109, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
-ul.box-wrapper.fifty-fifty li {
+ul.box-wrapper.fifty-fifty li, ul.top-ten.fifty-fifty li {
   padding: 2.5%;
   width: 41.5%;
   margin: 1.5% 2.5% 1.5% 0;
 }
 
 /* line 113, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
-ul.box-wrapper.fifty-fifty li:nth-of-type(even) {
+ul.box-wrapper.fifty-fifty li:nth-of-type(even), ul.top-ten.fifty-fifty li:nth-of-type(even) {
   margin: 1.5% 0 1.5% 0;
 }
 
 /* line 119, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
-ul.box-wrapper.quarters li {
+ul.box-wrapper.quarters li, ul.top-ten.quarters li {
   padding: 1.5%;
   width: 17.5%;
   margin: 1.5% 2.5% 1.5% 0;
 }
 
 /* line 123, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
-ul.box-wrapper.quarters li:last-of-type {
+ul.box-wrapper.quarters li:last-of-type, ul.top-ten.quarters li:last-of-type {
   margin: 1.5% 0 1.5% 0;
 }
 
 /* line 128, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
-ul.box-wrapper li {
+ul.box-wrapper li, ul.top-ten li {
   display: inline-block;
   position: relative;
   float: left;
 }
 
 /* line 132, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
-ul.box-wrapper li a {
+ul.box-wrapper li a, ul.top-ten li a {
   text-decoration: none;
 }
 
 /* line 134, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
-ul.box-wrapper li a p {
+ul.box-wrapper li a p, ul.top-ten li a p {
   color: #0b0c0c;
   text-decoration: none;
 }
 
 /* line 142, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
-ul.box-wrapper li h3 {
+ul.box-wrapper li h3, ul.top-ten li h3 {
   margin-top: 0;
   text-decoration: underline;
 }
 
 /* line 146, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
-ul.box-wrapper li p {
+ul.box-wrapper li p, ul.top-ten li p {
   margin-bottom: 0;
 }
 
 /* line 148, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
-ul.box-wrapper li p.heading-xlarge {
+ul.box-wrapper li p.heading-xlarge, ul.top-ten li p.heading-xlarge {
   margin: 0 0 0.25em 0;
 }
 
