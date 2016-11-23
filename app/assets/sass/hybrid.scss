@@ -40,11 +40,12 @@
                }
           }
      }
-     &.paralegal {
+     &.content-page {
           position: relative;
           margin-bottom: 3em;
           padding-bottom: 2em;
-          background: url(/public/images/paralegal-image.jpg) no-repeat 50% 20%;
+          background: lighten($black,90%);
+          // background: url(/public/images/paralegal-image.jpg) no-repeat 50% 20%;
           border-top: 10px solid $turquoise;
           .home_content {
                z-index: 10;
@@ -62,18 +63,42 @@
                left: 0;
                z-index: 10;
           }
-          .wrapper {
-               position: absolute;
-               background: rgba($black,0.7);
-               top: 0;
-               right: 0;
-               bottom: 0;
-               left: 0;
-               display: inline-block;
-               z-index: 1;
-          }
+          // .wrapper {
+          //      position: absolute;
+          //      background: rgba($black,0.7);
+          //      top: 0;
+          //      right: 0;
+          //      bottom: 0;
+          //      left: 0;
+          //      display: inline-block;
+          //      z-index: 1;
+          // }
           .heading-xlarge {
                margin-bottom: 0.5em;
+          }
+          h1, h2, h3, h4, p {
+               color: $black;
+               float: left;
+          }
+          .border {
+               background: $turquoise;
+               display: inline-block;
+               height: 1px;
+               width: 6em;
+               float: left;
+               clear: both;
+               margin: 0 0 1.25em 0;
+          }
+          .main-intro {
+               float: left;
+               .border {
+                    margin: 0.5em 0 0.75em 0;
+               }
+               p {
+                    margin: 0;
+                    float: left;
+                    clear: left;
+               }
           }
           nav {
                margin: 0;
@@ -87,6 +112,34 @@
           }
      }
 }
+
+.salary, .hours {
+     margin: 2em 0 1em 0;
+     display: inline-block;
+     .icon {
+          display: inline-block;
+          width: 7em;
+          height: 7em;
+          float: left;
+          margin-right: 1em;
+     }
+}
+
+.salary {
+     .icon {
+          background: url(/public/images/profiles/salary.png) no-repeat 50% 50%;
+          background-size: contain;
+     }
+}
+
+.hours {
+     .icon {
+          background: url(/public/images/profiles/hours.png) no-repeat 50% 50%;
+          background-size: contain;
+     }
+}
+
+
 
 h1, h2, h3, h4 {
      &.heading-large {
@@ -123,6 +176,15 @@ h1, h2, h3, h4 {
                     align-items: center;
                }
           }
+          ol {
+               color: $turquoise;
+               font-weight: bold;
+               li {
+                    a {
+                         font-weight: normal;
+                    }
+               }
+          }
      }
 }
 
@@ -157,6 +219,7 @@ h1, h2, h3, h4 {
           margin: 1em 0 2em 0;
           padding-top: 0;
           padding-bottom: 0;
+          // line-height: 0;
           a {
                text-decoration: none;
                display: inline-block;
@@ -175,6 +238,14 @@ h1, h2, h3, h4 {
                     }
                }
           }
+          .column-one-third {
+               line-height: 0;
+          }
+          img {
+               line-height: 0;
+               // border-radius: 50%;
+               width: 100%;
+          }
      }
 }
 
@@ -182,6 +253,7 @@ h1, h2, h3, h4 {
      // margin-bottom: 5em;
      .bold-xxlarge {
           margin-top: 0;
+          // color: $turquoise;
      }
      .button-start {
           margin-top: 1em;
