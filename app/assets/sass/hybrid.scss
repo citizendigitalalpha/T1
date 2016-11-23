@@ -42,9 +42,10 @@
      }
      &.paralegal {
           position: relative;
-          margin-bottom: 2em;
+          margin-bottom: 3em;
           padding-bottom: 2em;
           background: url(/public/images/paralegal-image.jpg) no-repeat 50% 20%;
+          border-top: 10px solid $turquoise;
           .home_content {
                z-index: 10;
                position: relative;
@@ -77,7 +78,7 @@
           nav {
                margin: 0;
                padding: 1.5em 0 0 0;
-               border-top: 1px solid rgba($white,0.4);
+               // border-top: 1px solid rgba($white,0.4);
                border-bottom: none;
                a {
                     color: $white;
@@ -87,42 +88,41 @@
      }
 }
 
-
-.jump-links {
-     a {
+h1, h2, h3, h4 {
+     &.heading-large {
           span {
-               background: $white;
-               color: $black;
-               font-weight: bold;
-               border-radius: 50%;
-               width: 1.5em;
-               height: 1.35em;
-               padding: 0.15em 0 0 0;
-               float: left;
-               margin: 0 0.75em 0 0;
-               display: -webkit-box;
-               display: -moz-box;
-               display: -ms-flexbox;
-               display: -webkit-flex;
-               display: flex;
-
-               justify-content: space-around;
-               align-items: center;
+               color: $turquoise;
           }
      }
 }
 
-.intro-section {
-     padding: 0;
-     .bold-xxlarge {
-          margin-top: 0;
-     }
-     .button-start {
-          margin-top: 1em;
-     }
-     hr {
-          margin-top: 3em;
-          margin-bottom: 3em;
+.jump-links {
+     &.hybrid-links {
+          margin: 0 0 2em 0;
+          // border-bottom: none;
+          padding: 0 0 2em 0;
+          a {
+               span {
+                    background: $link-colour;
+                    color: $white;
+                    font-weight: bold;
+                    border-radius: 50%;
+                    width: 1.5em;
+                    height: 1.35em;
+                    padding: 0.15em 0 0 0;
+                    float: left;
+                    text-decoration: none;
+                    margin: -0.25em 0.5em 1em 0;
+                    display: -webkit-box;
+                    display: -moz-box;
+                    display: -ms-flexbox;
+                    display: -webkit-flex;
+                    display: flex;
+
+                    justify-content: space-around;
+                    align-items: center;
+               }
+          }
      }
 }
 
@@ -151,64 +151,6 @@
      display: none;
 }
 
-// ul.box-wrapper {
-//      // display: inline-block;
-//      width: 100%;
-//      display: -webkit-box;
-//      display: -moz-box;
-//      display: -ms-flexbox;
-//      display: -webkit-flex;
-//      display: flex;
-//
-//      -webkit-flex-flow: row wrap;
-//      justify-content: space-around;
-//      &.fifty-fifty {
-//           li {
-//                padding: 2.5%;
-//                width: 41.5%;
-//                margin: 1.5% 2.5% 1.5% 0;
-//                &:nth-of-type(even) {
-//                     margin: 1.5% 0 1.5% 0;
-//                }
-//           }
-//      }
-//      &.quarters {
-//           li {
-//                padding: 1.5%;
-//                width: 17.5%;
-//                margin: 1.5% 2.5% 1.5% 0;
-//                &:last-of-type {
-//                     margin: 1.5% 0 1.5% 0;
-//                }
-//           }
-//      }
-//      li {
-//           display: inline-block;
-//           position: relative;
-//           float: left;
-//           a {
-//                text-decoration: none;
-//                p {
-//                     color: $black;
-//                     text-decoration: none;
-//                }
-//                &:focus {
-//
-//                }
-//           }
-//           h3 {
-//                margin-top: 0;
-//                text-decoration: underline;
-//           }
-//           p {
-//                margin-bottom: 0;
-//                &.heading-xlarge {
-//                     margin: 0 0 0.25em 0;
-//                }
-//           }
-//      }
-// }
-
 .panel-border-wide {
      &.hybrid {
           border-left: 10px solid $turquoise;
@@ -217,6 +159,10 @@
           padding-bottom: 0;
           a {
                text-decoration: none;
+               display: inline-block;
+               &:focus {
+                    border: 3px solid $focus-colour;
+               }
                h3 {
                     text-decoration: underline;
                     margin-top: 10px;
@@ -231,6 +177,21 @@
           }
      }
 }
+
+.intro-section {
+     // margin-bottom: 5em;
+     .bold-xxlarge {
+          margin-top: 0;
+     }
+     .button-start {
+          margin-top: 1em;
+     }
+     hr {
+          margin-top: 3em;
+          margin-bottom: 3em;
+     }
+}
+
 
 
 ul.salaries {
@@ -333,14 +294,32 @@ ul.salaries {
      }
 
      ul.salaries {
-          li {
-               width: 33%;
-               .value {
-                    span {
-                         width: 7em;
-                         height: 7em;
-                         padding: 1em;
-                         font-size: 4rem;
+          &.full-width, &.two-thirds {
+               li {
+                    width: 33%;
+               }
+          }
+          &.full-width {
+               li {
+                    .value {
+                         span {
+                              width: 7em;
+                              height: 7em;
+                              padding: 1em;
+                              font-size: 4rem;
+                         }
+                    }
+               }
+          }
+          &.two-thirds {
+               li {
+                    .value {
+                         span {
+                              width: 5em;
+                              height: 5em;
+                              padding: 1em;
+                              font-size: 3rem;
+                         }
                     }
                }
           }
@@ -365,6 +344,39 @@ ul.salaries {
                }
           }
      }
+
+     ul.salaries {
+          &.full-width, &.two-thirds {
+               li {
+                    width: 33%;
+               }
+          }
+          &.full-width {
+               li {
+                    .value {
+                         span {
+                              width: 6em;
+                              height: 6em;
+                              padding: 1em;
+                              font-size: 3.5rem;
+                         }
+                    }
+               }
+          }
+          &.two-thirds {
+               li {
+                    .value {
+                         span {
+                              width: 4em;
+                              height: 4em;
+                              padding: 1em;
+                              font-size: 2.75rem;
+                         }
+                    }
+               }
+          }
+     }
+
 
 
 
