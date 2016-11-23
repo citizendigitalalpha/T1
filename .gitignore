@@ -2,8 +2,12 @@
 .DS_Store
 .start.pid
 .port.tmp
+public
+lib/govuk_template.html
 govuk_modules
 node_modules/*
 .tmuxp.*
-public/*
-*.css
+app/assets/sass/hybrid.scss
+public/stylesheets/hybrid.css
+*.map
+app/assets/sass/hybrid.scss
