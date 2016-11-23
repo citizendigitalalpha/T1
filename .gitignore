@@ -11,3 +11,5 @@ app/assets/sass/hybrid.scss
 public/stylesheets/hybrid.css
 *.map
 app/assets/sass/hybrid.scss
+*.css
+public/stylesheets/hybrid.css
