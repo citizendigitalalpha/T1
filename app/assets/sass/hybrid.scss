@@ -42,8 +42,12 @@
      }
      &.paralegal {
           position: relative;
-          .welcome_block {
+          margin-bottom: 2em;
+          padding-bottom: 2em;
+          background: url(/public/images/paralegal-image.jpg) no-repeat 50% 20%;
+          .home_content {
                z-index: 10;
+               position: relative;
           }
           .row-divider {
                display: inline-block;
@@ -55,6 +59,7 @@
                position: absolute;
                bottom: -1px;
                left: 0;
+               z-index: 10;
           }
           .wrapper {
                position: absolute;
@@ -65,6 +70,19 @@
                left: 0;
                display: inline-block;
                z-index: 1;
+          }
+          .heading-xlarge {
+               margin-bottom: 0.5em;
+          }
+          nav {
+               margin: 0;
+               padding: 1.5em 0 0 0;
+               border-top: 1px solid rgba($white,0.4);
+               border-bottom: none;
+               a {
+                    color: $white;
+                    font-weight: bold;
+               }
           }
      }
 }
@@ -151,6 +169,22 @@ ul.box-wrapper, ul.top-ten {
           }
      }
 }
+
+ul.top-ten {
+     &.fifty-fifty {
+          li {
+               padding: 0 2.5%;
+               margin-top: 1.5em;
+               margin-bottom: 3em;
+               &:nth-of-type(even) {
+                    margin-top: 1.5em;
+                    margin-bottom: 2em;
+               }
+               border-left: 10px solid $turquoise;
+          }
+     }
+}
+
 
 ul.salaries {
      margin: 1em 0 2em 0;
@@ -256,8 +290,8 @@ ul.salaries {
                width: 33%;
                .value {
                     span {
-                         width: 5em;
-                         height: 5em;
+                         width: 7em;
+                         height: 7em;
                          padding: 1em;
                          font-size: 4rem;
                     }
@@ -276,10 +310,10 @@ ul.salaries {
                width: 33%;
                .value {
                     span {
-                         width: 4em;
-                         height: 4em;
+                         width: 6em;
+                         height: 6em;
                          padding: 1em;
-                         font-size: 3rem;
+                         font-size: 3.5rem;
                     }
                }
           }
