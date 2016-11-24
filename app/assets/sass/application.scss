@@ -385,9 +385,10 @@ h3.heading-medium.appointment {
 .main_navigation li {
 	float: left;
 	margin-right: 1%;
+    margin-top: 1%;
 }
 .main_navigation li a {
-	display: inline-block;
+    display: inline-block;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -395,44 +396,8 @@ h3.heading-medium.appointment {
 	color: $text-colour;
 	border-bottom: 4px solid $black;
 }
-.main_navigation li a:hover, ul li a.active2 {
+.main_navigation li a:hover, .main_navigation .active2 a {
 	border-bottom: 4px solid $turquoise;
-}
-ul li a.active2 {
-	font-weight: 700;
-}
-.main_navigation li.icon {
-	display: none;
-}
-@media screen and (max-width:480px) {
-	.main_navigation li {
-		display: none;
-	}
-	.main_navigation li.icon {
-		float: right;
-		display: inline-block;
-	}
-}
-@media screen and (max-width:480px) {
-	.main_navigation.responsive {
-		position: relative;
-	}
-	.main_navigation.responsive li.icon {
-		position: absolute;
-		right: 0;
-		top: 0;
-	}
-	li.icon a, li.icon a:hover {
-		border-bottom: 0;
-	}
-	.main_navigation.responsive li {
-		float: none;
-		display: inline;
-	}
-	.main_navigation.responsive li a {
-		display: block;
-		text-align: left;
-	}
 }
 
 /*Pagination*/

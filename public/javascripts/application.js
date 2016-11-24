@@ -90,3 +90,5 @@ var themeClass = $( "#qualification" ).autocomplete( "option", "classes.ui-autoc
 // Setter
 $( "#qualification" ).autocomplete( "option", "classes.ui-autocomplete", "highlight" );
 
+//Prepare filters
+
