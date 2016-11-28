@@ -224,6 +224,7 @@ h1, h2, h3, h4, p {
      background: $white;
      color: $black;
      .column-one-third {
+          margin-bottom: 3.5em;
           hr {
                height: 10px;
                background: $turquoise;
@@ -544,7 +545,7 @@ ul.salaries {
                width: 33%;
                margin-bottom: 1em;
                strong {
-                    font-size: 1.4rem;
+                    font-size: 2rem;
                }
                .value {
                     span {
@@ -567,7 +568,7 @@ ul.salaries {
                width: 33%;
                margin-bottom: 1em;
                strong {
-                    font-size: 1.4rem;
+                    font-size: 2rem;
                }
                .value {
                     span {
