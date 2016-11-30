@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "layout_landing_page.html" %}
 
 {% block page_title %}
   National Careers Service - How to become
@@ -6,187 +6,182 @@
 
 {% block content %}
 
-<main id="content" role="main">
-		{% include "includes/phase_banner_alpha.html" %} {% include "includes/breadcrumb_home.html" %}
+<div class="welcome_block sub-header">
+	<div class="home_content">
 		<div class="grid-row">
 			<div class="column-two-thirds">
-				<h1 class="heading-xlarge">How to become</h1>
-                <p>Choose options that are most like you to show the available routes to a career.</p>
-                <fieldset class="filters">
-				<div class="form-group">
-					<label class="form-label" for="select-box">I want to know how to be a</label> <select class="form-control" id="select-box">
-						<option>
-							select job
-						</option>
-						<option value="paralegal">
-							Paralegal
-						</option>
-						<option value="nurse">
-							Nurse
-						</option>
-					</select>
-				</div>
-				<div class="form-group">
-					<label class="form-label" for="select-box2">and</label> <select class="form-control" id="select-box2">
-						<option value="">
-							select
-						</option>
-						<option value="one">
-							I don't have qualifications
-						</option>
-						<option value="two">
-							I'm under 18 and I've got my GCSEs
-						</option>
-						<option value="three">
-							I'm in 6th form
-						</option>
-						<option value="four">
-							I want a career change
-						</option>
-						<option value="five">
-							I have the qualifications
-						</option>
-					</select>
-				</div>
-            </fieldset>                
-	<!-- ======================= NURSE ONE - START ======================= -->
-	<div class="answer" id="nurse-one">
-		<div class="outer-wrapper">
-			<h2 class="heading-medium">Volunteering, traineeships and apprenticeships</h2>
-			<p>To be able to start your nursing career you could try volunteering at a hospital to gain experience.</p>
-			<p>You could do a <a href="#">Traineeship</a> for up to 6 months and gain unpaid work experience which could lead to an <a href="#">apprenticeship</a>.</p>
-			<p>If you choose this route you will be paid as you train, but you will still have to do a degree to become a qualified nurse.</p>
-			<p>You may also be able to take part in a <a href="#">cadet scheme</a>. This can help you decide on a career route to follow and may lead to work in a number of different areas, including nursing or supporting roles with or without patient contact.</p><p><a href="#" class="bold-xsmall">More information</a></p>
-		</div>
-	</div><!-- ======================= NURSE ONE - END ======================= -->
-	<!-- ======================= NURSE TWO - START ======================= -->
-	<div class="answer" id="nurse-two">
-		<div class="outer-wrapper">
-			<h2 class="heading-medium">A'levels are needed to become a nurse</h2>
-			<p>You could stay in school and do A levels. You must have one science subject or physical education, psychology or sociology to qualify for university to study for your degree.</p><p><a href="#" class="bold-xsmall">More information</a></p>
-		</div>
-	</div><!-- ======================= NURSE TWO - END ======================= -->
-	<!-- ======================= NURSE THREE - START ======================= -->
-	<div class="answer" id="nurse-three">
-		<div class="outer-wrapper">
-			<h2 class="heading-medium">Look to do a degree</h2>
-			<p>With A levels you could do a degree, which takes 3 years to complete and you will pay fees. You may be able to apply for a <a href="#">bursary</a> to help with costs. You will work in hospitals as well as study.</p><p><a href="#" class="bold-xsmall">More information</a></p>
-		</div>
-	</div><!-- ======================= NURSE THREE - END ======================= -->
-	<!-- ======================= NURSE FOUR - START ======================= -->
-	<div class="answer" id="nurse-four">
-		<div class="outer-wrapper">
-			<h2 class="heading-medium">Career change?</h2>
-			<p>If you already have a relevant degree you may be able to use this to fast track into nursing. If you don't have a degree, you'll need one to become a nurse this will take 3 years and you will have to pay fees.</p>
-			<p>If you don't want to do a degree you could still work in healthcare; <a href="#">find out how</a>.</p><p><a href="#" class="bold-xsmall">More information</a></p>
-		</div>
-	</div><!-- ======================= NURSE FOUR - END ======================= -->
-	<!-- ======================= NURSE FIVE - START ======================= -->
-	<div class="answer" id="nurse-five">
-		<div class="outer-wrapper">
-			<h2 class="heading-medium">Nursing jobs</h2>
-			<p>Nurses are the largest staff group in the NHS. Nurses work in every type of health setting from accident and emergency (A and E) to patients' homes, with people of all ages and backgrounds.</p>
-			<p>Below are a list of jobs sites we suggest you look into:</p>
-			<ul>
-				<li>
-					<a href="#">jobs.nhs.uk</a>
-				</li>
-				<li>
-					<a href="#">nuffieldhealthcareers.com</a>
-				</li>
-				<li>
-					<a href="#">indeed.co.uk</a>
-				</li>
-				<li>
-					<a href="#">staffnurse.com</a>
-				</li>
-				<li>
-					<a href="#">reed.co.uk</a>
-				</li>
-			</ul><p><a href="#" class="bold-xsmall">More information</a></p>
-		</div>
-	</div><!-- ======================= NURSE FIVE - END ======================= -->
-	
-	<!-- ======================= PARALEGAL ONE - START ======================= -->
-	<div class="answer" id="paralegal-one">
-		<div class="outer-wrapper">
-			<h2 class="heading-medium">Work experience or traineeship</h2>
-			<p>You could take the work experience route to this job. You could do an unpaid Traineeship for up to 6 months and gain unpaid work experience which could lead to paid work experience. Or, if you stay in school and get your GCSEs, you could gain paid work experience.</p>
-			<p>You could do unpaid work as an Administration Assistant in a legal firm, or department, and work your way up to Legal Secretary. From there, you could work your way up to Paralegal. This would take time, but you would earn a salary.</p><p><a href="#" class="bold-xsmall">More information</a></p>
-		</div>
-	</div><!-- ======================= PARALEGAL ONE - END ======================= -->
-	<!-- ======================= PARALEGAL TWO - START ======================= -->
-	<div class="answer" id="paralegal-two">
-		<div class="outer-wrapper">
-			<h2 class="heading-medium">Vocational route</h2>
-			<p>You could take the vocational route to this job. You would need to stay in school to gain your GCSEs A-C, which would allow you to take an Advanced Apprenticeship. An Advanced Apprenticeship takes 2 years and you would earn money.</p>
-			<p>With this qualification, you could enter the profession as a Legal Secretary and work your way up to Paralegal while earning money. Or, you could take a Higher Apprenticeship, which takes 2 years and you would earn money. With this qualification, you could go on to do a Degree Apprenticeship as a Paralegal, which takes three years and you would earn a salary.</p><p><a href="#" class="bold-xsmall">More information</a></p>
-		</div>
-	</div><!-- ======================= PARALEGAL TWO - END ======================= -->
-	<!-- ======================= PARALEGAL THREE - START ======================= -->
-	<div class="answer" id="paralegal-three">
-		<div class="outer-wrapper">
-			<h2 class="heading-medium">Academic route</h2>
-			<p>You could take the academic route to this job. Once you have your GCSEs, you could stay in school and do A levels.</p>
-			<p>With A levels you could do a degree, which takes 3 years and you will pay fees. This would allow you to enter the profession at a higher level and earn a higher salary. With a degree, you could go on to study at postgraduate level and become a QC, work at the Bar or become a Solicitor.</p>
-			<p>Also, with A levels, you could follow the Apprenticeship route by taking a Higher Apprenticeship which takes two years and you earn a salary. Then you could take a Degree Apprenticeship as a Paralegal.</p><p><a href="#" class="bold-xsmall">More information</a></p>
-		</div>
-	</div><!-- ======================= PARALEGAL THREE - START ======================= -->
-	<!-- ======================= PARALEGAL FOUR - START ======================= -->
-	<div class="answer" id="paralegal-four">
-		<div class="outer-wrapper">
-			<h2 class="heading-medium">You could stay in school and do A levels</h2>
-			<p>With A levels you could do a HND, or a degree, which takes 3 years and you will pay fees. This would allow you to enter the profession at a higher level and earn a higher salary. With a degree, you could go on to study at postgraduate level and become a QC, work at the Bar or become a Solicitor.</p>
-			<p>Also, with A levels, you could follow the Apprenticeship route by taking a Higher Apprenticeship which takes two years and you earn a salary. Then you could take a Degree Apprenticeship as a Paralegal.</p>
-			<p>If you have GCSEs, you get work experience as an Administration Assistant in a legal firm or department and work your way up to Legal Secretary and then Paralegal. This would take time, but you would earn a salary.</p><p><a href="#" class="bold-xsmall">More information</a></p>
-		</div>
-	</div><!-- ======================= PARALEGAL FOUR - END ======================= -->
-	<!-- ======================= PARALEGAL FIVE - START ======================= -->
-	<div class="answer" id="paralegal-five">
-		<div class="outer-wrapper">
-			<h2 class="heading-medium">Advanced Apprenticeship</h2>
-			<p>You could take the vocational route to this job with GCSEs. If you have 4 GCSEs A* to C, you could take an Advanced Apprenticeship. An Advanced Apprenticeship takes 2 years and you would earn money.</p>
-			<p>With this qualification, you could enter the profession as a Legal Secretary and work your way up to Paralegal while earning money. Or, you could take a Higher Apprenticeship, which takes 2 more years and you would earn money.</p>
-			<p>With a Higher Apprenticeship you could do a Degree Apprenticeship as a Paralegal, which takes three years and you would earn a salary.</p><p><a href="#" class="bold-xsmall">More information</a></p>
-		</div>
-	</div><!-- ======================= PARALEGAL FIVE - END ======================= -->
-	<!-- ======================= PARALEGAL ONE - START ======================= -->
-	<div class="answer" id="paralegal-six">
-		<div class="outer-wrapper">
-			<h2 class="heading-medium">You could do a HND, or a degree</h2>
-			<p>With A levels you could do a HND, or a degree, which takes 3 years and you will pay fees. This would allow you to enter the profession at a higher level and earn a higher salary. With a degree, you could go on to study at postgraduate level and become a QC, work at the Bar or become a Solicitor.</p>
-			<p>Also, with A levels, you could follow the Apprenticeship route by taking a Higher Apprenticeship which takes two years and you earn a salary. Then you could take a Degree Apprenticeship as a Paralegal.</p>
-			<p>You can get work experience with A levels, as an Administration Assistant in a legal firm or department and work your way up to Legal Secretary and then Paralegal. This would take time, but you would earn a salary.</p><p><a href="#" class="bold-xsmall">More information</a></p>
-		</div>
-	</div><!-- ======================= PARALEGAL ONE - END ======================= -->
-	<!-- ======================= PARALEGAL SEVEN - START ======================= -->
-	<div class="answer" id="paralegal-seven">
-		<div class="outer-wrapper">
-			<h2 class="heading-medium">I'm under 18 and working</h2>
-			<p>It will help you to gain relevant work experience once you are 18. You could work as an Administration Assistant in a legal firm or department and work your way up to Legal Secretary and then Paralegal. This would take time, but you would earn a salary.</p>
-			<p>You could take the Apprenticeship route. If you have GCSEs, you could take an Advanced Apprenticeship which takes 2 years and you could earn a salary. You could go on to take a Higher Apprenticeship, then a Degree Apprenticeship as a Paralegal. Or, you could enter the profession as a Legal Secretary with a Higher Apprenticeship, and work your way up to Paralegal.</p><p><a href="#" class="bold-xsmall">More information</a></p>
-		</div>
-	</div><!-- ======================= PARALEGAL FOUR - END ======================= -->
-	<!-- ======================= PARALEGAL EIGHT - START ======================= -->
-	<div class="answer" id="paralegal-eight">
-		<div class="outer-wrapper">
-			<h2 class="heading-medium">I'm over 18 and working</h2>
-			<p>It will help you to gain relevant work experience. You could work as an Administration Assistant in a legal firm or department and work your way up to Legal Secretary and then Paralegal. This would take time, but you would earn a salary.</p>
-			<p>You could take the Apprenticeship route. If you have GCSEs, you could take an Advanced Apprenticeship which takes 2 years and you could earn a salary. You could go on to take a Higher Apprenticeship, then a Degree Apprenticeship as a Paralegal. Or, you could enter the profession as a Legal Secretary with a Higher Apprenticeship, and work your way up to Paralegal.</p><p><a href="#" class="bold-xsmall">More information</a></p>
-		</div>
-	</div><!-- ======================= PARALEGAL EIGHT - END ======================= -->
-	<!-- ======================= PARALEGAL NINE - START ======================= -->
-	<div class="answer" id="paralegal-nine">
-		<div class="outer-wrapper">
-			<h2 class="heading-medium">Using your degree</h2>
-			<p>You can become a Paralegal if you have a relevant degree. If your degree isn't relevant, you could gain relevant work experience and work your way up to Paralegal.</p>
-			<p>With a relevant degree, you could take a postgraduate qualification and become a QC, work for the Bar or become a Solicitor.</p><p><a href="#" class="bold-xsmall">More information</a></p>
-		</div>
-	</div><!-- ======================= PARALEGAL NINE - END ======================= -->
+				<h1 class="heading-xlarge">How to become a Paralegal</h1>
+                    <span class="border"></span>
+				<p class="lede">Choose the option that is most like you to show the available routes to a career.</p>
+                    <form>
+                         <fieldset class="filters">
+             				<div class="form-group">
+             					<label class="form-label lede" for="select-box">Select your qualification level</label>
+                                   <select class="form-control" id="select-box">
+             						<option value="">
+             							-- Select --
+             						</option>
+             						<option value="one">
+             							I don't have qualifications
+             						</option>
+             						<option value="two">
+             							I'm under 18 and I've got my GCSEs
+             						</option>
+             						<option value="three">
+             							I'm in 6th form
+             						</option>
+             						<option value="four">
+             							I want a career change
+             						</option>
+             						<option value="five">
+             							I have the qualifications
+             						</option>
+             					</select>
+             				</div>
+                         </fieldset>
+                    </form>
 			</div>
 		</div>
-	</main>
+	</div>
+     <div class="row-divider"><span></span></div>
+</div>
+
+
+<main id="content" role="main">
+	<!-- {% include "includes/phase_banner_alpha.html" %} {% include "includes/breadcrumb_home.html" %} -->
+     <div class="grid-row">
+		<div class="column-full">
+               <h1 class="heading-large">Your career options</h1>
+               <p class="grey lede intro">Your careers options will appear here once you have chosen your qualification level.</p>
+               <p class="grey lede intro-yes one"><span>3</span> potential options are available to you to become a Paralegal</p>
+               <p class="grey lede intro-yes two"><span>2</span> potential options are available to you to become a Paralegal</p>
+               <p class="grey lede intro-yes three"><span>1</span> potential option are available to you to become a Paralegal</p>
+               <p class="grey lede intro-yes four"><span>2</span> potential options are available to you to become a Paralegal</p>
+               <p class="grey lede intro-yes five"><span>1</span> potential option are available to you to become a Paralegal</p>
+          </div>
+     </div>
+	<div class="grid-row">
+		<div class="column-one-half">
+          	<!-- ======================= PARALEGAL ONE - START ======================= -->
+          	<div class="answer" id="paralegal-one">
+          		<div class="govuk-box-highlight-border big-border-box">
+                         <p class="bold-xxlarge">1.</p>
+          			<h2 class="heading-medium">Work experience or traineeship</h2>
+          			<p>You could take the work experience route to this job. You could do an unpaid Traineeship for up to 6 months and gain unpaid work experience which could lead to paid work experience. Or, if you stay in school and get your GCSEs, you could gain paid work experience.</p>
+          			<p>You could do unpaid work as an Administration Assistant in a legal firm, or department, and work your way up to Legal Secretary. From there, you could work your way up to Paralegal. This would take time, but you would earn a salary.</p><p><a href="#" class="bold-xsmall">More information</a></p>
+          		</div>
+          	</div>
+               <!-- ======================= PARALEGAL ONE - END ======================= -->
+          </div>
+          <div class="column-one-half">
+          	<!-- ======================= PARALEGAL TWO - START ======================= -->
+          	<div class="answer" id="paralegal-two">
+          		<div class="govuk-box-highlight-border big-border-box">
+                         <p class="bold-xxlarge">2.</p>
+          			<h2 class="heading-medium">Vocational route</h2>
+          			<p>You could take the vocational route to this job. You would need to stay in school to gain your GCSEs A-C, which would allow you to take an Advanced Apprenticeship. An Advanced Apprenticeship takes 2 years and you would earn money.</p>
+          			<p>With this qualification, you could enter the profession as a Legal Secretary and work your way up to Paralegal while earning money. Or, you could take a Higher Apprenticeship, which takes 2 years and you would earn money. With this qualification, you could go on to do a Degree Apprenticeship as a Paralegal, which takes three years and you would earn a salary.</p><p><a href="#" class="bold-xsmall">More information</a></p>
+          		</div>
+          	</div>
+               <!-- ======================= PARALEGAL TWO - END ======================= -->
+          </div>
+          <div class="column-one-half">
+          	<!-- ======================= PARALEGAL THREE - START ======================= -->
+          	<div class="answer" id="paralegal-three">
+          		<div class="govuk-box-highlight-border big-border-box">
+                         <p class="bold-xxlarge">3.</p>
+          			<h2 class="heading-medium">Academic route</h2>
+          			<p>You could take the academic route to this job. Once you have your GCSEs, you could stay in school and do A levels.</p>
+          			<p>With A levels you could do a degree, which takes 3 years and you will pay fees. This would allow you to enter the profession at a higher level and earn a higher salary. With a degree, you could go on to study at postgraduate level and become a QC, work at the Bar or become a Solicitor.</p>
+          			<p>Also, with A levels, you could follow the Apprenticeship route by taking a Higher Apprenticeship which takes two years and you earn a salary. Then you could take a Degree Apprenticeship as a Paralegal.</p><p><a href="#" class="bold-xsmall">More information</a></p>
+          		</div>
+          	</div>
+               <!-- ======================= PARALEGAL THREE - START ======================= -->
+          </div>
+     </div>
+     <div class="grid-row">
+          <div class="column-one-half">
+          	<!-- ======================= PARALEGAL FOUR - START ======================= -->
+          	<div class="answer" id="paralegal-four">
+          		<div class="govuk-box-highlight-border big-border-box">
+                         <p class="bold-xxlarge">1.</p>
+          			<h2 class="heading-medium">You could stay in school and do A levels</h2>
+          			<p>With A levels you could do a HND, or a degree, which takes 3 years and you will pay fees. This would allow you to enter the profession at a higher level and earn a higher salary. With a degree, you could go on to study at postgraduate level and become a QC, work at the Bar or become a Solicitor.</p>
+          			<p>Also, with A levels, you could follow the Apprenticeship route by taking a Higher Apprenticeship which takes two years and you earn a salary. Then you could take a Degree Apprenticeship as a Paralegal.</p>
+          			<p>If you have GCSEs, you get work experience as an Administration Assistant in a legal firm or department and work your way up to Legal Secretary and then Paralegal. This would take time, but you would earn a salary.</p><p><a href="#" class="bold-xsmall">More information</a></p>
+          		</div>
+          	</div>
+               <!-- ======================= PARALEGAL FOUR - END ======================= -->
+          </div>
+          <div class="column-one-half">
+          	<!-- ======================= PARALEGAL FIVE - START ======================= -->
+          	<div class="answer" id="paralegal-five">
+          		<div class="govuk-box-highlight-border big-border-box">
+                         <p class="bold-xxlarge">2.</p>
+          			<h2 class="heading-medium">Advanced Apprenticeship</h2>
+          			<p>You could take the vocational route to this job with GCSEs. If you have 4 GCSEs A* to C, you could take an Advanced Apprenticeship. An Advanced Apprenticeship takes 2 years and you would earn money.</p>
+          			<p>With this qualification, you could enter the profession as a Legal Secretary and work your way up to Paralegal while earning money. Or, you could take a Higher Apprenticeship, which takes 2 more years and you would earn money.</p>
+          			<p>With a Higher Apprenticeship you could do a Degree Apprenticeship as a Paralegal, which takes three years and you would earn a salary.</p><p><a href="#" class="bold-xsmall">More information</a></p>
+          		</div>
+          	</div>
+               <!-- ======================= PARALEGAL FIVE - END ======================= -->
+          </div>
+     </div>
+     <div class="grid-row">
+          <div class="column-full">
+          	<!-- ======================= PARALEGAL ONE - START ======================= -->
+          	<div class="answer" id="paralegal-six">
+          		<div class="govuk-box-highlight-border big-border-box">
+                         <p class="bold-xxlarge">1.</p>
+          			<h2 class="heading-medium">You could do a HND, or a degree</h2>
+          			<p>With A levels you could do a HND, or a degree, which takes 3 years and you will pay fees. This would allow you to enter the profession at a higher level and earn a higher salary. With a degree, you could go on to study at postgraduate level and become a QC, work at the Bar or become a Solicitor.</p>
+          			<p>Also, with A levels, you could follow the Apprenticeship route by taking a Higher Apprenticeship which takes two years and you earn a salary. Then you could take a Degree Apprenticeship as a Paralegal.</p>
+          			<p>You can get work experience with A levels, as an Administration Assistant in a legal firm or department and work your way up to Legal Secretary and then Paralegal. This would take time, but you would earn a salary.</p><p><a href="#" class="bold-xsmall">More information</a></p>
+          		</div>
+          	</div>
+               <!-- ======================= PARALEGAL ONE - END ======================= -->
+          </div>
+     </div>
+     <div class="grid-row">
+          <div class="column-one-half">
+          	<!-- ======================= PARALEGAL SEVEN - START ======================= -->
+          	<div class="answer" id="paralegal-seven">
+          		<div class="govuk-box-highlight-border big-border-box">
+                         <p class="bold-xxlarge">1.</p>
+          			<h2 class="heading-medium">I'm under 18 and working</h2>
+          			<p>It will help you to gain relevant work experience once you are 18. You could work as an Administration Assistant in a legal firm or department and work your way up to Legal Secretary and then Paralegal. This would take time, but you would earn a salary.</p>
+          			<p>You could take the Apprenticeship route. If you have GCSEs, you could take an Advanced Apprenticeship which takes 2 years and you could earn a salary. You could go on to take a Higher Apprenticeship, then a Degree Apprenticeship as a Paralegal. Or, you could enter the profession as a Legal Secretary with a Higher Apprenticeship, and work your way up to Paralegal.</p><p><a href="#" class="bold-xsmall">More information</a></p>
+          		</div>
+          	</div>
+               <!-- ======================= PARALEGAL FOUR - END ======================= -->
+          </div>
+          <div class="column-one-half">
+          	<!-- ======================= PARALEGAL EIGHT - START ======================= -->
+          	<div class="answer" id="paralegal-eight">
+          		<div class="govuk-box-highlight-border big-border-box">
+                         <p class="bold-xxlarge">2.</p>
+          			<h2 class="heading-medium">I'm over 18 and working</h2>
+          			<p>It will help you to gain relevant work experience. You could work as an Administration Assistant in a legal firm or department and work your way up to Legal Secretary and then Paralegal. This would take time, but you would earn a salary.</p>
+          			<p>You could take the Apprenticeship route. If you have GCSEs, you could take an Advanced Apprenticeship which takes 2 years and you could earn a salary. You could go on to take a Higher Apprenticeship, then a Degree Apprenticeship as a Paralegal. Or, you could enter the profession as a Legal Secretary with a Higher Apprenticeship, and work your way up to Paralegal.</p><p><a href="#" class="bold-xsmall">More information</a></p>
+          		</div>
+          	</div>
+               <!-- ======================= PARALEGAL EIGHT - END ======================= -->
+          </div>
+     </div>
+     <div class="grid-row">
+          <div class="column-full">
+          	<!-- ======================= PARALEGAL NINE - START ======================= -->
+          	<div class="answer" id="paralegal-nine">
+          		<div class="govuk-box-highlight-border big-border-box">
+                         <p class="bold-xxlarge">1.</p>
+          			<h2 class="heading-medium">Using your degree</h2>
+          			<p>You can become a Paralegal if you have a relevant degree. If your degree isn't relevant, you could gain relevant work experience and work your way up to Paralegal.</p>
+          			<p>With a relevant degree, you could take a postgraduate qualification and become a QC, work for the Bar or become a Solicitor.</p><p><a href="#" class="bold-xsmall">More information</a></p>
+          		</div>
+          	</div>
+               <!-- ======================= PARALEGAL NINE - END ======================= -->
+		</div>
+	</div>
+</main>
 
 {% endblock %}
-
-
