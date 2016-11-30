@@ -11,7 +11,7 @@
 //  FOR ALL
 
 h1, h2, h3, h4, p {
-     &.heading-large {
+     &.heading-large, &.heading-medium {
           span {
                color: $turquoise;
           }
@@ -19,16 +19,32 @@ h1, h2, h3, h4, p {
      &.turquoise-text {
           color: $turquoise;
      }
+     &.intro-yes {
+          display: none;
+          span {
+               display: inline-block;
+               float: left;
+               background: $turquoise;
+               font-weight: bold;
+               color: $white;
+               border-radius: 50%;
+               width: 2em;
+               height: 1.55em;
+               margin: -0.35em 0.5em 0 0;
+               text-align: center;
+               padding: 0.45em 0 0 0;
+          }
+     }
 }
 
 .welcome_block {
      position: relative;
-     &.search {
+     &.sub-header {
           form {
                .form-group {
                     position: relative;
                     margin-bottom: 0;
-                    input {
+                    input, select {
                          border-radius: 5px;
                          padding: 0.5em 1em;
                          border: 3px solid $white;
@@ -37,6 +53,9 @@ h1, h2, h3, h4, p {
                               outline: none;
                               border: 3px solid $focus-colour;
                          }
+                    }
+                    label {
+                         color: $white;
                     }
                     button.search {
                          position: absolute;
@@ -48,6 +67,10 @@ h1, h2, h3, h4, p {
                          background-position: 116.5% 50%;
                          background-size: 8em;
                     }
+                    select.form-control {
+                         width: 100%;
+                         height: 3em;
+                    }
                }
           }
           .home_content {
@@ -55,6 +78,7 @@ h1, h2, h3, h4, p {
           }
           p {
                float: left;
+               clear: left;
                a {
                     color: $white;
                     &:visited {
@@ -113,6 +137,22 @@ h1, h2, h3, h4, p {
                a {
                     color: $white;
                     font-weight: bold;
+               }
+          }
+     }
+     &.alpha-block {
+          padding: 0;
+          border-top: 10px solid $turquoise;
+          .home_content {
+               padding-bottom: 0;
+               .phase-banner-alpha {
+                    border-bottom: none;
+                    p {
+                         color: $black;
+                    }
+                    a {
+                         color: $black;
+                    }
                }
           }
      }
@@ -432,6 +472,145 @@ ul.salaries {
           border-width: 1.5em 0 0 1.5em;
           border-color: transparent transparent transparent $turquoise;
      }
+     &.govuk-box-highlight-border {
+          // padding: 1em;
+          p.bold-xxlarge {
+               margin: 0;
+          }
+          .heading-medium {
+               margin-top: 1em;
+          }
+     }
+}
+
+.answer {
+     .big-border-box.govuk-box-highlight-border {
+          padding: 1em;
+     }
+}
+
+form {
+     &.explore {
+          label {
+               background: $white;
+               border: none;
+               border-left: 10px solid $border-colour;
+               // width: 100%;
+               padding-left: 25px;
+               // right: 0;
+               // width: 100%;
+               // padding-top: 0;
+               // padding-bottom: 0;
+               &.selected {
+                    span.heading-medium {
+                         &:before {
+                              background: url(/public/images/checked.svg) $white no-repeat 50% 50%;
+                              background-size: 0.75em;
+                         }
+                    }
+               }
+               &:last-of-type {
+                    margin-bottom: 2em;
+               }
+               input {
+                    display: none;
+               }
+               img, span {
+                    float: left;
+                    clear: both;
+                    &.heading-medium {
+                         margin: 0;
+                    }
+               }
+               img {
+                    width: 4em;
+                    height: 4em;
+                    margin: 0 0 1.5em 0;
+                    float: left;
+                    clear: both;
+               }
+               span.heading-medium {
+                    position: relative;
+                    // height: 30px;
+                    padding-left: 40px;
+                    margin: 0 0 0.35em 0;
+                    &:before {
+                         content: "";
+                         border: 2px solid;
+                         background: transparent;
+                         width: 25px;
+                         height: 25px;
+                         display: inline-block;
+                         margin: 0 0.5em 0 0;
+                         position: absolute;
+                         top: -2px;
+                         left: 0;
+                    }
+               }
+          }
+          &.method-one, &.method-two, &.method-three, &.method-four, &.method-five {
+               label {
+                    &.selected {
+                         border-left: 10px solid $button-colour;
+                         background: $highlight-colour;
+                    }
+               }
+          }
+          &.method-one {
+               label {
+                    &.selected {
+                         border-left: 10px solid $button-colour;
+                         background: $highlight-colour;
+                         img {
+                              content:url("/public/images/icon-tick.png");
+                         }
+                    }
+               }
+          }
+          &.method-two {
+               label {
+                    &.selected {
+                         border-left: 10px solid $turquoise;
+                         background: $highlight-colour;
+                    }
+               }
+          }
+          &.method-three {
+               label {
+                    img {
+                         display: none;
+                    }
+               }
+          }
+          &.method-four {
+               label {
+                    img {
+                         display: none;
+                    }
+               }
+          }
+          &.method-five {
+               label {
+                    // padding-top: 0;
+                    // padding-bottom: 0;
+                    width: 100%;
+                    img {
+                         display: none;
+                         &.image {
+                              display: inline-block;
+                              clear: none;
+                              margin: 0 1em 0 0;
+                              width: auto;
+                              height: 7em;
+                         }
+                    }
+                    span {
+                         clear: none;
+                         float: none;
+                    }
+               }
+          }
+     }
 }
 
 .autocomplete-suggestions {
@@ -459,7 +638,7 @@ ul.salaries {
 @media (min-width: 1020px) {
 
      .welcome_block {
-          &.search {
+          &.sub-header {
                padding: 4em 0;
                margin: 0 0 2em 0;
                .heading-xlarge {
@@ -513,7 +692,7 @@ ul.salaries {
 @media (min-width: 769px) {
 
      .welcome_block {
-          &.search {
+          &.sub-header {
                padding: 4em 0;
                margin: 0 0 2em 0;
           }
@@ -582,12 +761,17 @@ ul.salaries {
 @media (min-width: 641px) {
 
      .welcome_block {
-          &.search {
-               padding: 4em 0;
+          &.sub-header {
+               padding: 4em 0 6em 0;
                margin: 0 0 1em 0;
                .heading-xlarge {
                     margin-top: 0;
                     margin-bottom: 0.5em;
+               }
+               form {
+                    label {
+                         font-size: 24px;
+                    }
                }
           }
      }
@@ -621,8 +805,8 @@ ul.salaries {
 @media (max-width: 640px) {
 
      .welcome_block {
-          &.search {
-               padding: 2em 0;
+          &.sub-header {
+               padding: 2em 0 4em 0;
                margin: 0 0 1em 0;
                .heading-xlarge {
                     margin-top: 0;

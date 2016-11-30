@@ -3,7 +3,7 @@
 * ---------------------------------------------------------------------------
 */
 /* line 15, c:/T1/app/assets/sass/hybrid.scss */
-h1.heading-large span, h2.heading-large span, h3.heading-large span, h4.heading-large span, p.heading-large span {
+h1.heading-large span, h1.heading-medium span, h2.heading-large span, h2.heading-medium span, h3.heading-large span, h3.heading-medium span, h4.heading-large span, h4.heading-medium span, p.heading-large span, p.heading-medium span {
   color: #28a197;
 }
 
@@ -12,33 +12,58 @@ h1.turquoise-text, h2.turquoise-text, h3.turquoise-text, h4.turquoise-text, p.tu
   color: #28a197;
 }
 
+/* line 22, c:/T1/app/assets/sass/hybrid.scss */
+h1.intro-yes, h2.intro-yes, h3.intro-yes, h4.intro-yes, p.intro-yes {
+  display: none;
+}
+
 /* line 24, c:/T1/app/assets/sass/hybrid.scss */
+h1.intro-yes span, h2.intro-yes span, h3.intro-yes span, h4.intro-yes span, p.intro-yes span {
+  display: inline-block;
+  float: left;
+  background: #28a197;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 50%;
+  width: 2em;
+  height: 1.55em;
+  margin: -0.35em 0.5em 0 0;
+  text-align: center;
+  padding: 0.45em 0 0 0;
+}
+
+/* line 40, c:/T1/app/assets/sass/hybrid.scss */
 .welcome_block {
   position: relative;
 }
 
-/* line 28, c:/T1/app/assets/sass/hybrid.scss */
-.welcome_block.search form .form-group {
+/* line 44, c:/T1/app/assets/sass/hybrid.scss */
+.welcome_block.sub-header form .form-group {
   position: relative;
   margin-bottom: 0;
 }
 
-/* line 31, c:/T1/app/assets/sass/hybrid.scss */
-.welcome_block.search form .form-group input {
+/* line 47, c:/T1/app/assets/sass/hybrid.scss */
+.welcome_block.sub-header form .form-group input, .welcome_block.sub-header form .form-group select {
   border-radius: 5px;
   padding: 0.5em 1em;
   border: 3px solid #fff;
   height: auto;
 }
 
-/* line 36, c:/T1/app/assets/sass/hybrid.scss */
-.welcome_block.search form .form-group input:focus {
+/* line 52, c:/T1/app/assets/sass/hybrid.scss */
+.welcome_block.sub-header form .form-group input:focus, .welcome_block.sub-header form .form-group select:focus {
   outline: none;
   border: 3px solid #ffbf47;
 }
 
-/* line 41, c:/T1/app/assets/sass/hybrid.scss */
-.welcome_block.search form .form-group button.search {
+/* line 57, c:/T1/app/assets/sass/hybrid.scss */
+.welcome_block.sub-header form .form-group label {
+  color: #fff;
+}
+
+/* line 60, c:/T1/app/assets/sass/hybrid.scss */
+.welcome_block.sub-header form .form-group button.search {
   position: absolute;
   bottom: 0;
   height: auto;
@@ -49,27 +74,34 @@ h1.turquoise-text, h2.turquoise-text, h3.turquoise-text, h4.turquoise-text, p.tu
   background-size: 8em;
 }
 
-/* line 53, c:/T1/app/assets/sass/hybrid.scss */
-.welcome_block.search .home_content {
+/* line 70, c:/T1/app/assets/sass/hybrid.scss */
+.welcome_block.sub-header form .form-group select.form-control {
+  width: 100%;
+  height: 3em;
+}
+
+/* line 76, c:/T1/app/assets/sass/hybrid.scss */
+.welcome_block.sub-header .home_content {
   padding-bottom: 0;
 }
 
-/* line 56, c:/T1/app/assets/sass/hybrid.scss */
-.welcome_block.search p {
+/* line 79, c:/T1/app/assets/sass/hybrid.scss */
+.welcome_block.sub-header p {
   float: left;
+  clear: left;
 }
 
-/* line 58, c:/T1/app/assets/sass/hybrid.scss */
-.welcome_block.search p a {
+/* line 82, c:/T1/app/assets/sass/hybrid.scss */
+.welcome_block.sub-header p a {
   color: #fff;
 }
 
-/* line 60, c:/T1/app/assets/sass/hybrid.scss */
-.welcome_block.search p a:visited {
+/* line 84, c:/T1/app/assets/sass/hybrid.scss */
+.welcome_block.sub-header p a:visited {
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* line 66, c:/T1/app/assets/sass/hybrid.scss */
+/* line 90, c:/T1/app/assets/sass/hybrid.scss */
 .welcome_block.content-page {
   position: relative;
   margin-bottom: 3em;
@@ -78,59 +110,85 @@ h1.turquoise-text, h2.turquoise-text, h3.turquoise-text, h4.turquoise-text, p.tu
   border-top: 10px solid #28a197;
 }
 
-/* line 73, c:/T1/app/assets/sass/hybrid.scss */
+/* line 97, c:/T1/app/assets/sass/hybrid.scss */
 .welcome_block.content-page .home_content {
   z-index: 10;
   position: relative;
 }
 
-/* line 87, c:/T1/app/assets/sass/hybrid.scss */
+/* line 111, c:/T1/app/assets/sass/hybrid.scss */
 .welcome_block.content-page .heading-xlarge {
   margin-bottom: 0.5em;
 }
 
-/* line 90, c:/T1/app/assets/sass/hybrid.scss */
+/* line 114, c:/T1/app/assets/sass/hybrid.scss */
 .welcome_block.content-page h1, .welcome_block.content-page h2, .welcome_block.content-page h3, .welcome_block.content-page h4, .welcome_block.content-page p {
   color: #0b0c0c;
   float: left;
 }
 
-/* line 94, c:/T1/app/assets/sass/hybrid.scss */
+/* line 118, c:/T1/app/assets/sass/hybrid.scss */
 .welcome_block.content-page .border {
   background: #28a197;
 }
 
-/* line 97, c:/T1/app/assets/sass/hybrid.scss */
+/* line 121, c:/T1/app/assets/sass/hybrid.scss */
 .welcome_block.content-page .main-intro {
   float: left;
 }
 
-/* line 99, c:/T1/app/assets/sass/hybrid.scss */
+/* line 123, c:/T1/app/assets/sass/hybrid.scss */
 .welcome_block.content-page .main-intro .border {
   margin: 0.5em 0 0.75em 0;
 }
 
-/* line 102, c:/T1/app/assets/sass/hybrid.scss */
+/* line 126, c:/T1/app/assets/sass/hybrid.scss */
 .welcome_block.content-page .main-intro p {
   margin: 0;
   float: left;
   clear: left;
 }
 
-/* line 108, c:/T1/app/assets/sass/hybrid.scss */
+/* line 132, c:/T1/app/assets/sass/hybrid.scss */
 .welcome_block.content-page nav {
   margin: 0;
   padding: 1.5em 0 0 0;
   border-bottom: none;
 }
 
-/* line 113, c:/T1/app/assets/sass/hybrid.scss */
+/* line 137, c:/T1/app/assets/sass/hybrid.scss */
 .welcome_block.content-page nav a {
   color: #fff;
   font-weight: bold;
 }
 
-/* line 119, c:/T1/app/assets/sass/hybrid.scss */
+/* line 143, c:/T1/app/assets/sass/hybrid.scss */
+.welcome_block.alpha-block {
+  padding: 0;
+  border-top: 10px solid #28a197;
+}
+
+/* line 146, c:/T1/app/assets/sass/hybrid.scss */
+.welcome_block.alpha-block .home_content {
+  padding-bottom: 0;
+}
+
+/* line 148, c:/T1/app/assets/sass/hybrid.scss */
+.welcome_block.alpha-block .home_content .phase-banner-alpha {
+  border-bottom: none;
+}
+
+/* line 150, c:/T1/app/assets/sass/hybrid.scss */
+.welcome_block.alpha-block .home_content .phase-banner-alpha p {
+  color: #0b0c0c;
+}
+
+/* line 153, c:/T1/app/assets/sass/hybrid.scss */
+.welcome_block.alpha-block .home_content .phase-banner-alpha a {
+  color: #0b0c0c;
+}
+
+/* line 159, c:/T1/app/assets/sass/hybrid.scss */
 .welcome_block .row-divider {
   display: inline-block;
   width: 100%;
@@ -144,7 +202,7 @@ h1.turquoise-text, h2.turquoise-text, h3.turquoise-text, h4.turquoise-text, p.tu
   z-index: 10;
 }
 
-/* line 133, c:/T1/app/assets/sass/hybrid.scss */
+/* line 173, c:/T1/app/assets/sass/hybrid.scss */
 .border {
   background: #fff;
   display: inline-block;
@@ -155,14 +213,14 @@ h1.turquoise-text, h2.turquoise-text, h3.turquoise-text, h4.turquoise-text, p.tu
   margin: 0 0 1.25em 0;
 }
 
-/* line 144, c:/T1/app/assets/sass/hybrid.scss */
+/* line 184, c:/T1/app/assets/sass/hybrid.scss */
 .salary, .hours {
   margin: 2em 0 1em 0;
   display: inline-block;
   font-size: inherit;
 }
 
-/* line 148, c:/T1/app/assets/sass/hybrid.scss */
+/* line 188, c:/T1/app/assets/sass/hybrid.scss */
 .salary .icon, .hours .icon {
   display: inline-block;
   width: 7em;
@@ -171,19 +229,19 @@ h1.turquoise-text, h2.turquoise-text, h3.turquoise-text, h4.turquoise-text, p.tu
   margin: 0 1em 1em 0;
 }
 
-/* line 158, c:/T1/app/assets/sass/hybrid.scss */
+/* line 198, c:/T1/app/assets/sass/hybrid.scss */
 .salary .icon {
   background: url(/public/images/profiles/salary.png) no-repeat 50% 50%;
   background-size: contain;
 }
 
-/* line 165, c:/T1/app/assets/sass/hybrid.scss */
+/* line 205, c:/T1/app/assets/sass/hybrid.scss */
 .hours .icon {
   background: url(/public/images/profiles/hours.png) no-repeat 50% 50%;
   background-size: contain;
 }
 
-/* line 171, c:/T1/app/assets/sass/hybrid.scss */
+/* line 211, c:/T1/app/assets/sass/hybrid.scss */
 .what-next, .testimonial, .extra-content {
   background: #f8f8f8;
   color: #0b0c0c;
@@ -191,12 +249,12 @@ h1.turquoise-text, h2.turquoise-text, h3.turquoise-text, h4.turquoise-text, p.tu
   padding: 4em 0;
 }
 
-/* line 176, c:/T1/app/assets/sass/hybrid.scss */
+/* line 216, c:/T1/app/assets/sass/hybrid.scss */
 .what-next h1, .testimonial h1, .extra-content h1 {
   margin: 0 0 0.5em 0;
 }
 
-/* line 180, c:/T1/app/assets/sass/hybrid.scss */
+/* line 220, c:/T1/app/assets/sass/hybrid.scss */
 .what-next a.email span, .what-next a.phone span, .testimonial a.email span, .testimonial a.phone span, .extra-content a.email span, .extra-content a.phone span {
   display: inline-block;
   width: 1.75em;
@@ -205,31 +263,31 @@ h1.turquoise-text, h2.turquoise-text, h3.turquoise-text, h4.turquoise-text, p.tu
   margin: -0.25em 0.75em 0 0;
 }
 
-/* line 189, c:/T1/app/assets/sass/hybrid.scss */
+/* line 229, c:/T1/app/assets/sass/hybrid.scss */
 .what-next a.email span, .testimonial a.email span, .extra-content a.email span {
   background: url(/public/images/icon-email.png) no-repeat 50% 50%;
   background-size: contain;
 }
 
-/* line 195, c:/T1/app/assets/sass/hybrid.scss */
+/* line 235, c:/T1/app/assets/sass/hybrid.scss */
 .what-next a.phone span, .testimonial a.phone span, .extra-content a.phone span {
   background: url(/public/images/icon-phone.png) no-repeat 50% 50%;
   background-size: contain;
 }
 
-/* line 208, c:/T1/app/assets/sass/hybrid.scss */
+/* line 248, c:/T1/app/assets/sass/hybrid.scss */
 .testimonial {
   background: #fff;
   color: #0b0c0c;
 }
 
-/* line 212, c:/T1/app/assets/sass/hybrid.scss */
+/* line 252, c:/T1/app/assets/sass/hybrid.scss */
 .testimonial .home_content {
   padding: 0;
   position: relative;
 }
 
-/* line 215, c:/T1/app/assets/sass/hybrid.scss */
+/* line 255, c:/T1/app/assets/sass/hybrid.scss */
 .testimonial .home_content img {
   width: 11em;
   height: 11em;
@@ -238,7 +296,7 @@ h1.turquoise-text, h2.turquoise-text, h3.turquoise-text, h4.turquoise-text, p.tu
   margin: -0.25em 3em 0 0;
 }
 
-/* line 222, c:/T1/app/assets/sass/hybrid.scss */
+/* line 262, c:/T1/app/assets/sass/hybrid.scss */
 .testimonial .home_content .quote {
   position: absolute;
   display: inline-block;
@@ -249,50 +307,50 @@ h1.turquoise-text, h2.turquoise-text, h3.turquoise-text, h4.turquoise-text, p.tu
   color: #28a197;
 }
 
-/* line 232, c:/T1/app/assets/sass/hybrid.scss */
+/* line 272, c:/T1/app/assets/sass/hybrid.scss */
 .testimonial .home_content .quote.one {
   right: 5em;
   background: url(/public/images/profiles/left-quote-mark.svg) no-repeat 50% 50%;
   background-size: contain;
 }
 
-/* line 237, c:/T1/app/assets/sass/hybrid.scss */
+/* line 277, c:/T1/app/assets/sass/hybrid.scss */
 .testimonial .home_content .quote.two {
   background: url(/public/images/profiles/right-quote-mark.svg) no-repeat 50% 50%;
   background-size: contain;
 }
 
-/* line 245, c:/T1/app/assets/sass/hybrid.scss */
+/* line 285, c:/T1/app/assets/sass/hybrid.scss */
 .extra-content {
   background: #fff;
   color: #0b0c0c;
 }
 
-/* line 248, c:/T1/app/assets/sass/hybrid.scss */
+/* line 288, c:/T1/app/assets/sass/hybrid.scss */
 .extra-content .column-one-third {
   margin-bottom: 3.5em;
 }
 
-/* line 250, c:/T1/app/assets/sass/hybrid.scss */
+/* line 290, c:/T1/app/assets/sass/hybrid.scss */
 .extra-content .column-one-third hr {
   height: 10px;
   background: #28a197;
   margin: 0 0 1.5em 0;
 }
 
-/* line 256, c:/T1/app/assets/sass/hybrid.scss */
+/* line 296, c:/T1/app/assets/sass/hybrid.scss */
 .extra-content hr {
   margin: 4em 0;
 }
 
-/* line 262, c:/T1/app/assets/sass/hybrid.scss */
+/* line 302, c:/T1/app/assets/sass/hybrid.scss */
 .jump-links.hybrid-links {
   margin: 0 0 2em 0;
   border-bottom: none;
   padding: 0;
 }
 
-/* line 267, c:/T1/app/assets/sass/hybrid.scss */
+/* line 307, c:/T1/app/assets/sass/hybrid.scss */
 .jump-links.hybrid-links a span {
   background: #005ea5;
   color: #fff;
@@ -313,18 +371,18 @@ h1.turquoise-text, h2.turquoise-text, h3.turquoise-text, h4.turquoise-text, p.tu
   align-items: center;
 }
 
-/* line 288, c:/T1/app/assets/sass/hybrid.scss */
+/* line 328, c:/T1/app/assets/sass/hybrid.scss */
 .jump-links.hybrid-links ol {
   color: #28a197;
   font-weight: bold;
 }
 
-/* line 292, c:/T1/app/assets/sass/hybrid.scss */
+/* line 332, c:/T1/app/assets/sass/hybrid.scss */
 .jump-links.hybrid-links ol li a {
   font-weight: normal;
 }
 
-/* line 300, c:/T1/app/assets/sass/hybrid.scss */
+/* line 340, c:/T1/app/assets/sass/hybrid.scss */
 .number, .corner {
   position: absolute;
   display: -webkit-box;
@@ -336,7 +394,7 @@ h1.turquoise-text, h2.turquoise-text, h3.turquoise-text, h4.turquoise-text, p.tu
   align-items: center;
 }
 
-/* line 312, c:/T1/app/assets/sass/hybrid.scss */
+/* line 352, c:/T1/app/assets/sass/hybrid.scss */
 .number {
   background: #28a197;
   border-radius: 50%;
@@ -350,7 +408,7 @@ h1.turquoise-text, h2.turquoise-text, h3.turquoise-text, h4.turquoise-text, p.tu
   display: none;
 }
 
-/* line 326, c:/T1/app/assets/sass/hybrid.scss */
+/* line 366, c:/T1/app/assets/sass/hybrid.scss */
 .panel-border-wide.hybrid {
   border-left: 10px solid #28a197;
   margin: 1em 0 2em 0;
@@ -358,95 +416,95 @@ h1.turquoise-text, h2.turquoise-text, h3.turquoise-text, h4.turquoise-text, p.tu
   padding-bottom: 0;
 }
 
-/* line 332, c:/T1/app/assets/sass/hybrid.scss */
+/* line 372, c:/T1/app/assets/sass/hybrid.scss */
 .panel-border-wide.hybrid a {
   text-decoration: none;
   display: inline-block;
 }
 
-/* line 335, c:/T1/app/assets/sass/hybrid.scss */
+/* line 375, c:/T1/app/assets/sass/hybrid.scss */
 .panel-border-wide.hybrid a:focus {
   border: 3px solid #ffbf47;
 }
 
-/* line 338, c:/T1/app/assets/sass/hybrid.scss */
+/* line 378, c:/T1/app/assets/sass/hybrid.scss */
 .panel-border-wide.hybrid a h3 {
   text-decoration: underline;
   margin-top: 10px;
 }
 
-/* line 342, c:/T1/app/assets/sass/hybrid.scss */
+/* line 382, c:/T1/app/assets/sass/hybrid.scss */
 .panel-border-wide.hybrid a p {
   text-decoration: none;
   color: #0b0c0c;
 }
 
-/* line 345, c:/T1/app/assets/sass/hybrid.scss */
+/* line 385, c:/T1/app/assets/sass/hybrid.scss */
 .panel-border-wide.hybrid a p.bold-xxlarge {
   margin-bottom: 15px;
 }
 
-/* line 350, c:/T1/app/assets/sass/hybrid.scss */
+/* line 390, c:/T1/app/assets/sass/hybrid.scss */
 .panel-border-wide.hybrid .column-one-third {
   line-height: 0;
 }
 
-/* line 353, c:/T1/app/assets/sass/hybrid.scss */
+/* line 393, c:/T1/app/assets/sass/hybrid.scss */
 .panel-border-wide.hybrid img {
   line-height: 0;
   width: 100%;
 }
 
-/* line 363, c:/T1/app/assets/sass/hybrid.scss */
+/* line 403, c:/T1/app/assets/sass/hybrid.scss */
 .intro-section .bold-xxlarge {
   margin-top: 0;
 }
 
-/* line 367, c:/T1/app/assets/sass/hybrid.scss */
+/* line 407, c:/T1/app/assets/sass/hybrid.scss */
 .intro-section .button-start {
   margin-top: 1em;
 }
 
-/* line 370, c:/T1/app/assets/sass/hybrid.scss */
+/* line 410, c:/T1/app/assets/sass/hybrid.scss */
 .intro-section hr {
   margin-top: 3em;
   margin-bottom: 3em;
 }
 
-/* line 377, c:/T1/app/assets/sass/hybrid.scss */
+/* line 417, c:/T1/app/assets/sass/hybrid.scss */
 ul.salaries {
   margin: 1em 0 2em 0;
   width: 100%;
   display: inline-block;
 }
 
-/* line 381, c:/T1/app/assets/sass/hybrid.scss */
+/* line 421, c:/T1/app/assets/sass/hybrid.scss */
 ul.salaries li {
   list-style: none;
   text-align: center;
   float: left;
 }
 
-/* line 385, c:/T1/app/assets/sass/hybrid.scss */
+/* line 425, c:/T1/app/assets/sass/hybrid.scss */
 ul.salaries li p {
   color: rgba(11, 12, 12, 0.4);
   margin: 1em 0 0 0;
 }
 
-/* line 389, c:/T1/app/assets/sass/hybrid.scss */
+/* line 429, c:/T1/app/assets/sass/hybrid.scss */
 ul.salaries li strong {
   display: inline-block;
   width: 100%;
   font-weight: bold;
 }
 
-/* line 394, c:/T1/app/assets/sass/hybrid.scss */
+/* line 434, c:/T1/app/assets/sass/hybrid.scss */
 ul.salaries li .value {
   display: inline-block;
   margin: 1em 0 0 0;
 }
 
-/* line 397, c:/T1/app/assets/sass/hybrid.scss */
+/* line 437, c:/T1/app/assets/sass/hybrid.scss */
 ul.salaries li .value span {
   display: -webkit-box;
   display: -moz-box;
@@ -463,13 +521,13 @@ ul.salaries li .value span {
   font-weight: bold;
 }
 
-/* line 417, c:/T1/app/assets/sass/hybrid.scss */
+/* line 457, c:/T1/app/assets/sass/hybrid.scss */
 .big-border-box {
   border: 10px solid #bfc1c3;
   position: relative;
 }
 
-/* line 421, c:/T1/app/assets/sass/hybrid.scss */
+/* line 461, c:/T1/app/assets/sass/hybrid.scss */
 .big-border-box::before {
   content: "";
   background: #fff;
@@ -483,7 +541,145 @@ ul.salaries li .value span {
   border-color: transparent transparent transparent #28a197;
 }
 
-/* line 437, c:/T1/app/assets/sass/hybrid.scss */
+/* line 477, c:/T1/app/assets/sass/hybrid.scss */
+.big-border-box.govuk-box-highlight-border p.bold-xxlarge {
+  margin: 0;
+}
+
+/* line 480, c:/T1/app/assets/sass/hybrid.scss */
+.big-border-box.govuk-box-highlight-border .heading-medium {
+  margin-top: 1em;
+}
+
+/* line 487, c:/T1/app/assets/sass/hybrid.scss */
+.answer .big-border-box.govuk-box-highlight-border {
+  padding: 1em;
+}
+
+/* line 494, c:/T1/app/assets/sass/hybrid.scss */
+form.explore label {
+  background: #fff;
+  border: none;
+  border-left: 10px solid #bfc1c3;
+  padding-left: 25px;
+}
+
+/* line 506, c:/T1/app/assets/sass/hybrid.scss */
+form.explore label.selected span.heading-medium:before {
+  background: url(/public/images/checked.svg) #fff no-repeat 50% 50%;
+  background-size: 0.75em;
+}
+
+/* line 512, c:/T1/app/assets/sass/hybrid.scss */
+form.explore label:last-of-type {
+  margin-bottom: 2em;
+}
+
+/* line 515, c:/T1/app/assets/sass/hybrid.scss */
+form.explore label input {
+  display: none;
+}
+
+/* line 518, c:/T1/app/assets/sass/hybrid.scss */
+form.explore label img, form.explore label span {
+  float: left;
+  clear: both;
+}
+
+/* line 521, c:/T1/app/assets/sass/hybrid.scss */
+form.explore label img.heading-medium, form.explore label span.heading-medium {
+  margin: 0;
+}
+
+/* line 525, c:/T1/app/assets/sass/hybrid.scss */
+form.explore label img {
+  width: 4em;
+  height: 4em;
+  margin: 0 0 1.5em 0;
+  float: left;
+  clear: both;
+}
+
+/* line 532, c:/T1/app/assets/sass/hybrid.scss */
+form.explore label span.heading-medium {
+  position: relative;
+  padding-left: 40px;
+  margin: 0 0 0.35em 0;
+}
+
+/* line 537, c:/T1/app/assets/sass/hybrid.scss */
+form.explore label span.heading-medium:before {
+  content: "";
+  border: 2px solid;
+  background: transparent;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin: 0 0.5em 0 0;
+  position: absolute;
+  top: -2px;
+  left: 0;
+}
+
+/* line 553, c:/T1/app/assets/sass/hybrid.scss */
+form.explore.method-one label.selected, form.explore.method-two label.selected, form.explore.method-three label.selected, form.explore.method-four label.selected, form.explore.method-five label.selected {
+  border-left: 10px solid #00823b;
+  background: #f8f8f8;
+}
+
+/* line 561, c:/T1/app/assets/sass/hybrid.scss */
+form.explore.method-one label.selected {
+  border-left: 10px solid #00823b;
+  background: #f8f8f8;
+}
+
+/* line 564, c:/T1/app/assets/sass/hybrid.scss */
+form.explore.method-one label.selected img {
+  content: url("/public/images/icon-tick.png");
+}
+
+/* line 572, c:/T1/app/assets/sass/hybrid.scss */
+form.explore.method-two label.selected {
+  border-left: 10px solid #28a197;
+  background: #f8f8f8;
+}
+
+/* line 580, c:/T1/app/assets/sass/hybrid.scss */
+form.explore.method-three label img {
+  display: none;
+}
+
+/* line 587, c:/T1/app/assets/sass/hybrid.scss */
+form.explore.method-four label img {
+  display: none;
+}
+
+/* line 593, c:/T1/app/assets/sass/hybrid.scss */
+form.explore.method-five label {
+  width: 100%;
+}
+
+/* line 597, c:/T1/app/assets/sass/hybrid.scss */
+form.explore.method-five label img {
+  display: none;
+}
+
+/* line 599, c:/T1/app/assets/sass/hybrid.scss */
+form.explore.method-five label img.image {
+  display: inline-block;
+  clear: none;
+  margin: 0 1em 0 0;
+  width: auto;
+  height: 7em;
+}
+
+/* line 607, c:/T1/app/assets/sass/hybrid.scss */
+form.explore.method-five label span {
+  clear: none;
+  float: none;
+}
+
+/* line 616, c:/T1/app/assets/sass/hybrid.scss */
 .autocomplete-suggestions {
   width: 100%;
   background: #fff;
@@ -494,50 +690,50 @@ ul.salaries li .value span {
   max-height: 300px !important;
 }
 
-/* line 445, c:/T1/app/assets/sass/hybrid.scss */
+/* line 624, c:/T1/app/assets/sass/hybrid.scss */
 .autocomplete-suggestions .autocomplete-suggestion {
   padding: 1em;
 }
 
-/* line 447, c:/T1/app/assets/sass/hybrid.scss */
+/* line 626, c:/T1/app/assets/sass/hybrid.scss */
 .autocomplete-suggestions .autocomplete-suggestion:hover, .autocomplete-suggestions .autocomplete-suggestion:focus, .autocomplete-suggestions .autocomplete-suggestion.autocomplete-selected {
   background: #f2f3f4;
   cursor: pointer;
 }
 
-/* line 451, c:/T1/app/assets/sass/hybrid.scss */
+/* line 630, c:/T1/app/assets/sass/hybrid.scss */
 .autocomplete-suggestions .autocomplete-suggestion strong {
   color: #28a197;
   font-weight: bold;
 }
 
 @media (min-width: 1020px) {
-  /* line 462, c:/T1/app/assets/sass/hybrid.scss */
-  .welcome_block.search {
+  /* line 641, c:/T1/app/assets/sass/hybrid.scss */
+  .welcome_block.sub-header {
     padding: 4em 0;
     margin: 0 0 2em 0;
   }
-  /* line 465, c:/T1/app/assets/sass/hybrid.scss */
-  .welcome_block.search .heading-xlarge {
+  /* line 644, c:/T1/app/assets/sass/hybrid.scss */
+  .welcome_block.sub-header .heading-xlarge {
     margin-top: 0;
     margin-bottom: 0.5em;
   }
-  /* line 470, c:/T1/app/assets/sass/hybrid.scss */
-  .welcome_block.search form input {
+  /* line 649, c:/T1/app/assets/sass/hybrid.scss */
+  .welcome_block.sub-header form input {
     font-size: 2rem;
   }
-  /* line 479, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 658, c:/T1/app/assets/sass/hybrid.scss */
   ul.salaries.full-width li, ul.salaries.two-thirds li {
     width: 33%;
   }
-  /* line 486, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 665, c:/T1/app/assets/sass/hybrid.scss */
   ul.salaries.full-width li .value span {
     width: 7em;
     height: 7em;
     padding: 1em;
     font-size: 4rem;
   }
-  /* line 498, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 677, c:/T1/app/assets/sass/hybrid.scss */
   ul.salaries.two-thirds li .value span {
     width: 5em;
     height: 5em;
@@ -547,67 +743,71 @@ ul.salaries li .value span {
 }
 
 @media (min-width: 769px) {
-  /* line 516, c:/T1/app/assets/sass/hybrid.scss */
-  .welcome_block.search {
+  /* line 695, c:/T1/app/assets/sass/hybrid.scss */
+  .welcome_block.sub-header {
     padding: 4em 0;
     margin: 0 0 2em 0;
   }
-  /* line 523, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 702, c:/T1/app/assets/sass/hybrid.scss */
   ul.salaries li {
     width: 33%;
   }
-  /* line 526, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 705, c:/T1/app/assets/sass/hybrid.scss */
   ul.salaries li .value span {
     width: 6em;
     height: 6em;
     padding: 1em;
     font-size: 3rem;
   }
-  /* line 538, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 717, c:/T1/app/assets/sass/hybrid.scss */
   ul.salaries.full-width li, ul.salaries.two-thirds li {
     width: 33%;
   }
-  /* line 545, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 724, c:/T1/app/assets/sass/hybrid.scss */
   ul.salaries.full-width li .value span {
     width: 6em;
     height: 6em;
     padding: 1em;
     font-size: 3rem;
   }
-  /* line 557, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 736, c:/T1/app/assets/sass/hybrid.scss */
   ul.salaries.two-thirds li .value span {
     width: 4em;
     height: 4em;
     padding: 1em;
     font-size: 2.75rem;
   }
-  /* line 568, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 747, c:/T1/app/assets/sass/hybrid.scss */
   section, aside {
     font-size: 19px;
   }
 }
 
 @media (min-width: 641px) {
-  /* line 585, c:/T1/app/assets/sass/hybrid.scss */
-  .welcome_block.search {
-    padding: 4em 0;
+  /* line 764, c:/T1/app/assets/sass/hybrid.scss */
+  .welcome_block.sub-header {
+    padding: 4em 0 6em 0;
     margin: 0 0 1em 0;
   }
-  /* line 588, c:/T1/app/assets/sass/hybrid.scss */
-  .welcome_block.search .heading-xlarge {
+  /* line 767, c:/T1/app/assets/sass/hybrid.scss */
+  .welcome_block.sub-header .heading-xlarge {
     margin-top: 0;
     margin-bottom: 0.5em;
   }
-  /* line 596, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 772, c:/T1/app/assets/sass/hybrid.scss */
+  .welcome_block.sub-header form label {
+    font-size: 24px;
+  }
+  /* line 780, c:/T1/app/assets/sass/hybrid.scss */
   ul.salaries li {
     width: 33%;
     margin-bottom: 1em;
   }
-  /* line 599, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 783, c:/T1/app/assets/sass/hybrid.scss */
   ul.salaries li strong {
     font-size: 2rem;
   }
-  /* line 603, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 787, c:/T1/app/assets/sass/hybrid.scss */
   ul.salaries li .value span {
     width: 5em;
     height: 5em;
@@ -617,54 +817,54 @@ ul.salaries li .value span {
 }
 
 @media (max-width: 640px) {
-  /* line 624, c:/T1/app/assets/sass/hybrid.scss */
-  .welcome_block.search {
-    padding: 2em 0;
+  /* line 808, c:/T1/app/assets/sass/hybrid.scss */
+  .welcome_block.sub-header {
+    padding: 2em 0 4em 0;
     margin: 0 0 1em 0;
   }
-  /* line 627, c:/T1/app/assets/sass/hybrid.scss */
-  .welcome_block.search .heading-xlarge {
+  /* line 811, c:/T1/app/assets/sass/hybrid.scss */
+  .welcome_block.sub-header .heading-xlarge {
     margin-top: 0;
     margin-bottom: 0.5em;
   }
-  /* line 632, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 816, c:/T1/app/assets/sass/hybrid.scss */
   .welcome_block.content-page {
     margin-bottom: 2em;
   }
-  /* line 638, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 822, c:/T1/app/assets/sass/hybrid.scss */
   ul.salaries li {
     width: 50%;
     margin-bottom: 1em;
   }
-  /* line 641, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 825, c:/T1/app/assets/sass/hybrid.scss */
   ul.salaries li strong {
     font-size: 2rem;
   }
-  /* line 645, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 829, c:/T1/app/assets/sass/hybrid.scss */
   ul.salaries li .value span {
     width: 5em;
     height: 5em;
     padding: 1em;
     font-size: 1.6rem;
   }
-  /* line 656, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 840, c:/T1/app/assets/sass/hybrid.scss */
   .panel-border-wide.hybrid {
     margin: 1em 0 4em 0;
   }
-  /* line 658, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 842, c:/T1/app/assets/sass/hybrid.scss */
   .panel-border-wide.hybrid img {
     margin-bottom: 1.5em;
   }
-  /* line 665, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 849, c:/T1/app/assets/sass/hybrid.scss */
   .intro-section .bold-xxlarge {
     margin-bottom: 0.5em;
   }
-  /* line 670, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 854, c:/T1/app/assets/sass/hybrid.scss */
   .salary, .hours {
     margin: 1em 0 0 0;
     display: inline-block;
   }
-  /* line 673, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 857, c:/T1/app/assets/sass/hybrid.scss */
   .salary .icon, .hours .icon {
     display: inline-block;
     width: 6em;
@@ -672,35 +872,35 @@ ul.salaries li .value span {
     float: left;
     margin: 0 1em 0 0;
   }
-  /* line 684, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 868, c:/T1/app/assets/sass/hybrid.scss */
   .extra-content .column-one-third hr {
     margin: 1.5em 0;
   }
-  /* line 692, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 876, c:/T1/app/assets/sass/hybrid.scss */
   .testimonial .home_content .text-wrap {
     width: 100%;
     float: left;
     clear: left;
   }
-  /* line 697, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 881, c:/T1/app/assets/sass/hybrid.scss */
   .testimonial .home_content img {
     width: 11em;
     height: 11em;
     float: left;
     margin: -0.25em 3em 2em 0;
   }
-  /* line 703, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 887, c:/T1/app/assets/sass/hybrid.scss */
   .testimonial .home_content .quote {
     width: 4em;
     height: 6em;
     bottom: -1em;
     right: 0;
   }
-  /* line 708, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 892, c:/T1/app/assets/sass/hybrid.scss */
   .testimonial .home_content .quote.one {
     right: 5em;
   }
-  /* line 717, c:/T1/app/assets/sass/hybrid.scss */
+  /* line 901, c:/T1/app/assets/sass/hybrid.scss */
   section, aside {
     font-size: 16px;
   }

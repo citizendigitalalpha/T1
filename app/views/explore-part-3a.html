@@ -1,103 +1,152 @@
 {% extends "layout.html" %}
 
 {% block page_title %}
-  National Careers Service - Explore
+National Careers Service - Explore
 {% endblock %}
 
 {% block content %}
 
 <main id="content" role="main">
-    {% include "includes/phase_banner_alpha.html" %}
-  <div class="grid-row">
-    <div class="column-two-thirds">
+     {% include "includes/phase_banner_alpha.html" %}
+     <div class="grid-row">
+          <div class="column-two-thirds">
+               <h1 class="heading-xlarge">
+                    <span class="heading-secondary">Explore part 3 of 5</span>
+                    What environment do you like to work in?
+               </h1>
+          </div>
+     </div>
+     <div class="grid-row">
+          <div class="column-full">
+               <form method="get" action="/explore-part-4a" class="explore method-three">
+                    <fieldset class="form-group">
+                         <legend class="visuallyhidden">
+                              What environment do you like to work in?
+                         </legend>
+                         <div class="grid-row">
+                              <div class="column-one-half">
+                                   <label for="radio-part-1" class="block-label selection-button-checkbox">
+                                        <img src="../public/images/section-3/icon-1.png" alt="Office">
+                                        <input id="radio-part-1" type="checkbox" name="Office" value="Office">
+                                        <span class="heading-medium">Office</span><br>
+                                        <span>You enjoy working alongside colleagues</span>
+                                   </label>
+                              </div>
+                              <div class="column-one-half">
+                                   <label for="radio-part-2" class="block-label selection-button-checkbox">
+                                        <img src="../public/images/section-3/icon-2.png" alt="Workshop">
+                                        <input id="radio-part-2" type="checkbox" name="Workshop" value="Workshop">
+                                        <span class="heading-medium">Workshop</span><br>
+                                        <span>Making and creating inspires you</span>
+                                   </label>
+                              </div>
+                         </div>
+                         <div class="grid-row">
+                              <div class="column-one-half">
+                                   <label for="radio-part-3" class="block-label selection-button-checkbox">
+                                        <img src="../public/images/section-3/icon-3.png" alt="Garage">
+                                        <input id="radio-part-3" type="checkbox" name="Garage" value="Garage">
+                                        <span class="heading-medium">Garage</span><br>
+                                        <span>Get grease under your fingernails</span>
+                                   </label>
+                              </div>
+                              <div class="column-one-half">
+                                   <label for="radio-part-4" class="block-label selection-button-checkbox">
+                                        <img src="../public/images/section-3/icon-4.png" alt="The great outdoors">
+                                        <input id="radio-part-4" type="checkbox" name="The great outdoors" value="The great outdoors">
+                                        <span class="heading-medium">Outdoors</span><br>
+                                        <span>You enjoy fresh air</span>
+                                   </label>
+                              </div>
+                         </div>
+                         <div class="grid-row">
+                              <div class="column-one-half">
+                                   <label for="radio-part-5" class="block-label selection-button-checkbox">
+                                        <img src="../public/images/section-3/icon-5.png" alt="Laboratory">
+                                        <input id="radio-part-5" type="checkbox" name="Laboratory" value="Laboratory">
+                                        <span class="heading-medium">Laboratory</span><br>
+                                        <span>You enjoy testing and experimenting</span>
+                                   </label>
+                              </div>
+                              <div class="column-one-half">
+                                   <label for="radio-part-6" class="block-label selection-button-checkbox">
+                                        <img src="../public/images/section-3/icon-6.png" alt="Hospital">
+                                        <input id="radio-part-6" type="checkbox" name="Hospital" value="Hospital">
+                                        <span class="heading-medium">Hospital</span><br>
+                                        <span>Contributing to people’s health and happiness</span>
+                                   </label>
+                              </div>
+                         </div>
+                         <div class="grid-row">
+                              <div class="column-one-half">
+                                   <label for="radio-part-7" class="block-label selection-button-checkbox">
+                                        <img src="../public/images/section-3/icon-7.png" alt="Classroom">
+                                        <input id="radio-part-7" type="checkbox" name="Classroom" value="Classroom">
+                                        <span class="heading-medium">Classroom</span><br>
+                                        <span>Helping people to grow and learn</span>
+                                   </label>
+                              </div>
+                              <div class="column-one-half">
+                                   <label for="radio-part-8" class="block-label selection-button-checkbox">
+                                        <img src="../public/images/section-3/icon-8.png" alt="Home">
+                                        <input id="radio-part-8" type="checkbox" name="Home" value="Home">
+                                        <span class="heading-medium">Home</span><br>
+                                        <span>You can motivate yourself to work in your own home</span>
+                                   </label>
+                              </div>
+                         </div>
+                         <div class="grid-row">
+                              <div class="column-one-half">
+                                   <label for="radio-part-9" class="block-label selection-button-checkbox">
+                                        <img src="../public/images/section-3/icon-9.png" alt="Travel">
+                                        <input id="radio-part-9" type="checkbox" name="Travel" value="Travel">
+                                        <span class="heading-medium">Travel</span><br>
+                                        <span>You enjoy moving from place to place</span>
+                                   </label>
+                              </div>
+                              <div class="column-one-half">
+                                   <label for="radio-part-10" class="block-label selection-button-checkbox">
+                                        <img src="../public/images/section-3/icon-10.png" alt="Overseas">
+                                        <input id="radio-part-10" type="checkbox" name="Overseas" value="Overseas">
+                                        <span class="heading-medium">Overseas</span><br>
+                                        <span>You want to work abroad</span>
+                                   </label>
+                              </div>
+                         </div>
+                         <div class="grid-row">
+                              <div class="column-one-half">
+                                   <label for="radio-part-11" class="block-label selection-button-checkbox">
+                                        <img src="../public/images/section-3/icon-11.png" alt="Retail">
+                                        <input id="radio-part-11" type="checkbox" name="Retail" value="Retail">
+                                        <span class="heading-medium">Retail</span><br>
+                                        <span>You enjoy helping others to buy things</span>
+                                   </label>
+                              </div>
+                              <div class="column-one-half">
+                                   <label for="radio-part-12" class="block-label selection-button-checkbox">
+                                        <img src="../public/images/section-3/icon-12.png" alt="Wifi hotspot">
+                                        <input id="radio-part-12" type="checkbox" name="Wifi hotspot" value="Wifi hotspot">
+                                        <span class="heading-medium">Wifi hotspot</span><br>
+                                        <span>You want to move around freely</span>
+                                   </label>
+                              </div>
+                         </div>
+                         <div class="grid-row">
+                              <div class="column-one-half">
+                                   <label for="radio-part-13" class="block-label selection-button-checkbox">
+                                        <img src="../public/images/section-3/icon-13.png" alt="None">
+                                        <input id="radio-part-13" type="checkbox" name="None" value="None">
+                                        <span class="heading-medium">Undecided</span><br>
+                                        <span>You may need a bit more guidance</span>
+                                   </label>
+                              </div>
+                         </div>
+                    </fieldset>
+                    <input class="button" type="submit" value="Continue">
+               </form>
 
-      <h1 class="heading-xlarge">
-          <span class="heading-secondary">Explore part 3 of 5</span>
-        What environment do you like to work in?        
-      </h1>
-        <form method="get" action="/explore-part-4a">
-        <fieldset class="form-group">
-            <legend class="visuallyhidden">
-              What environment do you like to work in?
-            </legend>
-            <label for="radio-part-1" class="block-label">
-              <input id="radio-part-1" type="checkbox" name="Office" value="Office">
-              <span class="heading-small">Office</span><br>
-              You enjoy working alongside colleagues
-            </label>
-            <label for="radio-part-2" class="block-label">
-              <input id="radio-part-2" type="checkbox" name="Workshop" value="Workshop">
-              <span class="heading-small">Workshop</span><br>
-              Making and creating inspires you
-            </label>
-            <label for="radio-part-3" class="block-label">
-              <input id="radio-part-3" type="checkbox" name="Garage" value="Garage">
-              <span class="heading-small">Garage</span><br>
-              Get grease under your fingernails
-            </label>
-            <label for="radio-part-3" class="block-label">
-              <input id="radio-part-3" type="checkbox" name="The great outdoors" value="The great outdoors">
-              <span class="heading-small">Outdoors</span><br>
-              You enjoy fresh air
-            </label>
-            <label for="radio-part-4" class="block-label">
-              <input id="radio-part-4" type="checkbox" name="Laboratory" value="Laboratory">
-              <span class="heading-small">Laboratory</span><br>
-              You enjoy testing and experimenting
-            </label>
-            <label for="radio-part-5" class="block-label">
-              <input id="radio-part-5" type="checkbox" name="Hospital" value="Hospital">
-              <span class="heading-small">Hospital</span><br>
-              Contributing to people’s health and happiness
-            </label>
-            <label for="radio-part-6" class="block-label">
-              <input id="radio-part-6" type="checkbox" name="Classroom" value="Classroom">
-              <span class="heading-small">Classroom</span><br>
-              Helping people to grow and learn
-            </label>
-            <label for="radio-part-7" class="block-label">
-              <input id="radio-part-7" type="checkbox" name="Home" value="Home">
-              <span class="heading-small">Home</span><br>
-              You can motivate yourself to work in your own home
-            </label>
-            <label for="radio-part-8" class="block-label">
-              <input id="radio-part-8" type="checkbox" name="Travel" value="Travel">
-              <span class="heading-small">Travel</span><br>
-              You enjoy moving from place to place
-            </label> 
-            <!--<label for="radio-part-9" class="block-label">
-              <input id="radio-part-9" type="checkbox" name="On the road" value="On the road">
-              <span class="heading-small">On the road</span><br>
-              You enjoy moving from place to place
-            </label>--> 
-            <label for="radio-part-10" class="block-label">
-              <input id="radio-part-10" type="checkbox" name="Overseas" value="Overseas">
-              <span class="heading-small">Overseas</span><br>
-              You want to work abroad
-            </label>
-            <label for="radio-part-11" class="block-label">
-              <input id="radio-part-11" type="checkbox" name="Retail" value="Retail">
-              <span class="heading-small">Retail</span><br>
-              You enjoy helping others to buy things
-            </label>
-            <label for="radio-part-12" class="block-label">
-              <input id="radio-part-12" type="checkbox" name="Wifi hotspot" value="Wifi hotspot">
-              <span class="heading-small">Wifi hotspot</span><br>
-              You want to move around freely
-            </label>  
-            <label for="radio-part-13" class="block-label">
-              <input id="radio-part-13" type="checkbox" name="None" value="None">
-              <span class="heading-small">Undecided</span><br>
-              You may need a bit more guidance
-            </label>            
-          </fieldset>
-           <input class="button" type="submit" value="Continue"> 
-        </form>
-  
-    </div>
-  </div>
+          </div>
+     </div>
 </main>
 
 {% endblock %}
-
-

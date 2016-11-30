@@ -10,8 +10,4 @@ node_modules/*
 public/stylesheets/hybrid.css
 *.map
 *.css
-public/stylesheets/hybrid.css
-*.css
-public/stylesheets/application.css
-public/stylesheets/application.css
-*.css
+

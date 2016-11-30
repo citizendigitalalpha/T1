@@ -1,119 +1,188 @@
 {% extends "layout.html" %}
 
 {% block page_title %}
-  National Careers Service - Explore
+National Careers Service - Explore
 {% endblock %}
 
 {% block content %}
 
 <main id="content" role="main">
-    {% include "includes/phase_banner_alpha.html" %}
-  <div class="grid-row">
-    <div class="column-two-thirds">
+     {% include "includes/phase_banner_alpha.html" %}
+     <div class="grid-row">
+          <div class="column-two-thirds">
+               <h1 class="heading-xlarge">
+                    <span class="heading-secondary">Explore part 1 of 5</span>
+                    Choose your hobbies and interests
+               </h1>
+          </div>
+     </div>
+     <div class="grid-row">
+          <div class="column-full">
+               <form method="get" action="/explore-part-2a" class="explore method-one">
+                    <fieldset class="form-group">
+                         <legend class="visuallyhidden">
+                              Choose your hobbies and interests
+                         </legend>
+                         <div class="grid-row">
+                              <div class="column-one-half">
+                                   <label for="radio-part-1" class="block-label selection-button-checkbox">
+                                        <img src="../public/images/section-1/icon-1.png" alt="Reading">
+                                        <input id="radio-part-1" type="checkbox" name="Reading" value="Reading">
+                                        <span class="heading-medium">Reading</span><br>
+                                        <span>Fiction and non-fiction, including magazines and blogs</span>
+                                   </label>
+                              </div>
+                              <div class="column-one-half">
+                                   <label for="radio-part-2" class="block-label">
+                                        <input id="radio-part-2" type="checkbox" name="Travelling" value="Travelling">
+                                        <img src="../public/images/section-1/icon-2.png" alt="Travelling">
+                                        <span class="heading-medium">Travelling</span><br>
+                                        <span>Discovering the world</span>
+                                   </label>
+                              </div>
+                         </div>
+                         <div class="grid-row">
+                              <div class="column-one-half">
+                                   <label for="radio-part-3" class="block-label">
+                                        <input id="radio-part-3" type="checkbox" name="Blogging" value="Blogging">
+                                        <img src="../public/images/section-1/icon-3.png" alt="Blogging">
+                                        <span class="heading-medium">Blogging</span><br>
+                                        <span>Including Tumblr, Wordpress and Blogspot</span>
+                                   </label>
+                              </div>
+                              <div class="column-one-half">
+                                   <label for="radio-part-4" class="block-label">
+                                        <input id="radio-part-4" type="checkbox" name="Collecting" value="Collecting">
+                                        <img src="../public/images/section-1/icon-4.png" alt="Collecting">
+                                        <span class="heading-medium">Collecting</span><br>
+                                        <span>Gathering together things you love</span>
+                                   </label>
+                              </div>
+                         </div>
+                         <div class="grid-row">
+                              <div class="column-one-half">
+                                   <label for="radio-part-5" class="block-label">
+                                        <input id="radio-part-5" type="checkbox" name="Volunteering" value="Volunteering">
+                                        <img src="../public/images/section-1/icon-5.png" alt="Volunteering">
+                                        <span class="heading-medium">Volunteering</span><br>
+                                        <span>Fund raising to charity work</span>
+                                   </label>
+                              </div>
+                              <div class="column-one-half">
+                                   <label for="radio-part-6" class="block-label">
+                                        <input id="radio-part-6" type="checkbox" name="Cooking" value="Cooking">
+                                        <img src="../public/images/section-1/icon-6.png" alt="Cooking">
+                                        <span class="heading-medium">Cooking</span><br>
+                                        <span>For yourself and others</span>
+                                   </label>
+                              </div>
+                         </div>
+                         <div class="grid-row">
+                              <div class="column-one-half">
+                                   <label for="radio-part-7" class="block-label">
+                                        <input id="radio-part-7" type="checkbox" name="Helping others" value="Helping others">
+                                        <img src="../public/images/section-1/icon-7.png" alt="Helping others">
+                                        <span class="heading-medium">Helping others</span><br>
+                                        <span>Caring for and helping others</span>
+                                   </label>
+                              </div>
+                              <div class="column-one-half">
+                                   <label for="radio-part-8" class="block-label">
+                                        <input id="radio-part-8" type="checkbox" name="Sports" value="Sports">
+                                        <img src="../public/images/section-1/icon-8.png" alt="Sports">
+                                        <span class="heading-medium">Sports</span><br>
+                                        <span>Team games or on your own</span>
+                                   </label>
+                              </div>
+                         </div>
+                         <div class="grid-row">
+                              <div class="column-one-half">
+                                   <label for="radio-part-9" class="block-label">
+                                        <input id="radio-part-9" type="checkbox" name="Music" value="Music">
+                                        <img src="../public/images/section-1/icon-9.png" alt="Music">
+                                        <span class="heading-medium">Music</span><br>
+                                        <span>Listening to music or playing an instrument</span>
+                                   </label>
+                              </div>
+                              <div class="column-one-half">
+                                   <label for="radio-part-10" class="block-label">
+                                        <input id="radio-part-10" type="checkbox" name="Clubs or teams" value="Clubs or teams">
+                                        <img src="../public/images/section-1/icon-10.png" alt="Clubs or teams">
+                                        <span class="heading-medium">Clubs or teams</span><br>
+                                        <span>Socialising with others</span>
+                                   </label>
+                              </div>
+                         </div>
+                         <div class="grid-row">
+                              <div class="column-one-half">
+                                   <label for="radio-part-11" class="block-label">
+                                        <input id="radio-part-11" type="checkbox" name="Gaming" value="Gaming">
+                                        <img src="../public/images/section-1/icon-11.png" alt="Gaming">
+                                        <span class="heading-medium">Gaming</span><br>
+                                        <span>Computer games and traditional games, including cards</span>
+                                   </label>
+                              </div>
+                              <div class="column-one-third">
+                                   <label for="radio-part-12" class="block-label">
+                                        <input id="radio-part-12" type="checkbox" name="Driving" value="Driving">
+                                        <img src="../public/images/section-1/icon-12.png" alt="Driving">
+                                        <span class="heading-medium">Driving</span><br>
+                                        <span>Driving to the shops or around a track</span>
+                                   </label>
+                              </div>
+                         </div>
+                         <div class="grid-row">
+                              <div class="column-one-half">
+                                   <label for="radio-part-13" class="block-label">
+                                        <input id="radio-part-13" type="checkbox" name="Fashion" value="Fashion">
+                                        <img src="../public/images/section-1/icon-13.png" alt="Fashion">
+                                        <span class="heading-medium">Fashion</span><br>
+                                        <span>Ralph Lauren to Primark</span>
+                                   </label>
+                              </div>
+                              <div class="column-one-half">
+                                   <label for="radio-part-14" class="block-label">
+                                        <input id="radio-part-14" type="checkbox" name="Beauty" value="Beauty">
+                                        <img src="../public/images/section-1/icon-14.png" alt="Beauty">
+                                        <span class="heading-medium">Hair and beauty</span><br>
+                                        <span>Make-up and styling for yourself or others</span>
+                                   </label>
+                              </div>
+                         </div>
+                         <div class="grid-row">
+                              <div class="column-one-half">
+                                   <label for="radio-part-15" class="block-label">
+                                        <input id="radio-part-15" type="checkbox" name="Arts and craft" value="Arts and craft">
+                                        <img src="../public/images/section-1/icon-15.png" alt="Arts and craft">
+                                        <span class="heading-medium">Arts and crafts</span><br>
+                                        <span>From making cards to painting</span>
+                                   </label>
+                              </div>
+                              <div class="column-one-half">
+                                   <label for="radio-part-16" class="block-label">
+                                        <input id="radio-part-16" type="checkbox" name="DIY" value="DIY">
+                                        <img src="../public/images/section-1/icon-16.png" alt="DIY">
+                                        <span class="heading-medium">DIY</span><br>
+                                        <span>Hanging a picture to building a chair</span>
+                                   </label>
+                              </div>
+                         </div>
+                         <div class="grid-row">
+                              <div class="column-one-half">
+                                   <label for="radio-part-17" class="block-label">
+                                        <input id="radio-part-17" type="checkbox" name="Nothing" value="Nothing">
+                                        <img src="../public/images/section-1/icon-17.png" alt="Nothing">
+                                        <span class="heading-medium">Nothing</span><br>
+                                        <span>You prefer your own company</span>
+                                   </label>
+                              </div>
+                         </div>
+                    </fieldset>
+                    <input class="button" type="submit" value="Continue">
+               </form>
 
-      <h1 class="heading-xlarge">
-          <span class="heading-secondary">Explore part 1 of 5</span>
-        Choose your hobbies and interests        
-      </h1>
-        <form method="get" action="/explore-part-2a">
-        <fieldset class="form-group">
-            <legend class="visuallyhidden">
-              Choose your hobbies and interests
-            </legend>
-            <label for="radio-part-1" class="block-label">
-              <input id="radio-part-1" type="checkbox" name="Reading" value="Reading">
-              <span class="heading-small">Reading</span><br>
-              Fiction and non-fiction, including magazines and blogs
-            </label>
-            <label for="radio-part-2" class="block-label">
-              <input id="radio-part-2" type="checkbox" name="Travelling" value="Travelling">
-              <span class="heading-small">Travelling</span><br>
-              Discovering the world
-            </label>
-            <label for="radio-part-3" class="block-label">
-              <input id="radio-part-3" type="checkbox" name="Blogging" value="Blogging">
-              <span class="heading-small">Blogging</span><br>
-              Including Tumblr, Wordpress and Blogspot
-            </label>            
-            <label for="radio-part-4" class="block-label">
-              <input id="radio-part-4" type="checkbox" name="Collecting" value="Collecting">
-              <span class="heading-small">Collecting</span><br>
-              Gathering together things you love 
-            </label>
-            <label for="radio-part-5" class="block-label">
-              <input id="radio-part-5" type="checkbox" name="Volunteering" value="Volunteering">
-              <span class="heading-small">Volunteering</span><br>
-              Fund raising to charity work
-            </label>
-            <label for="radio-part-6" class="block-label">
-              <input id="radio-part-6" type="checkbox" name="Cooking" value="Cooking">
-              <span class="heading-small">Cooking</span><br>
-              For yourself and others
-            </label>
-            <label for="radio-part-7" class="block-label">
-              <input id="radio-part-7" type="checkbox" name="Helping others" value="Helping others">
-              <span class="heading-small">Helping others</span><br>
-              Caring for and helping others
-            </label>
-            <label for="radio-part-8" class="block-label">
-              <input id="radio-part-8" type="checkbox" name="Sports" value="Sports">
-              <span class="heading-small">Sports</span><br>
-              Team games or on your own
-            </label>
-            <label for="radio-part-9" class="block-label">
-              <input id="radio-part-9" type="checkbox" name="Music" value="Music">
-              <span class="heading-small">Music</span><br>
-              Listening to music or playing an instrument
-            </label>
-            <label for="radio-part-10" class="block-label">
-              <input id="radio-part-10" type="checkbox" name="Clubs or teams" value="Clubs or teams">
-              <span class="heading-small">Clubs or teams</span><br>
-              Socialising with others
-            </label>
-            <label for="radio-part-11" class="block-label">
-              <input id="radio-part-11" type="checkbox" name="Gaming" value="Gaming">
-              <span class="heading-small">Gaming</span><br>
-              Computer games and traditional games, including cards
-            </label>
-            <label for="radio-part-12" class="block-label">
-              <input id="radio-part-12" type="checkbox" name="Driving" value="Driving">
-              <span class="heading-small">Driving</span><br>
-              Driving to the shops or around a track
-            </label>
-            <label for="radio-part-13" class="block-label">
-              <input id="radio-part-13" type="checkbox" name="Fashion" value="Fashion">
-              <span class="heading-small">Fashion</span><br>
-              Ralph Lauren to Primark
-            </label>
-            <label for="radio-part-14" class="block-label">
-              <input id="radio-part-14" type="checkbox" name="Beauty" value="Beauty">
-              <span class="heading-small">Hair and beauty</span><br>
-              Make-up and styling for yourself or others
-            </label>
-             <label for="radio-part-15" class="block-label">
-              <input id="radio-part-15" type="checkbox" name="Arts and craft" value="Arts and craft">
-              <span class="heading-small">Arts and crafts</span><br>
-              From making cards to painting
-            </label>
-            <label for="radio-part-16" class="block-label">
-              <input id="radio-part-16" type="checkbox" name="DIY" value="DIY">
-              <span class="heading-small">DIY</span><br>
-              Hanging a picture to building a chair
-            </label>
-            <label for="radio-part-17" class="block-label">
-              <input id="radio-part-17" type="checkbox" name="Nothing" value="Nothing">
-              <span class="heading-small">Nothing</span><br>
-              You prefer your own company
-            </label>
-
-          </fieldset>
-           <input class="button" type="submit" value="Continue"> 
-        </form>
-  
-    </div>
-  </div>
+          </div>
+     </div>
 </main>
 
 {% endblock %}
-
-

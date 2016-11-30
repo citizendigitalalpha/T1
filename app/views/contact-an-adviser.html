@@ -5,17 +5,26 @@
 {% endblock %}
 
 {% block content %}
-<div class="welcome_block">
-		<div class="home_content">
-			<div class="grid-row">
-				<div class="column-two-thirds">
-					<h1 class="heading-xlarge">Contact an adviser</h1>					
-					<p class="lede">If you need more help choosing a career that suits you, our careers advisers are available to offer you advice and guidance.</p>
-				</div>
+
+<div class="welcome_block alpha-block">
+	<div class="home_content">
+		{% include "includes/phase_banner_alpha.html" %}
+	</div>
+</div>
+
+<div class="welcome_block sub-header">
+	<div class="home_content">
+		<div class="grid-row">
+			<div class="column-two-thirds">
+				<h1 class="heading-xlarge">Contact an adviser</h1>
+                    <span class="border"></span>
+				<p class="lede">If you need more help choosing a career that suits you, our careers advisers are available to offer you advice and guidance.</p>
 			</div>
 		</div>
 	</div>
-	<main id="content" role="main">	
+     <div class="row-divider"><span></span></div>
+</div>
+	<main id="content" role="main">
        <div class="grid-row">
 			<div class="column-two-thirds">
                 <h2 class="heading-large">We're here to help you</h2>
@@ -36,5 +45,3 @@
 	</main>
 
 {% endblock %}
-
-

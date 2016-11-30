@@ -1,10 +1,16 @@
 {% extends "layout_landing_page.html" %}
 
 {% block page_title %}
-National Careers Service
+	National Careers Service
 {% endblock %}
 
 {% block content %}
+
+<div class="welcome_block alpha-block">
+	<div class="home_content">
+		{% include "includes/phase_banner_alpha.html" %}
+	</div>
+</div>
 
 <div class="welcome_block content-page">
 	<div class="home_content">
@@ -45,8 +51,7 @@ National Careers Service
 </div>
 
 <main id="content" role="main">
-     <!-- {% include "includes/phase_banner_alpha.html" %}
-     {% include "includes/breadcrumb_legal.html" %} -->
+     <!-- {% include "includes/breadcrumb_legal.html" %} -->
      <div class="grid-row">
           <div class="column-full">
                <nav aria-label="skip to your documents" class="jump-links hybrid-links" role="navigation">
