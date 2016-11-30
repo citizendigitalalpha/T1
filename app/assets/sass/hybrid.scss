@@ -491,13 +491,14 @@ form {
                border-left: 10px solid $border-colour;
                // width: 100%;
                padding-left: 25px;
+               width: 100%;
                // padding-top: 0;
                // padding-bottom: 0;
                &.selected {
                     border-left: 10px solid $button-colour;
                     background: $highlight-colour;
                     img {
-                    	content:url("/public/images/section-1/icon-1-green.png");
+                    	content:url("/public/images/icon-tick.png");
                     }
                     span.heading-medium {
                          &:before {
