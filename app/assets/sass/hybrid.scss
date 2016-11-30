@@ -473,13 +473,19 @@ ul.salaries {
           border-color: transparent transparent transparent $turquoise;
      }
      &.govuk-box-highlight-border {
-          padding: 1em;
+          // padding: 1em;
           p.bold-xxlarge {
                margin: 0;
           }
           .heading-medium {
                margin-top: 1em;
           }
+     }
+}
+
+.answer {
+     .big-border-box.govuk-box-highlight-border {
+          padding: 1em;
      }
 }
 
@@ -491,15 +497,11 @@ form {
                border-left: 10px solid $border-colour;
                // width: 100%;
                padding-left: 25px;
-               width: 100%;
+               // right: 0;
+               // width: 100%;
                // padding-top: 0;
                // padding-bottom: 0;
                &.selected {
-                    border-left: 10px solid $button-colour;
-                    background: $highlight-colour;
-                    img {
-                    	content:url("/public/images/icon-tick.png");
-                    }
                     span.heading-medium {
                          &:before {
                               background: url(/public/images/checked.svg) $white no-repeat 50% 50%;
@@ -529,7 +531,7 @@ form {
                }
                span.heading-medium {
                     position: relative;
-                    height: 30px;
+                    // height: 30px;
                     padding-left: 40px;
                     margin: 0 0 0.35em 0;
                     &:before {
@@ -543,6 +545,68 @@ form {
                          position: absolute;
                          top: -2px;
                          left: 0;
+                    }
+               }
+          }
+          &.method-one, &.method-two, &.method-three, &.method-four, &.method-five {
+               label {
+                    &.selected {
+                         border-left: 10px solid $button-colour;
+                         background: $highlight-colour;
+                    }
+               }
+          }
+          &.method-one {
+               label {
+                    &.selected {
+                         border-left: 10px solid $button-colour;
+                         background: $highlight-colour;
+                         img {
+                              content:url("/public/images/icon-tick.png");
+                         }
+                    }
+               }
+          }
+          &.method-two {
+               label {
+                    &.selected {
+                         border-left: 10px solid $turquoise;
+                         background: $highlight-colour;
+                    }
+               }
+          }
+          &.method-three {
+               label {
+                    img {
+                         display: none;
+                    }
+               }
+          }
+          &.method-four {
+               label {
+                    img {
+                         display: none;
+                    }
+               }
+          }
+          &.method-five {
+               label {
+                    // padding-top: 0;
+                    // padding-bottom: 0;
+                    width: 100%;
+                    img {
+                         display: none;
+                         &.image {
+                              display: inline-block;
+                              clear: none;
+                              margin: 0 1em 0 0;
+                              width: auto;
+                              height: 7em;
+                         }
+                    }
+                    span {
+                         clear: none;
+                         float: none;
                     }
                }
           }
