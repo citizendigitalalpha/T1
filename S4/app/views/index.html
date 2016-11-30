@@ -1,0 +1,72 @@
+{% extends "layout_home.html" %}
+
+{% block page_title %}
+  National Careers Service
+{% endblock %}
+
+{% block content %}
+
+<div class="welcome_block alpha-block">
+	<div class="home_content">
+		{% include "includes/phase_banner_alpha.html" %}
+	</div>
+</div>
+
+
+<div class="welcome_block sub-header">
+	<div class="home_content">
+		<div class="grid-row">
+			<div class="column-two-thirds">
+				<h1 class="heading-xlarge">What's your story?</h1>
+				<p class="lede">Everyone has their own story, no one person has the same career journey. We can help you find the right path for your career.</p>
+                  <form method="get" action="/sample-cv">
+                    <div class="form-group">
+                         <label for="search-main" class="visually-hidden">Search</label>
+                         <input class="form-control" id="autocomplete_home" name="" placeholder="eg Writing my CV" type="search">
+                         <button class="search" type="submit">Search</button>
+                    </div>
+               </form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<main id="content" role="main">
+	<!--{% include "includes/phase_banner_alpha.html" %}-->
+	<div class="grid-row">
+		<div class="column-one-quarter">
+           <div class="eggs">
+			<a class="fl" href="./explore.html">
+			<h3 class="heading-medium">Explore</h3>
+               <span class="border"></span>
+			<p>I'd like to explore my options</p></a>
+           </div>
+		</div>
+		<div class="column-one-quarter">
+           <div class="eggs">
+			<a class="fl" href="./research.html">
+			<h3 class="heading-medium">Research</h3>
+               <span class="border"></span>
+			<p>I know what I want to do</p></a>
+           </div>
+		</div>
+		<div class="column-one-quarter">
+           <div class="eggs">
+			<a class="fr" href="./inspire.html">
+			<h3 class="heading-medium">Inspire</h3>
+               <span class="border"></span>
+			<p>I don't know what I want to do</p></a>
+           </div>
+		</div>
+       <div class="column-one-quarter">
+           <div class="eggs">
+			<a class="fr" href="./contact-an-adviser.html">
+			<h3 class="heading-medium">Contact</h3>
+               <span class="border"></span>
+			<p>I want to talk to someone</p></a>
+           </div>
+		</div>
+	</div>
+</main>
+
+{% endblock %}

@@ -1,0 +1,849 @@
+// Import GOV.UK elements from /govuk-modules/, this will import the frontend toolkit and some base styles.
+// Take a look in /govuk-modules/_govuk-elements.scss to see which files are imported.
+@import 'node_modules/govuk_frontend_toolkit/stylesheets/colours.scss';
+
+
+/* ---------------------------------------------------------------------------
+* Main styles affecting the Application
+* ---------------------------------------------------------------------------
+*/
+
+//  FOR ALL
+
+h1, h2, h3, h4, p {
+     &.heading-large, &.heading-medium {
+          span {
+               color: $turquoise;
+          }
+     }
+     &.turquoise-text {
+          color: $turquoise;
+     }
+     &.intro-yes {
+          display: none;
+          span {
+               display: inline-block;
+               float: left;
+               background: $turquoise;
+               font-weight: bold;
+               color: $white;
+               border-radius: 50%;
+               width: 2em;
+               height: 1.55em;
+               margin: -0.35em 0.5em 0 0;
+               text-align: center;
+               padding: 0.45em 0 0 0;
+          }
+     }
+}
+
+.welcome_block {
+     position: relative;
+     &.sub-header {
+          form {
+               .form-group {
+                    position: relative;
+                    margin-bottom: 0;
+                    input, select {
+                         border-radius: 5px;
+                         padding: 0.5em 1em;
+                         border: 3px solid $white;
+                         height: auto;
+                         &:focus {
+                              outline: none;
+                              border: 3px solid $focus-colour;
+                         }
+                    }
+                    label {
+                         color: $white;
+                    }
+                    button.search {
+                         position: absolute;
+                         bottom: 0;
+                         height: auto;
+                         width: 6em;
+                         border-radius: 5px;
+                         background-color: $black;
+                         background-position: 116.5% 50%;
+                         background-size: 8em;
+                    }
+                    select.form-control {
+                         width: 100%;
+                         height: 3em;
+                    }
+               }
+          }
+          .home_content {
+               padding-bottom: 0;
+          }
+          p {
+               float: left;
+               clear: left;
+               a {
+                    color: $white;
+                    &:visited {
+                         color: rgba($white,0.7);
+                    }
+               }
+          }
+     }
+     &.content-page {
+          position: relative;
+          margin-bottom: 3em;
+          padding-bottom: 2em;
+          background: lighten($black,90%);
+          // background: url(/public/images/paralegal-image.jpg) no-repeat 50% 20%;
+          border-top: 10px solid $turquoise;
+          .home_content {
+               z-index: 10;
+               position: relative;
+          }
+          // .wrapper {
+          //      position: absolute;
+          //      background: rgba($black,0.7);
+          //      top: 0;
+          //      right: 0;
+          //      bottom: 0;
+          //      left: 0;
+          //      display: inline-block;
+          //      z-index: 1;
+          // }
+          .heading-xlarge {
+               margin-bottom: 0.5em;
+          }
+          h1, h2, h3, h4, p {
+               color: $black;
+               float: left;
+          }
+          .border {
+               background: $turquoise;
+          }
+          .main-intro {
+               float: left;
+               .border {
+                    margin: 0.5em 0 0.75em 0;
+               }
+               p {
+                    margin: 0;
+                    float: left;
+                    clear: left;
+               }
+          }
+          nav {
+               margin: 0;
+               padding: 1.5em 0 0 0;
+               // border-top: 1px solid rgba($white,0.4);
+               border-bottom: none;
+               a {
+                    color: $white;
+                    font-weight: bold;
+               }
+          }
+     }
+     &.alpha-block {
+          padding: 0;
+          border-top: 10px solid $turquoise;
+          .home_content {
+               padding-bottom: 0;
+               .phase-banner-alpha {
+                    border-bottom: none;
+                    p {
+                         color: $black;
+                    }
+                    a {
+                         color: $black;
+                    }
+               }
+          }
+     }
+     .row-divider {
+          display: inline-block;
+          width: 100%;
+          background: url(/public/images/divider.svg) no-repeat 50% 50% !important;
+          background-size: cover;
+          margin: 0;
+          height: 1.688rem;
+          position: absolute;
+          bottom: -1px;
+          left: 0;
+          z-index: 10;
+     }
+}
+
+.border {
+     background: $white;
+     display: inline-block;
+     height: 1px;
+     width: 6em;
+     float: left;
+     clear: both;
+     margin: 0 0 1.25em 0;
+}
+
+
+.salary, .hours {
+     margin: 2em 0 1em 0;
+     display: inline-block;
+     font-size: inherit;
+     .icon {
+          display: inline-block;
+          width: 7em;
+          height: 7em;
+          float: left;
+          margin: 0 1em 1em 0;
+     }
+}
+
+.salary {
+     .icon {
+          background: url(/public/images/profiles/salary.png) no-repeat 50% 50%;
+          background-size: contain;
+     }
+}
+
+.hours {
+     .icon {
+          background: url(/public/images/profiles/hours.png) no-repeat 50% 50%;
+          background-size: contain;
+     }
+}
+
+.what-next, .testimonial, .extra-content {
+     background: $grey-4;
+     color: $black;
+     border-top: 10px solid $grey-4;
+     padding: 4em 0;
+     h1 {
+          margin: 0 0 0.5em 0;
+     }
+     a.email, a.phone {
+          span {
+               display: inline-block;
+               width: 1.75em;
+               height: 1.75em;
+               float: left;
+               margin: -0.25em 0.75em 0 0;
+          }
+     }
+     a.email {
+          span {
+               background: url(/public/images/icon-email.png) no-repeat 50% 50%;
+               background-size: contain;
+          }
+     }
+     a.phone {
+          span {
+               background: url(/public/images/icon-phone.png) no-repeat 50% 50%;
+               background-size: contain;
+          }
+     }
+}
+
+.what-next {
+     // .heading-xlarge {
+     //      color: $turquoise;
+     // }
+}
+
+.testimonial {
+     background: $white;
+     // background: lighten($black,92.5%);
+     color: $black;
+     .home_content {
+          padding: 0;
+          position: relative;
+          img {
+               width: 11em;
+               height: 11em;
+               border-radius: 50%;
+               float: left;
+               margin: -0.25em 3em 0 0;
+          }
+          .quote {
+               position: absolute;
+               display: inline-block;
+               width: 4em;
+               height: 6em;
+               bottom: -1em;
+               right: 0;
+               color: $turquoise;
+               // font-size: 8rem;
+               // line-height: 0;
+               &.one {
+                    right: 5em;
+                    background: url(/public/images/profiles/left-quote-mark.svg) no-repeat 50% 50%;
+                    background-size: contain;
+               }
+               &.two {
+                    background: url(/public/images/profiles/right-quote-mark.svg) no-repeat 50% 50%;
+                    background-size: contain;
+               }
+          }
+     }
+}
+
+.extra-content {
+     background: $white;
+     color: $black;
+     .column-one-third {
+          margin-bottom: 3.5em;
+          hr {
+               height: 10px;
+               background: $turquoise;
+               margin: 0 0 1.5em 0;
+          }
+     }
+     hr {
+          margin: 4em 0;
+     }
+}
+
+.jump-links {
+     &.hybrid-links {
+          margin: 0 0 2em 0;
+          border-bottom: none;
+          padding: 0;
+          a {
+               span {
+                    background: $link-colour;
+                    color: $white;
+                    font-weight: bold;
+                    border-radius: 50%;
+                    width: 1.5em;
+                    height: 1.35em;
+                    padding: 0.15em 0 0 0;
+                    float: left;
+                    text-decoration: none;
+                    margin: -0.25em 0.5em 1em 0;
+                    display: -webkit-box;
+                    display: -moz-box;
+                    display: -ms-flexbox;
+                    display: -webkit-flex;
+                    display: flex;
+
+                    justify-content: space-around;
+                    align-items: center;
+               }
+          }
+          ol {
+               color: $turquoise;
+               font-weight: bold;
+               li {
+                    a {
+                         font-weight: normal;
+                    }
+               }
+          }
+     }
+}
+
+.number, .corner {
+     position: absolute;
+     display: -webkit-box;
+     display: -moz-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+
+     justify-content: space-around;
+     align-items: center;
+}
+
+.number {
+     background: $turquoise;
+     border-radius: 50%;
+     color: $white;
+     font-weight: bold;
+     top: -1.25em;
+     left: -1.25em;
+     width: 2em;
+     height: 2em;
+     font-size: 2.5rem;
+     display: none;
+}
+
+.panel-border-wide {
+     &.hybrid {
+          border-left: 10px solid $turquoise;
+          margin: 1em 0 2em 0;
+          padding-top: 0;
+          padding-bottom: 0;
+          // line-height: 0;
+          a {
+               text-decoration: none;
+               display: inline-block;
+               &:focus {
+                    border: 3px solid $focus-colour;
+               }
+               h3 {
+                    text-decoration: underline;
+                    margin-top: 10px;
+               }
+               p {
+                    text-decoration: none;
+                    color: $black;
+                    &.bold-xxlarge {
+                         margin-bottom: 15px;
+                    }
+               }
+          }
+          .column-one-third {
+               line-height: 0;
+          }
+          img {
+               line-height: 0;
+               // border-radius: 50%;
+               width: 100%;
+          }
+     }
+}
+
+.intro-section {
+     // margin-bottom: 5em;
+     .bold-xxlarge {
+          margin-top: 0;
+          // color: $turquoise;
+     }
+     .button-start {
+          margin-top: 1em;
+     }
+     hr {
+          margin-top: 3em;
+          margin-bottom: 3em;
+     }
+}
+
+
+ul.salaries {
+     margin: 1em 0 2em 0;
+     width: 100%;
+     display: inline-block;
+     li {
+          list-style: none;
+          text-align: center;
+          float: left;
+          p {
+               color: rgba($black,0.4);
+               margin: 1em 0 0 0;
+          }
+          strong {
+               display: inline-block;
+               width: 100%;
+               font-weight: bold;
+          }
+          .value {
+               display: inline-block;
+               margin: 1em 0 0 0;
+               span {
+                    display: -webkit-box;
+                    display: -moz-box;
+                    display: -ms-flexbox;
+                    display: -webkit-flex;
+                    display: flex;
+
+                    -webkit-flex-flow: row wrap;
+                    justify-content: space-around;
+                    align-items: center;
+                    background: $turquoise;
+                    color: $white;
+                    border-radius: 50%;
+                    line-height: 1.2;
+                    font-weight: bold;
+               }
+          }
+     }
+}
+
+.big-border-box {
+     border: 10px solid $border-colour;
+     // border: 10px solid lighten($grey-3,7.5%);
+     position: relative;
+     &::before {
+          content: "";
+          background: $white;
+          right: -10px;
+          top: -10px;
+          padding: 0;
+          position: absolute;
+          display: inline-block;
+          // width: 1.5em;
+          // height: 1.5em;
+          border-style: solid;
+          border-width: 1.5em 0 0 1.5em;
+          border-color: transparent transparent transparent $turquoise;
+     }
+     &.govuk-box-highlight-border {
+          padding: 1em;
+          p.bold-xxlarge {
+               margin: 0;
+          }
+          .heading-medium {
+               margin-top: 1em;
+          }
+     }
+}
+
+form {
+     &.explore {
+          label {
+               background: $white;
+               border: none;
+               border-left: 10px solid $border-colour;
+               // width: 100%;
+               padding-left: 25px;
+               width: 100%;
+               // padding-top: 0;
+               // padding-bottom: 0;
+               &.selected {
+                    border-left: 10px solid $button-colour;
+                    background: $highlight-colour;
+                    img {
+                    	content:url("/public/images/icon-tick.png");
+                    }
+                    span.heading-medium {
+                         &:before {
+                              background: url(/public/images/checked.svg) $white no-repeat 50% 50%;
+                              background-size: 0.75em;
+                         }
+                    }
+               }
+               &:last-of-type {
+                    margin-bottom: 2em;
+               }
+               input {
+                    display: none;
+               }
+               img, span {
+                    float: left;
+                    clear: both;
+                    &.heading-medium {
+                         margin: 0;
+                    }
+               }
+               img {
+                    width: 4em;
+                    height: 4em;
+                    margin: 0 0 1.5em 0;
+                    float: left;
+                    clear: both;
+               }
+               span.heading-medium {
+                    position: relative;
+                    height: 30px;
+                    padding-left: 40px;
+                    margin: 0 0 0.35em 0;
+                    &:before {
+                         content: "";
+                         border: 2px solid;
+                         background: transparent;
+                         width: 25px;
+                         height: 25px;
+                         display: inline-block;
+                         margin: 0 0.5em 0 0;
+                         position: absolute;
+                         top: -2px;
+                         left: 0;
+                    }
+               }
+          }
+     }
+}
+
+.autocomplete-suggestions {
+     width: 100%;
+     background: $white;
+     border-radius: 5px;
+     margin-top: 5px;
+     border: 3px solid $turquoise;
+     overflow: auto;
+     max-height: 300px !important;
+     .autocomplete-suggestion {
+          padding: 1em;
+          &:hover, &:focus, &.autocomplete-selected {
+               background: lighten($grey-3,7.5%);
+               cursor: pointer;
+          }
+          strong {
+               color: $turquoise;
+               font-weight: bold;
+          }
+     }
+}
+
+// ONLY FOR DESKTOP (1020px)
+@media (min-width: 1020px) {
+
+     .welcome_block {
+          &.sub-header {
+               padding: 4em 0;
+               margin: 0 0 2em 0;
+               .heading-xlarge {
+                    margin-top: 0;
+                    margin-bottom: 0.5em;
+               }
+               form {
+                    input {
+                         font-size: 2rem;
+                    }
+               }
+          }
+     }
+
+     ul.salaries {
+          &.full-width, &.two-thirds {
+               li {
+                    width: 33%;
+               }
+          }
+          &.full-width {
+               li {
+                    .value {
+                         span {
+                              width: 7em;
+                              height: 7em;
+                              padding: 1em;
+                              font-size: 4rem;
+                         }
+                    }
+               }
+          }
+          &.two-thirds {
+               li {
+                    .value {
+                         span {
+                              width: 5em;
+                              height: 5em;
+                              padding: 1em;
+                              font-size: 3rem;
+                         }
+                    }
+               }
+          }
+     }
+
+
+}
+
+// LARGE UP (769px and above)
+@media (min-width: 769px) {
+
+     .welcome_block {
+          &.sub-header {
+               padding: 4em 0;
+               margin: 0 0 2em 0;
+          }
+     }
+
+     ul.salaries {
+          li {
+               width: 33%;
+               .value {
+                    span {
+                         width: 6em;
+                         height: 6em;
+                         padding: 1em;
+                         font-size: 3rem;
+                    }
+               }
+          }
+     }
+
+     ul.salaries {
+          &.full-width, &.two-thirds {
+               li {
+                    width: 33%;
+               }
+          }
+          &.full-width {
+               li {
+                    .value {
+                         span {
+                              width: 6em;
+                              height: 6em;
+                              padding: 1em;
+                              font-size: 3rem;
+                         }
+                    }
+               }
+          }
+          &.two-thirds {
+               li {
+                    .value {
+                         span {
+                              width: 4em;
+                              height: 4em;
+                              padding: 1em;
+                              font-size: 2.75rem;
+                         }
+                    }
+               }
+          }
+     }
+
+     section, aside {
+          font-size: 19px;
+     }
+
+}
+
+// MEDIUM ONLY (641px)
+// @media (min-width: 641px) {
+//
+//
+//
+// }
+
+// MEDIUM UP (641px and above)
+@media (min-width: 641px) {
+
+     .welcome_block {
+          &.sub-header {
+               padding: 4em 0 6em 0;
+               margin: 0 0 1em 0;
+               .heading-xlarge {
+                    margin-top: 0;
+                    margin-bottom: 0.5em;
+               }
+               form {
+                    label {
+                         font-size: 24px;
+                    }
+               }
+          }
+     }
+
+     ul.salaries {
+          li {
+               width: 33%;
+               margin-bottom: 1em;
+               strong {
+                    font-size: 2rem;
+               }
+               .value {
+                    span {
+                         width: 5em;
+                         height: 5em;
+                         padding: 1em;
+                         font-size: 1.6rem;
+                    }
+               }
+          }
+     }
+
+}
+
+// @media (min-width: 480px) {
+//
+//
+// }
+
+// SMARTPHONE ONLY (Up to 640px)
+@media (max-width: 640px) {
+
+     .welcome_block {
+          &.sub-header {
+               padding: 2em 0 4em 0;
+               margin: 0 0 1em 0;
+               .heading-xlarge {
+                    margin-top: 0;
+                    margin-bottom: 0.5em;
+               }
+          }
+          &.content-page {
+               margin-bottom: 2em;
+          }
+     }
+
+     ul.salaries {
+          li {
+               width: 50%;
+               margin-bottom: 1em;
+               strong {
+                    font-size: 2rem;
+               }
+               .value {
+                    span {
+                         width: 5em;
+                         height: 5em;
+                         padding: 1em;
+                         font-size: 1.6rem;
+                    }
+               }
+          }
+     }
+
+     .panel-border-wide {
+          &.hybrid {
+               margin: 1em 0 4em 0;
+               img {
+                    margin-bottom: 1.5em;
+               }
+          }
+     }
+
+     .intro-section {
+          .bold-xxlarge {
+               margin-bottom: 0.5em;
+          }
+     }
+
+     .salary, .hours {
+          margin: 1em 0 0 0;
+          display: inline-block;
+          .icon {
+               display: inline-block;
+               width: 6em;
+               height: 6em;
+               float: left;
+               margin: 0 1em 0 0;
+          }
+     }
+
+     .extra-content {
+          .column-one-third {
+               hr {
+                    margin: 1.5em 0;
+               }
+          }
+     }
+
+     .testimonial {
+          .home_content {
+               .text-wrap {
+                    width: 100%;
+                    float: left;
+                    clear: left;
+               }
+               img {
+                    width: 11em;
+                    height: 11em;
+                    float: left;
+                    margin: -0.25em 3em 2em 0;
+               }
+               .quote {
+                    width: 4em;
+                    height: 6em;
+                    bottom: -1em;
+                    right: 0;
+                    &.one {
+                         right: 5em;
+                    }
+                    &.two {
+                    }
+               }
+          }
+     }
+
+     section, aside {
+          font-size: 16px;
+     }
+
+
+}
+
+// SMARTPHONE ONLY (Up to 480px)
+// @media screen and (max-width: 480px) {
+//
+//
+//
+// }

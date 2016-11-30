@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  National Careers Service - Book this
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+		{% include "includes/phase_banner_alpha.html" %}
+        {% include "includes/breadcrumb_resources.html" %}
+        {% include "includes/main_navigation.html" %}
+		<div class="grid-row">
+			<div class="column-two-thirds">
+			<h1 class="heading-xlarge">Prepare for a job</h1>
+                <p class="lede">Our careers advisers have written the following guides to help you:</p>
+                <ul class="list list-bullet">
+                    <li><a href="/S3/sample-cv.html">writing your CV</a></li>
+                    <li><a href="/S3/interview.html">what to do in an interview</a></li>
+                    <li><a href="/S3/sample-application-letters.html">completing application forms</a></li>
+                    <li><a href="/S3/redundancy.html">redundancy</a></li>
+                </ul>                
+			</div>
+		</div>
+	</main>
+
+{% endblock %}
+
+
