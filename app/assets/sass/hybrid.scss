@@ -10,8 +10,9 @@
 
 //  FOR ALL
 
+// ========================================== TEXT - START ========================================== //
 h1, h2, h3, h4, p {
-     &.heading-large, &.heading-medium {
+     &.heading-xlarge, &.heading-large, &.heading-medium {
           span {
                color: $turquoise;
           }
@@ -36,7 +37,136 @@ h1, h2, h3, h4, p {
           }
      }
 }
+// ========================================== TEXT - END ========================================== //
 
+// ========================================== GENERAL STYLES - START ========================================== //
+.border {
+     background: $white;
+     display: inline-block;
+     height: 1px;
+     width: 6em;
+     float: left;
+     clear: both;
+     margin: 0 0 1.25em 0;
+}
+
+
+.salary, .hours {
+     margin: 2em 0 1em 0;
+     display: inline-block;
+     font-size: inherit;
+     .icon {
+          display: inline-block;
+          width: 7em;
+          height: 7em;
+          float: left;
+          margin: 0 1em 1em 0;
+     }
+}
+
+.salary {
+     .icon {
+          background: url(/public/images/profiles/salary.png) no-repeat 50% 50%;
+          background-size: contain;
+     }
+}
+
+.hours {
+     .icon {
+          background: url(/public/images/profiles/hours.png) no-repeat 50% 50%;
+          background-size: contain;
+     }
+}
+
+.big-border-box {
+     border: 10px solid $border-colour;
+     // border: 10px solid lighten($grey-3,7.5%);
+     position: relative;
+     &::before {
+          content: "";
+          background: $white;
+          right: -10px;
+          top: -10px;
+          padding: 0;
+          position: absolute;
+          display: inline-block;
+          // width: 1.5em;
+          // height: 1.5em;
+          border-style: solid;
+          border-width: 1.5em 0 0 1.5em;
+          border-color: transparent transparent transparent $turquoise;
+     }
+     &.govuk-box-highlight-border {
+          // padding: 1em;
+          p.bold-xxlarge {
+               margin: 0;
+          }
+          .heading-medium {
+               margin-top: 1em;
+          }
+     }
+}
+
+.answer {
+     .big-border-box.govuk-box-highlight-border {
+          padding: 1em;
+     }
+}
+
+.panel-border-wide {
+     &.hybrid {
+          border-left: 10px solid $turquoise;
+          margin: 1em 0 2em 0;
+          padding-top: 0;
+          padding-bottom: 0;
+          // line-height: 0;
+          a {
+               text-decoration: none;
+               display: inline-block;
+               &:focus {
+                    border: 3px solid $focus-colour;
+               }
+               h3 {
+                    text-decoration: underline;
+                    margin-top: 10px;
+               }
+               p {
+                    text-decoration: none;
+                    color: $black;
+                    &.bold-xxlarge {
+                         margin-bottom: 15px;
+                    }
+               }
+          }
+          .column-one-third {
+               line-height: 0;
+          }
+          img {
+               line-height: 0;
+               // border-radius: 50%;
+               width: 100%;
+          }
+     }
+}
+
+.intro-section {
+     // margin-bottom: 5em;
+     .bold-xxlarge {
+          margin-top: 0;
+          // color: $turquoise;
+     }
+     .button-start {
+          margin-top: 1em;
+     }
+     hr {
+          margin-top: 3em;
+          margin-bottom: 3em;
+     }
+}
+
+// ========================================== GENERAL STYLES - START ========================================== //
+
+// ========================================== WELCOME BLOCK - START ========================================== //
 .welcome_block {
      position: relative;
      &.sub-header {
@@ -170,44 +300,9 @@ h1, h2, h3, h4, p {
      }
 }
 
-.border {
-     background: $white;
-     display: inline-block;
-     height: 1px;
-     width: 6em;
-     float: left;
-     clear: both;
-     margin: 0 0 1.25em 0;
-}
+// ========================================== WELCOME BLOCK - END ========================================== //
 
-
-.salary, .hours {
-     margin: 2em 0 1em 0;
-     display: inline-block;
-     font-size: inherit;
-     .icon {
-          display: inline-block;
-          width: 7em;
-          height: 7em;
-          float: left;
-          margin: 0 1em 1em 0;
-     }
-}
-
-.salary {
-     .icon {
-          background: url(/public/images/profiles/salary.png) no-repeat 50% 50%;
-          background-size: contain;
-     }
-}
-
-.hours {
-     .icon {
-          background: url(/public/images/profiles/hours.png) no-repeat 50% 50%;
-          background-size: contain;
-     }
-}
-
+// ========================================== WHAT NEXT, TESTiMONIAL & EXTRA CONTENT BLOCKs - START ========================================== //
 .what-next, .testimonial, .extra-content {
      background: $grey-4;
      color: $black;
@@ -297,7 +392,9 @@ h1, h2, h3, h4, p {
           margin: 4em 0;
      }
 }
+// ========================================== WHAT NEXT, TESTiMONIAL & EXTRA CONTENT BLOCKs - END ========================================== //
 
+// ========================================== JUMP LINKS - START ========================================== //
 .jump-links {
      &.hybrid-links {
           margin: 0 0 2em 0;
@@ -336,84 +433,34 @@ h1, h2, h3, h4, p {
           }
      }
 }
+// ========================================== JUMP LINKS - START ========================================== //
 
-.number, .corner {
-     position: absolute;
-     display: -webkit-box;
-     display: -moz-box;
-     display: -ms-flexbox;
-     display: -webkit-flex;
-     display: flex;
+// .number, .corner {
+//      position: absolute;
+//      display: -webkit-box;
+//      display: -moz-box;
+//      display: -ms-flexbox;
+//      display: -webkit-flex;
+//      display: flex;
+//
+//      justify-content: space-around;
+//      align-items: center;
+// }
+//
+// .number {
+//      background: $turquoise;
+//      border-radius: 50%;
+//      color: $white;
+//      font-weight: bold;
+//      top: -1.25em;
+//      left: -1.25em;
+//      width: 2em;
+//      height: 2em;
+//      font-size: 2.5rem;
+//      display: none;
+// }
 
-     justify-content: space-around;
-     align-items: center;
-}
-
-.number {
-     background: $turquoise;
-     border-radius: 50%;
-     color: $white;
-     font-weight: bold;
-     top: -1.25em;
-     left: -1.25em;
-     width: 2em;
-     height: 2em;
-     font-size: 2.5rem;
-     display: none;
-}
-
-.panel-border-wide {
-     &.hybrid {
-          border-left: 10px solid $turquoise;
-          margin: 1em 0 2em 0;
-          padding-top: 0;
-          padding-bottom: 0;
-          // line-height: 0;
-          a {
-               text-decoration: none;
-               display: inline-block;
-               &:focus {
-                    border: 3px solid $focus-colour;
-               }
-               h3 {
-                    text-decoration: underline;
-                    margin-top: 10px;
-               }
-               p {
-                    text-decoration: none;
-                    color: $black;
-                    &.bold-xxlarge {
-                         margin-bottom: 15px;
-                    }
-               }
-          }
-          .column-one-third {
-               line-height: 0;
-          }
-          img {
-               line-height: 0;
-               // border-radius: 50%;
-               width: 100%;
-          }
-     }
-}
-
-.intro-section {
-     // margin-bottom: 5em;
-     .bold-xxlarge {
-          margin-top: 0;
-          // color: $turquoise;
-     }
-     .button-start {
-          margin-top: 1em;
-     }
-     hr {
-          margin-top: 3em;
-          margin-bottom: 3em;
-     }
-}
-
-
+// ========================================== SALARY BUBBLES - START ========================================== //
 ul.salaries {
      margin: 1em 0 2em 0;
      width: 100%;
@@ -453,42 +500,9 @@ ul.salaries {
           }
      }
 }
+// ========================================== SALARY BUBBLES - END ========================================== //
 
-.big-border-box {
-     border: 10px solid $border-colour;
-     // border: 10px solid lighten($grey-3,7.5%);
-     position: relative;
-     &::before {
-          content: "";
-          background: $white;
-          right: -10px;
-          top: -10px;
-          padding: 0;
-          position: absolute;
-          display: inline-block;
-          // width: 1.5em;
-          // height: 1.5em;
-          border-style: solid;
-          border-width: 1.5em 0 0 1.5em;
-          border-color: transparent transparent transparent $turquoise;
-     }
-     &.govuk-box-highlight-border {
-          // padding: 1em;
-          p.bold-xxlarge {
-               margin: 0;
-          }
-          .heading-medium {
-               margin-top: 1em;
-          }
-     }
-}
-
-.answer {
-     .big-border-box.govuk-box-highlight-border {
-          padding: 1em;
-     }
-}
-
+// ========================================== FORMS - START ========================================== //
 form {
      &.explore {
           label {
@@ -616,7 +630,9 @@ form {
           }
      }
 }
+// ========================================== FORMS - END ========================================== //
 
+// ========================================== TINDER - START ========================================== //
 .tinder {
      .actions {
           #counter {
@@ -636,7 +652,7 @@ form {
           border: 10px solid $panel-colour;
           background: $white;
           // padding: 3%;
-          // width: 94%;
+          width: 97%;
           position: relative;
           text-align: center;
           &:before, &:after {
@@ -669,6 +685,46 @@ form {
                          width: 100%;
                          display: block;
                     }
+                    .salary {
+                         margin: 0.5em 0;
+                         width: 100%;
+                         img, .text-wrapper {
+                              float: left;
+                              display: inline-block;
+                         }
+                         img {
+                              width: 6em;
+                              height: 6em;
+                              margin: 0 1em 0 0;
+                              display: none;
+                         }
+                         .text-wrapper {
+                              h1, h2, p {
+                                   float: left;
+                                   clear: both;
+                              }
+                              h1, h2 {
+                                   margin: 0;
+                              }
+                              .border {
+                                   background: $turquoise;
+                                   margin: 0.5em 0;
+                              }
+                         }
+                    }
+               }
+          }
+          .image-block {
+               display: inline-block;
+               width: 100%;
+               overflow: hidden;
+               height: 15em;
+               position: relative;
+               img {
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    top: -20%;
                }
           }
           .wrapper {
@@ -678,8 +734,14 @@ form {
                padding: 4%;
                text-align: left;
                // width: 92%;
-               .heading-large {
-                    margin-top: 0;
+               .heading-xlarge {
+                    margin: 0;
+               }
+               h3.grey {
+                    margin: 0.5em 0 1em 0;
+               }
+               a {
+                    margin: 0 2em 0 0;
                }
           }
           .but-yay, .but-nope {
@@ -702,7 +764,9 @@ form {
           }
      }
 }
+// ========================================== TINDER - END ========================================== //
 
+// ========================================== AUTOCOMPLETE - START ========================================== //
 .autocomplete-suggestions {
      width: 100%;
      background: $white;
@@ -723,6 +787,7 @@ form {
           }
      }
 }
+// ========================================== AUTOCOMPLETE - END ========================================== //
 
 // ONLY FOR DESKTOP (1020px)
 @media (min-width: 1020px) {
