@@ -667,8 +667,6 @@ form {
           }
           .list {
                margin: 0;
-               border-bottom: 1px dashed $panel-colour;
-               margin: 0 0 1em 0;
                li.job {
                     width: 100%;
                     height: auto;
@@ -725,6 +723,8 @@ form {
                background: $white;
                padding: 4%;
                text-align: left;
+               margin-bottom: 1em;
+               border-bottom: 1px dashed $panel-colour;
                // width: 92%;
                .heading-xlarge {
                     margin: 0;
@@ -762,7 +762,8 @@ form {
           }
      }
      .actions, .govuk-related-items {
-          #counter {
+          margin-top: 0;
+          #counter, .shortlist-counter, .removed-counter {
                display: inline-block;
                background: $turquoise;
                color: $white;
@@ -774,13 +775,10 @@ form {
                height: 1.35em;
                text-align: center;
           }
-          p {
-               margin-top: 0;
-          }
      }
      .govuk-related-items {
           margin-top: 0;
-          #counter {
+          .shortlist-counter, .removed-counter {
                float: right;
                margin: -0.25em 0 0 0;
                padding: 0.225em 0 0 0;
@@ -789,11 +787,16 @@ form {
           &.shortlist, &.removed {
                margin-bottom: 3em;
                nav {
+                    margin-top: 1em;
                     ol {
                          li {
+                              display: none;
                               a {
                                    float: right;
                                    display: inline-block;
+                                   padding: 0 0 0 1.25em;
+                                   background: url(/public/images/icon-remove.png) transparent no-repeat 0% 50%;
+                                   background-size: 1em;
                               }
                          }
                     }
@@ -801,15 +804,21 @@ form {
           }
           &.shortlist {
                border-top: 10px solid $button-colour;
-               #counter {
+               .shortlist-counter {
                     background: $button-colour;
                }
           }
           &.removed {
                border-top: 10px solid $error-colour;
-               // display: none;
-               #counter {
+               display: none;
+               .removed-counter {
                     background: $error-colour;
+               }
+               nav {
+                    ol li a {
+                         background: url(/public/images/icon-add.png) transparent no-repeat 0% 50%;
+                         background-size: 1em;
+                    }
                }
           }
      }

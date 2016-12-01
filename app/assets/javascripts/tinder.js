@@ -67,7 +67,7 @@
         origin.querySelector('.current').remove();
         if (!origin.querySelector('.job')) {
           fireCustomEvent('deckempty', {
-            origin: origin.querySelector('button', 'button img', 'button span'),
+            origin: origin.querySelector('button'),
             container: origin,
             job: null
           });
@@ -84,3 +84,24 @@
   document.body.classList.add('tinder');
   });
 })();
+
+/* Shortlist code - START */
+(function(){
+
+     $("button.but-yay").click(function(){
+          $("aside.shortlist .grey").hide();
+          // $("aside.shortlist li.bank-manager").show("slow");
+          // if ($(this).siblings(".wrapper").child("h2").html() == "Bank manager") {
+          //      $("aside.shortlist li.bank-manager").show();
+          // }
+          // $(this).parent().parent().parent().toggleClass("");
+          // $(this).html($(this).text() == 'Unselect' ? 'Select' : 'Unselect' + "<span></span>");
+     });
+
+     $("button.but-nope").click(function(){
+
+     });
+
+
+})();
+/* Shortlist code - END */
