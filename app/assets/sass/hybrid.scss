@@ -515,7 +515,13 @@ form {
                // width: 100%;
                // padding-top: 0;
                // padding-bottom: 0;
+               &:before {
+                    display: none;
+               }
                &.selected {
+                    &:before, &:after {
+                         display: none;
+                    }
                     span.heading-medium {
                          &:before {
                               background: url(/public/images/checked.svg) $white no-repeat 50% 50%;
@@ -634,20 +640,6 @@ form {
 
 // ========================================== TINDER - START ========================================== //
 .tinder {
-     .actions {
-          #counter {
-               display: inline-block;
-               background: $turquoise;
-               color: $white;
-               border-radius: 50%;
-               font-weight: bold;
-               margin: 0 0.25em 0 0;
-               padding: 0.15em 0 0 0;
-               width: 1.5em;
-               height: 1.35em;
-               text-align: center;
-          }
-     }
      .jobcontainer {
           border: 10px solid $panel-colour;
           background: $white;
@@ -767,6 +759,58 @@ form {
           .but-nope {
                background: url(/public/images/icon-thumbs-down.svg) transparent no-repeat 50% 0%;
                background-size: 7em;
+          }
+     }
+     .actions, .govuk-related-items {
+          #counter {
+               display: inline-block;
+               background: $turquoise;
+               color: $white;
+               border-radius: 50%;
+               font-weight: bold;
+               margin: 0 0.25em 0 0;
+               padding: 0.15em 0 0 0;
+               width: 1.5em;
+               height: 1.35em;
+               text-align: center;
+          }
+          p {
+               margin-top: 0;
+          }
+     }
+     .govuk-related-items {
+          margin-top: 0;
+          #counter {
+               float: right;
+               margin: -0.25em 0 0 0;
+               padding: 0.225em 0 0 0;
+               height: 1.275em;
+          }
+          &.shortlist, &.removed {
+               margin-bottom: 3em;
+               nav {
+                    ol {
+                         li {
+                              a {
+                                   float: right;
+                                   display: inline-block;
+                              }
+                         }
+                    }
+               }
+          }
+          &.shortlist {
+               border-top: 10px solid $button-colour;
+               #counter {
+                    background: $button-colour;
+               }
+          }
+          &.removed {
+               border-top: 10px solid $error-colour;
+               // display: none;
+               #counter {
+                    background: $error-colour;
+               }
           }
      }
 }
