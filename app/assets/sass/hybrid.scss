@@ -633,10 +633,12 @@ form {
           }
      }
      .jobcontainer {
-          // background: $panel-colour;
+          border: 10px solid $panel-colour;
+          background: $white;
           // padding: 3%;
           // width: 94%;
           position: relative;
+          text-align: center;
           &:before, &:after {
                position: absolute;
                margin: 0 auto;
@@ -647,16 +649,18 @@ form {
                width: 90%;
                left: 5%;
                background: $secondary-text-colour;
-               bottom: -1em;
+               bottom: -1.5em;
           }
           &:after {
                width: 95%;
                left: 2.5%;
                background: $border-colour;
-               bottom: -0.5em;
+               bottom: -1em;
           }
           .list {
                margin: 0;
+               border-bottom: 1px dashed $panel-colour;
+               margin: 0 0 1em 0;
                li.job {
                     width: 100%;
                     height: auto;
@@ -668,29 +672,41 @@ form {
                }
           }
           .wrapper {
-               background: $panel-colour;
+               // border: 10px solid $panel-colour;
+               // border-top: none;
+               background: $white;
                padding: 4%;
-               width: 92%;
+               text-align: left;
+               // width: 92%;
                .heading-large {
                     margin-top: 0;
                }
-               &.actions {
-                    text-align: center;
-                    .but-yay, .but-nope {
-                         background: none;
-                         box-shadow: none;
-                         padding: 1em;
-                         text-align: center;
-                         color: $black;
-                         img {
-                              width: 7em;
-                              height: 7em;
-                              margin: 0 0 1em 0;
-                              // float: left;
-                              // clear: both;
-                         }
-                    }
+          }
+          .but-yay, .but-nope {
+               background: none;
+               box-shadow: none;
+               padding: 1em;
+               text-align: center;
+               color: $black;
+               display: inline-block;
+               width: 49%;
+               img {
+                    width: 7em;
+                    height: 7em;
+                    margin: 0 0 1em 0;
+                    display: inline-block;
+                    // float: left;
+                    // clear: both;
                }
+               span {
+                    display: inline-block;
+                    clear: left;
+                    width: 100%;
+                    text-align: center;
+               }
+          }
+          .but-nope {
+               margin-right: 0;
           }
      }
 }

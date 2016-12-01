@@ -67,7 +67,7 @@
         origin.querySelector('.current').remove();
         if (!origin.querySelector('.job')) {
           fireCustomEvent('deckempty', {
-            origin: origin.querySelector('button'),
+            origin: origin.querySelector('button', 'button img', 'button span'),
             container: origin,
             job: null
           });
@@ -79,7 +79,7 @@
   }
   document.body.addEventListener('animationend', animationdone);
   document.body.addEventListener('webkitAnimationEnd', animationdone);
-  document.body.addEventListener('click', animatejob);      
+  document.body.addEventListener('click', animatejob);
   window.addEventListener('DOMContentLoaded', function(){
   document.body.classList.add('tinder');
   });
