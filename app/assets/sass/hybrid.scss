@@ -617,6 +617,84 @@ form {
      }
 }
 
+.tinder {
+     .actions {
+          #counter {
+               display: inline-block;
+               background: $turquoise;
+               color: $white;
+               border-radius: 50%;
+               font-weight: bold;
+               margin: 0 0.25em 0 0;
+               padding: 0.15em 0 0 0;
+               width: 1.5em;
+               height: 1.35em;
+               text-align: center;
+          }
+     }
+     .jobcontainer {
+          // background: $panel-colour;
+          // padding: 3%;
+          // width: 94%;
+          position: relative;
+          &:before, &:after {
+               position: absolute;
+               margin: 0 auto;
+               height: 0.5em;
+               content: "";
+          }
+          &:before {
+               width: 90%;
+               left: 5%;
+               background: $secondary-text-colour;
+               bottom: -1em;
+          }
+          &:after {
+               width: 95%;
+               left: 2.5%;
+               background: $border-colour;
+               bottom: -0.5em;
+          }
+          .list {
+               margin: 0;
+               li.job {
+                    width: 100%;
+                    height: auto;
+                    margin-bottom: 0;
+                    img {
+                         width: 100%;
+                         display: block;
+                    }
+               }
+          }
+          .wrapper {
+               background: $panel-colour;
+               padding: 4%;
+               width: 92%;
+               .heading-large {
+                    margin-top: 0;
+               }
+               &.actions {
+                    text-align: center;
+                    .but-yay, .but-nope {
+                         background: none;
+                         box-shadow: none;
+                         padding: 1em;
+                         text-align: center;
+                         color: $black;
+                         img {
+                              width: 7em;
+                              height: 7em;
+                              margin: 0 0 1em 0;
+                              // float: left;
+                              // clear: both;
+                         }
+                    }
+               }
+          }
+     }
+}
+
 .autocomplete-suggestions {
      width: 100%;
      background: $white;
