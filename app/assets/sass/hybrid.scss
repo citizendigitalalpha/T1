@@ -685,28 +685,20 @@ form {
           .but-yay, .but-nope {
                background: none;
                box-shadow: none;
-               padding: 1em;
+               margin: 1em 0 0 0;
+               padding: 8em 1em 2em 1em;
                text-align: center;
                color: $black;
                display: inline-block;
                width: 49%;
-               img {
-                    width: 7em;
-                    height: 7em;
-                    margin: 0 0 1em 0;
-                    display: inline-block;
-                    // float: left;
-                    // clear: both;
-               }
-               span {
-                    display: inline-block;
-                    clear: left;
-                    width: 100%;
-                    text-align: center;
-               }
+          }
+          .but-yay {
+               background: url(/public/images/icon-thumbs-up.svg) $white no-repeat 50% 0%;
+               background-size: 7em;
           }
           .but-nope {
-               margin-right: 0;
+               background: url(/public/images/icon-thumbs-down.svg) $white no-repeat 50% 0%;
+               background-size: 7em;
           }
      }
 }
