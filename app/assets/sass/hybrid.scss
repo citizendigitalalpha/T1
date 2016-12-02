@@ -652,7 +652,50 @@ form {
 // ========================================== FORMS - END ========================================== //
 
 // ========================================== TINDER - START ========================================== //
+.tinder-intro {
+     background: $turquoise;
+     padding: 1.5em;
+     h1, h2, h3, p {
+          color: $white;
+          margin-top: 0;
+     }
+     .list {
+          .job {
+               width: 100%;
+               display: inline-block;
+               height: auto;
+               margin-bottom: 4em;
+               .image-block {
+                    height: 22em;
+                    overflow: visible;
+                    img {
+                         top: 0;
+                         width: 120%;
+                         left: -3em;
+                    }
+               }
+               img {
+
+               }
+          }
+     }
+     a.button.button-start {
+          width: 100%;
+          display: inline-block;
+          background: $white;
+          color: $turquoise;
+          font-size: 1.4em;
+          text-align: center;
+          border: none;
+          // border-bottom: 4px solid darken($turquoise,7.5%);
+     }
+}
+
 .tinder {
+     .skip {
+          margin-bottom: 1em;
+          display: inline-block;
+     }
      .heading-xlarge {
           margin-bottom: 0.75em;
      }

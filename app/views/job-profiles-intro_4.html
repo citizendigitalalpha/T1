@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+National Careers Service
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+     {% include "includes/phase_banner_alpha.html" %}
+     <div class="grid-row">
+          <div class="column-two-thirds">
+               <h1 class="heading-xlarge">
+                    <span class="heading-secondary">Explore our job profiles</span>
+                    Welcome to your job profile shortlist
+               </h1>
+               <a class="skip" href="/job-profiles">Skip intro</a>
+          </div>
+     </div>
+     <div class="grid-row">
+          <div class="column-two-thirds">
+               <div class="tinder-intro">
+                    <h1 class="heading-small">Here's how it works...</h1>
+                    <h2 class="heading-large">We'll add the careers you like to a shortlist</h2>
+                    <p class="lede">
+                         When you've got 5 options in your shortlist, you'll get a chance to look at them in more detail.
+                    </p>
+                    <p class="lede">
+                         That's it!
+                    </p>
+                    <a class="button button-start" href="/job-profiles">Start now</a>
+               </div>
+          </div>
+     </div>
+</main>
+
+{% endblock %}
