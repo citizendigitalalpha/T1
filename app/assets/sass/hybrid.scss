@@ -640,7 +640,7 @@ form {
 
 // ========================================== TINDER - START ========================================== //
 .tinder {
-     .jobcontainer {
+     .jobcontainer, .joblist {
           border: 10px solid $panel-colour;
           background: $white;
           // padding: 3%;
@@ -665,9 +665,9 @@ form {
                background: $border-colour;
                bottom: -1em;
           }
-          .list {
+          .list, &.live {
                margin: 0;
-               li.job {
+               li {
                     width: 100%;
                     height: auto;
                     margin-bottom: 0;
@@ -702,19 +702,6 @@ form {
                               }
                          }
                     }
-               }
-          }
-          .image-block {
-               display: inline-block;
-               width: 100%;
-               overflow: hidden;
-               height: 15em;
-               position: relative;
-               img {
-                    position: absolute;
-                    left: 0;
-                    right: 0;
-                    top: -20%;
                }
           }
           .wrapper {
@@ -759,6 +746,39 @@ form {
           .but-nope {
                background: url(/public/images/icon-thumbs-down.svg) transparent no-repeat 50% 0%;
                background-size: 7em;
+          }
+     }
+     #results {
+          text-align: left;
+          border: none;
+          li {
+               padding: 0;
+          }
+          .heading-medium {
+               margin-top: 0;
+          }
+          &:before, &:after {
+               display: none;
+          }
+          .image-block {
+               display: none;
+          }
+          .wrapper {
+               padding: 2em 0;
+          }
+     }
+     .image-block {
+          display: inline-block;
+          width: 100%;
+          overflow: hidden;
+          height: 15em;
+          position: relative;
+          img {
+               position: absolute;
+               left: 0;
+               right: 0;
+               top: -20%;
+               width: 100%;
           }
      }
      .actions, .govuk-related-items {
@@ -820,6 +840,11 @@ form {
                          background-size: 1em;
                     }
                }
+          }
+     }
+     &.shortlist {
+          .actions {
+               display: none;
           }
      }
 }

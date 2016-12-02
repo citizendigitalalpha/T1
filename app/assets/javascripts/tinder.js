@@ -71,7 +71,9 @@
             container: origin,
             job: null
           });
-        } else {
+          $(".govuk-related-items.shortlist").hide();
+          $(".tinder").addClass('shortlist');
+     } else {
           origin.querySelector('.job').classList.add('current');
         }
       }
