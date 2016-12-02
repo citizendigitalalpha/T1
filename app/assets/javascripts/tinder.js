@@ -92,18 +92,67 @@
 
      $("button.but-yay").click(function(){
           $("aside.shortlist .grey").hide();
-          // $("aside.shortlist li.bank-manager").show("slow");
-          // if ($(this).siblings(".wrapper").child("h2").html() == "Bank manager") {
-          //      $("aside.shortlist li.bank-manager").show();
-          // }
-          // $(this).parent().parent().parent().toggleClass("");
-          // $(this).html($(this).text() == 'Unselect' ? 'Select' : 'Unselect' + "<span></span>");
+          var selected = $(this).siblings(".list").find("h2");
+          if (selected.html() == "<span>1.</span> Bank manager") {
+               $("aside.shortlist li.bank-manager").show("slow");
+          }
+          if (selected.html() == "<span>2.</span> Chef") {
+               $("aside.shortlist li.chef").show("slow");
+          }
+          if (selected.html() == "<span>3.</span> Medical secretary") {
+               $("aside.shortlist li.medical").show("slow");
+          }
+          if (selected.html() == "<span>4.</span> Credit controller") {
+               $("aside.shortlist li.credit").show("slow");
+          }
+          if (selected.html() == "<span>5.</span> Diver") {
+               $("aside.shortlist li.diver").show("slow");
+          }
+          if (selected.html() == "<span>6.</span> Paralegal") {
+               $("aside.shortlist li.paralegal").show("slow");
+          }
+          if (selected.html() == "<span>7.</span> Plumber") {
+               $("aside.shortlist li.plumber").show("slow");
+          }
+          if (selected.html() == "<span>8.</span> Publican") {
+               $("aside.shortlist li.publican").show("slow");
+          }
+
      });
 
      $("button.but-nope").click(function(){
-
+          $("aside.removed").show("slow");
+          var selected = $(this).siblings(".list").find("h2");
+          if (selected.html() == "<span>1.</span> Bank manager") {
+               $("aside.shortlist li.bank-manager").show("slow");
+          }
+          if (selected.html() == "<span>2.</span> Chef") {
+               $("aside.shortlist li.chef").show("slow");
+          }
+          if (selected.html() == "<span>3.</span> Medical secretary") {
+               $("aside.shortlist li.medical").show("slow");
+          }
+          if (selected.html() == "<span>4.</span> Credit controller") {
+               $("aside.shortlist li.credit").show("slow");
+          }
+          if (selected.html() == "<span>5.</span> Diver") {
+               $("aside.shortlist li.diver").show("slow");
+          }
+          if (selected.html() == "<span>6.</span> Paralegal") {
+               $("aside.shortlist li.paralegal").show("slow");
+          }
+          if (selected.html() == "<span>7.</span> Plumber") {
+               $("aside.shortlist li.plumber").show("slow");
+          }
+          if (selected.html() == "<span>8.</span> Publican") {
+               $("aside.shortlist li.publican").show("slow");
+          }
      });
 
+     $(".hide").click(function(){
+          event.preventDefault();
+          $(this).parent().hide("slow");
+     });
 
 })();
 /* Shortlist code - END */
