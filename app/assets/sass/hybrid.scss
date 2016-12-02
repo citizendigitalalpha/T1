@@ -50,7 +50,6 @@ h1, h2, h3, h4, p {
      margin: 0 0 1.25em 0;
 }
 
-
 .salary, .hours {
      margin: 2em 0 1em 0;
      display: inline-block;
@@ -161,6 +160,20 @@ h1, h2, h3, h4, p {
      hr {
           margin-top: 3em;
           margin-bottom: 3em;
+     }
+}
+
+#scroller.fixed {
+     top: 0;
+     left: 0;
+     right: 0;
+     z-index: 1000;
+     background: $white;
+     width: 100%;
+     padding: 0.5em 1em;
+     box-shadow: 0 0 10px 0 rgba($black,0.4);
+     nav {
+          margin: 0;
      }
 }
 
@@ -640,6 +653,9 @@ form {
 
 // ========================================== TINDER - START ========================================== //
 .tinder {
+     .heading-xlarge {
+          margin-bottom: 0.75em;
+     }
      .jobcontainer, .joblist {
           border: 10px solid $panel-colour;
           background: $white;
@@ -771,13 +787,13 @@ form {
           display: inline-block;
           width: 100%;
           overflow: hidden;
-          height: 15em;
+          height: 12.5em;
           position: relative;
           img {
                position: absolute;
                left: 0;
                right: 0;
-               top: -20%;
+               top: -25%;
                width: 100%;
           }
      }

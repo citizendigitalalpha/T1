@@ -1,18 +1,23 @@
 (function(){
 
   var all = 8;
+  var start = 0;
   var yesclicks = 0;
   var results = document.querySelector('#results');
   var noresults = document.querySelector('#no-results');
   var counter = document.querySelector('#counter');
   var shortListCounter = document.querySelector('.shortlist-counter');
-  var removedCounter = document.querySelector('.removed-counter');
+  // var removedCounter = document.querySelector('.removed-counter');
 
   function updatecounter() {
     --all;
     counter.innerHTML = all;
+  }
+
+  function updateShortlistCounter() {
+    --start;
     shortListCounter.innerHTML = all;
-    removedCounter.innerHTML = all;
+    // removedCounter.innerHTML = all;
   }
 
     function updateyesclicks()
@@ -21,16 +26,26 @@
         //alert(yesclicks);
     }
 
+    // function updatenopeclicks()
+    // {
+    //     nopeclicks --;
+    //     //alert(yesclicks);
+    // }
+
 
   document.body.addEventListener('yepjob', function(ev) {
     results.innerHTML += '<li>'+ev.detail.job.innerHTML+'</li>';
     updatecounter();
     updateyesclicks();
+    // updatenopeclicks();
+    updateShortlistCounter();
   });
 
   document.body.addEventListener('nopejob', function(ev) {
     updatecounter();
-  });
+    updatenopeclicks();
+    updateShortlistCounter();
+});
 
   document.body.addEventListener('deckempty', function(ev) {
 
@@ -64,6 +79,7 @@
     var listitems = document.body.querySelectorAll('.job');
     all = listitems.length + 1;
     updatecounter();
+    updateShortlistCounter();
   });
 
 })();

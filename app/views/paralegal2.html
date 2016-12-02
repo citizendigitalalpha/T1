@@ -1,4 +1,4 @@
-{% extends "layout_landing_page.html" %}
+{% extends "layout_profiles.html" %}
 
 {% block page_title %}
 	National Careers Service
@@ -52,53 +52,65 @@
 
 <main id="content" role="main">
      <!-- {% include "includes/breadcrumb_legal.html" %} -->
-     <div class="grid-row">
-          <div class="column-full">
-               <nav aria-label="skip to your documents" class="jump-links hybrid-links" role="navigation">
-                    <div class="grid-row">
-                         <div class="column-one-third">
-                              <ol class="list list-number">
-                                   <li>
-                                        <a href="#entry-requirements">Entry requirements</a>
-                                   </li>
-                                   <li>
-                                        <a href="#skills-required">Skills required</a>
-                                   </li>
-                              </ol>
-                         </div>
-                         <div class="column-one-third">
-                              <ol class="list list-number" start="3">
-                                   <li>
-                                        <a href="#what-youll-do">What you'll do</a>
-                                   </li>
-                                   <li>
-                                        <a href="#salary">Salary</a>
-                                   </li>
-                              </ol>
-                         </div>
-                         <div class="column-one-third">
-                              <ol class="list list-number" start="5">
-                                   <li>
-                                        <a href="#working-hours-patterns-and-environment">Working hours, patterns and environment</a>
-                                   </li>
-                                   <li>
-                                        <a href="#career-path-and-progression">Career path and progression</a>
-                                   </li>
-                                   <!-- <li>
-                                        <a href="#current-vacancies">Current vacancies</a>
-                                   </li> -->
-                                   <!-- <li>
-                                        <a href="#research">Research portal</a>
-                                   </li> -->
-                              </ol>
-                         </div>
-                    </div>
-               </nav>
-          </div>
-     </div>
+
+	<div id="sidebar">
+	     <div class="grid-row">
+	          <div class="column-full">
+				<div id="scroller-anchor"></div>
+				<div id="scroller">
+		               <nav aria-label="skip to your documents" class="jump-links hybrid-links" role="navigation">
+		                    <div class="grid-row">
+		                         <div class="column-one-third">
+		                              <ol class="list list-number">
+		                                   <li>
+		                                        <a href="#entry-requirements">Entry requirements</a>
+		                                   </li>
+		                                   <li>
+		                                        <a href="#skills-required">Skills required</a>
+		                                   </li>
+		                              </ol>
+		                         </div>
+		                         <div class="column-one-third">
+		                              <ol class="list list-number" start="3">
+		                                   <li>
+		                                        <a href="#what-youll-do">What you'll do</a>
+		                                   </li>
+		                                   <li>
+		                                        <a href="#salary">Salary</a>
+		                                   </li>
+		                              </ol>
+		                         </div>
+		                         <div class="column-one-third">
+		                              <ol class="list list-number" start="5">
+		                                   <li>
+		                                        <a href="#working-hours-patterns-and-environment">Working hours, patterns and environment</a>
+		                                   </li>
+		                                   <li>
+		                                        <a href="#career-path-and-progression">Career path and progression</a>
+		                                   </li>
+		                                   <!-- <li>
+		                                        <a href="#current-vacancies">Current vacancies</a>
+		                                   </li> -->
+		                                   <!-- <li>
+		                                        <a href="#research">Research portal</a>
+		                                   </li> -->
+		                              </ol>
+		                         </div>
+		                    </div>
+		               </nav>
+				</div>
+	          </div>
+	     </div>
+	</div>
 
      <div class="grid-row">
           <div class="column-two-thirds">
+			<div class="video-container">
+				<iframe allowfullscreen="" frameborder="0" height="315" src=
+				"https://www.youtube.com/embed/gtjLr7AXOsU?cc_load_policy=1"
+				width="560"></iframe>
+			</div>
+
                <section id="entry-requirements">
                     <h2 class="heading-large"><span>1.</span> Entry requirements</h2>
                     <p>
@@ -164,11 +176,6 @@
                          firms, private companies, local government, the police and
                          the courts.
                     </p>
-                    <div class="video-container">
-                         <iframe allowfullscreen="" frameborder="0" height="315" src=
-                         "https://www.youtube.com/embed/gtjLr7AXOsU?cc_load_policy=1"
-                         width="560"></iframe>
-                    </div>
                </section><!--section 3-->
                <section id="salary">
                     <h2 class="heading-large"><span>4.</span> Salary</h2>
