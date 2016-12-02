@@ -124,28 +124,28 @@
           $("aside.removed").show("slow");
           var selected = $(this).siblings(".list").find("h2");
           if (selected.html() == "<span>1.</span> Bank manager") {
-               $("aside.shortlist li.bank-manager").show("slow");
+               $("aside.removed li.bank-manager").show("slow");
           }
           if (selected.html() == "<span>2.</span> Chef") {
-               $("aside.shortlist li.chef").show("slow");
+               $("aside.removed li.chef").show("slow");
           }
           if (selected.html() == "<span>3.</span> Medical secretary") {
-               $("aside.shortlist li.medical").show("slow");
+               $("aside.removed li.medical").show("slow");
           }
           if (selected.html() == "<span>4.</span> Credit controller") {
-               $("aside.shortlist li.credit").show("slow");
+               $("aside.removed li.credit").show("slow");
           }
           if (selected.html() == "<span>5.</span> Diver") {
-               $("aside.shortlist li.diver").show("slow");
+               $("aside.removed li.diver").show("slow");
           }
           if (selected.html() == "<span>6.</span> Paralegal") {
-               $("aside.shortlist li.paralegal").show("slow");
+               $("aside.removed li.paralegal").show("slow");
           }
           if (selected.html() == "<span>7.</span> Plumber") {
-               $("aside.shortlist li.plumber").show("slow");
+               $("aside.removed li.plumber").show("slow");
           }
           if (selected.html() == "<span>8.</span> Publican") {
-               $("aside.shortlist li.publican").show("slow");
+               $("aside.removed li.publican").show("slow");
           }
      });
 
