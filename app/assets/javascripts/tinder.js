@@ -92,6 +92,7 @@
 
      $("button.but-yay").click(function(){
           $("aside.shortlist .grey").hide();
+          $(".more-info").hide("slow");
           var selected = $(this).siblings(".list").find("h2");
           if (selected.html() == "<span>1.</span> Bank manager") {
                $("aside.shortlist li.bank-manager").show("slow");
@@ -122,6 +123,7 @@
 
      $("button.but-nope").click(function(){
           $("aside.removed").show("slow");
+          $(".more-info").hide("slow");
           var selected = $(this).siblings(".list").find("h2");
           if (selected.html() == "<span>1.</span> Bank manager") {
                $("aside.removed li.bank-manager").show("slow");
@@ -156,3 +158,11 @@
 
 })();
 /* Shortlist code - END */
+
+/* More info - START */
+$(".view-more").click(function(){
+     event.preventDefault();
+     $(this).siblings(".more-info").toggle("slow");
+     $(this).html($(this).text() == 'Hide more information' ? 'View more information' : "<span></span>" + 'Hide more information');
+});
+/* More info - END */

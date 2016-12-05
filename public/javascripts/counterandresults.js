@@ -1,12 +1,12 @@
 (function(){
 
   var all = 8;
-  var start = 0;
+  // var start = 0;
   var yesclicks = 0;
   var results = document.querySelector('#results');
   var noresults = document.querySelector('#no-results');
   var counter = document.querySelector('#counter');
-  var shortListCounter = document.querySelector('.shortlist-counter');
+  // var shortListCounter = document.querySelector('.shortlist-counter');
   // var removedCounter = document.querySelector('.removed-counter');
 
   function updatecounter() {
@@ -14,11 +14,11 @@
     counter.innerHTML = all;
   }
 
-  function updateShortlistCounter() {
-    --start;
-    shortListCounter.innerHTML = all;
-    // removedCounter.innerHTML = all;
-  }
+  // function updateShortlistCounter() {
+  //   --start;
+  //   shortListCounter.innerHTML = all;
+  //   // removedCounter.innerHTML = all;
+  // }
 
     function updateyesclicks()
     {
@@ -38,13 +38,13 @@
     updatecounter();
     updateyesclicks();
     // updatenopeclicks();
-    updateShortlistCounter();
+    // updateShortlistCounter();
   });
 
   document.body.addEventListener('nopejob', function(ev) {
     updatecounter();
     updatenopeclicks();
-    updateShortlistCounter();
+    // updateShortlistCounter();
 });
 
   document.body.addEventListener('deckempty', function(ev) {
@@ -79,7 +79,24 @@
     var listitems = document.body.querySelectorAll('.job');
     all = listitems.length + 1;
     updatecounter();
-    updateShortlistCounter();
+    // updateShortlistCounter();
   });
 
 })();
+
+// (function(){
+//
+//      var yesCount, noCount;
+//      yesCount = noCount = 0;
+//
+//      function count_y() {
+//          yesCount++;
+//          aler("yesCount");
+//      }
+//
+//      function count_y() {
+//          noCount++;
+//          aler("noCount");
+//      }
+//
+// })();
