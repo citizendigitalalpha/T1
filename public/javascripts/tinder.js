@@ -91,7 +91,7 @@
 (function(){
 
      $("button.but-yay").click(function(){
-          $("aside.shortlist .grey").hide();
+          $("aside.shortlist .grey.intro-text").hide();
           $(".more-info").hide("slow");
           var selected = $(this).siblings(".list").find("h2");
           if (selected.html() == "<span>1.</span> Bank manager") {
