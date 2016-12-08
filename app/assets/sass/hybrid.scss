@@ -275,18 +275,18 @@ h1, h2, h3, h4, p {
 .welcome_block {
      position: relative;
      &.sub-header {
-          &.homepage {
-               margin-bottom: 0;
-               .eggs a {
-                    background: $white;
-                    color: $turquoise;
-                    border-color: $white;
-                    &:hover {
-                         background: $turquoise;
-                         color: $white;
-                    }
-               }
-          }
+          // &.homepage {
+          //      margin-bottom: 0;
+          //      .eggs a {
+          //           background: $white;
+          //           color: $turquoise;
+          //           border-color: $white;
+          //           &:hover {
+          //                background: $turquoise;
+          //                color: $white;
+          //           }
+          //      }
+          // }
           form {
                .form-group {
                     position: relative;

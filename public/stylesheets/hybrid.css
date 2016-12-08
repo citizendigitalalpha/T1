@@ -282,24 +282,6 @@ h1.intro-yes span, h2.intro-yes span, h3.intro-yes span, h4.intro-yes span, p.in
   position: relative;
 }
 
-/* line 278, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
-.welcome_block.sub-header.homepage {
-  margin-bottom: 0;
-}
-
-/* line 280, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
-.welcome_block.sub-header.homepage .eggs a {
-  background: #fff;
-  color: #28a197;
-  border-color: #fff;
-}
-
-/* line 284, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
-.welcome_block.sub-header.homepage .eggs a:hover {
-  background: #28a197;
-  color: #fff;
-}
-
 /* line 291, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .welcome_block.sub-header form .form-group {
   position: relative;
