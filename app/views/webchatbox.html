@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "layout_home.html" %}
 
 {% block page_title %}
   National Careers Service - Web chat
@@ -6,8 +6,10 @@
 
 {% block content %}
 
+{% include "includes/new_navigation.html" %}
+
 <main id="content" role="main">
-		{% include "includes/phase_banner_alpha.html" %} {% include "includes/breadcrumb_webchat.html" %}
+		{% include "includes/breadcrumb_webchat.html" %}
 		<div class="grid-row">
 			<div class="column-two-thirds">
 				<h1 class="heading-xlarge">Careers advice live</h1>
@@ -17,7 +19,7 @@
                     <div class="webchat__header">
 						<h2 class=" heading-large webchat__title">Anne - Careers adviser</h2>
 					</div>
-                    <div class="webchat__inner">					
+                    <div class="webchat__inner">
 					<div class="webchat__content mb30">
 						<div class="message message--agent">
 							<p class="message__author">Anne</p>
@@ -59,11 +61,11 @@
                     </div>
 					<div class="webchat__footer">
 						<div class="message__text-entry">
-							<label class="form-label-bold" for="message">Your message</label> 
-							<textarea class="textarea w100 mb30" cols="30" id="message" rows="3"></textarea> <a class="button mb30" href="">Send message</a>                           
+							<label class="form-label-bold" for="message">Your message</label>
+							<textarea class="textarea w100 mb30" cols="30" id="message" rows="3"></textarea> <a class="button mb30" href="">Send message</a>
 						</div>
 					</div>
-                    
+
 				</div>
 			</div>
             <div class="column-one-third">
@@ -73,5 +75,3 @@
 	</main>
 
 {% endblock %}
-
-

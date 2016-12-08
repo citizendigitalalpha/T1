@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "layout_home.html" %}
 
 {% block page_title %}
   National Careers Service - Book this
@@ -6,8 +6,9 @@
 
 {% block content %}
 
+{% include "includes/new_navigation.html" %}
+
 <main id="content" role="main">
-		{% include "includes/phase_banner_alpha.html" %}
     {% include "includes/breadcrumb_book.html" %}
 		<div class="grid-row">
 			<div class="column-two-thirds">
@@ -16,11 +17,10 @@
                 <p>You can <a href="#">add this appointment</a> to your calendar.</p>
                 <p>The address is:</p>
                 <p>7 Fairfax Rd<br/>Manchester<br/>M25 1AS</p>
-                <p>Telephone: (0161) 773 7835<br/>
-                Textphone: (0161) 773 7836</p>
-                <p>You can use <a href="#">Google Maps</a> or <a href="#">Traveline</a> to plan your journey by public transport.</p>
+                <p>Telephone: (0161) 773 7835</p>
+                <p>Textphone: (0161) 773 7836</p>
                 <p>You can <a href="#">cancel this appointment</a> at any time.</p>
-                
+
      <div id="map"></div>
     <script>
       function initMap() {
@@ -54,5 +54,3 @@
 	</main>
 
 {% endblock %}
-
-

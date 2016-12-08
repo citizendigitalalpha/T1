@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "layout_home.html" %}
 
 {% block page_title %}
   National Careers Service - Explore
@@ -6,14 +6,15 @@
 
 {% block content %}
 
+{% include "includes/new_navigation.html" %}
+
 <main id="content" role="main">
-    {% include "includes/phase_banner_alpha.html" %}
   <div class="grid-row">
     <div class="column-two-thirds">
 
       <h1 class="heading-xlarge">
           <span class="heading-secondary">Explore part 3 of 5</span>
-        What environment do you like to work in?        
+        What environment do you like to work in?
       </h1>
         <form method="get" action="/explore-part-4">
         <fieldset class="form-group">
@@ -64,12 +65,12 @@
               <input id="radio-part-8" type="checkbox" name="Travel" value="Travel">
               <span class="heading-small">Travel</span><br>
               You enjoy moving from place to place
-            </label> 
+            </label>
             <!--<label for="radio-part-9" class="block-label">
               <input id="radio-part-9" type="checkbox" name="On the road" value="On the road">
               <span class="heading-small">On the road</span><br>
               You enjoy moving from place to place
-            </label>--> 
+            </label>-->
             <label for="radio-part-10" class="block-label">
               <input id="radio-part-10" type="checkbox" name="Overseas" value="Overseas">
               <span class="heading-small">Overseas</span><br>
@@ -84,20 +85,18 @@
               <input id="radio-part-12" type="checkbox" name="Wifi hotspot" value="Wifi hotspot">
               <span class="heading-small">Wifi hotspot</span><br>
               You want to move around freely
-            </label>  
+            </label>
             <label for="radio-part-13" class="block-label">
               <input id="radio-part-13" type="checkbox" name="None" value="None">
               <span class="heading-small">Undecided</span><br>
               You may need a bit more guidance
-            </label>            
+            </label>
           </fieldset>
-           <input class="button" type="submit" value="Continue"> 
+           <input class="button" type="submit" value="Continue">
         </form>
-  
+
     </div>
   </div>
 </main>
 
 {% endblock %}
-
-

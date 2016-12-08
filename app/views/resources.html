@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "layout_home.html" %}
 
 {% block page_title %}
   National Careers Service - Resources
@@ -6,8 +6,10 @@
 
 {% block content %}
 
+{% include "includes/new_navigation.html" %}
+
 <main id="content" role="main">
-		{% include "includes/phase_banner_alpha.html" %} {% include "includes/breadcrumb_resources.html" %} {% include "includes/main_navigation.html" %}
+		{% include "includes/breadcrumb_resources.html" %} {% include "includes/main_navigation.html" %}
 		<div class="grid-row">
 			<div class="column-two-thirds">
 				<div id="all_divs">
@@ -42,11 +44,11 @@
 							<!--<li>
 								<a href="#">what to include in your CV</a>
 							</li>-->
-							
+
 							<li>
 								<a href="./sample-application-letters.html">completing application forms</a>
 							</li>
-                            
+
 						</ul>
 					</div>
 					<div class="prepare_content professional">
@@ -154,5 +156,3 @@
 	</main>
 
 {% endblock %}
-
-

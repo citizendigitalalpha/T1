@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "layout_home.html" %}
 
 {% block page_title %}
   National Careers Service
@@ -6,9 +6,10 @@
 
 {% block content %}
 
+{% include "includes/new_navigation.html" %}
+
 <main id="content" role="main">
-        {% include "includes/phase_banner_alpha.html" %} {% include
-        "includes/breadcrumb_maint.html" %}
+        {% include "includes/breadcrumb_maint.html" %}
         <div class="grid-row">
             <div class="column-two-thirds">
                 <h1 class="heading-xlarge">Plumber <span class=
@@ -93,7 +94,7 @@
                     rel="external">Summitskills</a> and <a href=
                     "https://www.goconstruct.org/en/finding-a-role-for-you/career-explorer/plumber/"
                     rel="external">Go Construct</a> have more information about
-                    careers and qualifications in plumbing.</p>                    
+                    careers and qualifications in plumbing.</p>
                     <h3 class="heading-medium">Courses available in your area</h3>
                     <h4 class="heading-small"><a href="https://www.findapprenticeship.service.gov.uk/apprenticeshipdetail/-17536/6">Apprentice Plumber</a></h4>
                     <ul class="list">
@@ -228,5 +229,3 @@
     </main>
 
 {% endblock %}
-
-

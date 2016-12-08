@@ -6,10 +6,12 @@
 
 {% block content %}
 
+{% include "includes/new_navigation.html" %}
+
 <main id="content" role="main">
-		{% include "includes/phase_banner_alpha.html" %}
+
     {% include "includes/breadcrumb_book.html" %}
-				
+
     <div class="grid-row">
     <div class="column-two-thirds">
         <h1 class="heading-xlarge">Book an appointment with Joe</h1>
@@ -43,5 +45,3 @@
 	</main>
 
 {% endblock %}
-
-

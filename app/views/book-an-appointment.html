@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "layout_home.html" %}
 
 {% block page_title %}
   National Careers Service - Book an appointment
@@ -6,13 +6,14 @@
 
 {% block content %}
 
+{% include "includes/new_navigation.html" %}
+
 <main id="content" role="main">
-		{% include "includes/phase_banner_alpha.html" %}    
        {% include "includes/breadcrumb_book.html" %}
 		<div class="grid-row">
 			<div class="column-two-thirds">
 				<h1 class="heading-xlarge">Book an appointment</h1>
-				<h2 class="heading-large">First available appointment</h2>                
+				<h2 class="heading-large">First available appointment</h2>
                 <p>This is the first available appointment in your area. There are other advisers in your area and appointments using the free online video service are also available.</p>
                 <p><a href="./appointment-list-skype.html">See all advisers that offer online video appointments</a>.</p>
 				<div class="grid-row govuk-box-highlight-border big-border-box">
@@ -25,7 +26,7 @@
 						<p><a class="button" href="./book-this.html" role="button">Book this appointment</a></p>
 						<p>or <a href="./choose-other-joe.html">choose a different appointment with Joe</a>.</p>
 					</div>
-				</div>                
+				</div>
 				<p><a href="./appointment-list.html">I'd like to see who else is available</a>.</p>
               </div>
 		</div>

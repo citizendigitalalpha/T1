@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "layout_home.html" %}
 
 {% block page_title %}
   National Careers Service
@@ -6,8 +6,9 @@
 
 {% block content %}
 
+{% include "includes/new_navigation.html" %}
+
 <main id="content" role="main">
-        {% include "includes/phase_banner_alpha.html" %}
         <div class="grid-row">
             <div class="column-two-thirds">
                 <h1 class="heading-xlarge"><span class=
@@ -80,10 +81,10 @@
                             <p>37 to 40 hours per week.</p><a href=
                             "/publican">View job profile</a>
                         </li>
-                    </ul>                    
+                    </ul>
                     <p>You have <span id="counter">8</span> job profiles left to
                     shortlist.</p><button class="but-nope">No, remove this</button>
-                    <button class="but-yay">Yes, add this to my shortlist</button>                    
+                    <button class="but-yay">Yes, add this to my shortlist</button>
                 </div>
                 <ul class="joblist" id="results"><h2 class="heading-large">You have shortlisted these job profiles</h2></ul>
             </div>
@@ -91,6 +92,3 @@
     </main>
 
 {% endblock %}
-
-
-

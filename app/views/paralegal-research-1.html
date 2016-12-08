@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "layout_home.html" %}
 
 {% block page_title %}
   National Careers Service
@@ -6,14 +6,15 @@
 
 {% block content %}
 
+{% include "includes/new_navigation.html" %}
+
 <main id="content" role="main">
-        {% include "includes/phase_banner_alpha.html" %} {% include
-        "includes/breadcrumb_legal_research.html" %}
+        {% include "includes/breadcrumb_legal_research.html" %}
         <div class="grid-row">
             <div class="column-two-thirds">
                 <h1 class="heading-xlarge">Paralegal research</h1>
                 <p class="lede">Whatever your situation, there are resources to help you.</p>
-                <h2 class="heading-medium">Are you..</h2>
+                <h2 class="heading-medium">Are you...</h2>
 
                 <nav aria-label="skip to your situation" class="jump-links hybrid-links"
                 role="navigation">

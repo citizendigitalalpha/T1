@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "layout_home.html" %}
 
 {% block page_title %}
   National Careers Service - What to do in an interview
@@ -6,8 +6,9 @@
 
 {% block content %}
 
+{% include "includes/new_navigation.html" %}
+
 <main id="content" role="main">
-		{% include "includes/phase_banner_alpha.html" %}
     {% include "includes/breadcrumb_resources.html" %}
 		<div class="grid-row">
 			<div class="column-two-thirds">
@@ -15,13 +16,13 @@
                 <p class="lede">An interview is a discussion in person, by phone or online, between you and and a potential  employer. The employer will want to see if you're the right person for the job, and it'll give you the chance to see if the job's one you want.</p>
                 <p>It's your chance to make a good impression, and show the employer what you have to offer.</p>
                 <p>Make sure you're prepared. Research the role and organisation, and prepare evidence and examples of your skills and experience.</p>
-                
+
                 <ul class="list list-number">
                     <li><a href="#before">Before the interview</a></li>
                     <li><a href="#during">During the interview</a></li>
                     <li><a href="#after">When the employer contacts you after the interview</a></li>
                 </ul>
-                
+
                 <h2 class="heading-medium" id="before">1. Before the interview</h2>
                 <ul class="list list-bullet">
                 <li>find out what kind of interview it'll be so you can prepare - it could be a panel interview, a work-based task, or a group discussion</li>
@@ -52,13 +53,11 @@
                 <h2 class="heading-medium" id="after">3. When the employer contacts you after the interview</h2>
                 <ul class="list list-bullet">
                 <li>ask for feedback on your performance - if you weren't successful think about how youcould use their comments to improve for next time</li>
-                <li>if you're offered a job and decide you don't want it, thank the employer politely, as you may want to work for them in future</li>   
+                <li>if you're offered a job and decide you don't want it, thank the employer politely, as you may want to work for them in future</li>
                 </ul>
-               
-            </div>     
+
+            </div>
 		</div>
 	</main>
 
 {% endblock %}
-
-

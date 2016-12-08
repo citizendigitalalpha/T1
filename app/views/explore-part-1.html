@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "layout_home.html" %}
 
 {% block page_title %}
   National Careers Service - Explore
@@ -6,14 +6,15 @@
 
 {% block content %}
 
+{% include "includes/new_navigation.html" %}
+
 <main id="content" role="main">
-    {% include "includes/phase_banner_alpha.html" %}
   <div class="grid-row">
     <div class="column-two-thirds">
 
       <h1 class="heading-xlarge">
           <span class="heading-secondary">Explore part 1 of 5</span>
-        Choose your hobbies and interests        
+        Choose your hobbies and interests
       </h1>
         <form method="get" action="/explore-part-2">
         <fieldset class="form-group">
@@ -34,11 +35,11 @@
               <input id="radio-part-3" type="checkbox" name="Blogging" value="Blogging">
               <span class="heading-small">Blogging</span><br>
               Including Tumblr, Wordpress and Blogspot
-            </label>            
+            </label>
             <label for="radio-part-4" class="block-label">
               <input id="radio-part-4" type="checkbox" name="Collecting" value="Collecting">
               <span class="heading-small">Collecting</span><br>
-              Gathering together things you love 
+              Gathering together things you love
             </label>
             <label for="radio-part-5" class="block-label">
               <input id="radio-part-5" type="checkbox" name="Volunteering" value="Volunteering">
@@ -107,13 +108,11 @@
             </label>
 
           </fieldset>
-           <input class="button" type="submit" value="Continue"> 
+           <input class="button" type="submit" value="Continue">
         </form>
-  
+
     </div>
   </div>
 </main>
 
 {% endblock %}
-
-

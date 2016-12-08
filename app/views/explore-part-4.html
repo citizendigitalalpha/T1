@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "layout_home.html" %}
 
 {% block page_title %}
   National Careers Service - Explore
@@ -6,14 +6,15 @@
 
 {% block content %}
 
+{% include "includes/new_navigation.html" %}
+
 <main id="content" role="main">
-    {% include "includes/phase_banner_alpha.html" %}
   <div class="grid-row">
     <div class="column-two-thirds">
 
       <h1 class="heading-xlarge">
           <span class="heading-secondary">Explore part 4 of 5</span>
-       How far do you like to travel?        
+       How far do you like to travel?
       </h1>
         <form method="get" action="/explore-part-5">
         <fieldset class="form-group">
@@ -54,15 +55,13 @@
               <input id="radio-part-6" type="checkbox" name="The world" value="The world">
               <span class="heading-small">The world</span><br>
               You want to see other countries
-            </label>                  
+            </label>
           </fieldset>
-           <input class="button" type="submit" value="Continue"> 
+           <input class="button" type="submit" value="Continue">
         </form>
-  
+
     </div>
   </div>
 </main>
 
 {% endblock %}
-
-

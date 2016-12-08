@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "layout_home.html" %}
 
 {% block page_title %}
   National Careers Service - Job profiles
@@ -6,8 +6,9 @@
 
 {% block content %}
 
+{% include "includes/new_navigation.html" %}
+
 <main id="content" role="main">
-		{% include "includes/phase_banner_alpha.html" %}    
        {% include "includes/breadcrumb_home.html" %}
 		<div class="grid-row">
 			<div class="column-two-thirds">
@@ -36,7 +37,7 @@
                 manager</a></h3><span class="grey">Building society manager,
                 financial institution manager or director</span>
                 <p>Bank managers oversee the day-to-day operations of their
-                branch, supervise staff and work to attract new customers.</p>                
+                branch, supervise staff and work to attract new customers.</p>
                 <h3 class="heading-medium"><a href="/medical-secretary">Medical
                 secretary</a></h3>
                 <p>Medical secretaries provide office support in hospitals, GP
@@ -46,5 +47,3 @@
 	</main>
 
 {% endblock %}
-
-

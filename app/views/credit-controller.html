@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "layout_home.html" %}
 
 {% block page_title %}
   National Careers Service
@@ -6,9 +6,10 @@
 
 {% block content %}
 
+{% include "includes/new_navigation.html" %}
+
 <main id="content" role="main">
-        {% include "includes/phase_banner_alpha.html" %} {% include
-        "includes/breadcrumb_finance.html" %}
+        {% include"includes/breadcrumb_finance.html" %}
         <div class="grid-row">
             <div class="column-two-thirds">
                 <h1 class="heading-xlarge">Credit controller <span class=
@@ -92,7 +93,7 @@
                         <li>Type: Full time</li>
                         <li>Qualification: Intermediate Level
                         Apprenticeship</li>
-                    </ul>                   
+                    </ul>
                 </section><!--section 1-->
                 <section id="skills-required">
                     <h2 class="heading-large">2. Skills required</h2>
@@ -180,7 +181,7 @@
                         <li>Location: Sheffield</li>
                         <li>Job type: Full time</li>
                         <li>Salary: £17,000 a year</li>
-                    </ul>                    
+                    </ul>
                     <p><a href="https://www.gov.uk/jobsearch">Find more jobs
                     with Universal Job Match</a></p>
                 </section><!--section 7-->
@@ -193,5 +194,3 @@
     </main>
 
 {% endblock %}
-
-

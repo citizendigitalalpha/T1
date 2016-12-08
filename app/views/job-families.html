@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "layout_home.html" %}
 
 {% block page_title %}
   National Careers Service - Explore
@@ -6,26 +6,27 @@
 
 {% block content %}
 
+{% include "includes/new_navigation.html" %}
+
 <main id="content" role="main">
-    {% include "includes/phase_banner_alpha.html" %}
   <div class="grid-row">
     <div class="column-two-thirds">
 
       <h1 class="heading-xlarge">
           <span class="heading-secondary">Explore our job families</span>
-       We suggest you take a look at these job families       
-      </h1> 
+       We suggest you take a look at these job families
+      </h1>
         <p>Select the job families you wish to explore.</p>
         <form method="get" action="/job-profiles">
         <fieldset class="form-group">
             <legend class="visuallyhidden">
-              Based on you skills and interests, we suggest you take a look at these job families       
+              Based on you skills and interests, we suggest you take a look at these job families
             </legend>
             <label for="radio-part-1" class="block-label">
               <input id="radio-part-1" type="checkbox" name="Administrative and clerical" value="Administrative and clerical">
               <span class="heading-small">Administrative and clerical</span><br>
-              Many administrative and clerical jobs are about following procedures, checking things and keeping records. You'll like this kind of work if you're an organised person with good attention to detail.    
-            </label>        
+              Many administrative and clerical jobs are about following procedures, checking things and keeping records. You'll like this kind of work if you're an organised person with good attention to detail.
+            </label>
             <label for="radio-part-2" class="block-label">
               <input id="radio-part-2" type="checkbox" name="Catering services" value="Catering services">
               <span class="heading-small">Catering services</span><br>
@@ -50,15 +51,13 @@
               <input id="radio-part-5" type="checkbox" name="Social services" value="Social services">
               <span class="heading-small">Social services</span><br>
               These jobs are all about helping people and cover a range of services from money advice to caring for the elderly. If you've got a caring personality and want to support people at difficult times in their lives, there could be something here for you.
-            </label>           
+            </label>
           </fieldset>
-           <input class="button" type="submit" value="Continue"> 
+           <input class="button" type="submit" value="Continue">
         </form>
-  
+
     </div>
   </div>
 </main>
 
 {% endblock %}
-
-

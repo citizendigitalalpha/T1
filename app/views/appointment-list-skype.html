@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "layout_home.html" %}
 
 {% block page_title %}
   National Careers Service - All appointments
@@ -6,8 +6,9 @@
 
 {% block content %}
 
+{% include "includes/new_navigation.html" %}
+
 <main id="content" role="main">
-		{% include "includes/phase_banner_alpha.html" %}
     {% include "includes/breadcrumb_book.html" %}
 		<div class="grid-row">
 			<div class="column-two-thirds">
@@ -17,7 +18,7 @@
 				<div class="grid-row grey-line big-border-box">
 					<div class="column-one-third">
 						<p><img alt="Joe, Careers adviser" src="/public/images/worker-2.jpg" width="100%"></p>
-                        
+
 					</div>
 					<div class="column-two-thirds">
 						<h3 class="heading-medium appointment">Tuesday, 8th November at 15:00</h3>
@@ -29,7 +30,7 @@
 				<div class="grid-row grey-line big-border-box">
 					<div class="column-one-third">
 						<p><img alt="Julie, Careers adviser" src="/public/images/worker-3.jpg" width="100%"></p>
-                        
+
 					</div>
 					<div class="column-two-thirds">
 						<h3 class="heading-medium appointment">Tuesday, 8th November at 15:45</h3>
@@ -41,7 +42,7 @@
 				<div class="grid-row grey-line big-border-box">
 					<div class="column-one-third">
 						<p><img alt="John, Careers adviser" src="/public/images/worker-1.jpg" width="100%"></p>
-                        
+
 					</div>
 					<div class="column-two-thirds">
 						<h3 class="heading-medium appointment">Wednesday, 9th November at 10:00</h3>
@@ -53,7 +54,7 @@
 				<div class="grid-row grey-line big-border-box">
 					<div class="column-one-third">
 						<p><img alt="Hong, Careers adviser" src="/public/images/6.png" width="100%"></p>
-                        
+
 					</div>
 					<div class="column-two-thirds">
 						<h3 class="heading-medium appointment">Thursday, 9th November at 09:00</h3>
@@ -68,5 +69,3 @@
 	</main>
 
 {% endblock %}
-
-

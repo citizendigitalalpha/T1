@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "layout_home.html" %}
 
 {% block page_title %}
 National Careers Service - Explore
@@ -6,8 +6,9 @@ National Careers Service - Explore
 
 {% block content %}
 
+{% include "includes/new_navigation.html" %}
+
 <main id="content" role="main">
-     {% include "includes/phase_banner_alpha.html" %}
      <div class="grid-row">
           <div class="column-two-thirds">
                <h1 class="heading-xlarge">
@@ -18,7 +19,7 @@ National Careers Service - Explore
      </div>
      <div class="grid-row">
           <div class="column-full">
-               <form method="get" action="/explore-part-3a" class="explore method-two"> 
+               <form method="get" action="/explore-part-3a" class="explore method-two">
                     <fieldset class="form-group">
                          <legend class="visuallyhidden">
                               Choose the skills you have

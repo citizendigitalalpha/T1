@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "layout_home.html" %}
 
 {% block page_title %}
   National Careers Service
@@ -6,14 +6,15 @@
 
 {% block content %}
 
+{% include "includes/new_navigation.html" %}
+
 <main id="content" role="main">
-        {% include "includes/phase_banner_alpha.html" %}    
         <div class="grid-row">
             <div class="column-two-thirds">
                 <h1 class="heading-xlarge">Book an appointment</h1>
                 <p>Our advisers are available throughout the country for face-to-face and online video appointments.</p>
                 <p>You'll work with an adviser to find out what your goals are and to explore different ways of achieving them. Your discussion is private and confidential. You can make follow-up appointments if you need to.</p>
-                <p>If you're 19 or over you can use this service.</p>                
+                <p>If you're 19 or over you can use this service.</p>
                 <div class="form-group">
                     <label class="form-label-bold" for=
                     "example-form-label-bold">Location <span class=
@@ -30,12 +31,10 @@
                 <div class="form-group">
                     <a class="button" href="./book-an-appointment.html" role=
                     "button">Save and continue</a>
-                </div>  
+                </div>
             </div>
             <div class="column-one-third"></div>
         </div>
     </main>
 
 {% endblock %}
-
-
