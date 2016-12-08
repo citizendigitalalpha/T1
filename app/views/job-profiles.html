@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "layout_home.html" %}
 
 {% block page_title %}
 National Careers Service
@@ -6,21 +6,97 @@ National Careers Service
 
 {% block content %}
 
+{% include "includes/new_navigation.html" %}
+
 <main id="content" role="main">
-     {% include "includes/phase_banner_alpha.html" %}
      <div class="grid-row">
+
+          <div class="column-one-third">
+
+               <!-- //////////// Shortlist - START //////////// -->
+               <aside class="govuk-related-items shortlist" role="complementary">
+                    <div class="grid-row">
+                         <div class="column-full">
+                              <p class="grey">Explore your job profile results</p>
+                              <h1 class="heading-large">
+                                   Job profiles that may be of interest to you
+                              </h1>
+                         </div>
+                    </div>
+
+                    <p class="actions">
+                         <span id="counter">8</span> job profiles left in your results.
+                    </p>
+
+                    <h2 class="heading-medium" id="related-gov-links">Your shortlist</h2>
+                    <p class="grey intro-text">Your shortlist will populate when you begin to add jobs</p>
+                    <nav aria-labelledby="related-gov-links" role="navigation">
+                         <ol class="font-xsmall">
+                              <li class="bank-manager">
+                                   Bank manager <a href="#" class="hide">Remove</a>
+                              </li>
+                              <li class="chef">
+                                   Chef <a href="#" class="hide">Remove</a>
+                              </li>
+                              <li class="medical">
+                                   Medical secretary <a href="#" class="hide">Remove</a>
+                              </li>
+                              <li class="credit">
+                                   Credit controller <a href="#" class="hide">Remove</a>
+                              </li>
+                              <li class="diver">
+                                   Diver <a href="#" class="hide">Remove</a>
+                              </li>
+                              <li class="paralegal">
+                                   Paralegal <a href="#" class="hide">Remove</a>
+                              </li>
+                              <li class="plumber">
+                                   Plumber <a href="#" class="hide">Remove</a>
+                              </li>
+                              <li class="publican">
+                                   Publican <a href="#" class="hide">Remove</a>
+                              </li>
+                         </ol>
+                    </nav>
+               </aside>
+               <!-- //////////// Shortlist - END //////////// -->
+               <!-- //////////// Removed Jobs - START //////////// -->
+               <aside class="govuk-related-items removed" role="complementary">
+                    <h2 class="heading-medium" id="related-gov-links">Your removed jobs</h2>
+                    <nav aria-labelledby="related-gov-links" role="navigation">
+                         <ol class="font-xsmall">
+                              <li class="bank-manager">
+                                   Bank manager <a href="#">Bring back</a>
+                              </li>
+                              <li class="chef">
+                                   Chef <a href="#">Bring back</a>
+                              </li>
+                              <li class="medical">
+                                   Medical secretary <a href="#">Bring back</a>
+                              </li>
+                              <li class="credit">
+                                   Credit controller <a href="#">Bring back</a>
+                              </li>
+                              <li class="diver">
+                                   Diver <a href="#">Bring back</a>
+                              </li>
+                              <li class="paralegal">
+                                   Paralegal <a href="#">Bring back</a>
+                              </li>
+                              <li class="plumber">
+                                   Plumber <a href="#">Bring back</a>
+                              </li>
+                              <li class="publican">
+                                   Publican <a href="#">Bring back</a>
+                              </li>
+                         </ol>
+                    </nav>
+               </aside>
+               <!-- //////////// Removed Jobs - END //////////// -->
+           </div>
+
           <div class="column-two-thirds">
-               <h1 class="heading-xlarge">
-                    <span class="heading-secondary">Explore our job profiles</span>
-                    Job profiles that may be of interest to you
-               </h1>
-          </div>
-     </div>
-     <div class="grid-row">
-          <div class="column-two-thirds">
-               <p class="actions">
-                    <span id="counter">8</span> job profiles left in your shortlist.
-               </p>
+
                <div class="jobcontainer list">
                     <ul class="list">
                          <!-- Job 1 - START -->
@@ -63,7 +139,7 @@ National Careers Service
                                              <li>dealing with customer complaints</li>
                                         </ul>
                                    </div>
-                                   <a href="/bank-manager">View job profile</a>
+                                   <a href="/bank-manager">View bank manager job profile</a>
                                    <a href="" class="view-more">View more information</a>
                               </div>
                          </li>
@@ -439,75 +515,6 @@ National Careers Service
                     </p>
                </div>
           </div>
-          <div class="column-one-third">
-               <!-- //////////// Shortlist - START //////////// -->
-               <aside class="govuk-related-items shortlist" role="complementary">
-                    <h2 class="heading-medium" id="related-gov-links">Your shortlist</h2>
-                    <p class="grey">Your shortlist will populate when you begin to add jobs</p>
-                    <nav aria-labelledby="related-gov-links" role="navigation">
-                         <ol class="font-xsmall">
-                              <li class="bank-manager">
-                                   Bank manager <a href="#" class="hide">Remove</a>
-                              </li>
-                              <li class="chef">
-                                   Chef <a href="#" class="hide">Remove</a>
-                              </li>
-                              <li class="medical">
-                                   Medical secretary <a href="#" class="hide">Remove</a>
-                              </li>
-                              <li class="credit">
-                                   Credit controller <a href="#" class="hide">Remove</a>
-                              </li>
-                              <li class="diver">
-                                   Diver <a href="#" class="hide">Remove</a>
-                              </li>
-                              <li class="paralegal">
-                                   Paralegal <a href="#" class="hide">Remove</a>
-                              </li>
-                              <li class="plumber">
-                                   Plumber <a href="#" class="hide">Remove</a>
-                              </li>
-                              <li class="publican">
-                                   Publican <a href="#" class="hide">Remove</a>
-                              </li>
-                         </ol>
-                    </nav>
-               </aside>
-               <!-- //////////// Shortlist - END //////////// -->
-               <!-- //////////// Removed Jobs - START //////////// -->
-               <aside class="govuk-related-items removed" role="complementary">
-                    <h2 class="heading-medium" id="related-gov-links">Your removed jobs</h2>
-                    <nav aria-labelledby="related-gov-links" role="navigation">
-                         <ol class="font-xsmall">
-                              <li class="bank-manager">
-                                   Bank manager <a href="#">Bring back</a>
-                              </li>
-                              <li class="chef">
-                                   Chef <a href="#">Bring back</a>
-                              </li>
-                              <li class="medical">
-                                   Medical secretary <a href="#">Bring back</a>
-                              </li>
-                              <li class="credit">
-                                   Credit controller <a href="#">Bring back</a>
-                              </li>
-                              <li class="diver">
-                                   Diver <a href="#">Bring back</a>
-                              </li>
-                              <li class="paralegal">
-                                   Paralegal <a href="#">Bring back</a>
-                              </li>
-                              <li class="plumber">
-                                   Plumber <a href="#">Bring back</a>
-                              </li>
-                              <li class="publican">
-                                   Publican <a href="#">Bring back</a>
-                              </li>
-                         </ol>
-                    </nav>
-               </aside>
-               <!-- //////////// Removed Jobs - END //////////// -->
-           </div>
      </div>
 </main>
 

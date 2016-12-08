@@ -179,10 +179,114 @@ h1, h2, h3, h4, p {
 
 // ========================================== GENERAL STYLES - START ========================================== //
 
+// ========================================== MAIN NAVIGATION - START ========================================== //
+#proposition-menu {
+     text-align: right;
+     .phase-banner-alpha {
+          padding: 0 0 0.15em 0;
+          border-bottom: none;
+          text-align: right;
+          display: inline-block;
+          p {
+               color: $white;
+               float: right;
+               span a {
+                    color: $white;
+               }
+          }
+     }
+}
+
+.main-navigation {
+     background: darken($turquoise,15%);
+     // border-bottom: 2px solid $white;
+     .content {
+          margin: 0 auto;
+          max-width: 960px;
+          ul#proposition-links {
+               li {
+                    float: left;
+                    list-style: none;
+                    text-align: center;
+                    width: 14.28%;
+                    &:hover {
+                         background: $black;
+                         // a {
+                         //      padding: 0.75em 0 0.25em 0;
+                         //      border-bottom: 0.5em solid $turquoise;
+                         // }
+                    }
+                    // &.home, &.search {
+                    //      width: 5%;
+                    //      height: 100%;
+                    //      background: url(/public/images/icon-home.svg) no-repeat 50% 50%;
+                    //      background-size: 1.35em;
+                    //      a {
+                    //           text-indent: -1000em;
+                    //           height: 100%;
+                    //      }
+                    //      &:hover {
+                    //           background: url(/public/images/icon-home.svg) $black no-repeat 50% 50%;
+                    //           background-size: 1.35em;
+                    //      }
+                    // }
+                    &.search {
+                         width: 5%;
+                         height: 100%;
+                         background: url(/public/images/icon-search.png) no-repeat 50% 50%;
+                         background-size: 1.35em;
+                         a {
+                              text-indent: -1000em;
+                              height: 100%;
+                         }
+                         &:hover {
+                              background: url(/public/images/icon-search.png) $black no-repeat 50% 50%;
+                              background-size: 1.35em;
+                         }
+                    }
+                    a {
+                         color: $white;
+                         font-weight: bold;
+                         text-decoration: none;
+                         padding: 0.75em 0;
+                         display: inline-block;
+                         // width: 100%;
+                         hr {
+                              width: 30%;
+                              background: $white;
+                              margin: 0 auto;
+                              opacity: 0.2;
+                         }
+                         span {
+                              font-weight: normal;
+                              font-size: 1.2rem;
+                         }
+                         // &:hover {
+                         //      background: $black;
+                         // }
+                    }
+               }
+          }
+     }
+}
+// ========================================== MAIN NAVIGATION - END ========================================== //
+
 // ========================================== WELCOME BLOCK - START ========================================== //
 .welcome_block {
      position: relative;
      &.sub-header {
+          &.homepage {
+               margin-bottom: 0;
+               .eggs a {
+                    background: $white;
+                    color: $turquoise;
+                    border-color: $white;
+                    &:hover {
+                         background: $turquoise;
+                         color: $white;
+                    }
+               }
+          }
           form {
                .form-group {
                     position: relative;
@@ -192,6 +296,7 @@ h1, h2, h3, h4, p {
                          padding: 0.5em 1em;
                          border: 3px solid $white;
                          height: auto;
+                         background: $white;
                          &:focus {
                               outline: none;
                               border: 3px solid $focus-colour;
@@ -236,7 +341,7 @@ h1, h2, h3, h4, p {
           padding-bottom: 2em;
           background: lighten($black,90%);
           // background: url(/public/images/paralegal-image.jpg) no-repeat 50% 20%;
-          border-top: 10px solid $turquoise;
+          // border-top: 10px solid $turquoise;
           .home_content {
                z-index: 10;
                position: relative;
@@ -285,7 +390,7 @@ h1, h2, h3, h4, p {
      }
      &.alpha-block {
           padding: 0;
-          border-top: 10px solid $turquoise;
+          // border-top: 10px solid $turquoise;
           .home_content {
                padding-bottom: 0;
                .phase-banner-alpha {
@@ -716,6 +821,9 @@ a.view-more {
 }
 
 .tinder {
+     main {
+          padding: 3em 0 0 0;
+     }
      .skip {
           margin-bottom: 1em;
           display: inline-block;
@@ -748,7 +856,7 @@ a.view-more {
                background: $border-colour;
                bottom: -1em;
           }
-          .list, &.live {
+          .list, &.list, &.live {
                margin: 0;
                li {
                     width: 100%;
@@ -849,6 +957,9 @@ a.view-more {
           .wrapper {
                padding: 2em 0;
           }
+          .view-more {
+               display: none;
+          }
      }
      .image-block {
           display: inline-block;
@@ -906,9 +1017,15 @@ a.view-more {
                }
           }
           &.shortlist {
-               border-top: 10px solid $button-colour;
+               border-top: 10px solid $turquoise;
                .shortlist-counter {
                     background: $button-colour;
+               }
+               .grey {
+                    margin: 1em 0 0.25em 0;
+               }
+               .heading-large {
+                    margin: 0.25em 0 1em 0;
                }
           }
           &.removed {
