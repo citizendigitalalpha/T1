@@ -1,4 +1,4 @@
-{% extends "layout_home.html" %}
+{% extends "layout_tabs.html" %}
 
 {% block page_title %}
      National Careers Service - Resources
@@ -16,7 +16,9 @@
                     <span class="heading-secondary">Resources</span>
                     Interview advice
                </h1>
-               <p class="lede">An interview is a discussion in person, by phone or online, between you and an employer.</p>
+               <p class="lede">
+                    An interview is a discussion in person, by phone or online, between you and an employer.
+               </p>
                <p>
                     The employer wants to see if you’re the right person for the job. You’ll get the chance to make a
                     good impression and show the employer what you have to offer. You can also see if the job is one
@@ -25,115 +27,208 @@
           </div>
      </div>
 
-     {% include "includes/interview_navigation.html" %}
-
      <div class="grid-row">
-          <div class="column-two-thirds">
-               <div id="all_divs">
-                    <div class="prepare_content types">
-                         <h2 class="heading-large">Prepare for a job</h2>
-                         <p>Our careers advisers have written the following guides to help you:</p>
-                         <ul class="list list-bullet">
-                              <li>
-                                   <a href="./interview-advice.html">Interview advice</a>
-                              </li>
-                              <li>
-                                   <a href="https://www.youtube.com/watch?v=Gs3IJkLgH00">law firm interview tips video</a>
-                              </li>
-                              <li>
-                                   <a href="./top-ten-interview-questions.html">top 10 interview questions and answers</a>
-                              </li>
-                              <li>
-                                   <a href="./interview-skills.html">interview skills</a>
-                              </li>
-                              <li>
-                                   <a href="./interview.html">what to do in an interview</a>
-                              </li>
-                              <li>
-                                   <a href="http://www.allaboutlaw.co.uk/law-careers/interview-tips/top-ten-tips-for-impressing-at-a-law-interview">paralegal interview tips</a>
-                              </li>
-                              <li>
-                                   <a href="./sample-cv.html">how to write a CV</a>
-                              </li>
-                              <li>
-                                   <a href="http://www.allaboutlaw.co.uk/law-careers/law-cv/law-cv-template">law CV template</a>
-                              </li>
-                              <li>
-                                   <a href="http://www.allaboutlaw.co.uk/law-careers/law-cv/using-linkedin-for-law">using linkedin for law</a>
-                              </li>
-                              <!--<li>
-                              <a href="#">what to include in your CV</a>
-                         </li>-->
-
-                         <li>
-                              <a href="./sample-application-letters.html">completing application forms</a>
-                         </li>
-
-                    </ul>
-               </div>
-               <div class="prepare_content before">
-                    <h2 class="heading-large">Professional development</h2>
-                    <p>Our careers advisers have written the following guides to help you:</p>
-                    <ul class="list list-bullet">
-                         <li>
-                              <a href="#">choosing or changing career</a>
-                         </li>
-                         <li>
-                              <a href="#">starting a new job</a>
-                         </li>
-                         <li>
-                              <a href="#">choosing a professional course</a>
-                         </li>
-                         <li>
-                              <a href="#">negotiating a salary</a>
-                         </li>
-                         <li>
-                              <a href="#">giving presentations</a>
-                         </li>
-                         <li>
-                              <a href="./interview-skills.html">interview skills</a>
-                         </li>
-                         <li>
-                              <a href="https://www.gov.uk/working-for-yourself">working for yourself</a>
-                         </li>
-                         <li>
-                              <a href="https://www.gov.uk/set-up-sole-trader">set up as a sole trader</a>
-                         </li>
-                    </ul>
-               </div>
-               <div class="prepare_content after">
-                    <h2 class="heading-large">Personal circumstances</h2>
-                    <p>Our careers advisers have written the following guides to help you:</p>
-                    <ul class="list list-bullet">
-                         <li>
-                              <a href="./redundancy.html">dealing with redundancy</a>
-                         </li>
-                         <li>
-                              <a href="#">returning to work after having children</a>
-                         </li>
-                         <li>
-                              <a href="#">resources for parents and carers of under 18s</a>
-                         </li>
-                         <li>
-                              <a href="#">taking your parenting skills into work</a>
-                         </li>
-                         <li>
-                              <a href="#">dealing with illness at work</a>
-                         </li>
-                         <li>
-                              <a href="#">dealing with divorce at work</a>
-                         </li>
-                         <li>
-                              <a href="https://www.gov.uk/state-pension-age">check your retirement age</a>
-                         </li>
-                         <li>
-                              <a href="https://www.gov.uk/claim-state-pension-online">claim your state pension online</a>
-                         </li>
-                    </ul>
-               </div>
-          </div><!--all divs-->
+          <div class="column-full">
+               <div id="tabs">
+                    {% include "includes/interview_navigation.html" %}
+                    <div class="grid-row">
+                         <div class="column-two-thirds">
+                              <!-- //////////////// TAB 1 - START -->
+                              <div class="prepare_content" id="tabs-1">
+                                   <h2 class="heading-large">Types of interview</h2>
+                                   <p>The most common types of interview are:</p>
+                                   <ul class="list list-bullet">
+                                        <li>
+                                             competency-based - focussing on the skills and personal qualities you need, you’ll have to
+                                             relate your skills and experience to the job
+                                        </li>
+                                        <li>
+                                             technical - usually for technical jobs in areas like IT or engineering, you’ll have to display your
+                                             technical knowledge of a certain process or skill
+                                        </li>
+                                        <li>
+                                             face-to-face - in person
+                                        </li>
+                                        <li>
+                                             panel interview - where one person usually leads the interview and other panel members
+                                             take it in turns to ask you different questions
+                                        </li>
+                                        <li>
+                                             telephone or online - this could be the first stage of the interview or the only stage, and you
+                                             should prepare in the same way as for a face-to-face interview
+                                        </li>
+                                        <li>
+                                             informal chat - in some job areas like the creative industries you’ll have an informal, work-
+                                             focussed discussion about your experience and career aims, usually somewhere like a
+                                             restaurant or a cafe
+                                        </li>
+                                        <li>
+                                             group discussion - in a group with other candidates, you’ll have to show you can get along
+                                             with people, put your ideas forward and be respectful of others
+                                        </li>
+                                   </ul>
+                              </div>
+                              <div class="prepare_content" id="tabs-2">
+                                   <h2 class="heading-large">Before the interview</h2>
+                                   <p>To help you prepare, you can:</p>
+                                   <ul class="list list-bullet">
+                                        <li>
+                                             think about which areas of your CV or application form the interviewer might ask you to talk
+                                             more about, and how you can relate them to the role
+                                        </li>
+                                        <li>
+                                             prepare some answers about why you want the job, what your strengths and weaknesses
+                                             are, and your relevant work and life experience
+                                        </li>
+                                        <li>
+                                             think of some questions to ask about the role and the company at the end of the interview,
+                                             but don’t ask about pay or holidays yet
+                                        </li>
+                                        <li>
+                                             try to relax the night before the interview - doing lots of last minute work could make you
+                                             more anxious and reduce your sleep time
+                                        </li>
+                                        <li>
+                                             find out what the company’s dress code is and wear clothes that suit the company that’s
+                                             interviewing you
+                                        </li>
+                                        <li>
+                                             don’t wear clothes that you’re uncomfortable in, or shoes that you’ll struggle to walk in
+                                        </li>
+                                        <li>
+                                             don’t wear too much strong perfume or aftershave
+                                        </li>
+                                        <li>
+                                             Check in advance how to get to the interview venue, and how long it’ll take. On interview
+                                             day make sure you leave plenty of time to get there and aim to arrive a little early
+                                        </li>
+                                   </ul>
+                                   <h2 class="heading-medium">Get settled and ready to begin</h2>
+                                   <p>Just before the interview starts:</p>
+                                   <ul class="list list-bullet">
+                                        <li>
+                                             make sure your phone’s turned off
+                                        </li>
+                                        <li>
+                                             ask for water if you haven’t already been given some
+                                        </li>
+                                        <li>
+                                             don't let your nerves show too much – use breathing techniques and try to remember a few
+                                             nerves are normal
+                                        </li>
+                                   </ul>
+                                   <h2 class="heading-medium">During the interview</h2>
+                                   <p>
+                                        Be positive in your interview, smile and speak clearly. Don’t be critical of anything or anyone. Give
+                                        examples of how you have approached difficult tasks and how you resolved them.
+                                   </p>
+                                   <p>
+                                        Give clear examples without using jargon or embellishing what you did. This will show that you can
+                                        think a problem through and that you don’t give up easily.
+                                   </p>
+                                   <h2 class="heading-medium">Body language</h2>
+                                   <p>
+                                        Body language can tell an employer a lot about you, if you slouch, fold your arms or put your hands
+                                        in your pockets, this gives the impression that you don’t care.
+                                   </p>
+                                   <p>
+                                        Try to be relaxed but sit upright in the chair, look at your interviewer and smile.
+                                   </p>
+                                   <p>
+                                        When answering the questions:
+                                   </p>
+                                   <ul class="list list-bullet">
+                                        <li>
+                                             take your time when thinking of your answer - it’s fine to say you need a moment to think
+                                        </li>
+                                        <li>
+                                             look alert and attentive, speak clearly and confidently, and don’t swear or use slang
+                                        </li>
+                                        <li>
+                                             give full answers, don’t just say ‘yes’ or ‘no’
+                                        </li>
+                                        <li>
+                                             give examples of when you've used the skills they’re asking for
+                                        </li>
+                                        <li>
+                                             if you’re asked about your experience, talk about the Situation you were in, the Task in front
+                                             of you, the Action you took, and the Result of your action (STAR technique)
+                                        </li>
+                                        <li>
+                                             be positive about your experiences - avoid negativity about yourself or any previous roles
+                                             you’ve had
+                                        </li>
+                                        <li>
+                                             make sure you fully understand the questions you’re asked - ask for more explanation if you
+                                             need to
+                                        </li>
+                                        <li>
+                                             avoid mentioning salary or company benefits unless asked
+                                        </li>
+                                        <li>
+                                             don't lie – the interviewer may see through you and, even if you get the job, your employer
+                                             can dismiss you if they find out you’ve been dishonest
+                                        </li>
+                                        <li>
+                                             if you’re asked about a work skill you don’t have, you could say what you’d do in a certain
+                                             situation or use an example from your personal life, and also explain that you’re a fast
+                                             learner
+                                        </li>
+                                        <li>
+                                             don't be arrogant and assume you've got the job - employers don’t like disrespectful or over-
+                                             confident candidates
+                                        </li>
+                                        <li>
+                                             don't bring up topics like religion or politics where people can have strongly-held personal
+                                             beliefs
+                                        </li>
+                                   </ul>
+                                   <h2 class="heading-medium">Difficult questions</h2>
+                                   <p>
+                                        If you’re asked about being made redundant from your previous job, try to stress it was a business
+                                        decision and describe how you’ve responded positively since.
+                                   </p>
+                                   <p>
+                                        If you were fired for misconduct or poor performance, try to explain why your standards dropped on
+                                        that occasion but that you have learnt from it and have since improved.
+                                   </p>
+                                   <p>
+                                        If you’ve been out of work for a long time and get asked about it, describe any positive steps you’ve
+                                        taken such as voluntary work, courses, networking, industry events, keeping fit, community roles,
+                                        keeping yourself up to date with your field.
+                                   </p>
+                                   <p>
+                                        If you left your last job by choice and are asked about it, you could make it clear you were grateful
+                                        for the opportunity and learnt a lot, but you wanted a fresh challenge.
+                                   </p>
+                              </div>
+                              <div class="prepare_content" id="tabs-3">
+                                   <h2 class="heading-large">After the interview</h2>
+                                   <p>When the employer contacts you after the interview:</p>
+                                   <ul class="list list-bullet">
+                                        <li>
+                                             if you’re offered the job, thank them and agree things like start date and what to bring on
+                                             the first day
+                                        </li>
+                                        <li>
+                                             if you’re expected to negotiate salary, find out beforehand what the usual rate is for the job
+                                             but then start high and meet in the middle if necessary
+                                        </li>
+                                        <li>
+                                             ask for feedback on your performance - if you weren’t successful use their comments to
+                                             improve for next time
+                                        </li>
+                                        <li>
+                                             if you’re offered a job and decide you don’t want it, thank the employer politely, as you may
+                                             want to work for them in future
+                                        </li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+               </div><!--all divs-->
+          </div>
      </div>
-</div>
 </main>
 
 {% endblock %}

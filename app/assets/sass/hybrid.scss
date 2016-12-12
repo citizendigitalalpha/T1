@@ -187,6 +187,16 @@ main.intro-content {
      }
 }
 
+ul.tabs {
+     li {
+          &.ui-state-active {
+               a {
+                    border-bottom: 4px solid $turquoise;
+               }
+          }
+     }
+}
+
 // ========================================== GENERAL STYLES - START ========================================== //
 
 // ========================================== WELCOME BLOCK - START ========================================== //
