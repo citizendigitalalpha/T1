@@ -823,7 +823,140 @@ input[type="search"] {
 .explore h4 {margin-top:0.5em;}
 .explore img {max-width:400px;}
 
+/**navi**/
+
+ul.menu li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  .js-enabled ul.menu li:not(:first-child) {display: none;}
+  .js-enabled ul.menu li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.menu.responsive {position: relative;}
+  ul.menu.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.menu.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.menu.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
 
 /**Chris SASS**/
+
+// ========================================== MAIN NAVIGATION - START ========================================== //
+#proposition-menu {
+     text-align: right;
+     .phase-banner-alpha {
+          padding: 0 0 0.15em 0;
+          border-bottom: none;
+          text-align: right;
+          display: inline-block;
+          p {
+               color: $white;
+               float: right;
+               span a {
+                    color: $white;
+               }
+          }
+     }
+}
+
+.main-navigation {
+     background: darken($turquoise,15%);
+     // border-bottom: 2px solid $white;
+     .inner {
+          ul#proposition-links {
+               li {
+                    float: left;
+                    list-style: none;
+                    text-align: center;
+                    padding: 1%;
+                    &.search {
+                         width: 5%;
+                         height: 100%;
+                         background: url(/public/images/icon-search.png) no-repeat 50% 50%;
+                         background-size: 1.35em;
+                         a {
+                              text-indent: -1000em;
+                              height: 100%;
+                         }
+                         &:hover {
+                              background: url(/public/images/icon-search.png) $black no-repeat 50% 50%;
+                              background-size: 1.35em;
+                         }
+                    }
+                    &.home {
+                         padding-left: 0;
+                    }
+                    a {
+                         color: $white;
+                         font-weight: bold;
+                         text-decoration: none;
+                         padding: 0.75em 0;
+                         display: inline-block;
+                         // width: 100%;
+                         hr {
+                              width: 30%;
+                              background: $white;
+                              margin: 0 auto;
+                              opacity: 0.2;
+                         }
+                         span {
+                              font-weight: normal;
+                              font-size: 1.2rem;
+                         }
+                         &:hover {
+                         //      background: $black;
+							 text-decoration: underline;
+                         }
+						&:focus {
+                         color: $black;
+
+                         }
+                    }
+               }
+          }
+     }
+}
+
+.inner {@extend %site-width-container;
+     @extend %contain-floats;
+     //padding-bottom: $gutter;
+
+     @include media(desktop) {
+          //padding-bottom: $gutter * 3;
+     }
+     // Pressing enter when focus is on the skiplink sets focus on the #content area
+     // Remove the blue outline
+     outline: none;
+}
+
+ul.menu li.icon {
+     float: right !important;
+}
+
+ul.menu.responsive li {
+     float: none !important;
+     display: block;
+     text-align: left !important;
+     padding-left: 0 !important;
+}
+
+ul.menu.responsive li a {
+     display: block;
+}
+// ========================================== MAIN NAVIGATION - END ========================================== //
 
 @import 'hybrid';
