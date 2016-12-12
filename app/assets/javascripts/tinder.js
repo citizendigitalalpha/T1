@@ -94,28 +94,28 @@
           $("aside.shortlist .grey.intro-text").hide();
           $(".more-info").hide("slow");
           var selected = $(this).siblings(".list").find("h2");
-          if (selected.html() == "<span>1.</span> Bank manager") {
+          if (selected.html() == "Bank manager") {
                $("aside.shortlist li.bank-manager").show("slow");
           }
-          if (selected.html() == "<span>2.</span> Chef") {
+          if (selected.html() == "Chef") {
                $("aside.shortlist li.chef").show("slow");
           }
-          if (selected.html() == "<span>3.</span> Medical secretary") {
+          if (selected.html() == "Medical secretary") {
                $("aside.shortlist li.medical").show("slow");
           }
-          if (selected.html() == "<span>4.</span> Credit controller") {
+          if (selected.html() == "Credit controller") {
                $("aside.shortlist li.credit").show("slow");
           }
-          if (selected.html() == "<span>5.</span> Diver") {
+          if (selected.html() == "Diver") {
                $("aside.shortlist li.diver").show("slow");
           }
-          if (selected.html() == "<span>6.</span> Paralegal") {
+          if (selected.html() == "Paralegal") {
                $("aside.shortlist li.paralegal").show("slow");
           }
-          if (selected.html() == "<span>7.</span> Plumber") {
+          if (selected.html() == "Plumber") {
                $("aside.shortlist li.plumber").show("slow");
           }
-          if (selected.html() == "<span>8.</span> Publican") {
+          if (selected.html() == "Publican") {
                $("aside.shortlist li.publican").show("slow");
           }
 
@@ -125,28 +125,28 @@
           $("aside.removed").show("slow");
           $(".more-info").hide("slow");
           var selected = $(this).siblings(".list").find("h2");
-          if (selected.html() == "<span>1.</span> Bank manager") {
+          if (selected.html() == "Bank manager") {
                $("aside.removed li.bank-manager").show("slow");
           }
-          if (selected.html() == "<span>2.</span> Chef") {
+          if (selected.html() == "Chef") {
                $("aside.removed li.chef").show("slow");
           }
-          if (selected.html() == "<span>3.</span> Medical secretary") {
+          if (selected.html() == "Medical secretary") {
                $("aside.removed li.medical").show("slow");
           }
-          if (selected.html() == "<span>4.</span> Credit controller") {
+          if (selected.html() == "Credit controller") {
                $("aside.removed li.credit").show("slow");
           }
-          if (selected.html() == "<span>5.</span> Diver") {
+          if (selected.html() == "Diver") {
                $("aside.removed li.diver").show("slow");
           }
-          if (selected.html() == "<span>6.</span> Paralegal") {
+          if (selected.html() == "Paralegal") {
                $("aside.removed li.paralegal").show("slow");
           }
-          if (selected.html() == "<span>7.</span> Plumber") {
+          if (selected.html() == "Plumber") {
                $("aside.removed li.plumber").show("slow");
           }
-          if (selected.html() == "<span>8.</span> Publican") {
+          if (selected.html() == "Publican") {
                $("aside.removed li.publican").show("slow");
           }
      });
