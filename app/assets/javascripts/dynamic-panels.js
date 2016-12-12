@@ -5,36 +5,76 @@ function getValues() {
      var vals = $selects.map(function() {
           return this.value;
      }).get();
-     if (vals.join('') === "one") {
-          // $(".dynamic-panels").addClass("visible");
-          $("#paralegal-one, #paralegal-two, #paralegal-three").fadeIn("slow");
+     if (vals.join('') === "paralegal" + "one") {
           $(".intro-yes.one").fadeIn("slow");
-          $("#paralegal-four, #paralegal-five, #paralegal-six, #paralegal-seven, #paralegal-eight, #paralegal-nine, .intro").hide();
-          $(".intro-yes.two, .intro-yes.three, .intro-yes.four, .intro-yes.five").hide();
-     } else if (vals.join('') === "two") {
-          // $(".dynamic-panels").addClass("visible");
-          $("#paralegal-four, #paralegal-five").fadeIn("slow");
+          $(".intro-yes.two, .intro-yes.three, .intro-yes.four, .intro-yes.five, .intro-yes.six, .intro-yes.seven, .intro-yes.eight, .intro-yes.nine, .intro-yes.ten").hide();
+          $("#paralegal-one, #paralegal-two, #paralegal-three").slideDown("slow");
+          $("#paralegal-four, #paralegal-five, #paralegal-six, #paralegal-seven, #paralegal-eight, #paralegal-nine").hide();
+          $("#nurse-one, #nurse-two, #nurse-three, #nurse-four, #nurse-five").hide();
+          $(".intro").hide();
+     } else if (vals.join('') === "paralegal" + "two") {
           $(".intro-yes.two").fadeIn("slow");
-          $("#paralegal-one, #paralegal-two, #paralegal-three, #paralegal-six, #paralegal-seven, #paralegal-eight, #paralegal-nine, .intro").hide();
-          $(".intro-yes.one, .intro-yes.three, .intro-yes.four, .intro-yes.five").hide();
-     } else if (vals.join('') === "three") {
-          // $(".dynamic-panels").addClass("visible");
-          $("#paralegal-six").fadeIn("slow");
+          $(".intro-yes.one, .intro-yes.three, .intro-yes.four, .intro-yes.five, .intro-yes.six, .intro-yes.seven, .intro-yes.eight, .intro-yes.nine, .intro-yes.ten").hide();
+          $("#paralegal-four, #paralegal-five").slideDown("slow");
+          $("#paralegal-one, #paralegal-two, #paralegal-three, #paralegal-six, #paralegal-seven, #paralegal-eight, #paralegal-nine").hide();
+          $("#nurse-one, #nurse-two, #nurse-three, #nurse-four, #nurse-five").hide();
+          $(".intro").hide();
+     } else if (vals.join('') === "paralegal" + "three") {
           $(".intro-yes.three").fadeIn("slow");
-          $("#paralegal-one, #paralegal-two, #paralegal-three, #paralegal-four, #paralegal-five, #paralegal-seven, #paralegal-eight, #paralegal-nine, .intro").hide();
-          $(".intro-yes.one, .intro-yes.two, .intro-yes.four, .intro-yes.five").hide();
-     } else if (vals.join('') === "four") {
-          // $(".dynamic-panels").addClass("visible");
-          $("#paralegal-seven, #paralegal-eight").fadeIn("slow");
+          $(".intro-yes.one, .intro-yes.two, .intro-yes.four, .intro-yes.five, .intro-yes.six, .intro-yes.seven, .intro-yes.eight, .intro-yes.nine, .intro-yes.ten").hide();
+          $("#paralegal-six").slideDown("slow");
+          $("#paralegal-one, #paralegal-two, #paralegal-three, #paralegal-four, #paralegal-five, #paralegal-seven, #paralegal-eight, #paralegal-nine").hide();
+          $("#nurse-one, #nurse-two, #nurse-three, #nurse-four, #nurse-five").hide();
+          $(".intro").hide();
+     } else if (vals.join('') === "paralegal" + "four") {
           $(".intro-yes.four").fadeIn("slow");
-          $("#paralegal-one, #paralegal-two, #paralegal-three, #paralegal-four, #paralegal-five, #paralegal-six, #paralegal-nine, .intro").hide();
-          $(".intro-yes.one, .intro-yes.two, .intro-yes.three, .intro-yes.five").hide();
-     } else if (vals.join('') === "five") {
-          // $(".dynamic-panels").addClass("visible");
-          $("#paralegal-nine").fadeIn("slow");
+          $(".intro-yes.one, .intro-yes.two, .intro-yes.three, .intro-yes.five, .intro-yes.six, .intro-yes.seven, .intro-yes.eight, .intro-yes.nine, .intro-yes.ten").hide();
+          $("#paralegal-seven, #paralegal-eight").slideDown("slow");
+          $("#paralegal-one, #paralegal-two, #paralegal-three, #paralegal-four, #paralegal-five, #paralegal-six, #paralegal-nine").hide();
+          $("#nurse-one, #nurse-two, #nurse-three, #nurse-four, #nurse-five").hide();
+          $(".intro").hide();
+     } else if (vals.join('') === "paralegal" + "five") {
           $(".intro-yes.five").fadeIn("slow");
-          $("#paralegal-one, #paralegal-two, #paralegal-three, #paralegal-four, #paralegal-five, #paralegal-six, #paralegal-seven, #paralegal-eight, .intro").hide();
-          $(".intro-yes.one, .intro-yes.two, .intro-yes.three, .intro-yes.four").hide();
+          $(".intro-yes.one, .intro-yes.two, .intro-yes.three, .intro-yes.four, .intro-yes.six, .intro-yes.seven, .intro-yes.eight, .intro-yes.nine, .intro-yes.ten").hide();
+          $("#paralegal-nine").slideDown("slow");
+          $("#paralegal-one, #paralegal-two, #paralegal-three, #paralegal-four, #paralegal-five, #paralegal-six, #paralegal-seven, #paralegal-eight").hide();
+          $("#nurse-one, #nurse-two, #nurse-three, #nurse-four, #nurse-five").hide();
+          $(".intro").hide();
+     } else if (vals.join('') === "nurse" + "one") {
+          $(".intro-yes.six").fadeIn("slow");
+          $(".intro-yes.one, .intro-yes.two, .intro-yes.three, .intro-yes.four, .intro-yes.five, .intro-yes.seven, .intro-yes.eight, .intro-yes.nine, .intro-yes.ten").hide();
+          $("#nurse-one").slideDown("slow");
+          $("#nurse-two, #nurse-three, #nurse-four, #nurse-five").hide();
+          $("#paralegal-one, #paralegal-two, #paralegal-three, #paralegal-four, #paralegal-five, #paralegal-six, #paralegal-seven, #paralegal-eight, #paralegal-nine").hide();
+          $(".intro").hide();
+     } else if (vals.join('') === "nurse" + "two") {
+          $(".intro-yes.seven").fadeIn("slow");
+          $(".intro-yes.one, .intro-yes.two, .intro-yes.three, .intro-yes.four, .intro-yes.five, .intro-yes.six, .intro-yes.eight, .intro-yes.nine, .intro-yes.ten").hide();
+          $("#nurse-two").slideDown("slow");
+          $("#nurse-one, #nurse-three, #nurse-four, #nurse-five").hide();
+          $("#paralegal-one, #paralegal-two, #paralegal-three, #paralegal-four, #paralegal-five, #paralegal-six, #paralegal-seven, #paralegal-eight, #paralegal-nine").hide();
+          $(".intro").hide();
+     } else if (vals.join('') === "nurse" + "three") {
+          $(".intro-yes.eight").fadeIn("slow");
+          $(".intro-yes.one, .intro-yes.two, .intro-yes.three, .intro-yes.four, .intro-yes.five, .intro-yes.six, .intro-yes.seven, .intro-yes.nine, .intro-yes.ten").hide();
+          $("#nurse-three").slideDown("slow");
+          $("#nurse-one, #nurse-two, #nurse-four, #nurse-five").hide();
+          $("#paralegal-one, #paralegal-two, #paralegal-three, #paralegal-four, #paralegal-five, #paralegal-six, #paralegal-seven, #paralegal-eight, #paralegal-nine").hide();
+          $(".intro").hide();
+     } else if (vals.join('') === "nurse" + "four") {
+          $(".intro-yes.nine").fadeIn("slow");
+          $(".intro-yes.one, .intro-yes.two, .intro-yes.three, .intro-yes.four, .intro-yes.five, .intro-yes.six, .intro-yes.seven, .intro-yes.eight, .intro-yes.ten").hide();
+          $("#nurse-four").slideDown("slow");
+          $("#nurse-one, #nurse-two, #nurse-three, #nurse-five").hide();
+          $("#paralegal-one, #paralegal-two, #paralegal-three, #paralegal-four, #paralegal-five, #paralegal-six, #paralegal-seven, #paralegal-eight, #paralegal-nine").hide();
+          $(".intro").hide();
+     } else if (vals.join('') === "nurse" + "five") {
+          $(".intro-yes.ten").fadeIn("slow");
+          $(".intro-yes.one, .intro-yes.two, .intro-yes.three, .intro-yes.four, .intro-yes.five, .intro-yes.six, .intro-yes.seven, .intro-yes.eight, .intro-yes.nine").hide();
+          $("#nurse-five").slideDown("slow");
+          $("#nurse-one, #nurse-two, #nurse-three, #nurse-four").hide();
+          $("#paralegal-one, #paralegal-two, #paralegal-three, #paralegal-four, #paralegal-five, #paralegal-six, #paralegal-seven, #paralegal-eight, #paralegal-nine").hide();
+          $(".intro").hide();
      } else {
           $(".dynamic-panels").removeClass("visible");
      }

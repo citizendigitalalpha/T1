@@ -1,8 +1,8 @@
 <div class="main-navigation">
-     <div class="content">
+     <div class="inner">
           <div class="grid-row">
-               <div class="column-full">
-                    <ul id="proposition-links">
+               <div class="column-full">                   
+                    <ul class="menu" id="proposition-links">
                          <li class="home">
                               <a href="/index">
                                    Home
@@ -10,42 +10,42 @@
                          </li>
                          <li>
                               <a href="/explore">
-                                   Explore jobs
+                                   Explore
                                    <!-- <hr>
                                    <span>Find a new job</span> -->
                               </a>
                          </li>
                          <li>
                               <a href="/research">
-                                   Search careers
+                                   Search
                                    <!-- <hr>
                                    <span>Learn more about your job</span> -->
                               </a>
                          </li>
                          <li>
                               <a href="/inspire">
-                                   Inspire me!
+                                   Inspire
                                    <!-- <hr>
                                    <span>I don't know what I want to do</span> -->
                               </a>
                          </li>
                          <li>
                               <a href="/how-to-become">
-                                   Train to be a...
+                                   How to become
                                    <!-- <hr>
                                    <span>I don't know what I want to do</span> -->
                               </a>
                          </li>
-                         <li>
+                         <!--<li>
                               <a href="/resources">
                                    Job preparation
                                    <!-- <hr>
                                    <span>Information for the next step</span> -->
-                              </a>
-                         </li>
+                              <!--</a>
+                         </li>-->
                          <li>
                               <a href="/contact-an-adviser">
-                                   Contact us
+                                   Contact
                                    <!-- <hr>
                                    <span>I want to chat to someone</span> -->
                               </a>
@@ -53,8 +53,22 @@
                          <!-- <li class="search">
                               <a href="#">Home</a>
                          </li> -->
+						<li class="icon">
+    <a href="javascript:void(0);" onclick="myFunction()">Menu</a>
+  </li>
                     </ul>
                </div>
           </div>
      </div>
 </div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("proposition-links");
+    if (x.className === "menu") {
+        x.className += " responsive";
+    } else {
+        x.className = "menu";
+    }
+}
+</script>
