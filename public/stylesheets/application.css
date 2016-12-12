@@ -4210,39 +4210,44 @@ form.explore label:before {
   display: none;
 }
 
-/* line 580, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 579, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+form.explore label.block-label {
+  display: inline-block;
+}
+
+/* line 583, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 form.explore label.selected:before, form.explore label.selected:after {
   display: none;
 }
 
-/* line 584, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 587, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 form.explore label.selected span.heading-medium:before {
   background: url(/public/images/checked.svg) #fff no-repeat 50% 50%;
   background-size: 0.75em;
 }
 
-/* line 590, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 593, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 form.explore label:last-of-type {
   margin-bottom: 2em;
 }
 
-/* line 593, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 596, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 form.explore label input {
   display: none;
 }
 
-/* line 596, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 599, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 form.explore label img, form.explore label span {
   float: left;
   clear: both;
 }
 
-/* line 599, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 602, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 form.explore label img.heading-medium, form.explore label span.heading-medium {
   margin: 0;
 }
 
-/* line 603, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 606, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 form.explore label img {
   width: 4em;
   height: 4em;
@@ -4251,14 +4256,14 @@ form.explore label img {
   clear: both;
 }
 
-/* line 610, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 613, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 form.explore label span.heading-medium {
   position: relative;
   padding-left: 40px;
-  margin: 0 0 0.35em 0;
+  margin: 0 0 0.5em 0;
 }
 
-/* line 615, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 618, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 form.explore label span.heading-medium:before {
   content: "";
   border: 2px solid;
@@ -4272,45 +4277,45 @@ form.explore label span.heading-medium:before {
   left: 0;
 }
 
-/* line 631, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 634, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 form.explore.method-one label.selected, form.explore.method-two label.selected, form.explore.method-three label.selected, form.explore.method-four label.selected, form.explore.method-five label.selected {
   border-left: 10px solid #00823b;
   background: #f8f8f8;
 }
 
-/* line 639, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 642, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 form.explore.method-one label.selected {
   border-left: 10px solid #00823b;
   background: #f8f8f8;
 }
 
-/* line 642, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 645, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 form.explore.method-one label.selected img {
   content: url("/public/images/icon-tick.png");
 }
 
-/* line 650, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 653, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 form.explore.method-two label.selected {
   border-left: 10px solid #28a197;
   background: #f8f8f8;
 }
 
-/* line 658, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 661, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 form.explore.method-three label img {
   display: none;
 }
 
-/* line 665, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 668, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 form.explore.method-four label img {
   display: none;
 }
 
-/* line 675, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 678, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 form.explore.method-five label img {
   display: none;
 }
 
-/* line 677, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 680, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 form.explore.method-five label img.image {
   display: inline-block;
   clear: none;
@@ -4319,30 +4324,30 @@ form.explore.method-five label img.image {
   height: 7em;
 }
 
-/* line 685, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 688, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 form.explore.method-five label span {
   clear: left;
   float: left;
 }
 
-/* line 688, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 691, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 form.explore.method-five label span.heading-medium {
   margin-top: 1em;
 }
 
-/* line 700, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 703, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder-intro {
   background: #28a197;
   padding: 1.5em;
 }
 
-/* line 703, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 706, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder-intro h1, .tinder-intro h2, .tinder-intro h3, .tinder-intro p {
   color: #fff;
   margin-top: 0;
 }
 
-/* line 708, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 711, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder-intro .list .job {
   width: 100%;
   display: inline-block;
@@ -4350,21 +4355,21 @@ form.explore.method-five label span.heading-medium {
   margin-bottom: 4em;
 }
 
-/* line 713, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 716, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder-intro .list .job .image-block {
   height: 22em;
   overflow: visible;
   position: relative;
 }
 
-/* line 717, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 720, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder-intro .list .job .image-block img {
   top: 0;
   width: 120%;
   left: -3em;
 }
 
-/* line 728, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 731, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder-intro a.button.button-start {
   width: 100%;
   display: inline-block;
@@ -4375,25 +4380,25 @@ form.explore.method-five label span.heading-medium {
   border: none;
 }
 
-/* line 740, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 743, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .more-info {
   display: none;
   margin: 0 0 2em 0;
 }
 
-/* line 743, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 746, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .more-info ul {
   padding-left: 1.25em;
   list-style: disc;
   margin-bottom: 1em;
 }
 
-/* line 747, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 750, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .more-info ul li {
   margin-bottom: 0.25em !important;
 }
 
-/* line 754, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 757, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 a.view-more span {
   display: inline-block;
   width: 1em;
@@ -4403,23 +4408,23 @@ a.view-more span {
   background-size: 1em;
 }
 
-/* line 764, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 767, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 main.tinder-content {
   padding: 3em 0 0 0;
 }
 
-/* line 769, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 772, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .skip {
   margin-bottom: 1em;
   display: inline-block;
 }
 
-/* line 773, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 776, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .heading-xlarge {
   margin-bottom: 0.75em;
 }
 
-/* line 776, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 779, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .jobcontainer, .tinder .joblist {
   border: 10px solid #dee0e2;
   background: #fff;
@@ -4428,7 +4433,7 @@ main.tinder-content {
   text-align: center;
 }
 
-/* line 783, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 786, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .jobcontainer:before, .tinder .jobcontainer:after, .tinder .joblist:before, .tinder .joblist:after {
   position: absolute;
   margin: 0 auto;
@@ -4436,7 +4441,7 @@ main.tinder-content {
   content: "";
 }
 
-/* line 789, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 792, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .jobcontainer:before, .tinder .joblist:before {
   width: 90%;
   left: 5%;
@@ -4444,7 +4449,7 @@ main.tinder-content {
   bottom: -1.5em;
 }
 
-/* line 795, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 798, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .jobcontainer:after, .tinder .joblist:after {
   width: 95%;
   left: 2.5%;
@@ -4452,37 +4457,37 @@ main.tinder-content {
   bottom: -1em;
 }
 
-/* line 801, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 804, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .jobcontainer .list, .tinder .jobcontainer.list, .tinder .jobcontainer.live, .tinder .joblist .list, .tinder .joblist.list, .tinder .joblist.live {
   margin: 0;
 }
 
-/* line 803, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 806, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .jobcontainer .list li, .tinder .jobcontainer.list li, .tinder .jobcontainer.live li, .tinder .joblist .list li, .tinder .joblist.list li, .tinder .joblist.live li {
   width: 100%;
   height: auto;
   margin-bottom: 0;
 }
 
-/* line 807, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 810, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .jobcontainer .list li img, .tinder .jobcontainer.list li img, .tinder .jobcontainer.live li img, .tinder .joblist .list li img, .tinder .joblist.list li img, .tinder .joblist.live li img {
   width: 100%;
   display: block;
 }
 
-/* line 811, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 814, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .jobcontainer .list li .salary, .tinder .jobcontainer.list li .salary, .tinder .jobcontainer.live li .salary, .tinder .joblist .list li .salary, .tinder .joblist.list li .salary, .tinder .joblist.live li .salary {
   margin: 0.5em 0;
   width: 100%;
 }
 
-/* line 814, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 817, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .jobcontainer .list li .salary img, .tinder .jobcontainer .list li .salary .text-wrapper, .tinder .jobcontainer.list li .salary img, .tinder .jobcontainer.list li .salary .text-wrapper, .tinder .jobcontainer.live li .salary img, .tinder .jobcontainer.live li .salary .text-wrapper, .tinder .joblist .list li .salary img, .tinder .joblist .list li .salary .text-wrapper, .tinder .joblist.list li .salary img, .tinder .joblist.list li .salary .text-wrapper, .tinder .joblist.live li .salary img, .tinder .joblist.live li .salary .text-wrapper {
   float: left;
   display: inline-block;
 }
 
-/* line 818, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 821, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .jobcontainer .list li .salary img, .tinder .jobcontainer.list li .salary img, .tinder .jobcontainer.live li .salary img, .tinder .joblist .list li .salary img, .tinder .joblist.list li .salary img, .tinder .joblist.live li .salary img {
   width: 6em;
   height: 6em;
@@ -4490,24 +4495,24 @@ main.tinder-content {
   display: none;
 }
 
-/* line 825, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 828, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .jobcontainer .list li .salary .text-wrapper h1, .tinder .jobcontainer .list li .salary .text-wrapper h2, .tinder .jobcontainer .list li .salary .text-wrapper p, .tinder .jobcontainer.list li .salary .text-wrapper h1, .tinder .jobcontainer.list li .salary .text-wrapper h2, .tinder .jobcontainer.list li .salary .text-wrapper p, .tinder .jobcontainer.live li .salary .text-wrapper h1, .tinder .jobcontainer.live li .salary .text-wrapper h2, .tinder .jobcontainer.live li .salary .text-wrapper p, .tinder .joblist .list li .salary .text-wrapper h1, .tinder .joblist .list li .salary .text-wrapper h2, .tinder .joblist .list li .salary .text-wrapper p, .tinder .joblist.list li .salary .text-wrapper h1, .tinder .joblist.list li .salary .text-wrapper h2, .tinder .joblist.list li .salary .text-wrapper p, .tinder .joblist.live li .salary .text-wrapper h1, .tinder .joblist.live li .salary .text-wrapper h2, .tinder .joblist.live li .salary .text-wrapper p {
   float: left;
   clear: both;
 }
 
-/* line 829, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 832, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .jobcontainer .list li .salary .text-wrapper h1, .tinder .jobcontainer .list li .salary .text-wrapper h2, .tinder .jobcontainer.list li .salary .text-wrapper h1, .tinder .jobcontainer.list li .salary .text-wrapper h2, .tinder .jobcontainer.live li .salary .text-wrapper h1, .tinder .jobcontainer.live li .salary .text-wrapper h2, .tinder .joblist .list li .salary .text-wrapper h1, .tinder .joblist .list li .salary .text-wrapper h2, .tinder .joblist.list li .salary .text-wrapper h1, .tinder .joblist.list li .salary .text-wrapper h2, .tinder .joblist.live li .salary .text-wrapper h1, .tinder .joblist.live li .salary .text-wrapper h2 {
   margin: 0;
 }
 
-/* line 832, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 835, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .jobcontainer .list li .salary .text-wrapper .border, .tinder .jobcontainer.list li .salary .text-wrapper .border, .tinder .jobcontainer.live li .salary .text-wrapper .border, .tinder .joblist .list li .salary .text-wrapper .border, .tinder .joblist.list li .salary .text-wrapper .border, .tinder .joblist.live li .salary .text-wrapper .border {
   background: #28a197;
   margin: 0.5em 0;
 }
 
-/* line 840, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 843, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .jobcontainer .wrapper, .tinder .joblist .wrapper {
   background: #fff;
   padding: 4%;
@@ -4516,22 +4521,22 @@ main.tinder-content {
   border-bottom: 1px dashed #dee0e2;
 }
 
-/* line 849, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 852, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .jobcontainer .wrapper .heading-xlarge, .tinder .joblist .wrapper .heading-xlarge {
   margin: 0;
 }
 
-/* line 852, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 855, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .jobcontainer .wrapper h3.grey, .tinder .joblist .wrapper h3.grey {
   margin: 0.5em 0 1em 0;
 }
 
-/* line 855, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 858, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .jobcontainer .wrapper a, .tinder .joblist .wrapper a {
   margin: 0 2em 0 0;
 }
 
-/* line 859, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 862, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .jobcontainer .but-yay, .tinder .jobcontainer .but-nope, .tinder .joblist .but-yay, .tinder .joblist .but-nope {
   background: none;
   box-shadow: none;
@@ -4545,66 +4550,66 @@ main.tinder-content {
   text-indent: -1000em;
 }
 
-/* line 870, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 873, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .jobcontainer .but-yay:hover, .tinder .jobcontainer .but-nope:hover, .tinder .joblist .but-yay:hover, .tinder .joblist .but-nope:hover {
   transform: scale(1.3);
   transition: ease 0.35s;
 }
 
-/* line 875, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 878, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .jobcontainer .but-yay, .tinder .joblist .but-yay {
   background: url(/public/images/icon-thumbs-up.svg) transparent no-repeat 50% 0%;
   background-size: 7em;
 }
 
-/* line 879, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 882, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .jobcontainer .but-nope, .tinder .joblist .but-nope {
   background: url(/public/images/icon-thumbs-down.svg) transparent no-repeat 50% 0%;
   background-size: 7em;
 }
 
-/* line 884, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 887, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder #results {
   text-align: left;
   border: none;
 }
 
-/* line 887, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 890, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder #results li {
   padding: 0;
 }
 
-/* line 890, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 893, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder #results .heading-medium {
   margin-top: 0;
 }
 
-/* line 893, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 896, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder #results:before, .tinder #results:after {
   display: none;
 }
 
-/* line 896, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 899, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder #results .image-block {
   display: none;
 }
 
-/* line 899, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 902, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder #results .wrapper {
   padding: 2em 0;
 }
 
-/* line 902, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 905, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder #results .view-more {
   display: none;
 }
 
-/* line 906, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 909, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .job {
   position: relative;
 }
 
-/* line 908, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 911, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .job .qualifications {
   position: absolute;
   display: inline-block;
@@ -4624,7 +4629,7 @@ main.tinder-content {
   justify-content: center;
 }
 
-/* line 928, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 931, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .image-block {
   display: inline-block;
   width: 100%;
@@ -4634,7 +4639,7 @@ main.tinder-content {
   z-index: 1;
 }
 
-/* line 935, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 938, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .image-block img {
   position: absolute;
   left: 0;
@@ -4643,12 +4648,12 @@ main.tinder-content {
   width: 100%;
 }
 
-/* line 943, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 946, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .actions, .tinder .govuk-related-items {
   margin-top: 0;
 }
 
-/* line 945, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 948, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .actions #counter, .tinder .actions .shortlist-counter, .tinder .actions .removed-counter, .tinder .govuk-related-items #counter, .tinder .govuk-related-items .shortlist-counter, .tinder .govuk-related-items .removed-counter {
   display: inline-block;
   background: #28a197;
@@ -4662,12 +4667,12 @@ main.tinder-content {
   text-align: center;
 }
 
-/* line 958, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 961, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .govuk-related-items {
   margin-top: 0;
 }
 
-/* line 960, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 963, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .govuk-related-items .shortlist-counter, .tinder .govuk-related-items .removed-counter {
   float: right;
   margin: -0.25em 0 0 0;
@@ -4675,22 +4680,22 @@ main.tinder-content {
   height: 1.275em;
 }
 
-/* line 966, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 969, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .govuk-related-items.shortlist, .tinder .govuk-related-items.removed {
   margin-bottom: 3em;
 }
 
-/* line 968, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 971, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .govuk-related-items.shortlist nav, .tinder .govuk-related-items.removed nav {
   margin-top: 1em;
 }
 
-/* line 971, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 974, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .govuk-related-items.shortlist nav ol li, .tinder .govuk-related-items.removed nav ol li {
   display: none;
 }
 
-/* line 973, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 976, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .govuk-related-items.shortlist nav ol li a, .tinder .govuk-related-items.removed nav ol li a {
   float: right;
   display: inline-block;
@@ -4699,49 +4704,49 @@ main.tinder-content {
   background-size: 1em;
 }
 
-/* line 984, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 987, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .govuk-related-items.shortlist {
   border-top: 10px solid #28a197;
 }
 
-/* line 986, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 989, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .govuk-related-items.shortlist .shortlist-counter {
   background: #00823b;
 }
 
-/* line 989, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 992, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .govuk-related-items.shortlist .grey {
   margin: 1em 0 0.25em 0;
 }
 
-/* line 992, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 995, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .govuk-related-items.shortlist .heading-large {
   margin: 0.25em 0 1em 0;
 }
 
-/* line 996, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 999, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .govuk-related-items.removed {
   border-top: 10px solid #b10e1e;
   display: none;
 }
 
-/* line 999, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 1002, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .govuk-related-items.removed .removed-counter {
   background: #b10e1e;
 }
 
-/* line 1003, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 1006, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder .govuk-related-items.removed nav ol li a {
   background: url(/public/images/icon-add.png) transparent no-repeat 0% 50%;
   background-size: 1em;
 }
 
-/* line 1011, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 1014, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .tinder.shortlist .actions {
   display: none;
 }
 
-/* line 1019, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 1022, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .autocomplete-suggestions {
   width: 100%;
   background: #fff;
@@ -4752,50 +4757,50 @@ main.tinder-content {
   max-height: 300px !important;
 }
 
-/* line 1027, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 1030, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .autocomplete-suggestions .autocomplete-suggestion {
   padding: 1em;
 }
 
-/* line 1029, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 1032, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .autocomplete-suggestions .autocomplete-suggestion:hover, .autocomplete-suggestions .autocomplete-suggestion:focus, .autocomplete-suggestions .autocomplete-suggestion.autocomplete-selected {
   background: #f2f3f4;
   cursor: pointer;
 }
 
-/* line 1033, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+/* line 1036, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .autocomplete-suggestions .autocomplete-suggestion strong {
   color: #28a197;
   font-weight: bold;
 }
 
 @media (min-width: 1020px) {
-  /* line 1045, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1048, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   .welcome_block.sub-header {
     padding: 4em 0;
     margin: 0 0 2em 0;
   }
-  /* line 1048, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1051, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   .welcome_block.sub-header .heading-xlarge {
     margin-top: 0;
     margin-bottom: 0.5em;
   }
-  /* line 1053, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1056, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   .welcome_block.sub-header form input {
     font-size: 2rem;
   }
-  /* line 1062, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1065, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   ul.salaries.full-width li, ul.salaries.two-thirds li {
     width: 33%;
   }
-  /* line 1069, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1072, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   ul.salaries.full-width li .value span {
     width: 7em;
     height: 7em;
     padding: 1em;
     font-size: 4rem;
   }
-  /* line 1081, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1084, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   ul.salaries.two-thirds li .value span {
     width: 5em;
     height: 5em;
@@ -4805,71 +4810,71 @@ main.tinder-content {
 }
 
 @media (min-width: 769px) {
-  /* line 1099, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1102, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   .welcome_block.sub-header {
     padding: 4em 0;
     margin: 0 0 2em 0;
   }
-  /* line 1106, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1109, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   ul.salaries li {
     width: 33%;
   }
-  /* line 1109, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1112, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   ul.salaries li .value span {
     width: 6em;
     height: 6em;
     padding: 1em;
     font-size: 3rem;
   }
-  /* line 1121, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1124, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   ul.salaries.full-width li, ul.salaries.two-thirds li {
     width: 33%;
   }
-  /* line 1128, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1131, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   ul.salaries.full-width li .value span {
     width: 6em;
     height: 6em;
     padding: 1em;
     font-size: 3rem;
   }
-  /* line 1140, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1143, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   ul.salaries.two-thirds li .value span {
     width: 4em;
     height: 4em;
     padding: 1em;
     font-size: 2.75rem;
   }
-  /* line 1151, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1154, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   section, aside {
     font-size: 19px;
   }
 }
 
 @media (min-width: 641px) {
-  /* line 1168, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1171, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   .welcome_block.sub-header {
     padding: 4em 0 6em 0;
     margin: 0 0 1em 0;
   }
-  /* line 1171, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1174, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   .welcome_block.sub-header .heading-xlarge {
     margin-top: 0;
     margin-bottom: 0.5em;
   }
-  /* line 1176, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1179, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   .welcome_block.sub-header form label {
     font-size: 24px;
   }
-  /* line 1184, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1187, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   ul.salaries li {
     width: 33%;
     margin-bottom: 1em;
   }
-  /* line 1187, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1190, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   ul.salaries li strong {
     font-size: 2rem;
   }
-  /* line 1191, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1194, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   ul.salaries li .value span {
     width: 5em;
     height: 5em;
@@ -4879,54 +4884,54 @@ main.tinder-content {
 }
 
 @media (max-width: 640px) {
-  /* line 1212, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1215, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   .welcome_block.sub-header {
     padding: 2em 0 4em 0;
     margin: 0 0 1em 0;
   }
-  /* line 1215, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1218, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   .welcome_block.sub-header .heading-xlarge {
     margin-top: 0;
     margin-bottom: 0.5em;
   }
-  /* line 1220, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1223, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   .welcome_block.content-page {
     margin-bottom: 2em;
   }
-  /* line 1226, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1229, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   ul.salaries li {
     width: 50%;
     margin-bottom: 1em;
   }
-  /* line 1229, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1232, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   ul.salaries li strong {
     font-size: 2rem;
   }
-  /* line 1233, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1236, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   ul.salaries li .value span {
     width: 5em;
     height: 5em;
     padding: 1em;
     font-size: 1.6rem;
   }
-  /* line 1244, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1247, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   .panel-border-wide.hybrid {
     margin: 1em 0 4em 0;
   }
-  /* line 1246, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1249, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   .panel-border-wide.hybrid img {
     margin-bottom: 1.5em;
   }
-  /* line 1253, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1256, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   .intro-section .bold-xxlarge {
     margin-bottom: 0.5em;
   }
-  /* line 1258, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1261, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   .salary, .hours {
     margin: 1em 0 0 0;
     display: inline-block;
   }
-  /* line 1261, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1264, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   .salary .icon, .hours .icon {
     display: inline-block;
     width: 6em;
@@ -4934,37 +4939,45 @@ main.tinder-content {
     float: left;
     margin: 0 1em 0 0;
   }
-  /* line 1272, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1275, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   .extra-content .column-one-third hr {
     margin: 1.5em 0;
   }
-  /* line 1280, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1283, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   .testimonial .home_content .text-wrap {
     width: 100%;
     float: left;
     clear: left;
   }
-  /* line 1285, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1288, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   .testimonial .home_content img {
     width: 11em;
     height: 11em;
     float: left;
     margin: -0.25em 3em 2em 0;
   }
-  /* line 1291, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1294, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   .testimonial .home_content .quote {
     width: 4em;
     height: 6em;
     bottom: -1em;
     right: 0;
   }
-  /* line 1296, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1299, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   .testimonial .home_content .quote.one {
     right: 5em;
   }
-  /* line 1305, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  /* line 1308, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
   section, aside {
     font-size: 16px;
+  }
+  /* line 1315, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  form.explore label.block-label {
+    width: 90%;
+  }
+  /* line 1318, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  form.explore label.block-label span.heading-medium:before {
+    top: -6px;
   }
 }
 

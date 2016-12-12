@@ -576,6 +576,9 @@ form {
                &:before {
                     display: none;
                }
+               &.block-label {
+                    display: inline-block;
+               }
                &.selected {
                     &:before, &:after {
                          display: none;
@@ -611,7 +614,7 @@ form {
                     position: relative;
                     // height: 30px;
                     padding-left: 40px;
-                    margin: 0 0 0.35em 0;
+                    margin: 0 0 0.5em 0;
                     &:before {
                          content: "";
                          border: 2px solid;
@@ -1306,6 +1309,20 @@ main.tinder-content {
           font-size: 16px;
      }
 
+     form {
+          &.explore {
+               label {
+                    &.block-label {
+                         width: 90%;
+                         span.heading-medium {
+                              &:before {
+                                   top: -6px;
+                              }
+                         }
+                    }
+               }
+          }
+     }
 
 }
 
