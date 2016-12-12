@@ -828,8 +828,8 @@ input[type="search"] {
 ul.menu li.icon {display: none;}
 
 @media screen and (max-width:680px) {
-  .js-enabled ul.menu li:not(:first-child) {display: none;}
-  .js-enabled ul.menu li.icon {
+  ul.menu li:not(:first-child) {display: none;}
+  ul.menu li.icon {
     float: right;
     display: inline-block;
   }
