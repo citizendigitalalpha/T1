@@ -2322,7 +2322,7 @@ input[type=number] {
   letter-spacing: 1px;
   text-decoration: none;
   color: #fff;
-  background-color: #d53880;
+  background-color: #005ea5;
 }
 
 @media (min-width: 641px) {
@@ -2392,7 +2392,7 @@ input[type=number] {
   letter-spacing: 1px;
   text-decoration: none;
   color: #fff;
-  background-color: #d53880;
+  background-color: #005ea5;
 }
 
 @media (min-width: 641px) {
@@ -3558,6 +3558,7 @@ ul.menu li.icon {
   text-decoration: none;
   padding: 0.75em 0;
   display: inline-block;
+  width: 100%;
 }
 
 /* line 910, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
