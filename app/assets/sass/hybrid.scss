@@ -1334,6 +1334,25 @@ main.tinder-content {
           }
      }
 
+     #proposition-menu {
+          text-align: left;
+     }
+
+     #content.tinder-content {
+          padding: 3em 0 6em 0;
+          .job {
+               .qualifications {
+                    width: 7.5em;
+                    height: 7.5em;
+                    right: -2em;
+                    top: -4em;
+                    font-size: 1.2rem;
+               }
+          }
+
+     }
+
+
 }
 
 // SMARTPHONE ONLY (Up to 480px)

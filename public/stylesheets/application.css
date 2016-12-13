@@ -4985,6 +4985,22 @@ main.tinder-content {
   form.explore label.block-label span.heading-medium:before {
     top: -6px;
   }
+  /* line 1337, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  #proposition-menu {
+    text-align: left;
+  }
+  /* line 1341, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  #content.tinder-content {
+    padding: 3em 0 6em 0;
+  }
+  /* line 1344, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  #content.tinder-content .job .qualifications {
+    width: 7.5em;
+    height: 7.5em;
+    right: -2em;
+    top: -4em;
+    font-size: 1.2rem;
+  }
 }
 
 /*# sourceMappingURL=application.css.map */
