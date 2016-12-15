@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  National Careers Service - Book this
+{% endblock %}
+
+{% block content %}
+
+{% include "includes/new_navigation.html" %}
+
+<main id="content" role="main">
+
+    {% include "includes/breadcrumb_book.html" %}
+
+    <div class="grid-row">
+    <div class="column-two-thirds">
+        <h1 class="heading-xlarge">Book an appointment with Joe</h1>
+        <table role="presentation">
+  <thead>
+    <tr>
+      <th colspan="2">Date and time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Wednesday 16th November at 14:00</td>
+      <td><a href="./book-this.html" role="button">Book this appointment</a></td>
+    </tr>
+    <tr>
+      <td>Thursday 16th November at 17:00</td>
+      <td><a href="./book-this.html" role="button">Book this appointment</a></td>
+    </tr>
+    <tr>
+     <td>Friday 17th November at 10:00</td>
+      <td><a href="./book-this.html" role="button">Book this appointment</a></td>
+    </tr>
+    <tr>
+      <td>Monday 21st November at 14:00</td>
+      <td><a href="./book-this.html" role="button">Book this appointment</a></td>
+    </tr>
+  </tbody>
+</table>
+      <p><a href="./book-an-appointment.html" class="link-back">Back to appointments</a></p>
+    </div>
+	</main>
+
+{% endblock %}

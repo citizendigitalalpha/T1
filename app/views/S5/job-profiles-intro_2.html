@@ -1,0 +1,41 @@
+{% extends "layout_home.html" %}
+
+{% block page_title %}
+National Careers Service
+{% endblock %}
+
+{% block content %}
+
+{% include "includes/new_navigation.html" %}
+
+<main id="content" role="main">
+     <div class="grid-row">
+          <div class="column-two-thirds">
+               <h1 class="heading-xlarge">
+                    <span class="heading-secondary">Explore our job profiles</span>
+                    Welcome to your job profile shortlist
+               </h1>
+               <a class="skip" href="/job-profiles">Skip intro</a>
+          </div>
+     </div>
+     <div class="grid-row">
+          <div class="column-two-thirds">
+               <div class="tinder-intro">
+                    <h1 class="heading-small">Here's how it works...</h1>
+                    <h2 class="heading-large">If you like a job, click the green thumbs up button</h2>
+                    <ul class="list">
+                         <!-- Job 1 - START -->
+                         <li class="job current">
+                              <div class="image-block">
+                                   <img src="../public/images/tinder-intro-2.png" alt="Like a job profile">
+                              </div>
+                         </li>
+                         <!-- Job 1 - END -->
+                    </ul>
+                    <a class="button button-start" href="/job-profiles-intro_3">Next</a>
+               </div>
+          </div>
+     </div>
+</main>
+
+{% endblock %}

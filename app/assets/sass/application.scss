@@ -882,7 +882,16 @@ ul.menu li.icon {display: none;}
                     float: left;
                     list-style: none;
                     text-align: center;
-                    padding: 1%;
+                    padding: 0;
+                    display: inline-block;
+                    &:hover {
+                         background: $black;
+                         cursor: pointer;
+                         // a {
+                         //      padding-bottom: 0.5em;
+                         //      border-bottom: 0.5em solid $white;
+                         // }
+                    }
                     &.search {
                          width: 5%;
                          height: 100%;
@@ -897,16 +906,18 @@ ul.menu li.icon {display: none;}
                               background-size: 1.35em;
                          }
                     }
-                    &.home {
-                         padding-left: 0;
-                    }
+                    // &.home {
+                    //      a {
+                    //           padding-left: 0;
+                    //      }
+                    // }
                     a {
                          color: $white;
                          font-weight: bold;
                          text-decoration: none;
-                         padding: 0.75em 0;
+                         padding: 1em;
                          display: inline-block;
-                         width: 100%;
+                         // width: 100%;
                          hr {
                               width: 30%;
                               background: $white;
@@ -960,3 +971,4 @@ ul.menu.responsive li a {
 // ========================================== MAIN NAVIGATION - END ========================================== //
 
 @import 'hybrid';
+@import 'mega-menu';
