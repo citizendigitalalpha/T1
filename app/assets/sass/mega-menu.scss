@@ -119,8 +119,11 @@
 	
 	 .main-navigation {
           ul#proposition-links {
-               li {
-               position: relative;
+               li { position:relative;
+                    //&.icon {
+                         //display: inline-block;
+						 //float: right !important;
+                    //}
                }
           }
      }
