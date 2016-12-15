@@ -13,7 +13,7 @@
 .main-navigation {
      ul#proposition-links {
           li {
-               position: relative;
+               //position: relative;
                &.icon {
                     display: none;
                }
@@ -116,9 +116,14 @@
 
 // MEDIUM UP (641px and above)
 @media (min-width: 641px) {
-
-
-
+	
+	.main-navigation {
+     ul#proposition-links {
+          li {
+               position: relative;
+}
+		}
+	}
 }
 
 // @media (min-width: 480px) {
@@ -134,6 +139,7 @@
                li {
                     &.icon {
                          display: inline-block;
+						 float: right !important;
                     }
                }
           }
