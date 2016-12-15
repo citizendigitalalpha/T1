@@ -117,13 +117,14 @@
 // MEDIUM UP (641px and above)
 @media (min-width: 641px) {
 	
-	.main-navigation {
-     ul#proposition-links {
-          li {
+	 .main-navigation {
+          ul#proposition-links {
+               li {
                position: relative;
-}
-		}
-	}
+               }
+          }
+     }
+
 }
 
 // @media (min-width: 480px) {
