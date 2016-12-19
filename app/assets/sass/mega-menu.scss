@@ -21,6 +21,7 @@
                     display: none;
                }
                &:hover {
+                    // border-radius: 5px 5px 0 0; 
                     .mega-menu {
                          display: inline-block;
                          position: absolute;
@@ -29,7 +30,7 @@
                          // bottom: 1em;
                          left: 0;
                          margin: 0;
-                         padding: 1em 0 0 0;
+                         padding: 0;
                          &:before {
                               display: inline-block;
                               position: absolute;
@@ -58,7 +59,7 @@
                                    font-weight: bold;
                                    padding: 0.75em 1em;
                                    background: $black;
-                                   border-radius: 5px 5px 0 0;
+                                   border-radius: 0 5px 0 0;
                                    border-bottom: 1px solid rgba($white,0.4);
                               }
                               ul {
@@ -116,7 +117,7 @@
 
 // MEDIUM UP (641px and above)
 @media (min-width: 641px) {
-	
+
 	 .main-navigation {
           ul#proposition-links {
                li { position:relative;
