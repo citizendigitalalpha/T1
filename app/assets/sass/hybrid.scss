@@ -1358,6 +1358,16 @@ main.tinder-content {
           }
 
      }
+     .main-navigation {
+          .inner {
+               ul#proposition-links li:hover {
+                    background: none;
+                    .mega-menu {
+                         display: none;
+                    }
+               }
+          }
+     }
 
 
 }

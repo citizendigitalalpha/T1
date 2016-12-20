@@ -5012,6 +5012,14 @@ main.tinder-content {
     top: -4em;
     font-size: 1.2rem;
   }
+  /* line 1363, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  .main-navigation .inner ul#proposition-links li:hover {
+    background: none;
+  }
+  /* line 1365, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
+  .main-navigation .inner ul#proposition-links li:hover .mega-menu {
+    display: none;
+  }
 }
 
 /* ---------------------------------------------------------------------------
