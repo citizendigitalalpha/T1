@@ -3406,59 +3406,64 @@ input[type="search"] {
   position: relative;
 }
 
+/* line 797, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+.eggs h3 {
+  margin-top: 1.25em;
+}
+
 @media (max-width: 851px) {
-  /* line 797, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+  /* line 800, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
   .eggs a {
     width: 150px;
     height: 150px;
     padding: 0em 0.5em 0.5em;
   }
-  /* line 802, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+  /* line 805, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
   .eggs h3 {
     margin-top: 1.5em;
   }
 }
 
 @media (max-width: 640px) {
-  /* line 807, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+  /* line 810, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
   .fl, .fr, fc {
     float: none;
   }
-  /* line 810, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+  /* line 813, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
   .eggs a {
     width: 125px;
     height: 125px;
   }
 }
 
-/* line 816, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+/* line 819, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
 .govuk-related-items {
   border-top: 10px solid #28a197;
 }
 
 /**explore*/
-/* line 823, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+/* line 826, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
 .explore h4 {
   margin-top: 0.5em;
 }
 
-/* line 824, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+/* line 827, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
 .explore img {
   max-width: 400px;
 }
 
 /**navi**/
-/* line 828, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+/* line 831, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
 ul.menu li.icon {
   display: none;
 }
 
 @media screen and (max-width: 680px) {
-  /* line 831, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+  /* line 834, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
   ul.menu li:not(:first-child) {
     display: none;
   }
-  /* line 832, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+  /* line 835, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
   ul.menu li.icon {
     float: right;
     display: inline-block;
@@ -3466,22 +3471,22 @@ ul.menu li.icon {
 }
 
 @media screen and (max-width: 680px) {
-  /* line 839, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+  /* line 842, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
   ul.menu.responsive {
     position: relative;
   }
-  /* line 840, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+  /* line 843, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
   ul.menu.responsive li.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  /* line 845, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+  /* line 848, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
   ul.menu.responsive li {
     float: none;
     display: inline;
   }
-  /* line 849, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+  /* line 852, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
   ul.menu.responsive li a {
     display: block;
     text-align: left;
@@ -3489,12 +3494,12 @@ ul.menu li.icon {
 }
 
 /**Chris SASS**/
-/* line 859, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+/* line 862, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
 #proposition-menu {
   text-align: right;
 }
 
-/* line 861, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+/* line 864, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
 #proposition-menu .phase-banner-alpha {
   padding: 0 0 0.15em 0;
   border-bottom: none;
@@ -3502,23 +3507,23 @@ ul.menu li.icon {
   display: inline-block;
 }
 
-/* line 866, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+/* line 869, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
 #proposition-menu .phase-banner-alpha p {
   color: #fff;
   float: right;
 }
 
-/* line 869, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+/* line 872, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
 #proposition-menu .phase-banner-alpha p span a {
   color: #fff;
 }
 
-/* line 876, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+/* line 879, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
 .main-navigation {
   background: #19645e;
 }
 
-/* line 881, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+/* line 884, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
 .main-navigation .inner ul#proposition-links li {
   float: left;
   list-style: none;
@@ -3526,13 +3531,13 @@ ul.menu li.icon {
   padding: 0;
 }
 
-/* line 887, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+/* line 890, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
 .main-navigation .inner ul#proposition-links li:hover {
   background: #0b0c0c;
   cursor: pointer;
 }
 
-/* line 895, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+/* line 898, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
 .main-navigation .inner ul#proposition-links li.search {
   width: 5%;
   height: 100%;
@@ -3540,19 +3545,19 @@ ul.menu li.icon {
   background-size: 1.35em;
 }
 
-/* line 900, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+/* line 903, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
 .main-navigation .inner ul#proposition-links li.search a {
   text-indent: -1000em;
   height: 100%;
 }
 
-/* line 904, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+/* line 907, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
 .main-navigation .inner ul#proposition-links li.search:hover {
   background: url(/public/images/icon-search.png) #0b0c0c no-repeat 50% 50%;
   background-size: 1.35em;
 }
 
-/* line 914, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+/* line 917, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
 .main-navigation .inner ul#proposition-links li a {
   color: #fff;
   font-weight: bold;
@@ -3561,7 +3566,7 @@ ul.menu li.icon {
   display: inline-block;
 }
 
-/* line 921, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+/* line 924, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
 .main-navigation .inner ul#proposition-links li a hr {
   width: 30%;
   background: #fff;
@@ -3569,33 +3574,33 @@ ul.menu li.icon {
   opacity: 0.2;
 }
 
-/* line 927, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+/* line 930, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
 .main-navigation .inner ul#proposition-links li a span {
   font-weight: normal;
   font-size: 1.2rem;
 }
 
-/* line 931, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+/* line 934, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
 .main-navigation .inner ul#proposition-links li a:hover {
   text-decoration: underline;
 }
 
-/* line 935, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+/* line 938, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
 .main-navigation .inner ul#proposition-links li a:focus {
   color: #0b0c0c;
 }
 
-/* line 945, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+/* line 948, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
 .inner {
   outline: none;
 }
 
-/* line 957, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+/* line 960, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
 ul.menu li.icon {
   float: right !important;
 }
 
-/* line 961, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+/* line 964, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
 ul.menu.responsive li {
   float: none !important;
   display: block;
@@ -3603,7 +3608,7 @@ ul.menu.responsive li {
   padding-left: 0 !important;
 }
 
-/* line 968, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
+/* line 971, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
 ul.menu.responsive li a {
   display: block;
 }
