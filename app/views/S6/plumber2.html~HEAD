@@ -1,0 +1,462 @@
+{% extends "layout_profiles.html" %}
+
+{% block page_title %}
+     National Careers Service
+{% endblock %}
+
+{% block content %}
+
+{% include "includes/new_navigation.html" %}
+
+<div class="welcome_block content-page">
+	<div class="home_content">
+          {% include "includes/breadcrumb_maint.html" %}
+		<div class="grid-row">
+               <div class="column-two-thirds">
+                    <h1 class="heading-xlarge">Plumber</h1>
+                    <div class="border"></div>
+                    <p class="lede grey">
+                         Heating and ventilation engineer, HVAC engineer
+                    </p>
+                    <p class="lede">
+                         Plumbers fit and service heating systems. They also
+                         repair faults in hot and cold water supplies and drainage
+                         networks.
+                    </p>
+               </div>
+		</div>
+          <div class="grid-row">
+               <div class="column-one-half">
+                    <section class="salary">
+                         <span class="icon"></span>
+                         <div class="main-intro">
+                              <h1 class="lede">Salary</h1>
+                              <span class="border"></span>
+                              <p class="bold-medium">£18,000 to £35,000</p>
+                              <p class="lede">average per year</p>
+                         </div>
+                    </section>
+               </div>
+               <div class="column-one-half">
+                    <section class="hours">
+                         <span class="icon"></span>
+                         <div class="main-intro">
+                              <h1 class="lede">Hours</h1>
+                              <span class="border"></span>
+                              <p class="bold-medium">37 to 40</p>
+                              <p class="lede">hours per week</p>
+                         </div>
+                    </section>
+               </div>
+          </div>
+	</div>
+     <div class="row-divider"><span></span></div>
+     <!-- <div class="wrapper"></div> -->
+</div>
+
+<main id="content" role="main">
+
+     <div id="sidebar">
+	     <div class="grid-row">
+	          <div class="column-full">
+				<div id="scroller-anchor"></div>
+				<div id="scroller">
+		               <nav aria-label="skip to your documents" class="jump-links hybrid-links" role="navigation">
+		                    <div class="grid-row">
+		                         <div class="column-one-third">
+		                              <ol class="list list-number">
+		                                   <li>
+		                                        <a href="#entry-requirements">Entry requirements</a>
+		                                   </li>
+		                                   <li>
+		                                        <a href="#skills-required">Skills required</a>
+		                                   </li>
+		                              </ol>
+		                         </div>
+		                         <div class="column-one-third">
+		                              <ol class="list list-number" start="3">
+		                                   <li>
+		                                        <a href="#what-youll-do">What you'll do</a>
+		                                   </li>
+		                                   <li>
+		                                        <a href="#salary">Salary</a>
+		                                   </li>
+		                              </ol>
+		                         </div>
+		                         <div class="column-one-third">
+		                              <ol class="list list-number" start="5">
+		                                   <li>
+		                                        <a href="#working-hours-patterns-and-environment">Working hours, patterns and environment</a>
+		                                   </li>
+		                                   <li>
+		                                        <a href="#career-path-and-progression">Career path and progression</a>
+		                                   </li>
+		                                   <!-- <li>
+		                                        <a href="#current-vacancies">Current vacancies</a>
+		                                   </li> -->
+		                                   <!-- <li>
+		                                        <a href="#research">Research portal</a>
+		                                   </li> -->
+		                              </ol>
+		                         </div>
+		                    </div>
+		               </nav>
+				</div>
+	          </div>
+	     </div>
+	</div>
+
+     <div class="grid-row">
+          <div class="column-two-thirds">
+
+               <div class="video-container">
+                    <iframe allowfullscreen="" frameborder="0"height="315"
+                    src="https://www.youtube.com/embed/NlmC97Wo5Wc?cc_load_policy=1" width=
+                    "560"></iframe>
+               </div>
+
+               <div class="panel panel-border-wide">
+				<p>
+					This video is 2 minutes and 4 seconds long
+				</p>
+			</div>
+
+               <section id="entry-requirements">
+                    <h2 class="heading-large"><span>1.</span> Entry requirements</h2>
+                    <p>
+                         To become a plumber, you'll do an industry-recognised
+                         qualification eg a Level 3 (NVQ) Diploma in Domestic
+                         Plumbing and Heating. The usual way to do this is through
+                         an <a href="http://www.apprenticeships.org.uk/" rel=
+                         "external">apprenticeship</a>.
+                    </p>
+                    <p>
+                         You could also take a foundation course in plumbing
+                         skills at college. This may help you to find a trainee
+                         position with a company. Once working, you can do further
+                         training.
+                    </p>
+                    <p>
+                         There are short courses in plumbing offering useful
+                         background knowledge, but won't qualify you as a plumber.
+                         <a href=
+                         "http://www.summitskills.org.uk/building-services-apprenticeships-careers"
+                         rel="external">Summitskills</a> and <a href=
+                         "https://www.goconstruct.org/en/finding-a-role-for-you/career-explorer/plumber/"
+                         rel="external">Go Construct</a> have more information about
+                         careers and qualifications in plumbing.
+                    </p>
+                    <h3 class="heading-medium">Courses available in your area</h3>
+                    <h4 class="heading-small"><a href="https://www.findapprenticeship.service.gov.uk/apprenticeshipdetail/-17536/6">Apprentice Plumber</a></h4>
+                    <ul class="list">
+                         <li>Location: Manchester</li>
+                         <li>Duration: 12 months</li>
+                         <li>Type: Full time</li>
+                         <li>Qualification: Intermediate Level Apprenticeship</li>
+                    </ul>
+                    <h4 class="heading-small"><a href="http://www.fareham.ac.uk/courses/level-1-foundation-diploma-in-plumbing/">Level 1 Construction Skills (Plumbing)</a></h4>
+                    <ul class="list">
+                         <li>Location: Fareham</li>
+                         <li>Duration: 12 months</li>
+                         <li>Type: Full time</li>
+                         <li>Qualification: Foundation Level Diploma in Plumbing</li>
+                    </ul>
+                    <h4 class="heading-small"><a href="https://www.lcb.ac.uk/courses/domestic-plumbing--heating-level-2-diploma?ref=3">Domestic Plumbing and Heating Level 2 Diploma</a></h4>
+                    <ul class="list">
+                         <li>Location: Leeds</li>
+                         <li>Duration: 24 months</li>
+                         <li>Type: Part time</li>
+                         <li>Qualification: Level 2 NVQ Diploma</li>
+                    </ul>
+               </section><!--section 1-->
+               <section id="skills-required">
+                    <h2 class="heading-large"><span>2.</span> Skills required</h2>
+                    <p>You'll need:</p>
+                    <ul class="list list-bullet">
+                         <li>the ability to follow technical drawings and plans</li>
+                         <li>practical skills</li>
+                         <li>customer care skills</li>
+                         <li>the ability to follow safe working practices</li>
+                    </ul>
+               </section><!--section 2-->
+               <section id="what-youll-do">
+                    <h2 class="heading-large"><span>3.</span> What you'll do</h2>
+                    <p>
+                         You'll service and repair heating, water and sanitation
+                         systems in domestic and commercial premises.
+                    </p>
+                    <p>
+                         You'll be:
+                    </p>
+                    <ul class="list list-bullet">
+                         <li>installing water, drainage and heating systems</li>
+                         <li>finding and fixing faults</li>
+                         <li>servicing gas and oil-fired central heating systems and radiators</li>
+                         <li>installing and fixing domestic appliances like showers, cookers, gas fires and washing machines</li>
+                         <li>servicing air-conditioning and ventilation units</li>
+                         <li>dealing with emergency call outs like boiler breakdowns or blocked drains</li>
+                         <li>fitting weather-proof materials, joints and flashings to roofs, chimneys and walls</li>
+                         <li>solar-powered heating systems</li>
+                    </ul>
+               </section><!--section 3-->
+               <section id="salary">
+                    <h2 class="heading-large"><span>4.</span> Salary</h2>
+                    <ul class="salaries two-thirds">
+                         <li>
+                              <strong>Starter:</strong>
+                              <div class="value">
+                                   <span>£18,000 to £22,000</span>
+                              </div>
+                         </li>
+                         <li>
+                              <strong>Experienced:</strong>
+                              <div class="value">
+                                   <span>£23,000 to £35,000</span>
+                              </div>
+                         </li>
+                         <li>
+                              <strong>Highly experienced:</strong>
+                              <div class="value">
+                                   <span>upto £40,000</span>
+                              </div>
+                         </li>
+                    </ul>
+                    <p>These figures are a guide.</p>
+                    <p>Self-employed plumbers set their own rates.</p>
+               </section><!--section 4 -->
+               <section id="working-hours-patterns-and-environment">
+                    <h2 class="heading-large"><span>5.</span> Working hours, patterns and environment</h2>
+                    <p>
+                         You'd normally work between 37 and 40 hours a week as an
+                         employee. You could work evenings, weekends and public
+                         holidays if your firm offers an emergency call-out service.
+                         Self-employed plumbers can work longer hours.
+                    </p>
+                    <p>
+                         You must be able to work in confined spaces and in all
+                         weathers. You could also work on scaffolding or from
+                         ladders to repair roof guttering or leadwork.
+                    </p>
+                    <p>
+                         You'd travel locally between jobs but you may have to
+                         work away from home on some contracts.
+                    </p>
+               </section><!--section 5-->
+               <section id="career-path-and-progression">
+                    <h2 class="heading-large"><span>6.</span> Career path and progression</h2>
+                    <p>
+                         You can develop your skills by taking further training
+                         in areas such as heating, ventilation and air-conditioning,
+                         and renewable energy technologies like solar powered
+                         heating. You can also join the <a href=
+                         "http://www.gassaferegister.co.uk/" rel="external">Gas Safe
+                         Register</a> or get certified with the <a href=
+                         "http://www.oftec.co.uk/" rel="external">Oil Firing
+                         Technical Association</a>. This shows that you're legally
+                         qualified to work on gas and oil-fired appliances.
+                    </p>
+                    <p>
+                         You could go on to take an HND or degree and become an
+                         engineer. This would give you career options in building
+                         services engineering, estimating and contract
+                         management.
+                    </p>
+                    <p>
+                         Specialist skills training would also allow you to work
+                         in <a href="http://www.the-nhtg.org.uk/" rel=
+                         "external">heritage conservation</a> on historic
+                         buildings.
+                    </p>
+               </section><!--section 6-->
+               <p class="grey font-xsmall">Last updated: 23 March 2016</p>
+          </div>
+          <div class="column-one-third">
+               {% include "includes/sidebar.html" %}
+          </div>
+     </div>
+</main>
+
+<section class="what-next">
+     <div class="home_content">
+          <div class="grid-row">
+               <div class="column-full">
+                    <h1 class="heading-xlarge">So what next?</h1>
+               </div>
+          </div>
+          <div class="grid-row">
+               <div class="column-one-third">
+                    <h2 class="heading-medium">Research Plumber</h2>
+                    <p>
+                         We have created an entire research hub for anyone who wishes to know more about becoming
+                         a Plumber in their local area.
+                    </p>
+                    <a class="button button-start" href="set-location-paralegal.html" role="button">Research</a>
+               </div>
+               <div class="column-one-third">
+                    <h2 class="heading-medium">How to become a Plumber</h2>
+                    <p>
+                         Not everyone has the same journey to their perfect career, but we can help you along the right path.
+                    </p>
+                    <a class="button button-start" href="how-to-become.html" role="button">Become</a>
+               </div>
+               <div class="column-one-third">
+                    <h2 class="heading-medium">Preparing to become a Plumber</h2>
+                    <p>
+                         Helping to prepare you for a career as a Plumber is what we’re here for.
+                    </p>
+                    <a class="button button-start" href="resources.html" role="button">Prepare</a>
+               </div>
+          </div>
+     </div>
+</section>
+
+<section class="testimonial">
+     <div class="home_content">
+          <div class="grid-row">
+               <div class="column-full">
+                    <img src="/public/images/worker-1.jpg" alt="Simon Hayes, Plumber">
+                    <div class="text-wrap">
+                         <h1 class="heading-medium">
+                              I love being a Plumber, if offers me such a Plumber range of work, it always
+                              keeps me on my toes. You need to work hard but you are rewarded for what you put in.
+                         </h1>
+                         <h2 class="heading-small turquoise-text">Plumber Center</h2>
+                         <p class="grey font-xsmall">Simon Hayes - Plumber</p>
+                    </div>
+               </div>
+          </div>
+          <!-- <span class="quote one"></span>
+          <span class="quote two"></span> -->
+     </div>
+</section>
+
+<section class="extra-content">
+     <div class="home_content">
+          <div class="grid-row">
+               <div class="column-one-third">
+                    <hr>
+                    <h1 class="heading-medium">Apply for jobs</h1>
+                    <p class="grey font-small">Below are some Plumber jobs that are local to you in Newcastle</p>
+                    <h4 class="heading-small">
+                         <a href="#">Gas Engineer / Plumber / General Maintenance Person</a>
+                    </h4>
+                    <ul class="list">
+                         <li>
+                              Location: Newcastle<br>
+                              Type: Full time<br>
+                              Salary: £22,000.00 per year
+                         </li>
+                    </ul>
+                    <h4 class="heading-small">
+                         <a href="#">Plumber</a>
+                    </h4>
+                    <ul class="list">
+                         <li>
+                              Location: Newcastle<br>
+                              Type: Full time<br>
+                              Salary: £15,000 - £30,000 a year
+                         </li>
+                    </ul>
+                    <a href="#">Find more jobs</a>
+               </div>
+               <div class="column-one-third">
+                    <hr>
+                    <h1 class="heading-medium">Find a course</h1>
+                    <p class="grey font-small">Where can I get the skill &amp; qualifications I need to get the job?</p>
+                    <h4 class="heading-small">
+                         <a href="#">Apprentice Plumber</a>
+                    </h4>
+                    <ul class="list">
+                         <li>
+                              Location: Newcastle<br>
+                              Duration: 18 months<br>
+                              Course type: Full time<br>
+                              Qualification: Intermediate Level Apprenticeship
+                         </li>
+                    </ul>
+                    <h4 class="heading-small">
+                         <a href="#">Level 1 Construction Skills (Plumbing)</a>
+                    </h4>
+                    <ul class="list">
+                         <li>
+                              Location: Newcastle<br>
+                              Duration: 18 months<br>
+                              Course type: Full time<br>
+                              Qualification: Intermediate Level Apprenticeship
+                         </li>
+                    </ul>
+                    <h4 class="heading-small">
+                         <a href="#">Domestic Plumbing and Heating Level 2 Diploma</a>
+                    </h4>
+                    <ul class="list">
+                         <li>
+                              Location: Newcastle<br>
+                              Duration: 18 months<br>
+                              Course type: Full time<br>
+                              Qualification: Intermediate Level Apprenticeship
+                         </li>
+                    </ul>
+                    <a href="#">Get more skills &amp; Qualifications</a>
+               </div>
+               <div class="column-one-third">
+                    <hr>
+                    <h1 class="heading-medium">Take the next step</h1>
+                    <p class="grey font-small">How can I progress my career?</p>
+                    <h4 class="heading-small">
+                         <a href="#">Self-employed plumber</a>
+                    </h4>
+                    <p>From Plumber you could become a self-employed Plumber</p>
+                    <a href="#">Become self-employed</a>
+               </div>
+          </div>
+
+          <!-- <hr> -->
+
+          <div class="grid-row">
+               <div class="column-one-third">
+                    <hr>
+                    <h1 class="heading-medium">Apply for an apprenticeship</h1>
+                    <p class="grey font-small">Get your foot in the door and start your career with these Apprenticeships &amp; internships</p>
+                    <ul class="list">
+                         <li>
+                              You could earn and learn by doing an <a href="#">apprenticeship</a>
+                         </li>
+                    </ul>
+                    <a href="#">Find more apprenticeships</a>
+               </div>
+               <div class="column-one-third">
+                    <hr>
+                    <h1 class="heading-medium">Apply for a traineeship</h1>
+                    <p class="grey font-small">Why not start your career with a traineeship</p>
+                    <ul class="list">
+                         <li>
+                              If you’re not ready for an apprenticeship you could do a <a href="#">traineeship</a> which may lead into an apprenticeship
+                         </li>
+                    </ul>
+                    <a href="#">Find more traineeship</a>
+               </div>
+               <div class="column-one-third">
+                    <hr>
+                    <h1 class="heading-medium">Contact us</h1>
+                    <p class="grey font-small">Do you just want to speak to someone who can help?</p>
+                    <h4 class="heading-small">
+                         <a href="#" class="email"><span></span> careers@sfa.bis.gov.uk</a>
+                    </h4>
+                    <h4 class="heading-small">
+                         <a href="#" class="phone"><span></span> 0123 456 789</a>
+                    </h4>
+                    <br>
+                    <h1 class="heading-medium">National Careers Service</h1>
+                    <h4 class="heading-small">
+                         <a href="#">Job profiles search</a>
+                    </h4>
+                    <h4 class="heading-small">
+                         <a href="#">Find a course</a>
+                    </h4>
+               </div>
+          </div>
+
+     </div>
+</section>
+
+{% endblock %}

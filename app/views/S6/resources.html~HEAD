@@ -1,0 +1,161 @@
+{% extends "layout_home.html" %}
+
+{% block page_title %}
+     National Careers Service - Resources
+{% endblock %}
+
+{% block content %}
+
+{% include "includes/new_navigation.html" %}
+
+<main id="content" role="main">
+     {% include "includes/breadcrumb_resources.html" %} {% include "includes/main_navigation.html" %}
+     <div class="grid-row">
+          <div class="column-two-thirds">
+               <div id="all_divs">
+                    <div class="prepare_content prepare">
+                         <h2 class="heading-large">Prepare for a job</h2>
+                         <p>Our careers advisers have written the following guides to help you:</p>
+                         <ul class="list list-bullet">
+                              <li>
+                                   <a href="./interview-advice.html">interview advice</a>
+                              </li>
+                              <li>
+                                   <a href="https://www.youtube.com/watch?v=Gs3IJkLgH00">law firm interview tips video</a>
+                              </li>
+                              <li>
+                                   <a href="./top-ten-interview-questions.html">top 10 interview questions and answers</a>
+                              </li>
+                              <li>
+                                   <a href="./interview-skills.html">interview skills</a>
+                              </li>
+                              <li>
+                                   <a href="./interview.html">what to do in an interview</a>
+                              </li>
+                              <li>
+                                   <a href="http://www.allaboutlaw.co.uk/law-careers/interview-tips/top-ten-tips-for-impressing-at-a-law-interview">paralegal interview tips</a>
+                              </li>
+                              <li>
+                                   <a href="./sample-cv.html">how to write a CV</a>
+                              </li>
+                              <li>
+                                   <a href="http://www.allaboutlaw.co.uk/law-careers/law-cv/law-cv-template">law CV template</a>
+                              </li>
+                              <li>
+                                   <a href="http://www.allaboutlaw.co.uk/law-careers/law-cv/using-linkedin-for-law">using linkedin for law</a>
+                              </li>
+                              <!--<li>
+                              <a href="#">what to include in your CV</a>
+                         </li>-->
+
+                         <li>
+                              <a href="./sample-application-letters.html">completing application forms</a>
+                         </li>
+
+                    </ul>
+               </div>
+               <div class="prepare_content professional">
+                    <h2 class="heading-large">Professional development</h2>
+                    <p>Our careers advisers have written the following guides to help you:</p>
+                    <ul class="list list-bullet">
+                         <li>
+                              <a href="#">choosing or changing career</a>
+                         </li>
+                         <li>
+                              <a href="#">starting a new job</a>
+                         </li>
+                         <li>
+                              <a href="#">choosing a professional course</a>
+                         </li>
+                         <li>
+                              <a href="#">negotiating a salary</a>
+                         </li>
+                         <li>
+                              <a href="#">giving presentations</a>
+                         </li>
+                         <li>
+                              <a href="./interview-skills.html">interview skills</a>
+                         </li>
+                         <li>
+                              <a href="https://www.gov.uk/working-for-yourself">working for yourself</a>
+                         </li>
+                         <li>
+                              <a href="https://www.gov.uk/set-up-sole-trader">set up as a sole trader</a>
+                         </li>
+                    </ul>
+               </div>
+               <div class="prepare_content personal">
+                    <h2 class="heading-large">Personal circumstances</h2>
+                    <p>Our careers advisers have written the following guides to help you:</p>
+                    <ul class="list list-bullet">
+                         <li>
+                              <a href="./redundancy.html">dealing with redundancy</a>
+                         </li>
+                         <li>
+                              <a href="#">returning to work after having children</a>
+                         </li>
+                         <li>
+                              <a href="#">resources for parents and carers of under 18s</a>
+                         </li>
+                         <li>
+                              <a href="#">taking your parenting skills into work</a>
+                         </li>
+                         <li>
+                              <a href="#">dealing with illness at work</a>
+                         </li>
+                         <li>
+                              <a href="#">dealing with divorce at work</a>
+                         </li>
+                         <li>
+                              <a href="https://www.gov.uk/state-pension-age">check your retirement age</a>
+                         </li>
+                         <li>
+                              <a href="https://www.gov.uk/claim-state-pension-online">claim your state pension online</a>
+                         </li>
+                    </ul>
+               </div>
+               <div class="prepare_content apprenticeships">
+                    <h2 class="heading-large">Apprenticeships</h2>
+                    <p>Our careers advisers have written the following guides to help you:</p>
+                    <ul class="list list-bullet">
+                         <li>
+                              <a href="./apprenticeship.html">what is an apprenticeship?</a>
+                         </li>
+                         <li>
+                              <a href="https://www.gov.uk/government/publications/how-to-write-a-winning-apprenticeship-application">writing a winning apprenticeship application</a>
+                         </li>
+                         <li>
+                              <a href="https://www.youtube.com/watch?v=QQI-MqWeFro&feature=youtu.be">legal services apprenticeship (video)</a>
+                         </li>
+                         <li>
+                              <a href="https://www.youtube.com/watch?v=7IqFUxSLufw&feature=youtu.be">how to write a winning apprenticeship application (video)</a>
+                         </li>
+                    </ul>
+               </div>
+               <div class="prepare_content under25">
+                    <h2 class="heading-large">Young people</h2>
+                    <p>Our careers advisers have written the following guides to help you:</p>
+                    <ul class="list list-bullet">
+                         <li>
+                              <a href="#">choosing GCSEs</a>
+                         </li>
+                         <li>
+                              <a href="#">work experience</a>
+                         </li>
+                         <li>
+                              <a href="#">what are my options when I leave school?</a>
+                         </li>
+                         <li>
+                              <a href="#">college or sixth form?</a>
+                         </li>
+                         <li>
+                              <a href="#">advantages and disadvantages of university</a>
+                         </li>
+                    </ul>
+               </div>
+          </div><!--all divs-->
+     </div>
+</div>
+</main>
+
+{% endblock %}

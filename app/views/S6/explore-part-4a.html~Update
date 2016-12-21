@@ -1,0 +1,86 @@
+{% extends "layout_home.html" %}
+
+{% block page_title %}
+National Careers Service - Explore
+{% endblock %}
+
+{% block content %}
+
+{% include "includes/new_navigation.html" %}
+
+<main id="content" role="main">
+     <div class="grid-row">
+          <div class="column-two-thirds">
+
+               <h1 class="heading-xlarge">
+                    <span class="heading-secondary">Explore part 4 of 5</span>
+                    How far do you like to travel?
+               </h1>
+          </div>
+     </div>
+     <div class="grid-row">
+          <div class="column-two-thirds">
+               <form method="get" action="/explore-part-5a" class="explore method-four">
+                    <fieldset class="form-group">
+                         <legend class="visuallyhidden">
+                              How far do you like to travel?
+                         </legend>
+                         <div class="grid-row">
+                              <div class="column-full">
+                                   <label for="radio-part-1" class="block-label selection-button-checkbox">
+                                        <img src="../public/images/section-4/icon-1.png" alt="Down the street">
+                                        <input id="radio-part-1" type="checkbox" name="Down the street" value="Down the street">
+                                        <span class="heading-medium">Locally</span><br>
+                                        <span>You like to work within walking distance from your home</span>
+                                   </label>
+                              </div>
+                              <div class="column-full">
+                                   <label for="radio-part-2" class="block-label selection-button-checkbox">
+                                        <img src="../public/images/section-4/icon-2.png" alt="The other side of town">
+                                        <input id="radio-part-2" type="checkbox" name="The other side of town" value="The other side of town">
+                                        <span class="heading-medium">The other side of town</span><br>
+                                        <span>A short bus ride or drive from home</span>
+                                   </label>
+                              </div>
+                              <div class="column-full">
+                                   <label for="radio-part-3" class="block-label selection-button-checkbox">
+                                        <img src="../public/images/section-4/icon-3.png" alt="I'd like to see some new places">
+                                        <input id="radio-part-3" type="checkbox" name="I'd like to see some new places" value="I'd like to see some new places">
+                                        <span class="heading-medium">A different town or city</span><br>
+                                        <span>You are prepared to travel further for work</span>
+                                   </label>
+                              </div>
+                              <div class="column-full">
+                                   <label for="radio-part-4" class="block-label selection-button-checkbox">
+                                        <img src="../public/images/section-4/icon-4.png" alt="The whole country">
+                                        <input id="radio-part-4" type="checkbox" name="The whole country" value="The whole country">
+                                        <span class="heading-medium">The whole country</span><br>
+                                        <span>You don’t mind travel or moving house</span>
+                                   </label>
+                              </div>
+                              <div class="column-full">
+                                   <label for="radio-part-5" class="block-label selection-button-checkbox">
+                                        <img src="../public/images/section-4/icon-5.png" alt="The continent">
+                                        <input id="radio-part-5" type="checkbox" name="The continent" value="The continent">
+                                        <span class="heading-medium">The continent</span><br>
+                                        <span>Anywhere in Europe</span>
+                                   </label>
+                              </div>
+                              <div class="column-full">
+                                   <label for="radio-part-6" class="block-label selection-button-checkbox">
+                                        <img src="../public/images/section-4/icon-6.png" alt="The world">
+                                        <input id="radio-part-6" type="checkbox" name="The world" value="The world">
+                                        <span class="heading-medium">The world</span><br>
+                                        <span>You want to see other countries</span>
+                                   </label>
+                              </div>
+                         </div>
+                    </fieldset>
+                    <input class="button" type="submit" value="Continue">
+               </form>
+
+          </div>
+     </div>
+</main>
+
+{% endblock %}

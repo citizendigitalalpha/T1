@@ -1,0 +1,524 @@
+{% extends "layout_home.html" %}
+
+{% block page_title %}
+National Careers Service
+{% endblock %}
+
+{% block content %}
+
+{% include "includes/new_navigation.html" %}
+
+<main id="content" class="tinder-content" role="main">
+     <div class="grid-row">
+
+          <div class="column-one-third">
+
+               <!-- //////////// Shortlist - START //////////// -->
+               <aside class="govuk-related-items shortlist" role="complementary">
+                    <div class="grid-row">
+                         <div class="column-full">
+                              <p class="grey">Explore your job profile results</p>
+                              <h1 class="heading-large">
+                                   Job profiles that may be of interest to you
+                              </h1>
+                         </div>
+                    </div>
+
+                    <p class="actions">
+                         <span id="counter">8</span> job profiles left in your results.
+                    </p>
+
+                    <h2 class="heading-medium" id="related-gov-links">Your shortlist</h2>
+                    <p class="grey intro-text">Your shortlist will populate when you begin to add jobs</p>
+                    <nav aria-labelledby="related-gov-links" role="navigation">
+                         <ol class="font-xsmall">
+                              <li class="bank-manager">
+                                   Bank manager <a href="#" class="hide">Remove</a>
+                              </li>
+                              <li class="chef">
+                                   Chef <a href="#" class="hide">Remove</a>
+                              </li>
+                              <li class="medical">
+                                   Medical secretary <a href="#" class="hide">Remove</a>
+                              </li>
+                              <li class="credit">
+                                   Credit controller <a href="#" class="hide">Remove</a>
+                              </li>
+                              <li class="diver">
+                                   Diver <a href="#" class="hide">Remove</a>
+                              </li>
+                              <li class="paralegal">
+                                   Paralegal <a href="#" class="hide">Remove</a>
+                              </li>
+                              <li class="plumber">
+                                   Plumber <a href="#" class="hide">Remove</a>
+                              </li>
+                              <li class="publican">
+                                   Publican <a href="#" class="hide">Remove</a>
+                              </li>
+                         </ol>
+                    </nav>
+               </aside>
+               <!-- //////////// Shortlist - END //////////// -->
+               <!-- //////////// Removed Jobs - START //////////// -->
+               <aside class="govuk-related-items removed" role="complementary">
+                    <h2 class="heading-medium" id="related-gov-links">Your removed jobs</h2>
+                    <nav aria-labelledby="related-gov-links" role="navigation">
+                         <ol class="font-xsmall">
+                              <li class="bank-manager">
+                                   Bank manager <a href="#">Bring back</a>
+                              </li>
+                              <li class="chef">
+                                   Chef <a href="#">Bring back</a>
+                              </li>
+                              <li class="medical">
+                                   Medical secretary <a href="#">Bring back</a>
+                              </li>
+                              <li class="credit">
+                                   Credit controller <a href="#">Bring back</a>
+                              </li>
+                              <li class="diver">
+                                   Diver <a href="#">Bring back</a>
+                              </li>
+                              <li class="paralegal">
+                                   Paralegal <a href="#">Bring back</a>
+                              </li>
+                              <li class="plumber">
+                                   Plumber <a href="#">Bring back</a>
+                              </li>
+                              <li class="publican">
+                                   Publican <a href="#">Bring back</a>
+                              </li>
+                         </ol>
+                    </nav>
+               </aside>
+               <!-- //////////// Removed Jobs - END //////////// -->
+           </div>
+
+          <div class="column-two-thirds">
+
+               <div class="jobcontainer list">
+                    <ul class="list">
+                         <!-- Job 1 - START -->
+                         <li class="job current">
+                              <div class="image-block">
+                                   <img src="../public/images/profiles/image-5.jpg" alt="Bank manager">
+                              </div>
+                              <div class="wrapper">
+                                   <h2 class="heading-xlarge">Bank manager</h2>
+                                   <h3 class="grey">Building society manager, financial institution manager or director</h3>
+                                   <p>
+                                        Bank managers oversee the day-to-day operations
+                                        of their branch, supervise staff and work to
+                                        attract new customers.
+                                   </p>
+                                   <section class="salary">
+                                        <img src="../public/images/icon-salary.png" alt="Salary">
+                                        <div class="text-wrapper">
+                                             <h1 class="grey">Salary</h1>
+                                             <span class="border"></span>
+                                             <h2 class="heading-large">£18,000 to £70,000</h2>
+                                             <p class="grey">average per year</p>
+                                        </div>
+                                   </section>
+                                   <div class="more-info">
+                                        <p>
+                                             You'll run one or more high street bank branches.
+                                        </p>
+                                        <p>
+                                             Your day-to-day tasks may include:
+                                        </p>
+                                        <ul>
+                                             <li>communicating and implementing business, marketing and sales plans</li>
+                                             <li>monitoring sales targets and budgets, and producing figures and reports</li>
+                                             <li>assessing lending risk</li>
+                                             <li>motivating staff to meet targets</li>
+                                             <li>understanding the needs of individual and business customers</li>
+                                             <li>making sure that staff follow rules and procedures</li>
+                                             <li>developing relationships with the local community and businesses</li>
+                                             <li>dealing with customer complaints</li>
+                                        </ul>
+                                   </div>
+                                   <a href="/bank-manager">View bank manager job profile</a>
+                                   <a href="" class="view-more">View more information</a>
+                              </div>
+                         </li>
+                         <!-- Job 1 - END -->
+                         <!-- Job 2 - START -->
+                         <li class="job">
+                              <div class="qualifications">No qualifications needed</div>
+                              <div class="image-block">
+                                   <img src="../public/images/profiles/image-3.jpg" alt="Chef">
+                              </div>
+                              <div class="wrapper">
+                                   <h2 class="heading-xlarge">Chef</h2>
+                                   <h3 class="grey">Catering services</h3>
+                                   <p>
+                                        Chefs prepare, cook and present food.
+                                   </p>
+                                   <section class="salary">
+                                        <img src="../public/images/icon-salary.png" alt="Salary">
+                                        <div class="text-wrapper">
+                                             <h1 class="grey">Salary</h1>
+                                             <span class="border"></span>
+                                             <h2 class="heading-large">£13,000 to £50,000</h2>
+                                             <p class="grey">average per year</p>
+                                        </div>
+                                   </section>
+                                   <div class="more-info">
+                                        <p>
+                                             You could work in hotels, restaurants, schools, colleges, the NHS or the
+                                             armed forces. Your day-to-day tasks may include:
+                                        </p>
+                                        <ul>
+                                             <li>food preparation</li>
+                                             <li>cooking and presenting food creatively</li>
+                                             <li>monitoring food production to maintain quality and consistent portion sizes</li>
+                                             <li>making sure that food is served promptly</li>
+                                             <li>stock control
+                                             </li>
+                                        </ul>
+                                        <p>In a busy restaurant, you'll be working under pressure. You'll need to follow
+                                             hygiene, health and safety guidelines.
+                                        </p>
+                                   </div>
+                                   <a href="/chef">View job profile</a>
+                                   <a href="" class="view-more">View more information</a>
+                              </div>
+                         </li>
+                         <!-- Job 2 - END -->
+                         <!-- Job 3 - START -->
+                         <li class="job">
+                              <div class="image-block">
+                                   <img src="../public/images/profiles/image-10.jpg" alt="Medical secretary">
+                              </div>
+                              <div class="wrapper">
+                                   <h2 class="heading-xlarge">Medical secretary</h2>
+                                   <h3 class="grey">Medical technology</h3>
+                                   <p>
+                                        Medical secretaries provide office support in
+                                        hospitals, GP surgeries and universities.
+                                   </p>
+                                   <section class="salary">
+                                        <img src="../public/images/icon-salary.png" alt="Salary">
+                                        <div class="text-wrapper">
+                                             <h1 class="grey">Salary</h1>
+                                             <span class="border"></span>
+                                             <h2 class="heading-large">£13,000 to £50,000</h2>
+                                             <p class="grey">average per year</p>
+                                        </div>
+                                   </section>
+                                   <div class="more-info">
+                                        <p>
+                                             You'll work for a hospital doctor, NHS manager, hospital consultant or a
+                                             GP. You could work in the NHS or for a private company.
+                                        </p>
+                                        <p>
+                                             Your day-to-day duties may include:
+                                        </p>
+                                        <ul>
+                                             <li>handling questions from patients</li>
+                                             <li>organising a doctor's diary and booking travel</li>
+                                             <li>managing a waiting list of patients</li>
+                                             <li>updating patient records</li>
+                                             <li>sending samples for medical testing</li>
+                                             <li>typing letters, clinical reports and filing</li>
+                                             <li>monitoring an office budget</li>
+                                             <li>dealing with confidential information</li>
+                                        </ul>
+                                   </div>
+                                   <a href="/medical-secretary">View job profile</a>
+                                   <a href="" class="view-more">View more information</a>
+                              </div>
+                         </li>
+                         <!-- Job 3 - END -->
+                         <!-- Job 4 - START -->
+                         <li class="job">
+                              <div class="qualifications">No qualifications needed</div>
+                              <div class="image-block">
+                                   <img src="../public/images/profiles/image-6.jpg" alt="Credit controller">
+                              </div>
+                              <div class="wrapper">
+                                   <h2 class="heading-xlarge">Credit controller</h2>
+                                   <h3 class="grey">Debt collection agent</h3>
+                                   <p>
+                                        Credit controllers help firms get the money
+                                        they're owed from businesses and individuals.
+                                   </p>
+                                   <section class="salary">
+                                        <img src="../public/images/icon-salary.png" alt="Salary">
+                                        <div class="text-wrapper">
+                                             <h1 class="grey">Salary</h1>
+                                             <span class="border"></span>
+                                             <h2 class="heading-large">£16,000 to £30,000</h2>
+                                             <p class="grey">average per year</p>
+                                        </div>
+                                   </section>
+                                   <div class="more-info">
+                                        <p>
+                                             You'll work in:
+                                        </p>
+                                        <ul>
+                                             <li>a 'third party' collection agency, paid to collect debts from
+                                                  businesses or individuals, or</li>
+                                             <li>a company's finance or credit department, chasing late payments from
+                                                  suppliers and customers</li>
+                                        </ul>
+                                        <p>
+                                             Your day-to-day tasks may include:
+                                        </p>
+                                        <ul>
+                                             <li>contacting individuals or business customers when payment is overdue</li>
+                                             <li>checking credit records and tracing missing debtors</li>
+                                             <li>setting up repayment plans and working with debt counsellors</li>
+                                             <li>setting up and maintaining customer files</li>
+                                             <li>processing payments</li>
+                                             <li>starting legal proceedings if debts are not paid within an agreed time</li>
+                                             <li>liaising with solicitors and bailiffs</li>
+                                        </ul>
+                                        <p>
+                                             You may work at a debt collection agency as a 'field collector', travelling to
+                                             debtors to collect payments in person.
+                                        </p>
+                                   </div>
+                                   <a href="/credit-controller">View job profile</a>
+                                   <a href="" class="view-more">View more information</a>
+                              </div>
+                         </li>
+                         <!-- Job 4 - END -->
+                         <!-- Job 5 - START -->
+                         <li class="job">
+                              <div class="image-block">
+                                   <img src="../public/images/profiles/image-7.jpg" alt="Diver">
+                              </div>
+                              <div class="wrapper">
+                                   <h2 class="heading-xlarge">Diver</h2>
+                                   <h3 class="grey">Maintenance, service and repair</h3>
+                                   <p>
+                                        Divers work underwater at sea, or in rivers,
+                                        lakes, canals and reservoirs.
+                                   </p>
+                                   <section class="salary">
+                                        <img src="../public/images/icon-salary.png" alt="Salary">
+                                        <div class="text-wrapper">
+                                             <h1 class="grey">Salary</h1>
+                                             <span class="border"></span>
+                                             <h2 class="heading-large">£16,000 to £30,000</h2>
+                                             <p class="grey">average per year</p>
+                                        </div>
+                                   </section>
+                                   <div class="more-info">
+                                        <p>
+                                             You could work as a diver in industries like:
+                                        </p>
+                                        <ul>
+                                             <li>offshore oil and gas - exploring and surveying, or building and
+                                                  maintaining drilling rigs and pipelines</li>
+                                             <li>inland/inshore - working on civil engineering projects carrying out
+                                                  underwater repairs, demolition or salvage, or working in fish farming</li>
+                                             <li>the media - performing stunts or doing underwater filming</li>
+                                             <li>scientific research or underwater archaeology</li>
+                                             <li>the police - searching for and recovering missing persons or evidence</li>
+                                             <li>leisure - leading recreational SCUBA dives or teaching SCUBA diving skills</li>
+                                        </ul>
+                                        <p>
+                                             You’ll specialise in one type of diving:
+                                        </p>
+                                        <ul>
+                                             <li>SCUBA (Self-contained Underwater Breathing Apparatus) – using an air tank and
+                                                  flippers, mainly in recreational, media and police diving</li>
+                                             <li>Restricted Surface Supplied – using an air line to the surface, usually in
+                                                  inshore/inland diving</li>
+                                             <li>Surface Supplied – using a hot water suit, air line and open diving bells, in
+                                                  offshore diving</li>
+                                             <li>Closed Bell or Saturation Diving – using a diving bell and mixed gas for
+                                             deep sea diving (often used in surveying, marine archaeology and scientific diving)</li>
+                                        </ul>
+                                   </div>
+                                   <a href="/diver">View job profile</a>
+                                   <a href="" class="view-more">View more information</a>
+                              </div>
+                         </li>
+                         <!-- Job 5 - END -->
+                         <!-- Job 6 - START -->
+                         <li class="job">
+                              <div class="qualifications">No qualifications needed</div>
+                              <div class="image-block">
+                                   <img src="../public/images/profiles/image-2.jpg" alt="Paralegal">
+                              </div>
+                              <div class="wrapper">
+                                   <h2 class="heading-xlarge">Paralegal</h2>
+                                   <h3 class="grey">Administrative and clerical</h3>
+                                   <p>
+                                        Paralegals prepare legal documents, carry out
+                                        research and give legal advice to clients.
+                                   </p>
+                                   <section class="salary">
+                                        <img src="../public/images/icon-salary.png" alt="Salary">
+                                        <div class="text-wrapper">
+                                             <h1 class="grey">Salary</h1>
+                                             <span class="border"></span>
+                                             <h2 class="heading-large">£16,000 to £40,000</h2>
+                                             <p class="grey">average per year</p>
+                                        </div>
+                                   </section>
+                                   <div class="more-info">
+                                        <p>
+                                             Your day-to-day tasks may include:
+                                        </p>
+                                        <ul>
+                                             <li>preparing legal documents</li>
+                                             <li>research</li>
+                                             <li>handling confidential information</li>
+                                             <li>interviewing clients and witnesses</li>
+                                             <li>giving clients legal information</li>
+                                             <li>going to court</li>
+                                        </ul>
+                                        <p>
+                                             You could work for many kinds of employer, including law firms, private
+                                             companies, local government, the police and the courts.
+                                        </p>
+                                   </div>
+                                   <a href="/paralegal2">View job profile</a>
+                                   <a href="" class="view-more">View more information</a>
+                              </div>
+                         </li>
+                         <!-- Job 6 - END -->
+                         <!-- Job 7 - START -->
+                         <li class="job">
+                              <div class="image-block">
+                                   <img src="../public/images/profiles/image-8.jpg" alt="Plumber">
+                              </div>
+                              <div class="wrapper">
+                                   <h2 class="heading-xlarge">Plumber</h2>
+                                   <h3 class="grey">Heating and ventilation engineer, HVAC engineer</h3>
+                                   <p>
+                                        Plumbers fit and service heating systems. They
+                                        also repair faults in hot and cold water supplies
+                                        and drainage networks.
+                                   </p>
+                                   <section class="salary">
+                                        <img src="../public/images/icon-salary.png" alt="Salary">
+                                        <div class="text-wrapper">
+                                             <h1 class="grey">Salary</h1>
+                                             <span class="border"></span>
+                                             <h2 class="heading-large">£18,000 to £35,000</h2>
+                                             <p class="grey">average per year</p>
+                                        </div>
+                                   </section>
+                                   <div class="more-info">
+                                        <p>
+                                             You'll service and repair heating, water and sanitation systems in domestic
+                                             and commercial premises.
+                                        </p>
+                                        <p>
+                                             Your day-to-day tasks may include:
+                                        </p>
+                                        <ul>
+                                             <li>installing water, drainage and heating systems</li>
+                                             <li>finding and fixing faults</li>
+                                             <li>servicing gas and oil-fired central heating systems and radiators</li>
+                                             <li>installing and fixing domestic appliances like showers, cookers, gas
+                                                  fires and washing machines</li>
+                                             <li>servicing air-conditioning and ventilation units</li>
+                                             <li>dealing with emergency call-outs like boiler breakdowns or blocked drains</li>
+                                             <li>fitting weather-proof materials, joints and flashings to roofs, chimneys and walls</li>
+                                             <li>installing and servicing solar-powered heating systems</li>
+                                        </ul>
+                                   </div>
+                                   <a href="/plumber">View job profile</a>
+                                   <a href="" class="view-more">View more information</a>
+                              </div>
+                         </li>
+                         <!-- Job 7 - END -->
+                         <!-- Job 8 - START -->
+                         <li class="job">
+                              <div class="image-block">
+                                   <img src="../public/images/profiles/image-4.jpg" alt="Publican">
+                              </div>
+                              <div class="wrapper">
+                                   <h2 class="heading-xlarge">Publican</h2>
+                                   <h3 class="grey">Pub landlord, licensee, manager of licensed premises</h3>
+                                   <p>
+                                        Publicans manage licensed premises like pubs and
+                                        bars.
+                                   </p>
+                                   <section class="salary">
+                                        <img src="../public/images/icon-salary.png" alt="Salary">
+                                        <div class="text-wrapper">
+                                             <h1 class="grey">Salary</h1>
+                                             <span class="border"></span>
+                                             <h2 class="heading-large">£20,000 to £50,000</h2>
+                                             <p class="grey">average per year</p>
+                                        </div>
+                                   </section>
+                                   <div class="more-info">
+                                        <p>
+                                             Your day-to-day tasks may include:
+                                        </p>
+                                        <ul>
+                                             <li>organising deliveries</li>
+                                             <li>making sure the bar is stocked and well maintained</li>
+                                             <li>making sure customers are served quickly</li>
+                                             <li>running the bar in line with health, safety and legal regulations</li>
+                                             <li>recruiting, training and supervising bar staff and kitchen staff</li>
+                                             <li>stocktaking</li>
+                                             <li>handling wages, book-keeping and accounts</li>
+                                             <li>building good relationships with breweries, suppliers and customers</li>
+                                             <li>carrying out plans to maximise sales</li>
+                                        </ul>
+                                        <p>
+                                             You'll also be responsible for enforcing the law on the sale of alcohol on
+                                             your premises. You'll need an age identification policy, which your staff must enforce.
+                                        </p>
+                                        <p>
+                                             You could employ a bar manager to carry out some of these duties.
+                                        </p>
+                                        <p>
+                                             Publicans or licensees are often employees of a pub chain or brewery.
+                                             Leaseholders, tenants and free traders, on the other hand, are business people in
+                                             their own right.
+                                        </p>
+                                   </div>
+                                   <a href="/publican">View job profile</a>
+                                   <a href="" class="view-more">View more information</a>
+                              </div>
+                         </li>
+                         <!-- Job 8 - END -->
+                    </ul>
+                    <button class="but-yay" onclick="count_y()">Add this to my shortlist</button>
+                    <button class="but-nope" onclick="count_n()">Remove this</button>
+
+               </div>
+
+               <ul class="joblist" id="results">
+                    <h2 class="heading-medium">You have shortlisted these job profiles</h2>
+               </ul>
+
+               <div id="no-results">
+                    <h1 class="heading-xlarge" id="contact">Contact us</h1>
+                    <p>
+                         You didn't shortlist any job profiles. You can <a href="./explore-part-1.html">start again</a> and change your answers or contact an advser.
+                    </p>
+                    <p>
+                         National Careers Service advisers can provide you with
+                         information, advice and guidance on skills, learning and
+                         work. Explore the different ways to get in touch with an
+                         adviser.
+                    </p>
+                    <h2 class="heading-medium">Contact an adviser</h2>
+                    <h3 class="heading-small">Webchat</h3>
+                    <p>
+                         Chat with an adviser using <a href="#">webchat</a> (8am to 10pm, 7days a week).
+                    </p>
+                    <h3 class="heading-small">Face-to-face advice</h3>
+                    <p>
+                         Make an <a href="set-location-appointment.html">appointment with an adviser</a> at
+                         your nearest National Careers Service office.
+                    </p>
+               </div>
+          </div>
+     </div>
+</main>
+
+{% endblock %}

@@ -1,0 +1,199 @@
+{% extends "layout_home.html" %}
+
+{% block page_title %}
+  National Careers Service - Top ten interview questions
+
+{% endblock %}
+
+{% block content %}
+
+{% include "includes/new_navigation.html" %}
+
+<main id="content" role="main">
+		{% include "includes/breadcrumb_home.html" %}
+		<div class="grid-row">
+			<div class="column-two-thirds">
+				<h1 class="heading-xlarge">Top ten interview questions</h1>
+				<p>In an interview the questions you’ll be asked will be a mixture of:</p>
+				<ul class="list list-bullet">
+					<li>general questions about you, your skills and your experience</li>
+					<li>specific questions about the particular job - sometimes called technical questions</li>
+				</ul>
+				<p>The general questions can be the same for many different types of job. Here are some common ones you could be asked.</p>
+				<div class="grid-row">
+					<div class="column-one-half">
+						<ol class="list list-number">
+							<li>
+								<a href="#skills">Your skills</a>
+							</li>
+							<li>
+								<a href="#employer">Your employer</a>
+							</li>
+							<li>
+								<a href="#ambitions">Your ambitions</a>
+							</li>
+							<li>
+								<a href="#history">Your work history</a>
+							</li>
+							<li>
+								<a href="#motivation">Your motivation</a>
+							</li>
+						</ol>
+					</div>
+					<div class="column-one-half">
+						<ol class="list list-number" start="6">
+							<li>
+								<a href="#product">About the product or service</a>
+							</li>
+							<li>
+								<a href="#team">Team working</a>
+							</li>
+							<li>
+								<a href="#interests">Your personality and interests</a>
+							</li>
+							<li>
+								<a href="#unusual">Unusual questions</a>
+							</li>
+						</ol>
+					</div>
+				</div>
+				<h2 class="heading-medium" id="skills">Your skills</h2>
+				<p>Your interviewer wants to find out if you’ve got the skills to do the job, so they may ask:</p>
+				<ul class="list list-bullet">
+					<li>what are your strengths and weaknesses?</li>
+					<li>what would your colleagues and friends say are your best qualities?</li>
+					<li>why should we hire you?</li>
+				</ul>
+				<p>Know your strengths, and mention ones that are relevant to the job you're being interviewed for. Give examples from your previous work or life experience where possible.</p>
+				<p>Typical strengths employers look for are:</p>
+				<ul class="list list-bullet">
+					<li>communication - getting on with different people</li>
+					<li>team working - being an effective team leader or team member</li>
+					<li>IT skills - having the skills needed for the job</li>
+					<li>good attitude - being hard-working, honest, polite and co-operative</li>
+					<li>problem solving - using your initiative to identify solutions</li>
+					<li>enthusiasm - being positive</li>
+					<li>quick learner - taking on and understanding new tasks</li>
+					<li>determination - showing you’re focused on achieving goals</li>
+					<li>flexibility - doing a variety of tasks to achieve a common goal</li>
+				</ul>
+				<p>If you're asked about weaknesses, choose a minor flaw that isn't essential to the job. Turn it into a positive by explaining how you've worked on the weakness.</p>
+				<p>Good answers:</p>
+				<div class="panel panel-border-wide">
+					<p>Strengths: 'I'm a good organiser, and I plan everything in detail. I showed this when I was given a new project, and I had to get it up and running from scratch.'</p>
+				</div>
+				<div class="panel panel-border-wide">
+					<p>Weaknesses: 'Sometimes I'm too enthusiastic when working on a new project. But I've learned to adjust to everyone else's pace, and not go charging ahead.'</p>
+				</div>
+				<h2 class="heading-medium" id="employer">Your employer</h2>
+				<p>To try and find out why you’ve applied for the job, your interviewer might ask you:</p>
+				<ul class="list list-bullet">
+					<li>why do you want to work here?</li>
+					<li>what do you know about our company?</li>
+					<li>what can you do for us that someone else can't?</li>
+				</ul>
+				<p>Show your knowledge of the company by knowing facts and figures, like:</p>
+				<ul class="list list-bullet">
+					<li>what the product or service is</li>
+					<li>the size of the organisation</li>
+					<li>last year's turnover figures, if applicable</li>
+					<li>the company’s competition</li>
+					<li>latest developments in the field</li>
+					<li>the history, goals, image and philosophy of the employer</li>
+				</ul>
+				<p>Keep your answers focussed on what you can do for your employer not what they can do for you.</p>
+				<p>It’s important to know that the employer isn’t just seeing if you can do the job. They are also finding out if you would fit in. Try to find out beforehand what the organisation’s working culture is and explain how you are a good fit for it. For example, if you find out that teams or departments take part in regular team bonding activities, consider how you could show that you would fit in with this.</p>
+				<p>Good answer:</p>
+				<div class="panel panel-border-wide">
+					<p>'Smith's is a respected firm with a reputation for high quality products, and I'd like to be part of that success. The quality of my work is important to me, so I feel I'd be at the right place. I've also heard you invest in your staff by training and developing them.'</p>
+				</div>
+				<h2 class="heading-medium" id="ambitions">Your ambitions</h2>
+				<p>Your interviewer will want to find out if you are ambitious and have clear goals, so they may ask:</p>
+				<ul class="list list-bullet">
+					<li>what are your goals?</li>
+					<li>where do you see yourself in 5 years’ time?</li>
+				</ul>
+				<p>You could talk in terms of short-term and long-term goals. Your short-term goal should be to get the job for the time being. Your longer term goal could be being promoted to a more senior position.</p>
+				<p>Try not to sound over-ambitious, with statements like: 'I want to become managing director in 3 years'. Don’t be unenthusiastic and passive by saying things like: 'I'm not sure, I'll see how it goes'.</p>
+				<p>Good answer:</p>
+				<div class="panel panel-border-wide">
+					<p>'My first aim is to get a trainee chef position, then to work through NVQs level 2 and 3 to become a qualified chef.'</p>
+				</div>
+				<h2 class="heading-medium" id="history">Your work history</h2>
+				<p>Your interviewer will want to find out how you performed and what you learned from previous jobs, so they may ask:</p>
+				<ul class="list list-bullet">
+					<li>why did you leave your last job? (if you have)</li>
+					<li>what’s an average day in your current or previous job?</li>
+					<li>what experience have you gained from previous jobs?</li>
+				</ul>
+				<p>Focus on the skills and experience that are relevant to the job you're being interviewed for. Be positive and don't criticise previous employers.</p>
+				<p>Good answer:</p>
+				<div class="panel panel-border-wide">
+					<p>'In my current job I’ve developed my knowledge of computer software packages. But now I'm ready for a new challenge, and want to use these skills in a more customer-focused role.'</p>
+				</div>
+				<h2 class="heading-medium" id="motivation">Your motivation</h2>
+				<p>Your interviewer will want to know what drives you and which tasks you enjoy, so they might ask:</p>
+				<ul class="list list-bullet">
+					<li>what motivates you?</li>
+					<li>which tasks do you get the most satisfaction from?</li>
+				</ul>
+				<p>Try to think of examples of when a work task excited you. Your interviewer wants to find out which areas you’ll perform well in.</p>
+				<p>Good answer:</p>
+				<div class="panel panel-border-wide">
+					<p>'I like problem solving - that point you reach in a project where you come up against something unexpected, and you have to think creatively to come up with a solution.'</p>
+				</div>
+				<h2 class="heading-medium" id="product">About the product or service</h2>
+				<p>The interviewer will want to find out if you know what their organisation does, so they may ask:</p>
+				<ul class="list list-bullet">
+					<li>what do you know about our products or services?</li>
+					<li>what do you think of our products or services?</li>
+					<li>can you think of any improvements you’d make to our products or services?</li>
+				</ul>
+				<p>The interviewer wants to know if you’ve done some research. Be tactful when suggesting things could be done better.</p>
+				<p>Good answer:</p>
+				<div class="panel panel-border-wide">
+					<p>'Your products are recognised as the industry standard, leading the way in style and performance. However, maybe by altering your advertising style you could appeal to older consumers as well as young ones. I think older people would value your product just as much, and this could lead to increased sales.'</p>
+				</div>
+				<h2 class="heading-medium" id="team">Team working</h2>
+				<p>The interviewer wants to check you know how to work well in a team, so they may ask:</p>
+				<ul class="list list-bullet">
+					<li>what makes a good team?</li>
+					<li>what makes a good team member?</li>
+					<li>what makes a good team leader?</li>
+				</ul>
+				<p>They’re usually expecting to hear that a good team has:</p>
+				<ul class="list list-bullet">
+					<li>clear objectives and goals</li>
+					<li>team members who are clear about their roles and what’s expected of them</li>
+					<li>openness, trust and clear communication</li>
+				</ul>
+				<p>Good answer:</p>
+				<div class="panel panel-border-wide">
+					<p>'A good team needs to have clear objectives and goals, and procedures to help them work towards these. Each person needs to be clear what their role is, and what is expected of them. There needs to be openness and trust, and clear communication.'</p>
+				</div>
+				<h2 class="heading-medium" id="interests">Your personality and interests</h2>
+				<p>The interviewer wants to find out how well you know yourself, so they may ask:</p>
+				<ul class="list list-bullet">
+					<li>how would you describe yourself?</li>
+					<li>how would your friends describe you?</li>
+					<li>what was the last film you saw or the last book you read?</li>
+				</ul>
+				<p>Having self-awareness means you know what you’re good at and where you could improve.</p>
+				<p>By asking about your interests they’re giving you a chance to show some of your personality.</p>
+				<p>Employers will expect you to have an interest in the area the job is in. For example, if you were going for a job in news media, you’d be expected to know about current affairs.</p>
+				<p>Good answer:</p>
+				<div class="panel panel-border-wide">
+					<p>'In my personal life I'm always organising everybody. People look to me for ideas and plans - I suppose in some ways that shows I'm a natural leader.'</p>
+				</div>
+				<h2 class="heading-medium" id="unusual">Unusual questions</h2>
+				<p>You could be asked an unusual question like:</p>
+				<ul class="list list-bullet">
+					<li>if you were a biscuit, what type of biscuit would you be?</li>
+					<li>if you were an animal, what type of animal would you be?</li>
+				</ul>
+				<p>The interviewer knows that you won’t have prepared for this question, so they want to see if you can think on the spot and come up with an answer. Try to think of something that generally reflects you, but also has positives that you could apply to work.</p>
+			</div>
+		</div>
+	</main>
+
+{% endblock %}

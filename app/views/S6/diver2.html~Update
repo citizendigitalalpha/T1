@@ -1,0 +1,473 @@
+{% extends "layout_profiles.html" %}
+
+{% block page_title %}
+     National Careers Service
+{% endblock %}
+
+{% block content %}
+
+{% include "includes/new_navigation.html" %}
+
+<div class="welcome_block content-page">
+	<div class="home_content">
+          {% include "includes/breadcrumb_sports.html" %}
+		<div class="grid-row">
+               <div class="column-two-thirds">
+                    <h1 class="heading-xlarge">Diver</h1>
+                    <div class="border"></div>
+                    <p class="lede">
+                         Divers work underwater at sea, or in rivers, lakes,
+                         canals and reservoirs.
+                    </p>
+               </div>
+		</div>
+          <div class="grid-row">
+               <div class="column-one-half">
+                    <section class="salary">
+                         <span class="icon"></span>
+                         <div class="main-intro">
+                              <h1 class="lede">Salary</h1>
+                              <span class="border"></span>
+                              <p class="bold-medium">Variable</p>
+                              <p class="lede">average per year</p>
+                         </div>
+                    </section>
+               </div>
+               <div class="column-one-half">
+                    <section class="hours">
+                         <span class="icon"></span>
+                         <div class="main-intro">
+                              <h1 class="lede">Hours</h1>
+                              <span class="border"></span>
+                              <p class="bold-medium">37 to 40</p>
+                              <p class="lede">hours per week</p>
+                         </div>
+                    </section>
+               </div>
+          </div>
+	</div>
+     <div class="row-divider"><span></span></div>
+     <!-- <div class="wrapper"></div> -->
+</div>
+
+<main id="content" role="main">
+
+     <div id="sidebar">
+	     <div class="grid-row">
+	          <div class="column-full">
+				<div id="scroller-anchor"></div>
+				<div id="scroller">
+		               <nav aria-label="skip to your documents" class="jump-links hybrid-links" role="navigation">
+		                    <div class="grid-row">
+		                         <div class="column-one-third">
+		                              <ol class="list list-number">
+		                                   <li>
+		                                        <a href="#entry-requirements">Entry requirements</a>
+		                                   </li>
+		                                   <li>
+		                                        <a href="#skills-required">Skills required</a>
+		                                   </li>
+		                              </ol>
+		                         </div>
+		                         <div class="column-one-third">
+		                              <ol class="list list-number" start="3">
+		                                   <li>
+		                                        <a href="#what-youll-do">What you'll do</a>
+		                                   </li>
+		                                   <li>
+		                                        <a href="#salary">Salary</a>
+		                                   </li>
+		                              </ol>
+		                         </div>
+		                         <div class="column-one-third">
+		                              <ol class="list list-number" start="5">
+		                                   <li>
+		                                        <a href="#working-hours-patterns-and-environment">Working hours, patterns and environment</a>
+		                                   </li>
+		                                   <li>
+		                                        <a href="#career-path-and-progression">Career path and progression</a>
+		                                   </li>
+		                                   <!-- <li>
+		                                        <a href="#current-vacancies">Current vacancies</a>
+		                                   </li> -->
+		                                   <!-- <li>
+		                                        <a href="#research">Research portal</a>
+		                                   </li> -->
+		                              </ol>
+		                         </div>
+		                    </div>
+		               </nav>
+				</div>
+	          </div>
+	     </div>
+	</div>
+
+     <div class="grid-row">
+          <div class="column-two-thirds">
+
+               <div class="video-container">
+                    <iframe allowfullscreen="" frameborder="0"height="315"
+                    src="https://www.youtube.com/embed/ISl2CjbPUGs?cc_load_policy=1" width=
+                    "560"></iframe>
+               </div>
+
+               <div class="panel panel-border-wide">
+				<p>
+					This video is 8 minutes and 23 seconds long
+				</p>
+			</div>
+
+               <section id="entry-requirements">
+                    <h2 class="heading-large"><span>1.</span> Entry requirements</h2>
+                    <p>
+                         You must pass a medical carried out by a doctor approved
+                         by the <a href="http://www.hse.gov.uk/">Health and Safety Executive</a> (HSE) before you begin professional diver
+                         training.
+                    </p>
+                    <p>
+                         You might find it useful to have experience of recreational
+                         SCUBA diving before training as a commercial diver, but
+                         this isn't essential. Many diving schools offer tests to
+                         help you decide whether you'd be suited to working
+                         underwater.
+                    </p>
+                    <p>
+                         You don't need academic qualifications to learn diving
+                         skills, but to work as a commercial diver you'll need the
+                         right skills, experience and qualifications for your
+                         industry, like:
+                    </p>
+                    <ul class="list list-bullet">
+                         <li>
+                              a degree in surveying or engineering for offshore
+                              diving
+                         </li>
+                         <li>
+                              qualifications in welding or non-destructive
+                              testing for construction diving
+                         </li>
+                         <li>
+                              a degree in oceanography or marine biology for
+                              scientific diving
+                         </li>
+                         <li>
+                              to already be serving in the force for police or
+                              armed forces diving
+                         </li>
+                    </ul>
+                    <p>
+                         The <a href=
+                         "http://www.hse.gov.uk/diving/carr.htm">HSE</a>, <a href=
+                         "http://www.rigzone.com/">Rigzone</a>, <a href=
+                         "http://www.diversjobs.com/">Divers Jobs</a>, <a href=
+                         "http://www.under-water.co.uk/">Underwater Contractor
+                         International</a> and <a href=
+                         "http://www.divework.com/">Divework</a> all have more
+                         information on diving as a career.
+                    </p>
+                    <h3 class="heading-medium">Courses available in your area</h3>
+                    <h4 class="heading-small"><a href=
+                         "http://www.southampton.ac.uk/oes/undergraduate/courses/oceanography/f7c1_bsc_marine_biology_with_oceanography.page?">
+                         BSc Marine Biology with Oceanography</a>
+                    </h4>
+                    <ul class="list">
+                         <li>Location: Southhampton</li>
+                         <li>Duration: 3 years</li>
+                         <li>Type: Full time</li>
+                         <li>Qualification: Degree</li>
+                    </ul>
+               </section><!--section 1-->
+               <section id="skills-required">
+                    <h2 class="heading-large"><span>2.</span> Skills required</h2>
+                    <p>
+                         You'll need:
+                    </p>
+                    <ul class="list list-bullet">
+                         <li>excellent swimming ability</li>
+                         <li>stamina and physical fitness</li>
+                         <li>calmness under pressure</li>
+                         <li>good levels of concentration under demanding physical conditions</li>
+                         <li>the ability to follow strict safety procedures</li>
+                         <li>the ability to work both as part of a team and alone</li>
+                    </ul>
+               </section><!--section 2-->
+               <section id="what-youll-do">
+                    <h2 class="heading-large"><span>3.</span> What you'll do</h2>
+                    <p>
+                         You could work as a diver in industries like:
+                    </p>
+                    <ul class="list list-bullet">
+                         <li>
+                              offshore oil and gas - exploring and surveying, or
+                              building and maintaining drilling rigs and
+                              pipelines
+                         </li>
+                         <li>
+                              inland/inshore - working on civil engineering
+                              projects carrying out underwater repairs, demolition or
+                              salvage, or working in fish farming
+                         </li>
+                         <li>
+                              the media - performing stunts or doing underwater
+                              filming
+                         </li>
+                         <li>
+                              scientific research or underwater archaeology
+                         </li>
+                         <li>
+                              the police - searching for and recovering missing
+                              persons or evidence
+                         </li>
+                         <li>
+                              leisure - leading recreational SCUBA dives or
+                              teaching SCUBA diving skills
+                         </li>
+                    </ul>
+                    <p>
+                         You&rsquo;ll specialise in one type of diving:
+                    </p>
+                    <ul class="list list-bullet">
+                         <li>
+                              SCUBA (Self-contained Underwater Breathing
+                              Apparatus) - using an air tank and flippers, mainly in
+                              recreational, media and police diving
+                         </li>
+                         <li>
+                              Restricted Surface Supplied - using an air line to
+                              the surface, usually in inshore/inland diving
+                         </li>
+                         <li>
+                              Surface Supplied - using a hot water suit, air line
+                              and open diving bells, in offshore diving
+                         </li>
+                         <li>
+                              Closed Bell or Saturation Diving - using a diving
+                              bell and mixed gas for deep sea diving (often used in
+                              surveying, marine archaeology and scientific
+                              diving)
+                         </li>
+                    </ul>
+               </section><!--section 3-->
+               <section id="salary">
+                    <h2 class="heading-large"><span>4.</span> Salary</h2>
+                    <p>Self-employed divers set their own rates.</p>
+               </section><!--section 4 -->
+               <section id="working-hours-patterns-and-environment">
+                    <h2 class="heading-large"><span>5.</span> Working hours, patterns and environment</h2>
+                    <p>
+                         The amount of time spent underwater is
+                         strictly controlled, but hours can still be long and
+                         intensive.
+                    </p>
+                    <p>
+                         Not all time is spent underwater; time is also spent
+                         planning for dives and preparing equipment.
+                    </p>
+                    <p>
+                         Inshore divers work around 10 to 12 hours a day.
+                    </p>
+                    <p>
+                         In some offshore jobs you may have to live for up to 28
+                         days in an undersea pressure chamber.
+                    </p>
+                    <p>
+                         Diving is physically and mentally demanding. Conditions
+                         underwater are often cold, dark and dirty, especially in
+                         inland sites.
+                    </p>
+                    <p>
+                         You'll wear protective clothing and breathing apparatus
+                         appropriate to the depth and type of dive.
+                    </p>
+               </section><!--section 5-->
+               <section id="career-path-and-progression">
+                    <h2 class="heading-large"><span>6.</span> Career path and progression</h2>
+                    <p>
+                         You'd normally be self-employed as a
+                         commercial diver.
+                    </p>
+                    <p>
+                         With experience and further training, you could move into
+                         roles with extra responsibility and more pay, like life
+                         support technician or diving supervisor.
+                    </p>
+                    <p>
+                         If working in a dive centre you could move into a
+                         management role.
+                    </p>
+                    <p>
+                         You could also set up a business, or work in a related
+                         field where diving skills are necessary, like swimming pool
+                         engineering or maintenance.
+                    </p>
+               </section><!--section 6-->
+               <p class="grey font-xsmall">Last updated: 25 July 2016</p>
+          </div>
+          <div class="column-one-third">
+               {% include "includes/sidebar.html" %}
+          </div>
+     </div>
+</main>
+
+<section class="what-next">
+     <div class="home_content">
+          <div class="grid-row">
+               <div class="column-full">
+                    <h1 class="heading-xlarge">So what next?</h1>
+               </div>
+          </div>
+          <div class="grid-row">
+               <div class="column-one-third">
+                    <h2 class="heading-medium">Research Diver</h2>
+                    <p>
+                         We have created an entire research hub for anyone who wishes to know more about becoming
+                         a Diver in their local area.
+                    </p>
+                    <a class="button button-start" href="set-location-paralegal.html" role="button">Research</a>
+               </div>
+               <div class="column-one-third">
+                    <h2 class="heading-medium">How to become a Diver</h2>
+                    <p>
+                         Not everyone has the same journey to their perfect career, but we can help you along the right path.
+                    </p>
+                    <a class="button button-start" href="how-to-become.html" role="button">Become</a>
+               </div>
+               <div class="column-one-third">
+                    <h2 class="heading-medium">Preparing to become a Diver</h2>
+                    <p>
+                         Helping to prepare you for a career as a Diver is what we’re here for.
+                    </p>
+                    <a class="button button-start" href="resources.html" role="button">Prepare</a>
+               </div>
+          </div>
+     </div>
+</section>
+
+<section class="testimonial">
+     <div class="home_content">
+          <div class="grid-row">
+               <div class="column-full">
+                    <img src="/public/images/worker-2.jpg" alt="George Potter, Diver">
+                    <div class="text-wrap">
+                         <h1 class="heading-medium">
+                              I love being a Diver, if offers me such a diverse range of work, it always
+                              keeps me on my toes. You need to work hard but you are rewarded for what you put in.
+                         </h1>
+                         <h2 class="heading-small turquoise-text">PADI</h2>
+                         <p class="grey font-xsmall">George Potter - Diver</p>
+                    </div>
+               </div>
+          </div>
+          <!-- <span class="quote one"></span>
+          <span class="quote two"></span> -->
+     </div>
+</section>
+
+<section class="extra-content">
+     <div class="home_content">
+          <div class="grid-row">
+               <div class="column-one-third">
+                    <hr>
+                    <h1 class="heading-medium">Apply for jobs</h1>
+                    <p class="grey font-small">Below are some Diver jobs that are local to you in Newcastle</p>
+                    <h4 class="heading-small">
+                         <a href="#">Dive Instructor</a>
+                    </h4>
+                    <ul class="list">
+                         <li>
+                              Location: Newcastle<br>
+                              Type: Full time<br>
+                              Salary: £22,000.00 per year
+                         </li>
+                    </ul>
+                    <h4 class="heading-small">
+                         <a href="#">Marine Spread Operations Manager</a>
+                    </h4>
+                    <ul class="list">
+                         <li>
+                              Location: Newcastle<br>
+                              Type: Full time<br>
+                              Salary: £15,000 - £30,000 a year
+                         </li>
+                    </ul>
+                    <a href="#">Find more jobs</a>
+               </div>
+               <div class="column-one-third">
+                    <hr>
+                    <h1 class="heading-medium">Find a course</h1>
+                    <p class="grey font-small">Where can I get the skill &amp; qualifications I need to get the job?</p>
+                    <h4 class="heading-small">
+                         <a href="#">BSc Marine Biology with Oceanography</a>
+                    </h4>
+                    <ul class="list">
+                         <li>
+                              Location: Newcastle<br>
+                              Duration: 3 years<br>
+                              Course type: Full time<br>
+                              Qualification: Degree
+                         </li>
+                    </ul>
+                    <a href="#">Get more skills &amp; Qualifications</a>
+               </div>
+               <div class="column-one-third">
+                    <hr>
+                    <h1 class="heading-medium">Take the next step</h1>
+                    <p class="grey font-small">How can I progress my career?</p>
+                    <h4 class="heading-small">
+                         <a href="#">Master Diver</a>
+                    </h4>
+                    <p>From Diver you could become a qualified Master Diver</p>
+                    <a href="#">Become self-employed</a>
+               </div>
+          </div>
+
+          <!-- <hr> -->
+
+          <div class="grid-row">
+               <div class="column-one-third">
+                    <hr>
+                    <h1 class="heading-medium">Apply for an apprenticeship</h1>
+                    <p class="grey font-small">Get your foot in the door and start your career with these Apprenticeships &amp; internships</p>
+                    <ul class="list">
+                         <li>
+                              You could earn and learn by doing an <a href="#">apprenticeship</a>
+                         </li>
+                    </ul>
+                    <a href="#">Find more apprenticeships</a>
+               </div>
+               <div class="column-one-third">
+                    <hr>
+                    <h1 class="heading-medium">Apply for a traineeship</h1>
+                    <p class="grey font-small">Why not start your career with a traineeship</p>
+                    <ul class="list">
+                         <li>
+                              If you’re not ready for an apprenticeship you could do a <a href="#">traineeship</a> which may lead into an apprenticeship
+                         </li>
+                    </ul>
+                    <a href="#">Find more traineeship</a>
+               </div>
+               <div class="column-one-third">
+                    <hr>
+                    <h1 class="heading-medium">Contact us</h1>
+                    <p class="grey font-small">Do you just want to speak to someone who can help?</p>
+                    <h4 class="heading-small">
+                         <a href="#" class="email"><span></span> careers@sfa.bis.gov.uk</a>
+                    </h4>
+                    <h4 class="heading-small">
+                         <a href="#" class="phone"><span></span> 0123 456 789</a>
+                    </h4>
+                    <br>
+                    <h1 class="heading-medium">National Careers Service</h1>
+                    <h4 class="heading-small">
+                         <a href="#">Job profiles search</a>
+                    </h4>
+                    <h4 class="heading-small">
+                         <a href="#">Find a course</a>
+                    </h4>
+               </div>
+          </div>
+
+     </div>
+</section>
+
+{% endblock %}

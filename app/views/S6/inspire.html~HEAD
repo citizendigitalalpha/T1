@@ -1,0 +1,268 @@
+{% extends "layout_home.html" %}
+
+{% block page_title %}
+  National Careers Service - Inspire
+{% endblock %}
+
+{% block content %}
+
+{% include "includes/new_navigation.html" %}
+
+<div class="welcome_block sub-header">
+	<div class="home_content">
+		<div class="grid-row">
+			<div class="column-two-thirds">
+				<h1 class="heading-xlarge">Inspire</h1>
+                    <span class="border"></span>
+				<h2 class="heading-large">If you're undecided about your career options, we might be able to help you. </h2>
+				<p class="lede">Searching our lists could help you find your inspiration.</p>
+			</div>
+		</div>
+	</div>
+     <div class="row-divider"><span></span></div>
+</div>
+	<main id="content" role="main">
+		<div class="grid-row">
+			<div class="column-full">
+				<h2 class="heading-large">Get inspired</h2>
+                <p class="lede">In this section you can:</p>
+				<nav aria-label="skip to next section" class="jump-links" role="navigation">
+					<div class="grid-row">
+						<div class="column-two-thirds">
+							<ol class="list list-number">
+								<li>
+									<a href="#top-jobs">browse our most viewed job profiles</a>
+								</li>
+								<li>
+									 <a href="#highest">take a look at the country's highest paid jobs</a>
+								</li>
+								<li>
+									<a href="#short">find out which jobs are in high demand</a>
+								</li>
+                                <li>
+                                    <a href="#top-jobs-no-degree">find the best paying jobs that don't need a degree</a>
+                                </li>
+								<li>
+									<a href="#happy">discover which jobs make people happy</a>
+								</li>
+								<li>
+									<a href="#lowskill">explore the best jobs for unskilled workers</a>
+								</li>
+
+							</ol>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<div class="grid-row">
+			<div class="column-full">
+				<h3 class="heading-medium" id="top-jobs">The most browsed job profiles</h3>
+                <p>These job profiles are very popular with users.</p>
+				<div class="grid-row">
+					<div class="column-one-third">
+						<div class="panel panel-border-wide hybrid">
+                            <img src="../public/images/profiles/image-5.jpg" alt="Credit controller">
+							<a href="/credit-controller">
+							<h3 class="heading-medium">Credit controller</h3>
+							<p>Credit controllers help firms get the money they're owed from businesses and individuals.</p></a>
+						</div>
+					</div>
+					<div class="column-one-third">
+						<div class="panel panel-border-wide hybrid">
+                            <img src="../public/images/profiles/image-2.jpg" alt="Paralegal">
+							<a href="/paralegal">
+							<h3 class="heading-medium">Paralegal</h3>
+							<p>Paralegals prepare legal documents, carry out research and give legal advice to clients.</p></a>
+						</div>
+					</div>
+					<div class="column-one-third">
+						<div class="panel panel-border-wide hybrid">
+                            <img src="../public/images/profiles/image-3.jpg" alt="Chef">
+							<a href="/chef">
+							<h3 class="heading-medium">Chef</h3>
+							<p>Chefs prepare and cook food.</p></a>
+						</div>
+					</div>
+				</div>
+				<div class="grid-row">
+					<div class="column-one-half">
+						<h3 class="heading-medium" id="highest">The country's highest paid jobs</h3>
+                        <p>If financial reward is important, these jobs might interest you:</p>
+						<ul class="list list-bullet">
+							<li>
+								<a href="#">Stock broker – average pay, £133,869</a>
+							</li>
+							<li>
+								<a href="#">Chief executives – average pay, £123,577</a>
+							</li>
+							<li>
+								<a href="#">Marketing directors – average pay, £87,890</a>
+							</li>
+							<li>
+								<a href="#">Aircraft pilots – average pay, £86.915</a>
+							</li>
+							<li>
+								<a href="#">Financial director – average pay, £84,675</a>
+							</li>
+							<li>
+								<a href="#">In-house lawyers – average pay, £80,210</a>
+							</li>
+							<li>
+								<a href="#">Air traffic controllers – average pay, £81,132</a>
+							</li>
+							<li>
+								<a href="#">Medical practitioners – average pay, £78,386</a>
+							</li>
+							<li>
+								<a href="#">Telecommunications directors – average pay, £78,071</a>
+							</li>
+							<li>
+								<a href="#">Bank managers – average pay, £75,169</a>
+							</li>
+						</ul>
+					</div>
+					<div class="column-one-half">
+						<h3 class="heading-medium" id="skill">The country's most in-demand jobs</h3>
+                        <p>These are the jobs in high demand throughout the UK:</p>
+						<ul class="list list-bullet">
+							<li>
+								<a href="#">IT professionals</a>
+							</li>
+							<li>
+								<a href="#">Nursing</a>
+							</li>
+							<li>
+								<a href="#">Engineering</a>
+							</li>
+							<li>
+								<a href="#">Accountancy</a>
+							</li>
+							<li>
+								<a href="#">Construction</a>
+							</li>
+							<li>
+								<a href="#">Human resources</a>
+							</li>
+							<li>
+								<a href="#">Marketing</a>
+							</li>
+							<li>
+								<a href="#">Plumbing</a>
+							</li>
+							<li>
+								<a href="#">Secondary teaching</a>
+							</li>
+							<li>
+								<a href="#">Chef</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+                	<h3 class="heading-medium" id="top-jobs-no-degree">The highest paying jobs that don't need a degree</h3>
+                <p>If you'd rather earn than learn, one of these jobs may be for you.</p>
+				<div class="grid-row">
+					<div class="column-one-third">
+						<div class="panel panel-border-wide hybrid">
+                            <img src="../public/images/profiles/image-5.jpg" alt="Stockbroker">
+							<a href="#">
+							<h3 class="heading-medium">Stockbroker</h3>
+							<p>Stockbrokers manage their clients' investments, trading stocks, shares and other financial products to get the best return.</p></a>
+						</div>
+					</div>
+					<div class="column-one-third">
+						<div class="panel panel-border-wide hybrid">
+                            <img src="../public/images/airtraffic.jpg" alt="Air traffic controller">
+							<a href="#">
+							<h3 class="heading-medium">Air traffic controller</h3>
+							<p>Air traffic controllers give information and advice to airline pilots to help them take off and land safely and on time.</p></a>
+						</div>
+					</div>
+					<div class="column-one-third">
+						<div class="panel panel-border-wide hybrid">
+                            <img src="../public/images/editor.jpg" alt="Newspaper journalist">
+							<a href="#">
+							<h3 class="heading-medium">Newspaper journalist</h3>
+							<p>Newspaper journalists investigate and write up stories for local, regional and national newspapers.</p></a>
+						</div>
+					</div>
+				</div>
+				<div class="grid-row">
+					<div class="column-one-half">
+						<h3 class="heading-medium" id="happy">The jobs that make people happy</h3>
+                        <p>If job satisfaction is important, one of these jobs might appeal to you:</p>
+						<ul class="list list-bullet">
+							<li>
+								<a href="#">Clergy</a>
+							</li>
+							<li>
+								<a href="#">Chief executives and senior officials of companies</a>
+							</li>
+							<li>
+								<a href="#">Managers of agriculture and horticulture</a>
+							</li>
+							<li>
+								<a href="#">Company secretaries</a>
+							</li>
+							<li>
+								<a href="#">Quality assurance and regulatory professionals</a>
+							</li>
+							<li>
+								<a href="#">Health care practice managers</a>
+							</li>
+							<li>
+								<a href="#">Medical practitioners</a>
+							</li>
+							<li>
+								<a href="#">Farmers</a>
+							</li>
+							<li>
+								<a href="#">Hotel and accommodation managers and proprietors</a>
+							</li>
+							<li>
+								<a href="#">Skilled metal, electrical and electronic trades supervisors</a>
+							</li>
+						</ul>
+					</div>
+					<div class="column-one-half">
+						<h3 class="heading-medium" id="lowskill">The best low-skilled jobs</h3>
+                        <p>A job that needs few qualifications may suit you best:</p>
+						<ul class="list list-bullet">
+							<li>
+								<a href="#">Call centre operative</a>
+							</li>
+							<li>
+								<a href="#">Hotel worker</a>
+							</li>
+							<li>
+								<a href="#">Agricultural labourer</a>
+							</li>
+							<li>
+								<a href="#">Food preparer</a>
+							</li>
+							<li>
+								<a href="#">Shop worker</a>
+							</li>
+							<li>
+								<a href="#">Sales assistant</a>
+							</li>
+							<li>
+								<a href="#">Admin assistant</a>
+							</li>
+							<li>
+								<a href="#">Care assistant</a>
+							</li>
+							<li>
+								<a href="#">Construction labourer</a>
+							</li>
+							<li>
+								<a href="#">Bar staff</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+{% endblock %}
