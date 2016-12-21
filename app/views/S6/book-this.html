@@ -1,10 +1,13 @@
-{% extends "layout.html" %}
+{% extends "layout_bookthis.html" %}
 
 {% block page_title %}
   National Careers Service - Book this
 {% endblock %}
 
 {% block content %}
+
+{% include "includes/new_navigation.html" %}
+
 <main id="content" role="main">
     {% include "includes/breadcrumb_book.html" %}
 		<div class="grid-row">
