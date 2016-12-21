@@ -40,6 +40,16 @@ h1, h2, h3, h4, p {
 // ========================================== TEXT - END ========================================== //
 
 // ========================================== GENERAL STYLES - START ========================================== //
+.notice {
+     &.info {
+          margin-bottom: 1.2em;
+     }
+     .icon.icon-important {
+          background-image: url(/public/images/icon-info.png);
+          background-size: 100%;
+     }
+}
+
 .border {
      background: $white;
      display: inline-block;
@@ -197,6 +207,15 @@ ul.tabs {
      }
 }
 
+.breadcrumbs {
+     padding-top: 1.5em;
+     ol {
+          li {
+               margin-bottom: 0;
+          }
+     }
+}
+
 // ========================================== GENERAL STYLES - START ========================================== //
 
 // ========================================== GOOGLE - START ========================================== //
@@ -311,6 +330,9 @@ img.google {
                &.grey {
                     color: $secondary-text-colour;
                }
+               .heading-secondary {
+                    font-size: 24px;
+               }
           }
           .border {
                background: $turquoise;
@@ -335,6 +357,13 @@ img.google {
                     color: $white;
                     font-weight: bold;
                }
+          }
+     }
+     &.tool-header {
+          padding: 2em;
+          margin-bottom: 2em;
+          h1, h2, h3, h4, p {
+               float: left;
           }
      }
      &.alpha-block {
@@ -368,6 +397,21 @@ img.google {
 }
 
 // ========================================== WELCOME BLOCK - END ========================================== //
+
+// ========================================== SALARY CALCULATOR - START ========================================== //
+#salaryContainer {
+     display: none;
+     width: 100%;
+     &.showme {
+          display: inline-block;
+     }
+}
+
+#warning {
+     display: inline-block;
+     width: 100%;
+}
+// ========================================== SALARY CALCULATOR - END ========================================== //
 
 // ========================================== WHAT NEXT, TESTiMONIAL & EXTRA CONTENT BLOCKs - START ========================================== //
 .what-next, .testimonial, .extra-content {
@@ -920,6 +964,9 @@ main.tinder-content {
                padding: 2em 0;
           }
           .view-more {
+               display: none;
+          }
+          .qualifications {
                display: none;
           }
      }

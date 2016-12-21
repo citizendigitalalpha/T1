@@ -1,0 +1,253 @@
+{% extends "layout_landing_page.html" %}
+
+{% block page_title %}
+     National Careers Service - Salary calculator
+{% endblock %}
+
+{% block content %}
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+<script>
+     var urlParams;
+
+     (window.onpopstate = function ()
+     {
+          var match,
+               pl = /\+/g,  // Regex for replacing addition symbol with a space
+               search = /([^&=]+)=?([^&]*)/g,
+               decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
+               query = window.location.search.substring(1);
+
+          urlParams = {};
+          while (match = search.exec(query))
+               urlParams[decode(match[1])] = decode(match[2]);
+     })();
+
+     $(document).ready(function () {
+
+          var baseURl = "";
+          $("#calculate").click(function ()
+          {
+               baseURl = "http://api.lmiforall.org.uk/api/v1/ashe/estimatePay?soc=" + urlParams["SOC"];
+
+               var qual = $("#qualLevel").val();
+               var region = $("#region").val();
+               var age = $("#age").val();
+
+               var filter = "";
+               var regionFilter = "";
+               var qualFilter = ""
+               if (age != "")
+                    baseURl += "&age=" + age;
+               if (region < 999)
+                    regionFilter = "region%3A" + region;
+               if (qual < 999)
+                    qualFilter += "qualification%3A" + qual;
+               if (qual < 999 && region < 999)
+                    filter = "&filters=" + regionFilter + "|" + qualFilter;
+               else if (qual == 999 && region < 999)
+                    filter = "&filters=" + regionFilter;
+               else if( qual < 999 && region == 999)
+                    filter = "&filters=" + qualFilter;
+               else
+                    filter = "";
+               getSalary(baseURl + filter);
+          });
+     });
+
+     function getSalary(url)
+     {
+
+          $.getJSON(url, function (json)
+          {
+               var items = [];
+               var weeklySalary = "";
+               var error = "";
+               var flag = "";
+               $.each(json, function (i, series)
+               {
+                    if (i == "series" )
+                    {
+                         $.each(series, function (index, yearData) {
+                              weeklySalary = yearData.estpay;
+                         });
+                    }
+                    else if( i == "flag")
+                    {
+                         flag = series;
+                    }
+                    else if( i == "error")
+                    {
+                         error = series;
+                    }
+               });
+
+               if (weeklySalary != "")
+               {
+                    var weekly = '£' + weeklySalary.toFixed(2).replace("/(\d)(?=(\d{3})+$)/g", "£1,");
+                    var monthly = '£' + ((weeklySalary * 52) / 12).toFixed(2).replace("/(\d)(?=(\d{3})+$)/g", "£1,");
+                    var annually = '£' + (weeklySalary * 52).toFixed(2).replace("/(\d)(?=(\d{3})+$)/g", "£1,");
+
+                    $("#weeklySalaryContainer").html(weekly);
+                    $("#monthlySalaryContainer").html(monthly);
+                    $("#annualSalaryContainer").html(annually);
+                    $("#salaryContainer").attr("class", "showme");
+
+                    if (flag != "") {
+                         $("#warning").html(flag);
+                         $("#warning").attr("class", "warning");
+                    }
+               }
+
+               if(error != "")
+               {
+                    $("#warning").html(error);
+                    $("#warning").attr("class", "error");
+                    $("#salaryContainer").attr("class", "hideme");
+               }
+          });
+     }
+
+</script>
+
+
+{% include "includes/new_navigation.html" %}
+
+<main id="content" role="main">
+
+     <div class="grid-row">
+          <div class="column-two-thirds">
+
+               <div class="breadcrumbs">
+                    <ol>
+                         <li><a href="/index">Home</a></li>
+                         <li><a href="/">Education and training</a></li>
+                         <li><a href="/playworker">Playworker</a></li>
+                         <li><a href="/salary-calculator">Calculate my playworker salary</a></li>
+                    </ol>
+               </div>
+
+			<h1 class="heading-xlarge">Calculate my playworker salary...</h1>
+			<p class="lede">
+                    We can provide you with a guide as to how much you might be able to eard based on your age, location
+                    and qualifications within your chosen area.
+               </p>
+
+          </div>
+     </div>
+
+     <form>
+          <fieldset class="filters">
+
+               <div class="form-group">
+                    <label class="form-label" for="age">Age</label>
+                    <input class="form-control" id="fage" type="number" max="20" min="20">
+               </div>
+
+               <div class="form-group">
+                    <label class="form-label" for="qualLevel">Qualification Level</label>
+                    <select class="form-control" id="qualLevel">
+                         <option value="999">All qualification levels</option>
+                         <option value="1">Level 8 - Doctorate</option>
+                         <option value="2">Level 7 - Masters degree</option>
+                         <option value="3">Level 6 - Bachelor's degree</option>
+                         <option value="4">Level 5 - Bachelor's degree, Foundation degree, Higher National Diploma </option>
+                         <option value="5">Level 4 - Bachelor's degree, Foundation degree, Higher National Certificate</option>
+                         <option value="6">Level 3 - A-level, BTEC Extended Diploma, BTEC National Certificate</option>
+                         <option value="7">Level 2 - GSE Grades A to C, BTEC First Diploma</option>
+                         <option value="8">Level 1 - GSE Grades D to G, BTEC First Diploma, Foundation Diploma</option>
+                         <option value="9">No Qualifications</option>
+                    </select>
+               </div>
+
+               <div class="form-group">
+                    <label class="form-label" for="region">Region</label>
+                    <select class="form-control" id="region">
+                         <option value="999">All regions</option>
+                         <option value="1">London</option>
+                         <option value="2">South East</option>
+                         <option value="3">East of England</option>
+                         <option value="4">South West</option>
+                         <option value="5">West Midlands</option>
+                         <option value="6">East Midlands</option>
+                         <option value="7">Yorkshire and the Humber</option>
+                         <option value="8">North West</option>
+                         <option value="9">North East</option>
+                         <option value="10">Wales</option>
+                         <option value="11">Scotland</option>
+                         <option value="12">Northern Ireland</option>
+                    </select>
+               </div>
+
+               <div class="form-group">
+                    <input class="button" type="button" value="Calculate" id="calculate">
+               </div>
+
+               <div id="salaryContainer">
+                    <hr>
+                    <ul class="salaries full-width">
+                         <li>
+                              <strong>Average weekly salary:</strong>
+                              <div class="value">
+                                   <span id="weeklySalaryContainer"></span>
+                              </div>
+                         </li>
+                         <li>
+                              <strong>Average monthly salary:</strong>
+                              <div class="value">
+                                   <span id="monthlySalaryContainer"></span>
+                              </div>
+                         </li>
+                         <li>
+                              <strong>Average annual salary:</strong>
+                              <div class="value">
+                                   <span id="annualSalaryContainer"></span>
+                              </div>
+                         </li>
+                    </ul>
+               </div>
+
+               <div id="warning"></div>
+
+          </fieldset>
+     </form>
+
+</main>
+
+<section class="what-next">
+     <div class="home_content">
+          <div class="grid-row">
+               <div class="column-full">
+                    <h1 class="heading-xlarge">So what next?</h1>
+               </div>
+          </div>
+          <div class="grid-row">
+               <div class="column-one-third">
+                    <h2 class="heading-medium">Research Playworker</h2>
+                    <p>
+                         We have created an entire research hub for anyone who wishes to know more about becoming
+                         a Playworker in their local area.
+                    </p>
+                    <a class="button button-start" href="set-location-paralegal.html" role="button">Research</a>
+               </div>
+               <div class="column-one-third">
+                    <h2 class="heading-medium">How to become a Playworker</h2>
+                    <p>
+                         Not everyone has the same journey to their perfect career, but we can help you along the right path.
+                    </p>
+                    <a class="button button-start" href="how-to-become.html" role="button">Become</a>
+               </div>
+               <div class="column-one-third">
+                    <h2 class="heading-medium">Preparing to become a Playworker</h2>
+                    <p>
+                         Helping to prepare you for a career as a Playworker is what we’re here for.
+                    </p>
+                    <a class="button button-start" href="resources.html" role="button">Prepare</a>
+               </div>
+          </div>
+     </div>
+</section>
+
+
+{% endblock %}
