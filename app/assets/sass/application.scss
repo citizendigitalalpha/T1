@@ -859,22 +859,22 @@ ul.menu li.icon {display: none;}
 /**Chris SASS**/
 
 // ========================================== MAIN NAVIGATION - START ========================================== //
-#proposition-menu {
-     text-align: right;
-     .phase-banner-alpha {
-          padding: 0 0 0.15em 0;
-          border-bottom: none;
-          text-align: right;
-          display: inline-block;
-          p {
-               color: $white;
-               float: right;
-               span a {
-                    color: $white;
-               }
-          }
-     }
-}
+// #proposition-menu {
+//      text-align: right;
+//      .phase-banner-alpha {
+//           padding: 0 0 0.15em 0;
+//           border-bottom: none;
+//           text-align: right;
+//           display: inline-block;
+//           p {
+//                color: $white;
+//                float: right;
+//                span a {
+//                     color: $white;
+//                }
+//           }
+//      }
+// }
 
 .main-navigation {
      background: darken($turquoise,15%);
