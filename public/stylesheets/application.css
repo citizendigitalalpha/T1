@@ -3494,30 +3494,6 @@ ul.menu li.icon {
 }
 
 /**Chris SASS**/
-/* line 862, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
-#proposition-menu {
-  text-align: right;
-}
-
-/* line 864, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
-#proposition-menu .phase-banner-alpha {
-  padding: 0 0 0.15em 0;
-  border-bottom: none;
-  text-align: right;
-  display: inline-block;
-}
-
-/* line 869, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
-#proposition-menu .phase-banner-alpha p {
-  color: #fff;
-  float: right;
-}
-
-/* line 872, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
-#proposition-menu .phase-banner-alpha p span a {
-  color: #fff;
-}
-
 /* line 879, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
 .main-navigation {
   background: #19645e;
@@ -5135,35 +5111,117 @@ header.hero form .search__submit {
   width: 52px;
   height: 52px;
   border: none;
+  background: url(/public/images/search-button.png) #0b0c0c no-repeat 100% 50%;
+  background-size: 4em;
 }
 
-/* line 53, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/new-gov-uk-elements.scss */
+/* line 55, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/new-gov-uk-elements.scss */
 header.hero form .search__submit:hover {
   cursor: pointer;
 }
 
-/* line 63, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/new-gov-uk-elements.scss */
+/* line 64, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/new-gov-uk-elements.scss */
+.search-toggle {
+  display: none;
+}
+
+/* line 68, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/new-gov-uk-elements.scss */
+#proposition-menu {
+  margin: 0 !important;
+}
+
+/* line 70, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/new-gov-uk-elements.scss */
+#proposition-menu #proposition-name {
+  margin: 5px 0 0 0;
+  display: inline-block;
+}
+
+/* line 76, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/new-gov-uk-elements.scss */
+#search {
+  display: inline-block;
+  float: right;
+  width: 50%;
+}
+
+/* line 80, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/new-gov-uk-elements.scss */
+#search .content {
+  position: relative;
+  margin: 0 !important;
+}
+
+/* line 83, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/new-gov-uk-elements.scss */
+#search .content label {
+  float: none;
+  position: absolute;
+  left: 0;
+  top: 1px;
+  z-index: 1;
+  width: 100%;
+  margin-right: 0;
+  min-height: 36px;
+  line-height: 35px;
+  text-indent: 15px;
+  overflow: hidden;
+  display: block;
+}
+
+/* line 98, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/new-gov-uk-elements.scss */
+#search .content input.js-search-focus {
+  border: none;
+  width: calc(100% - 37px);
+  min-height: 36px;
+  padding: 0 6px;
+  position: relative;
+}
+
+/* line 104, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/new-gov-uk-elements.scss */
+#search .content input.js-search-focus:focus {
+  z-index: 10;
+}
+
+/* line 109, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/new-gov-uk-elements.scss */
+#search .content .submit {
+  position: absolute;
+  z-index: 4;
+  right: 0;
+  top: 0;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #005ea5;
+  border-width: 0 0 0 1px;
+  border-left-color: #0b0c0c;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  overflow: hidden;
+  text-indent: -5000px;
+  color: #fff;
+  background: url(/public/images/search-button.png) #005ea5 no-repeat 115% 50%;
+  background-size: 3em;
+}
+
+/* line 134, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/new-gov-uk-elements.scss */
 .panel.hybrid {
   padding-top: 0;
 }
 
-/* line 65, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/new-gov-uk-elements.scss */
+/* line 136, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/new-gov-uk-elements.scss */
 .panel.hybrid img {
   width: 100%;
   margin: 0 0 1em 0;
 }
 
-/* line 69, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/new-gov-uk-elements.scss */
+/* line 140, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/new-gov-uk-elements.scss */
 .panel.hybrid a {
   text-decoration: none;
 }
 
-/* line 71, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/new-gov-uk-elements.scss */
+/* line 142, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/new-gov-uk-elements.scss */
 .panel.hybrid a h3 {
   text-decoration: underline;
 }
 
-/* line 74, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/new-gov-uk-elements.scss */
+/* line 145, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/new-gov-uk-elements.scss */
 .panel.hybrid a p {
   color: #0b0c0c;
   text-decoration: none;
