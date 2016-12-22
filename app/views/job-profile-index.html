@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+Careers Service - Job profiles
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+     {% include "includes/phase_banner_alpha.html" %}
+     <header class="hero">
+          <div class="grid-row">
+               <div class="column-two-thirds">
+                    <h1 class="heading-xlarge">Job profiles</h1>
+				   	<p class="lede">We have profiles on over 800 different types of job, from archivist to zoologist.</p>
+                    <div class="search">
+                         <form action="/search" method="get" role="search">
+                              <label for="search" class="search__label">Enter a job title</label>
+                              <div class="search__input">
+                                   <input class="js-search-focus" name="q" id="search" type="search" title="Enter a job title" placeholder="eg plumber">
+                              </div>
+                              <input type="hidden" name="filter_manual" value="/service-manual">
+                              <input class="search__submit" type="submit" value="Search">
+                         </form>
+                    </div>
+               </div>
+               <div class="column-one-third">
+                   
+               </div>
+          </div>
+     </header>
+
+     <div class="grid-row">
+		 <div class="column-two-thirds">
+			 <h2 class="heading-large">Explore job profiles</h2>
+			 <p>Each one explains:</p>
+        <ul class="list list-bullet">
+            <li>the skills and qualifications needed to get into that job</li>
+            <li>what the work would be like</li>
+            <li>the pay you could expect</li>
+            <li>what the career prospects are</li>
+        </ul>
+        <p>Job profiles can help you find out what a job involves and if it will suit you.</p>
+			 
+			 <h2 class="heading-large">Filter me some job profiles</h2>
+
+		 </div>
+
+     </div>
+
+</main>
+
+
+{% endblock %}
