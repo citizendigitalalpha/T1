@@ -88,20 +88,6 @@ h1.intro-yes span, h2.intro-yes span, h3.intro-yes span, h4.intro-yes span, p.in
   position: relative;
 }
 
-/* line 95, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
-.big-border-box::before {
-  content: "";
-  background: #fff;
-  right: -10px;
-  top: -10px;
-  padding: 0;
-  position: absolute;
-  display: inline-block;
-  border-style: solid;
-  border-width: 1.5em 0 0 1.5em;
-  border-color: transparent transparent transparent #28a197;
-}
-
 /* line 111, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 .big-border-box.govuk-box-highlight-border p.bold-xxlarge {
   margin: 0;
