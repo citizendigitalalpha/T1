@@ -92,20 +92,20 @@ h1, h2, h3, h4, p {
      border: 10px solid $border-colour;
      // border: 10px solid lighten($grey-3,7.5%);
      position: relative;
-     &::before {
-          content: "";
-          background: $white;
-          right: -10px;
-          top: -10px;
-          padding: 0;
-          position: absolute;
-          display: inline-block;
+     //&::before {
+          //content: "";
+          //background: $white;
+          //right: -10px;
+         // top: -10px;
+          //padding: 0;
+          //position: absolute;
+          //display: inline-block;
           // width: 1.5em;
           // height: 1.5em;
-          border-style: solid;
-          border-width: 1.5em 0 0 1.5em;
-          border-color: transparent transparent transparent $turquoise;
-     }
+          //border-style: solid;
+          //border-width: 1.5em 0 0 1.5em;
+          //border-color: transparent transparent transparent $turquoise;
+     //}
      &.govuk-box-highlight-border {
           // padding: 1em;
           p.bold-xxlarge {
