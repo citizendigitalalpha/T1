@@ -32,26 +32,26 @@ header.hero {
           .search__input {
                float: left;
                width: 100%;
-               padding: 0 52px 0 0;
-               margin: 0 -52px 0 0;
+               padding: 0 40px 0 0;
+               margin: 0 -40px 0 0;
                box-sizing: border-box;
                #search {
                     border: none;
                     height: 40px;
-                    font-size: 20px;
-                    padding: 6px 2.5%;
-                    width: 95%;
+                    font-size: 16px;
+                    padding: 0 6px;
+                    width: 98%;
                }
           }
           .search__submit {
                text-indent: -1000em;
                border-radius: 0;
                background: $black;
-               width: 52px;
-               height: 52px;
+               width: 40px;
+               height: 40px;
                border: none;
                background: url(/public/images/search-button.png) $black no-repeat 100% 50%;
-               background-size: 4em;
+               background-size: 3em;
                &:hover {
                     cursor: pointer;
                }
@@ -65,43 +65,49 @@ header.hero {
      display: none;
 }
 
-#proposition-menu {
-     margin: 0 !important;
-     #proposition-name {
-          margin: 5px 0 0 0;
-          display: inline-block;
-     }
+#global-header.with-proposition .header-wrapper .header-global {
+     width: auto;
+     float: left;
+}
+
+#proposition-name {
+     margin: 5px 0 0 0;
+     display: inline-block;
+     color: $white;
+     font-weight: bold;
+     font-size: 24px;
+     line-height: 1.25;
 }
 
 #search {
      display: inline-block;
      float: right;
-     width: 50%;
+     width: 40%;
      .content {
           position: relative;
-          margin: 0 !important;
+          margin: 0 15px;
           label {
-               float: none;
-               position: absolute;
-               left: 0;
-               top: 1px;
-               z-index: 1;
-               width: 100%;
-               margin-right: 0;
-               min-height: 36px;
-               line-height: 35px;
-               text-indent: 15px;
-               overflow: hidden;
-               display: block;
+               // float: none;
+               // position: absolute;
+               // left: 0;
+               // top: 1px;
+               // z-index: 1;
+               // width: 100%;
+               // margin-right: 0;
+               // min-height: 36px;
+               // line-height: 35px;
+               // text-indent: 15px;
+               // overflow: hidden;
+               display: none;
           }
           input {
                &.js-search-focus {
                     border: none;
-                    width: calc(100% - 37px);
+                    width: calc(100% - 48px);
                     min-height: 36px;
                     padding: 0 6px;
                     position: relative;
-                    &:focus {
+                    &:focus, &:active {
                          z-index: 10;
                     }
                }
@@ -149,6 +155,36 @@ header.hero {
           }
      }
 }
+
+a {
+     &.header-link {
+          margin-top: 40px;
+          display: inline-block;
+          float: right;
+     }
+}
+
+.page-contents {
+     .heading-small {
+          margin-top: 0.2631578947em;
+          margin-bottom: 0.75em;
+     }
+     ul {
+          li {
+               margin-bottom: 10px;
+               list-style: none;
+               // font-size: 1.5rem;
+               padding: 0 0 0 15px;
+               &:before {
+                    content: "–";
+                    float: left;
+                    display: block;
+                    width: 15px;
+                    margin-left: -15px;
+               }
+          }
+     }
+}
 // ========================================== GENERAL PAGE - END ========================================== //
 
 // ONLY FOR DESKTOP (1020px)
@@ -161,7 +197,9 @@ header.hero {
 // LARGE UP (769px and above)
 @media (min-width: 769px) {
 
-
+     #global-header.with-proposition .header-wrapper .header-global {
+          width: 33.3333%;
+     }
 
 }
 
@@ -187,6 +225,27 @@ header.hero {
 // SMARTPHONE ONLY (Up to 640px)
 @media (max-width: 640px) {
 
+     #global-header.with-proposition .header-wrapper .header-global {
+          width: auto;
+          float: left;
+     }
+
+     #proposition-name {
+          margin: 14px 0 0 0;
+          font-size: 18px;
+          float: left;
+     }
+
+
+     header {
+          .header-global {
+               display: inline-block;
+          }
+          #search {
+               width: 100%;
+               margin: 10px 0 5px 0;
+          }
+     }
 
 
 
