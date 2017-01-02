@@ -11,3 +11,4 @@ public/stylesheets/hybrid.css
 *.map
 *.css
 
+app/views/includes/propositional_navigation_search.html
