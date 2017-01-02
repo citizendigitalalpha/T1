@@ -1,0 +1,310 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+Careers Service - Search
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+     {% include "includes/phase_banner_alpha.html" %}
+	{% include "includes/breadcrumb_job.html" %}
+        <div class="grid-row">
+            <div class="column-two-thirds">
+                <h1 class="heading-xlarge"><label for="search">Search
+                results for <span class=
+                "visuallyhidden">“chemical”</span></label></h1>
+                    <div class="search">
+                         <form action="/search" method="get" role="search">                              
+                              <div class="search__input">
+                                   <input class="js-search-focus" name="q" id="search" type="search" title="Enter a job title" value="chemical">
+                              </div>                              
+                              <input class="search__submit" type="submit" value="Search">
+                         </form>
+                    </div>
+            </div>
+            <div class="column-one-third"></div>
+        </div>
+        <div class="grid-row">
+            <div class="column-one-third">
+                <p>Filter by:</p>
+                <div class="filter checkbox-filter js-openable-filter open"
+                tabindex="0">
+                    <div class="head">
+                        <span class="legend">Job families</span>
+                        <div class="controls">
+                            <a class="clear-selected js-hidden">Remove
+                            filters</a>
+                            <div class="toggle"></div>
+                        </div>
+                    </div>
+                    <div class="checkbox-container" id="job-families-filter">
+                        <fieldset>
+                            <legend class="visuallyhidden">Job families</legend>
+                        <ul>
+                            <li><input id="administrative-and-clerical" name=
+                            "JobFamilies" type="checkbox" value=
+                            "administrative-and-clerical"> <label for=
+                            "administrative-and-clerical">Administrative and
+                            clerical</label></li>
+                            <li><input id="alternative-therapies" name=
+                            "JobFamilies" type="checkbox" value=
+                            "alternative-therapies"> <label for=
+                            "alternative-therapies">Alternative
+                            therapies</label></li>
+                            <li><input id="animals-plants-and-land" name=
+                            "JobFamilies" type="checkbox" value=
+                            "animals-plants-and-land"> <label for=
+                            "animals-plants-and-land">Animals, plants and
+                            land</label></li>
+                            <li><input id="arts-crafts-and-design" name=
+                            "JobFamilies" type="checkbox" value=
+                            "arts-crafts-and-design"> <label for=
+                            "arts-crafts-and-design">Arts, crafts and
+                            design</label></li>
+                            <li><input id="catering-services" name=
+                            "JobFamilies" type="checkbox" value=
+                            "catering-services"> <label for=
+                            "catering-services">Catering services</label></li>
+                            <li><input id="construction" name="JobFamilies"
+                            type="checkbox" value="construction"> <label for=
+                            "construction">Construction</label></li>
+                            <li><input id="education-and-training" name=
+                            "JobFamilies" type="checkbox" value=
+                            "education-and-training"> <label for=
+                            "education-and-training">Education and
+                            training</label></li>
+                            <li><input id="environmental-sciences" name=
+                            "JobFamilies" type="checkbox" value=
+                            "environmental-sciences"> <label for=
+                            "environmental-sciences">Environmental
+                            sciences</label></li>
+                            <li><input id="financial-services" name=
+                            "JobFamilies" type="checkbox" value=
+                            "financial-services"> <label for=
+                            "financial-services">Financial
+                            services</label></li>
+                            <li><input id="general-and-personal-services" name=
+                            "JobFamilies" type="checkbox" value=
+                            "general-and-personal-services"> <label for=
+                            "general-and-personal-services">General and
+                            personal services</label></li>
+                            <li><input id=
+                            "information-technology-and-information-management"
+                            name="JobFamilies" type="checkbox" value=
+                            "information-technology-and-information-management">
+                            <label for=
+                            "information-technology-and-information-management">
+                            Information technology and information
+                            management</label></li>
+                            <li><input id="legal-services" name="JobFamilies"
+                            type="checkbox" value="legal-services"> <label for=
+                            "legal-services">Legal services</label></li>
+                            <li><input id="maintenance-service-and-repair"
+                            name="JobFamilies" type="checkbox" value=
+                            "maintenance-service-and-repair"> <label for=
+                            "maintenance-service-and-repair">Maintenance,
+                            service and repair</label></li>
+                            <li><input id="management-and-planning" name=
+                            "JobFamilies" type="checkbox" value=
+                            "management-and-planning"> <label for=
+                            "management-and-planning">Management and
+                            planning</label></li>
+                            <li><input id="manufacturing-and-engineering" name=
+                            "JobFamilies" type="checkbox" value=
+                            "manufacturing-and-engineering"> <label for=
+                            "manufacturing-and-engineering">Manufacturing and
+                            engineering</label></li>
+                            <li><input id="marketing-selling-and-advertising"
+                            name="JobFamilies" type="checkbox" value=
+                            "marketing-selling-and-advertising"> <label for=
+                            "marketing-selling-and-advertising">Marketing,
+                            selling and advertising</label></li>
+                            <li><input id="medical-technology" name=
+                            "JobFamilies" type="checkbox" value=
+                            "medical-technology"> <label for=
+                            "medical-technology">Medical
+                            technology</label></li>
+                            <li><input id="medicine-and-nursing" name=
+                            "JobFamilies" type="checkbox" value=
+                            "medicine-and-nursing"> <label for=
+                            "medicine-and-nursing">Medicine and
+                            nursing</label></li>
+                            <li><input id="performing-arts-broadcast-and-media"
+                            name="JobFamilies" type="checkbox" value=
+                            "performing-arts-broadcast-and-media"> <label for=
+                            "performing-arts-broadcast-and-media">Performing
+                            arts, broadcast and media</label></li>
+                            <li><input id="publishing-and-journalism" name=
+                            "JobFamilies" type="checkbox" value=
+                            "publishing-and-journalism"> <label for=
+                            "publishing-and-journalism">Publishing and
+                            journalism</label></li>
+                            <li><input id="retail-sales-and-customer-service"
+                            name="JobFamilies" type="checkbox" value=
+                            "retail-sales-and-customer-service"> <label for=
+                            "retail-sales-and-customer-service">Retail sales
+                            and customer service</label></li>
+                            <li><input id="science-and-research" name=
+                            "JobFamilies" type="checkbox" value=
+                            "science-and-research"> <label for=
+                            "science-and-research">Science and
+                            research</label></li>
+                            <li><input id="security-and-uniformed-services"
+                            name="JobFamilies" type="checkbox" value=
+                            "security-and-uniformed-services"> <label for=
+                            "security-and-uniformed-services">Security and
+                            uniformed services</label></li>
+                            <li><input id="social-services" name="JobFamilies"
+                            type="checkbox" value="social-services">
+                            <label for="social-services">Social
+                            services</label></li>
+                            <li><input id="sport-leisure-and-tourism" name=
+                            "JobFamilies" type="checkbox" value=
+                            "sport-leisure-and-tourism"> <label for=
+                            "sport-leisure-and-tourism">Sport, leisure and
+                            tourism</label></li>
+                            <li><input id="storage-dispatching-and-delivery"
+                            name="JobFamilies" type="checkbox" value=
+                            "storage-dispatching-and-delivery"> <label for=
+                            "storage-dispatching-and-delivery">Storage,
+                            dispatching and delivery</label></li>
+                            <li><input id="transport" name="JobFamilies" type=
+                            "checkbox" value="transport"> <label for=
+                            "transport">Transport</label></li>
+                        </ul>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="form-group submit js-live-search-fallback">
+                    <input class="button" type="submit" value="Apply filters">
+                </div>
+            </div>
+            <div class="column-two-thirds">
+                <p>200 results found</p>
+                <h3 class="heading-medium"><a href=
+                "/job-profiles/chemical-engineer">Chemical
+                engineer</a></h3><span class="grey"></span>
+                <p><strong class="bold-small">Chemical</strong> engineers develop ways to turn raw materials into
+                everyday products.</p>
+                <h3 class="heading-medium"><a href=
+                "/job-profiles/astronaut">Astronaut</a></h3><span class=
+                "grey"></span>
+                <p>Astronauts are trained to fly or be crew members on
+                spacecraft.</p>
+                <h3 class="heading-medium"><a href=
+                "/job-profiles/food-manufacturing-inspector">Food manufacturing
+                inspector</a></h3><span class="grey">Food quality control
+                inspector, food safety officer</span>
+                <p>Food manufacturing inspectors make sure companies meet
+                hygiene and safety standards, and that products are safe to
+                eat.</p>
+                <h3 class="heading-medium"><a href=
+                "/job-profiles/chemist">Chemist</a></h3><span class=
+                "grey"></span>
+                <p>Chemists study chemicals and materials and how they behave
+                under different conditions.</p>
+                <h3 class="heading-medium"><a href=
+                "/job-profiles/food-scientist">Food
+                scientist</a></h3><span class="grey">Food technologist</span>
+                <p>Food scientists and food technologists develop food and
+                drink products, making sure they are safe to consume.</p>
+                <h3 class="heading-medium"><a href=
+                "/job-profiles/dentist">Dentist</a></h3><span class=
+                "grey">Dental surgeon, dental practitioner</span>
+                <p>Dentists diagnose and treat teeth and mouth problems,
+                working to prevent dental disease and promote oral health.</p>
+                <h3 class="heading-medium"><a href=
+                "/job-profiles/scenes-of-crime-officer">Scenes of crime
+                officer</a></h3><span class="grey"></span>
+                <p>Scenes of crime officers (SOCOs) find, record and recover
+                evidence from crime scenes.</p>
+                <h3 class="heading-medium"><a href=
+                "/job-profiles/naturopath">Naturopath</a></h3><span class=
+                "grey"></span>
+                <p>Naturopaths aim to improve patients’ health by using natural
+                medicine and healing techniques.</p>
+                <h3 class="heading-medium"><a href=
+                "/job-profiles/environmental-consultant">Environmental
+                consultant</a></h3><span class="grey">Eco consultant</span>
+                <p>Environmental consultants advise organisations on a range of
+                issues, from managing waste and recycling, to assessing flood
+                risk and the effects of climate change.</p>
+                <h3 class="heading-medium"><a href=
+                "/job-profiles/embalmer">Embalmer</a></h3><span class=
+                "grey"></span>
+                <p>Embalmers preserve and prepare bodies from the time of death
+                until they can be buried or cremated.</p>
+                <h3 class="heading-medium"><a href=
+                "/job-profiles/astronomer">Astronomer</a></h3><span class=
+                "grey"></span>
+                <p>Astronomers use scientific techniques to study the origin
+                and make-up of the universe.</p>
+                <h3 class="heading-medium"><a href=
+                "/job-profiles/research-and-development-manager">Research and
+                development manager</a></h3><span class="grey">R and D manager,
+                industrial scientist</span>
+                <p>Research and development managers lead teams of scientists,
+                engineers and technical staff to create new products and
+                improve existing ones.</p>
+                <h3 class="heading-medium"><a href=
+                "/job-profiles/paper-technologist">Paper
+                technologist</a></h3><span class="grey"></span>
+                <p>Paper technologists design and test the equipment and
+                processes used in making paper, tissue and cardboard.</p>
+                <h3 class="heading-medium"><a href=
+                "/job-profiles/aromatherapist">Aromatherapist</a></h3><span class="grey"></span>
+                <p>Aromatherapists use essential oils to help improve emotional
+                well-being and relieve symptoms of ill health.</p>
+                <h3 class="heading-medium"><a href=
+                "/job-profiles/textile-dyeing-technician">Textile dyeing
+                technician</a></h3><span class="grey">Dyer, colour
+                technologist</span>
+                <p>Textile dyeing technicians create dyes to colour fibres and
+                fabrics.</p>
+                <h3 class="heading-medium"><a href=
+                "/job-profiles/pharmacist">Pharmacist</a></h3><span class=
+                "grey">Dispensing chemist</span>
+                <p>Pharmacists provide expert advice on the use and supply of
+                drugs and medicines.</p>
+                <h3 class="heading-medium"><a href=
+                "/job-profiles/laboratory-technician">Laboratory
+                technician</a></h3><span class="grey">Lab technician</span>
+                <p>Laboratory technicians support scientists and help carry out
+                tests, research and investigations.</p>
+                <h3 class="heading-medium"><a href=
+                "/job-profiles/biotechnologist">Biotechnologist</a></h3><span class="grey"></span>
+                <p>Biotechnologists use plants, animals, microbes, biochemistry
+                and genetics to develop new products and improve existing
+                ones.</p>
+                <h3 class="heading-medium"><a href=
+                "/job-profiles/forensic-scientist">Forensic
+                scientist</a></h3><span class="grey"></span>
+                <p>Forensic scientists prepare traces of physical evidence for
+                use in courts of law.</p>
+                <nav aria-label="Pagination" class="pagination form-group"
+                role="navigation">
+                    <ul class="list">
+                        <li class="previous">
+                            <a href="#" rel="prev" title=
+                            "Navigate to previous page"><span class=
+                            "pagination-label">Previous</span> <span class=
+                            "visually-hidden">page</span> <span class=
+                            "pagination-part-title">1 of 3</span></a>
+                        </li>
+                        <li class="next">
+                            <a href="#" rel="next" title=
+                            "Navigate to next page"><span class=
+                            "pagination-label">Next</span> <span class=
+                            "visually-hidden">page</span> <span class=
+                            "pagination-part-title">3 of 3</span></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+</main>
+
+
+{% endblock %}
