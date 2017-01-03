@@ -26,9 +26,6 @@
      $(window).scroll(move);
      move();
 })();
-
-// if ($('#sticky-anchor').length && Modernizr.mq('only screen and (min-width: 461px)')) {
-
 // ===================================== Sticky Scroller - END ===================================== //
 
 // $(function() {

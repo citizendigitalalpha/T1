@@ -259,6 +259,7 @@ a {
           top: 0;
           z-index: 1000;
           padding: 1em 0 0 0;
+          width: 30%;
      }
      h1, h2, h3, h4 {
           padding-top: 0;
@@ -357,6 +358,23 @@ a {
                }
           }
      }
+
+     a {
+          &.header-link {
+               margin: 0 0 40px 0;
+               display: inline-block;
+               float: left;
+          }
+     }
+
+     #scroller {
+          margin-bottom: 2em;
+          &.fixed {
+               position: relative !important;
+               width: 100%;
+          }
+     }
+
 
 
 }
