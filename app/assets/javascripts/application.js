@@ -74,8 +74,8 @@ $(function() {
         "Level 8 award / certificate / diploma"
     ];
     $("#qualification").autocomplete({
-        source: availableQualifications 
-    }); 
+        source: availableQualifications
+    });
 });
 
 $( "#qualification" ).autocomplete({
@@ -86,9 +86,8 @@ $( "#qualification" ).autocomplete({
 
 // Getter
 var themeClass = $( "#qualification" ).autocomplete( "option", "classes.ui-autocomplete" );
- 
+
 // Setter
 $( "#qualification" ).autocomplete( "option", "classes.ui-autocomplete", "highlight" );
 
 //Prepare filters
-

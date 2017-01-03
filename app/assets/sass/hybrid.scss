@@ -183,19 +183,19 @@ main.intro-content {
      }
 }
 
-#scroller.fixed {
-     top: 0;
-     left: 0;
-     right: 0;
-     z-index: 1000;
-     background: $white;
-     width: 100%;
-     padding: 0.5em 1em;
-     box-shadow: 0 0 10px 0 rgba($black,0.4);
-     nav {
-          margin: 0;
-     }
-}
+// #scroller.fixed {
+//      top: 0;
+//      left: 0;
+//      right: 0;
+//      z-index: 1000;
+//      background: $white;
+//      width: 100%;
+//      padding: 0.5em 1em;
+//      box-shadow: 0 0 10px 0 rgba($black,0.4);
+//      nav {
+//           margin: 0;
+//      }
+// }
 
 ul.tabs {
      li {

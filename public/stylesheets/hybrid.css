@@ -176,23 +176,6 @@ main.intro-content hr {
   margin-bottom: 1em;
 }
 
-/* line 186, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
-#scroller.fixed {
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  background: #fff;
-  width: 100%;
-  padding: 0.5em 1em;
-  box-shadow: 0 0 10px 0 rgba(11, 12, 12, 0.4);
-}
-
-/* line 195, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
-#scroller.fixed nav {
-  margin: 0;
-}
-
 /* line 203, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/hybrid.scss */
 ul.tabs li.ui-state-active a {
   border-bottom: 4px solid #28a197;
