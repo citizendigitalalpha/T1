@@ -1018,6 +1018,17 @@ ul#az-index li {
     width: 40px;
     line-height: 15px;
 }
+
+.w70 {
+	width:100%;
+}
+
+@media (min-width: 1020px) {
+.w70 {
+	width:75%;
+}
+	
+}
 // ========================================== MAIN NAVIGATION - END ========================================== //
 
 @import 'hybrid';
