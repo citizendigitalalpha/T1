@@ -36,7 +36,47 @@ Careers Service - Job profiles
 					<li>what the career prospects are</li>
 				</ul>
 				<p>Job profiles can help you find out what a job involves and if it will suit you.</p>
-				<h2 class="heading-large">Filter me some job profiles</h2>
+				<form action="./search.html" method="get">
+					<h2 class="heading-medium">Do you want</h2>
+					<div class="form-group">
+						<fieldset class="inline">
+							<legend>1. A job which is usually based in an office?</legend> <span class="form-hint">For example, administrator or accountant</span> <label class="block-label selection-button-radio" for="radio-inline-1"><input id="radio-inline-1" name="office" type="radio" value="Yes"> Yes</label> <label class="block-label selection-button-radio" for="radio-inline-2"><input id="radio-inline-2" name="office" type="radio" value="No"> No</label>
+						</fieldset>
+					</div>
+					<div class="form-group">
+						<fieldset class="inline">
+							<legend>2. A job which usually needs practical skills?</legend> <span class="form-hint">For example, a mechanic or hairdresser, a job where you work with your hands to make something</span> <label class="block-label selection-button-radio" for="radio-inline-3"><input id="radio-inline-3" name="skills" type="radio" value="Yes"> Yes</label> <label class="block-label selection-button-radio" for="radio-inline-4"><input id="radio-inline-4" name="skills" type="radio" value="No"> No</label>
+						</fieldset>
+					</div>
+					<div class="form-group">
+						<fieldset class="inline">
+							<legend>3. To help others?</legend> <span class="form-hint">For example, doctor, social worker or carer</span> <label class="block-label selection-button-radio" for="radio-inline-5"><input id="radio-inline-5" name="help" type="radio" value="Yes"> Yes</label> <label class="block-label selection-button-radio" for="radio-inline-6"><input id="radio-inline-6" name="help" type="radio" value="No"> No</label>
+						</fieldset>
+					</div>
+					<div class="form-group">
+						<fieldset class="inline">
+							<legend>4. To work regular, daytime hours?</legend> <span class="form-hint">Usually 8am to 4pm or 9am to 5pm on weekdays</span> <label class="block-label selection-button-radio" for="radio-inline-7"><input id="radio-inline-7" name="hours" type="radio" value="Yes"> Yes</label> <label class="block-label selection-button-radio" for="radio-inline-8"><input id="radio-inline-8" name="hours" type="radio" value="No"> No</label>
+						</fieldset>
+					</div>
+					<div class="form-group">
+						<fieldset class="inline">
+							<legend>5. A job you can get into through an apprenticeship?</legend> <span class="form-hint">For example, civil engineer or electrician</span> <label class="block-label selection-button-radio" for="radio-inline-9"><input id="radio-inline-9" name="app" type="radio" value="Yes"> Yes</label> <label class="block-label selection-button-radio" for="radio-inline-10"><input id="radio-inline-10" name="app" type="radio" value="No"> No</label>
+						</fieldset>
+					</div>
+					<div class="form-group">
+						<fieldset class="inline">
+							<legend>6. A job for which you need a qualification from college or university?</legend> <span class="form-hint">For example, doctor or dental nurse</span> <label class="block-label selection-button-radio" for="radio-inline-11"><input id="radio-inline-11" name="uni" type="radio" value="Yes"> Yes</label> <label class="block-label selection-button-radio" for="radio-inline-12"><input id="radio-inline-12" name="uni" type="radio" value="No"> No</label>
+						</fieldset>
+					</div>
+					<div class="form-group">
+						<fieldset class="inline">
+							<legend>7. A job you can train for through a short course (less than six months)?</legend> <span class="form-hint">For example, driving instructor or health and safety inspector</span> <label class="block-label selection-button-radio" for="radio-inline-12"><input id="radio-inline-12" name="uni" type="radio" value="Yes"> Yes</label> <label class="block-label selection-button-radio" for="radio-inline-11"><input id="radio-inline-11" name="uni" type="radio" value="No"> No</label>
+						</fieldset>
+					</div>
+					<div class="form-group">
+						<input class="button" type="submit" value="Filter job profiles">
+					</div>
+				</form>
 				<h3 class="heading-medium">A to Z index</h3>
 				<p>Choose a letter below to view profiles.</p>
 				<div id="az-index-wrapper">
