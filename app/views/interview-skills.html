@@ -8,48 +8,63 @@
 
 <main id="content" role="main">
 	{% include "includes/phase_banner_alpha.html" %}
-	{% include "includes/breadcrumb_resources.html" %}
-	<div class="grid-row">
+
+     <div class="breadcrumbs">
+          <ol>
+               <li><a href="/">Home</a></li>
+               <li><a href="./job-profile-index">Job preparation</a></li>
+               <li>Interview skills</li>
+          </ol>
+     </div>
+
+     <div class="grid-row">
+          <div class="column-two-thirds">
+               <h1 class="heading-xlarge">
+                    <span class="heading-secondary">Job preparation</span>
+                    Interview skills
+               </h1>
+          </div>
+          <div class="column-one-third">
+               <a href="/contact-an-adviser" class="header-link">Contact a careers advisor</a>
+          </div>
+     </div>
+
+	<div class="grid-row sticky-holder">
+
+          <div class="column-one-third">
+               <div id="sidebar">
+     			<div id="scroller-anchor"></div>
+     			<div id="scroller">
+                         <div class="page-contents js-page-contents js-stick-at-top-when-scrolling js-sticky-resize">
+                              <h2 class="heading-small">Page contents:</h2>
+                              <ul class="page-contents__list">
+                                   <li><a href="#section_1" class="">Interpersonal or soft skills</a></li>
+                                   <li><a href="#section_2" class="">Attitude to work</a></li>
+                                   <li><a href="#section_3" class="">Positive attitude</a></li>
+                                   <li><a href="#section_4" class="">Body language</a></li>
+                                   <li><a href="#section_5" class="">Communication skills</a></li>
+                                   <li><a href="#section_6" class="">Time management</a></li>
+                                   <li><a href="#section_7" class="">Confidence</a></li>
+                              </ul>
+                         </div>
+     			</div>
+          	</div>
+          </div>
+
 		<div class="column-two-thirds">
-			<h1 class="heading-xlarge">Interview skills</h1>
 			<p class="lede">Even if you have all the right qualifications and experience to do the job, you need to show an employer that you're a good fit for the organisation. This can decide whether or not you get the job.</p>
-			<h2 class="heading-medium">Interpersonal or soft skills</h2>
+			<h2 class="heading-medium" id="section_1">Interpersonal or soft skills</h2>
                <p>
                     Employers look for how you interact with the people around you. You will need to demonstrate your
                     'interpersonal' or ‘soft skills’ during your interview. These can include:
                </p>
-               <div class="grid-row">
-				<div class="column-one-half">
-					<ol class="list list-number">
-						<li>
-							<a href="#attitude">Attitude to work</a>
-						</li>
-						<li>
-							<a href="#positive">Positive attitude</a>
-						</li>
-						<li>
-							<a href="#communication">Communication skills</a>
-						</li>
-					</ol>
-				</div>
-				<div class="column-one-half">
-					<ol class="list list-number" start="4">
-						<li>
-							<a href="#time">Time management</a>
-						</li>
-						<li>
-							<a href="#confidence">Confidence</a>
-						</li>
-					</ol>
-				</div>
-			</div>
-			<h2 class="heading-medium" id="attitude">Attitude to work</h2>
+			<h2 class="heading-medium" id="section_2">Attitude to work</h2>
 			<p>
                     You need to show that you are hard-working and that like to complete tasks.
                </p>
 			<p>If you have had a job before, give examples of how you have shown positive attitudes to your work.</p>
 			<p>If you're new to work give examples of things such as punctuality and meeting your deadlines.</p>
-			<h2 class="heading-medium" id="positive">Positive attitude</h2>
+			<h2 class="heading-medium" id="section_3">Positive attitude</h2>
 			<p>
                     Be positive in your interview, smile and speak clearly. Don’t be critical of anything or anyone. Give
                     examples of how you have approached difficult tasks and how you resolved them.
@@ -58,7 +73,7 @@
                     Give clear examples without using jargon or embellishing what you did. This will show that you can think a
                     problem through and that you don’t give up easily.
                </p>
-               <h3 class="heading-medium">Body language</h3>
+               <h3 class="heading-medium" id="section_4">Body language</h3>
                <p>
                     Body language can tell an employer a lot about you, if you slouch, fold your arms or put your hands
                     in your pockets, this gives the impression that you don’t care.
@@ -66,7 +81,7 @@
                <p>
                     Try to be relaxed but sit upright in the chair, look at your interviewer and smile.
                </p>
-			<h2 class="heading-medium" id="communication">Communication skills</h2>
+			<h2 class="heading-medium" id="section_5">Communication skills</h2>
 			<p>
                     Your written communication skills have got you the interview, it's now your chance to show the
                     interviewer that your spoken communication is as strong.
@@ -78,9 +93,9 @@
                <p>
                     Try to give two or three examples when you answer any questions as this will show off your clear spoken English.
                </p>
-			<h2 class="heading-medium" id="time">Time management</h2>
+			<h2 class="heading-medium" id="section_6">Time management</h2>
 			<p>Try to show in your answers that you're punctual and that you don't need to be supervised to complete tasks. Give real examples that show this, either from a previous job or from your school, college or university.</p>
-			<h2 class="heading-medium" id="confidence">Confidence</h2>
+			<h2 class="heading-medium" id="section_7">Confidence</h2>
 			<p>You must show you're confident throughout your interview. Remember the basics:</p>
 			<ul class="list list-bullet">
 				<li>shake hands</li>
