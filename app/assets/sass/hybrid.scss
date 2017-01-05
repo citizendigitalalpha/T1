@@ -43,6 +43,12 @@ h1, h2, h3, h4, p {
 .notice {
      &.info {
           margin-bottom: 1.2em;
+          padding: 0 0 0 1em;
+          border-left: 10px solid $border-colour;
+          .icon {
+               left: 0.75em;
+               top: 50%;
+          }
      }
      .icon.icon-important {
           background-image: url(/public/images/icon-info.png);

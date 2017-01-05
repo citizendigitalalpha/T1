@@ -28,26 +28,22 @@ Careers Service - Search
 			</div>
 		</header>
 		<div class="grid-row sticky-holder">
-			<div class="scroller">
-				<div class="js-stick-at-top-when-scrolling js-sticky-resize" tabindex="0">
-					<p>You chose:</p>
-					<ul class="list tags">
-						<li>
-							<a class="#"><span class="tag-filter">Not office based</span></a>
-						</li>
-						<li>
-							<a class="#"><span class="tag-filter">Practical skills</span></a>
-						</li>
-						<li>
-							<a class="#"><span class="tag-filter">Apprenticeship route</span></a>
-						</li>
-					</ul>
-					<p><a href="./job-profile-index.html">Change your choice</a>.</p>
-				</div><!--<div class="form-group submit js-live-search-fallback">
-                    <input class="button" type="submit" value="Apply filters">
-               </div>-->
+			<div id="sidebar" tabindex="0">
+				<p>You chose:</p>
+				<ul class="list tags">
+					<li>
+						<a class="#"><span class="tag-filter">Not office based</span></a>
+					</li>
+					<li>
+						<a class="#"><span class="tag-filter">Practical skills</span></a>
+					</li>
+					<li>
+						<a class="#"><span class="tag-filter">Apprenticeship route</span></a>
+					</li>
+				</ul>
+				<p><a href="./job-profile-index.html">Change your choice</a>.</p>
 			</div>
-			<div class="scroller stopper"></div>
+			<!-- <div class="scroller stopper"></div> -->
 			<div class="column-two-thirds search-results-list">
 				<!-- ////////// Result 1 - START ////////// -->
 				<div class="search-result">
@@ -173,6 +169,5 @@ Careers Service - Search
 			</div>
 		</div>
 	</main>
-
 
 {% endblock %}
