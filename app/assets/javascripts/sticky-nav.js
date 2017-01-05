@@ -1,31 +1,129 @@
 // ===================================== Sticky Scroller - START ===================================== //
-(function moveScroller() {
-     var $anchor = $("#scroller-anchor");
-     var $scroller = $('#scroller');
 
-     var move = function() {
-          var st = $(window).scrollTop();
-          var ot = $anchor.offset().top;
-          if(st > ot) {
-               $scroller.css({
-                    position: "fixed",
-                    top: ""
-               });
-               $scroller.addClass("fixed");
-          } else {
-               if(st <= ot) {
-                    $scroller.css({
-                         position: "relative",
-                         top: ""
+// This is what makes the headers stick - Start
+     var stickyNav = (function() {
+          var $window = $(window),
+               $stickies;
+          var load = function(stickies) {
+               if (typeof stickies === "object" && stickies instanceof jQuery && stickies.length > 0) {
+                    $stickies = stickies.each(function() {
+                         var $thisSticky = $(this).wrap('<div id="sidebar" />');
+                         $thisSticky
+                              .data('originalPosition', $thisSticky.offset().top)
+                              .data('originalHeight', $thisSticky.outerHeight())
+                                   .parent()
+                                   .height($thisSticky.outerHeight());
+                         });
+                    $window.off("scroll.stickies").on("scroll.stickies", function() {
+                         _whenScrolling();
                     });
-                    $scroller.removeClass("fixed");
                }
-          }
+          };
+
+          var _whenScrolling = function() {
+               $stickies.each(function(i) {
+                    var $thisSticky = $(this),
+                         $stickyPosition = $thisSticky.data('originalPosition');
+                    if ($stickyPosition <= $window.scrollTop()) {
+                         var $nextSticky = $stickies.eq(i + 1),
+                              $nextStickyPosition = $nextSticky.data('originalPosition') - $thisSticky.data('originalHeight');
+                         $thisSticky.addClass("fixed");
+                    if ($nextSticky.length > 0 && $thisSticky.offset().top >= $nextStickyPosition) {
+                         $thisSticky.addClass("absolute").css("top", $nextStickyPosition);
+                    }
+               } else {
+                    var $prevSticky = $stickies.eq(i - 1);
+                    $thisSticky.removeClass("fixed");
+                    if ($prevSticky.length > 0 && $window.scrollTop() <= $thisSticky.data('originalPosition') - $thisSticky.data('originalHeight')) {
+                         $prevSticky.removeClass("absolute").removeAttr("style");
+                    }
+               }
+          });
      };
 
-     $(window).scroll(move);
-     move();
+     return {
+          load: load
+     };
 })();
+
+$(function() {
+     stickyNav.load($(".scroller"));
+});
+// This is what makes the headers stick - END
+
+
+// (function moveScroller() {
+//      var $anchor = $("#scroller-anchor");
+//      var $scroller = $('#scroller');
+//
+//      var move = function() {
+//           var st = $(window).scrollTop();
+//           var ot = $anchor.offset().top;
+//           if(st > ot) {
+//                $scroller.css({
+//                     position: "fixed",
+//                     top: ""
+//                });
+//                $scroller.addClass("fixed");
+//           } else {
+//                if(st <= ot) {
+//                     $scroller.css({
+//                          position: "relative",
+//                          top: ""
+//                     });
+//                     $scroller.removeClass("fixed");
+//                }
+//           }
+//      };
+//
+//      $(window).scroll(move);
+//      move();
+// })();
+
+// var windw = this;
+//
+// $.fn.followTo = function ( elem ) {
+//     var $this = this,
+//         $window = $(windw),
+//         $bumper = $(elem),
+//         bumperPos = $bumper.offset().top,
+//         thisHeight = $this.outerHeight(),
+//         setPosition = function(){
+//             if ($window.scrollTop() > (bumperPos - thisHeight)) {
+//                 $this.css({
+//                     position: 'absolute',
+//                     top: (bumperPos - thisHeight)
+//                 });
+//             } else {
+//                 $this.css({
+//                     position: 'fixed',
+//                     top: 0
+//                 });
+//             }
+//         };
+//     $window.resize(function()
+//     {
+//         bumperPos = pos.offset().top;
+//         thisHeight = $this.outerHeight();
+//         setPosition();
+//     });
+//     $window.scroll(setPosition);
+//     setPosition();
+// };
+//
+// $('#sidebar').followTo('#stopper');
+
+// function checkOffset() {
+//      if($('#sidebar').offset().top + $('#sidebar').height()
+//           >= $('#footer').offset().top - 10)
+//      $('#sidebar').css('position', 'absolute');
+//      if($(document).scrollTop() + window.innerHeight < $('#footer').offset().top)
+//           $('#sidebar').css('position', 'fixed'); // restore when you scroll up
+//      $('#sidebar').text($(document).scrollTop() + window.innerHeight);
+// }
+// $(document).scroll(function() {
+//      checkOffset();
+// });
 // ===================================== Sticky Scroller - END ===================================== //
 
 // $(function() {

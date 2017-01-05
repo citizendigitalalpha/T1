@@ -17,7 +17,7 @@ Careers Service - Search
                     <label for="search" class="heading-xlarge">Search results for <span class="visuallyhidden">“plumber”</span></label>
                     <div class="search">
                          <form action="/search" method="get" role="search">
-                              <label for="search" class="search__label visually-hidden">Plumber</label>
+                              <label for="search" class="search__label visually-hidden">plumber</label>
                               <div class="search__input">
                                    <input class="js-search-focus" name="q" id="search" type="search" value="plumber">
                               </div>
@@ -32,48 +32,45 @@ Careers Service - Search
 
      <div class="grid-row sticky-holder">
 
-          <div class="column-one-third">
-
-               <div id="sidebar">
-     			<div id="scroller-anchor"></div>
-     			<div id="scroller">
-                         <div class="page-contents js-page-contents js-stick-at-top-when-scrolling js-sticky-resize" tabindex="0">
-                              <div class="checkbox-container" id="job-families-filter">
-                                   <fieldset>
-                                        <legend class="heading-small">Filter by topic:</legend>
-                                        <div class="controls">
-                                             <a class="clear-selected js-hidden">Remove filters</a>
-                                             <div class="toggle"></div>
-                                        </div>
-                                        <label class="block-label selection-button-checkbox" for="waste-type-1">
-                                              <input id="waste-type-1" name="waste-types" type="checkbox" value="waste-animal">
-                                              Job profiles
-                                        </label>
-                                        <label class="block-label selection-button-checkbox" for="waste-type-1">
-                                              <input id="waste-type-1" name="waste-types" type="checkbox" value="waste-animal">
-                                              Resources
-                                        </label>
-                                        <label class="block-label selection-button-checkbox" for="waste-type-1">
-                                              <input id="waste-type-1" name="waste-types" type="checkbox" value="waste-animal">
-                                              Courses
-                                        </label>
-                                        <label class="block-label selection-button-checkbox" for="waste-type-1">
-                                              <input id="waste-type-1" name="waste-types" type="checkbox" value="waste-animal">
-                                              Apprenticeships
-                                        </label>
-                                        <label class="block-label selection-button-checkbox" for="waste-type-1">
-                                              <input id="waste-type-1" name="waste-types" type="checkbox" value="waste-animal">
-                                              Jobs
-                                        </label>
-                                   </fieldset>
+		<div class="scroller">
+               <div class="page-contents js-page-contents js-stick-at-top-when-scrolling js-sticky-resize" tabindex="0">
+                    <div class="checkbox-container" id="job-families-filter">
+                         <fieldset>
+                              <legend class="heading-small">Filter by topic:</legend>
+                              <div class="controls">
+                                   <a class="clear-selected js-hidden">Remove filters</a>
+                                   <div class="toggle"></div>
                               </div>
-                         </div>
-                         <div class="form-group submit js-live-search-fallback">
-                              <input class="button" type="submit" value="Apply filters">
-                         </div>
-     			</div>
-          	</div>
-          </div>
+                              <label class="block-label selection-button-checkbox" for="filter_1">
+                                    <input id="filter_1" name="filter_1" type="checkbox" value="filter_1">
+                                    Job profiles
+                              </label>
+                              <label class="block-label selection-button-checkbox" for="filter_2">
+                                    <input id="filter_2" name="filter_2" type="checkbox" value="filter_2">
+                                    Resources
+                              </label>
+                              <label class="block-label selection-button-checkbox" for="filter_3">
+                                    <input id="filter_3" name="filter_3" type="checkbox" value="filter_3">
+                                    Courses
+                              </label>
+                              <label class="block-label selection-button-checkbox" for="filter_4">
+                                    <input id="filter_4" name="filter_4" type="checkbox" value="filter_4">
+                                    Apprenticeships
+                              </label>
+                              <label class="block-label selection-button-checkbox" for="filter_5">
+                                    <input id="filter_5" name="filter_5" type="checkbox" value="filter_5">
+                                    Jobs
+                              </label>
+                         </fieldset>
+                    </div>
+               </div>
+               <div class="form-group submit js-live-search-fallback">
+                    <input class="button" type="submit" value="Apply filters">
+               </div>
+		</div>
+
+          <div class="scroller stopper"></div>
+
 
           <div class="column-two-thirds search-results-list">
 

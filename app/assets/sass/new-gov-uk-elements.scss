@@ -264,26 +264,48 @@ a {
 // ========================================== STICKY NAV - START ========================================== //
 .sticky-holder {
      position: relative;
+     .column-one-third {
+          position: relative;
+     }
      .column-two-thirds {
           float: right;
      }
      h1, h2, h3, h4 {
           padding-top: 1em;
      }
+     #stopper {
+          position: absolute;
+          bottom: 0;
+     }
 }
 
-#scroller {
+#sidebar {
+     // left: 15px;
+     top: 0;
+     position: relative;
+     display: inline-block;
+     padding: 0 0 0 15px;
+     margin: 1em 0 0 0;
+}
+
+.scroller {
      &.fixed {
           top: 0;
+          position: fixed;
           z-index: 1000;
           padding: 1em 0 0 0;
           width: 18%;
+
      }
      h1, h2, h3, h4 {
           padding-top: 0;
      }
      .submit {
-          margin-top: 2em;
+          margin: 2em 0 0 0;
+     }
+     &.stopper {
+          position: absolute;
+          bottom: 0;
      }
 }
 
@@ -428,7 +450,7 @@ a {
           }
      }
 
-     #scroller {
+     .scroller {
           margin-bottom: 2em;
           &.fixed {
                position: relative !important;
