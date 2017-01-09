@@ -473,9 +473,12 @@ a {
 
 }
 
-// SMARTPHONE ONLY (Up to 480px)
-// @media screen and (max-width: 480px) {
-//
-//
-//
-// }
+
+// SMARTPHONE ONLY (Up to 379px)
+@media screen and (max-width: 379px) {
+
+     #global-header .header-wrapper .header-global .header-logo {
+          float: left;
+     }
+
+}
