@@ -5594,6 +5594,13 @@ a.header-link {
   }
 }
 
+@media screen and (max-width: 379px) {
+  /* line 480, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/new-gov-uk-elements.scss */
+  #global-header .header-wrapper .header-global .header-logo {
+    float: left;
+  }
+}
+
 /* line 1052, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/application.scss */
 header.hero.search p a {
   color: #005ea5;

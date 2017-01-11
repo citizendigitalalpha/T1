@@ -1,0 +1,44 @@
+{% extends "layout_search.html" %}
+
+{% block page_title %}
+Careers Service - Skills match results
+{% endblock %}
+
+{% block content %}
+
+	<main id="content" role="main">
+		{% include "includes/phase_banner_alpha.html" %} {% include "includes/breadcrumb_plum_match.html" %}
+		<div class="grid-row">
+			<div class="column-two-thirds">
+				<h1 class="heading-xlarge">Match your skills</h1>
+				<h2 class="heading-medium">Woohoo you are a 70% match</h2>
+				<p><progress max="100" value="70"></progress></p>
+				<p>Bacon ipsum dolor amet ut drumstick short loin et est in nulla pig. Ipsum aliqua nostrud meatloaf, ut fugiat laboris mollit alcatra irure jerky pork turducken. Sint ut boudin id shank, adipisicing cupim qui meatball strip steak tail.</p>
+				<p><a class="button" href="./experience-plumber.html" role="button">Start your profile</a></p>
+				<h2 class="heading-large">Still have some gaps</h2>
+				<ul class="list">
+					<li>
+						<a href="./plumber#how-to-become">How to become a plumber</a>
+					</li>
+					<li>
+						<a href="./contact-an-adviser.html">Contact an adviser</a>
+					</li>
+				</ul>
+				<h2 class="heading-large">Not there yet</h2>
+				<ul class="list">
+					<li>
+						<a href="./plumber#how-to-become">How to become a plumber</a>
+					</li>
+					<li>
+						<a href="./job-profile-index.html">Try some other profiles</a>
+					</li>
+					<li>
+						<a href="./contact-an-adviser.html">Contact an adviser</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</main>
+
+
+{% endblock %}
