@@ -5547,7 +5547,7 @@ a.header-link {
 @media (max-width: 640px) {
   /* line 416, /Users/christopherhewison/Sites/SFA-Prototypes/SFA-HTML/T1/app/assets/sass/new-gov-uk-elements.scss */
   #proposition-name {
-    margin: 14px 0 0 0;
+    margin: 14px 0 0 15px;
     font-size: 18px;
     float: left;
   }
