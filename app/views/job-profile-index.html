@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "layout_search.html" %}
 
 {% block page_title %}
 Careers Service - Job profiles
@@ -6,82 +6,27 @@ Careers Service - Job profiles
 
 {% block content %}
 
-<main id="content" role="main">
-		{% include "includes/phase_banner_alpha.html" %}
-		<header class="hero">
+	<main id="content" role="main">
+			{% include "includes/phase_banner_alpha.html" %} {% include "includes/breadcrumb_job_landing.html" %}
 			<div class="grid-row">
 				<div class="column-two-thirds">
-					<h1 class="heading-xlarge">Job profiles</h1>
-					<p class="lede">We have profiles on over 800 different types of job, from archivist to zoologist.</p>
-					<div class="search">
-						<form action="/search" method="get" role="search">
-							<label class="search__label visually-hidden" for="search">Enter a job title</label>
-							<div class="search__input">
-								<input class="js-search-focus" id="search" name="q" placeholder="eg plumber" type="search">
-							</div><input class="search__submit" type="submit" value="Search">
-						</form>
-					</div>
+					<h1 class="heading-xlarge">
+						Explore job profiles
+					</h1>
+					<h2 class="heading-large">What type of job are you looking for?</h2>
+					<p>Select all that apply.</p>
+					<form action="./search.html" method="get">
+						<fieldset class="form-group">
+							<legend class="visually-hidden">What type of job are you looking for?</legend> <label class="block-label selection-button-checkbox" for="job-type-1"><input id="job-type-1" name="job-types" type="checkbox" value="job-office"> usually based in an office</label> <label class="block-label selection-button-checkbox" for="job-type-2"><input id="job-type-2" name="job-types" type="checkbox" value="job-practical"> needs practical skills</label> <label class="block-label selection-button-checkbox" for="job-type-3"><input id="job-type-3" name="job-types" type="checkbox" value="job-help"> helps others</label> <label class="block-label selection-button-checkbox" for="job-type-4"><input id="job-type-4" name="job-types" type="checkbox" value="job-hours"> has regular, daytime hours</label> <label class="block-label selection-button-checkbox" for="job-type-5"><input id="job-type-5" name="job-types" type="checkbox" value="job-app"> get into through an apprenticeship</label> <label class="block-label selection-button-checkbox" for="job-type-6"><input id="job-type-6" name="job-types" type="checkbox" value="job-uni"> needs a qualification from college or university</label> <label class="block-label selection-button-checkbox" for="job-type-7"><input id="job-type-7" name="job-types" type="checkbox" value="job-course"> train for through a short course</label>
+							<label class="block-label selection-button-checkbox" for="job-type-8"><input id="job-type-8" name="job-types" type="checkbox" value="job-course"> don't know</label>
+						</fieldset>
+						<div class="form-group">
+							<input class="button" type="submit" value="Filter job profiles">
+						</div>
+					</form>
 				</div>
-				<div class="column-one-third"></div>
 			</div>
-		</header>
-		<div class="grid-row">
-			<div class="column-two-thirds">
-				<h2 class="heading-large">Explore job profiles</h2>
-				<p>Each one explains:</p>
-				<ul class="list list-bullet">
-					<li>the skills and qualifications needed to get into that job</li>
-					<li>what the work would be like</li>
-					<li>the pay you could expect</li>
-					<li>what the career prospects are</li>
-				</ul>
-				<p>Job profiles can help you find out what a job involves and if it will suit you.</p> <p>You can <a href="./job-profile-browse.html">browse job profiles</a> or filter using the questions below.</p>
-				<form action="./search.html" method="get">
-					<h2 class="heading-medium">Do you want</h2>
-					<div class="form-group">
-						<fieldset class="inline">
-							<legend>1. A job which is usually based in an office?</legend> <span class="form-hint">For example, administrator or accountant</span> <label class="block-label selection-button-radio" for="radio-inline-1"><input id="radio-inline-1" name="office" type="radio" value="Yes"> Yes</label> <label class="block-label selection-button-radio" for="radio-inline-2"><input id="radio-inline-2" name="office" type="radio" value="No"> No</label>
-						</fieldset>
-					</div>
-					<div class="form-group">
-						<fieldset class="inline">
-							<legend>2. A job which usually needs practical skills?</legend> <span class="form-hint">For example, a mechanic or hairdresser, a job where you work with your hands to make something</span> <label class="block-label selection-button-radio" for="radio-inline-3"><input id="radio-inline-3" name="skills" type="radio" value="Yes"> Yes</label> <label class="block-label selection-button-radio" for="radio-inline-4"><input id="radio-inline-4" name="skills" type="radio" value="No"> No</label>
-						</fieldset>
-					</div>
-					<div class="form-group">
-						<fieldset class="inline">
-							<legend>3. To help others?</legend> <span class="form-hint">For example, doctor, social worker or carer</span> <label class="block-label selection-button-radio" for="radio-inline-5"><input id="radio-inline-5" name="help" type="radio" value="Yes"> Yes</label> <label class="block-label selection-button-radio" for="radio-inline-6"><input id="radio-inline-6" name="help" type="radio" value="No"> No</label>
-						</fieldset>
-					</div>
-					<div class="form-group">
-						<fieldset class="inline">
-							<legend>4. To work regular, daytime hours?</legend> <span class="form-hint">Usually 8am to 4pm or 9am to 5pm on weekdays</span> <label class="block-label selection-button-radio" for="radio-inline-7"><input id="radio-inline-7" name="hours" type="radio" value="Yes"> Yes</label> <label class="block-label selection-button-radio" for="radio-inline-8"><input id="radio-inline-8" name="hours" type="radio" value="No"> No</label>
-						</fieldset>
-					</div>
-					<div class="form-group">
-						<fieldset class="inline">
-							<legend>5. A job you can get into through an apprenticeship?</legend> <span class="form-hint">For example, civil engineer or electrician</span> <label class="block-label selection-button-radio" for="radio-inline-9"><input id="radio-inline-9" name="app" type="radio" value="Yes"> Yes</label> <label class="block-label selection-button-radio" for="radio-inline-10"><input id="radio-inline-10" name="app" type="radio" value="No"> No</label>
-						</fieldset>
-					</div>
-					<div class="form-group">
-						<fieldset class="inline">
-							<legend>6. A job for which you need a qualification from college or university?</legend> <span class="form-hint">For example, doctor or dental nurse</span> <label class="block-label selection-button-radio" for="radio-inline-11"><input id="radio-inline-11" name="uni" type="radio" value="Yes"> Yes</label> <label class="block-label selection-button-radio" for="radio-inline-12"><input id="radio-inline-12" name="uni" type="radio" value="No"> No</label>
-						</fieldset>
-					</div>
-					<div class="form-group">
-						<fieldset class="inline">
-							<legend>7. A job you can train for through a short course (less than six months)?</legend> <span class="form-hint">For example, driving instructor or health and safety inspector</span> <label class="block-label selection-button-radio" for="radio-inline-13"><input id="radio-inline-13" name="short" type="radio" value="Yes"> Yes</label> <label class="block-label selection-button-radio" for="radio-inline-14"><input id="radio-inline-14" name="short" type="radio" value="No"> No</label>
-						</fieldset>
-					</div>
-					<div class="form-group">
-						<input class="button" type="submit" value="Filter job profiles">
-					</div>
-				</form>	
-				
-				
-			</div>
-		</div>
-	</main>
+		</main>
 
 
 {% endblock %}
