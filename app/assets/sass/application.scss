@@ -1044,6 +1044,24 @@ ul#az-index li {
 .tags li {
     margin-bottom: 5%;
 }
+
+/**search placeholder**/
+
+#site-search-text::-webkit-input-placeholder {
+   color: black;
+}
+
+#site-search-text:-moz-placeholder { /* Firefox 18- */
+   color: black;  
+}
+
+#site-search-text::-moz-placeholder {  /* Firefox 19+ */
+   color: black;  
+}
+
+#site-search-text:-ms-input-placeholder {  
+   color: black;  
+}
 // ========================================== MAIN NAVIGATION - END ========================================== //
 
 @import 'hybrid';
