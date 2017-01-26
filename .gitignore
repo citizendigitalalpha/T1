@@ -3,12 +3,5 @@
 .start.pid
 .port.tmp
 public
-lib/govuk_template.html
-govuk_modules
 node_modules/*
 .tmuxp.*
-public/stylesheets/hybrid.css
-*.map
-*.css
-
-app/views/includes/propositional_navigation_search.html
