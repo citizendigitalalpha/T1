@@ -1,44 +1,39 @@
-# GOV.UK Prototype kit
+# Alpha – The Careers Service Prototype
 
-## News
 
-**Upgrading from version 1 to 2:** the latest version of the kit (2.0.0 and later) is not compatible with previous versions. If you update your old prototypes you'll need to [convert them as well](https://govuk-prototype-kit.herokuapp.com/docs/updating-the-kit).
+## About the project
 
-## About the prototype kit
+A prototype journey to inform the MVS for a digital first careers service.
 
-The prototype kit provides a simple way to make interactive prototypes that look like pages on GOV.UK. These prototypes can be used to show ideas to people you work with, and to do user research.
+The Careers Service is helping people make informed decisions about skills, learning and work.  For further information please contact helen.cassidy@sfa.bis.gov.uk.
+
+## About the prototype
+
+This prototype is based on the GOV.UK prototype toolkit
 
 Read the [project principles](https://govuk-prototype-kit.herokuapp.com/docs/principles).
 
-## Security
-
-If you publish your prototypes online, they **must** be protected by a [username and password](https://govuk-prototype-kit.herokuapp.com/docs/publishing-on-heroku). This is to prevent members of the public finding prototypes and thinking they are real services.
-
-You must protect user privacy at all times, even when using prototypes. Prototypes made with the kit look like GOV.UK, but do not have the same security provisions. Always make sure you are handling user data appropriately.
-
 ## Installation instructions
 
-- [Installation guide for new users (non technical)](https://govuk-prototype-kit.herokuapp.com/docs/install/introduction)
-- [Installation guide for developers (technical)](https://govuk-prototype-kit.herokuapp.com/docs/install/developer-install-instructions)
+It's built on the [Express](http://expressjs.com/) framework, and uses these GOV.UK resources:
 
-## Guides
+- [GOV.UK template](https://github.com/alphagov/govuk_template)
+- [GOV.UK front end toolkit](https://github.com/alphagov/govuk_frontend_toolkit)
+- [GOV.UK elements](https://github.com/alphagov/govuk_elements)
 
-1. [Setting up git](https://govuk-prototype-kit.herokuapp.com/docs/setting-up-git)
-2. [Publishing on the web (Heroku)](https://govuk-prototype-kit.herokuapp.com/docs/publishing-on-heroku)
-3. [Using GOV.UK Verify](https://govuk-prototype-kit.herokuapp.com/docs/using-verify)
+## Requirements
 
-## Other documentation
+node.js - version 4.x.x
 
-- [Prototype kit principles](https://govuk-prototype-kit.herokuapp.com/docs/principles)
-- [Making pages](https://govuk-prototype-kit.herokuapp.com/docs/making-pages)
-- [Writing CSS](https://govuk-prototype-kit.herokuapp.com/docs/writing-css)
-- [Updating the kit to the latest version](https://govuk-prototype-kit.herokuapp.com/docs/updating-the-kit)
-- [Tips and tricks](https://govuk-prototype-kit.herokuapp.com/docs/tips-and-tricks)
-- [Creating routes (server-side programming)](https://govuk-prototype-kit.herokuapp.com/docs/creating-routes)
+## Install dependencies
 
-## Community
+```
+npm install
+```
 
-We have two Slack channels for the Prototype kit. You'll need a government email address to join them.
+## Run the kit
+```
+npm start
+```
 
-* [Slack channel for users of the prototype kit](https://ukgovernmentdigital.slack.com/messages/prototype-kit/)
-* [Slack channel for developers of the prototype kit](https://ukgovernmentdigital.slack.com/messages/prototype-kit-dev/)
+Go to [localhost:3000](http://localhost:3000) in your browser.
